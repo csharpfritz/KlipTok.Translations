@@ -5,9 +5,9 @@
 	"Recorded": "{0} aufgenommen",
 	"Likes": "Gefällt mir",
 	"Comments": "Kommentare",
-	"ClipViews": "Clip Aufrufe",
+	"ClipViews": "Aufrufe",
 	"ShareThisClip": "Teile diesen Clip",
-	"KlipTokContentPlaceholder": "KlipTok Inhalt Platzhalter",
+	"KlipTokContentPlaceholder": "KlipTok Platzhalter",
 
 	// Comments
 	"ByLineFormat": "{1} hat am {0} geschrieben:",
@@ -21,6 +21,6 @@
 	"SuggestedStreamers": "Empfohlene Streamer",
 	"FollowedStreamers": "Streamer, denen du folgst",
 	"AllStreamers": "Alle Streamer",
-	"About": "Über",
+	"About": "Über uns",
 	"Close": "Schließen"
 }
