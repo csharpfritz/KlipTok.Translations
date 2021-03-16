@@ -15,12 +15,30 @@
 
 	// Login View
 	"DarkMode": "Dark Mode",
+	"LoginWithTwitch": "Login with Twitch",
+	"Logout": "Logout",
 
+	// Header
+	"SearchForChannel": "Search for a channel...",
+	"SearchNotFoundFormat": "{0} not found",
 
 	// Sidebar
 	"SuggestedStreamers": "Suggested Streamers",
 	"FollowedStreamers": "Followed Streamers",
 	"AllStreamers": "All Streamers",
 	"About": "About",
-	"Close": "Close"
+	"Close": "Close",
+
+	// Streamer Page
+	"ClickToFollow": "Click to Follow",
+	"ClickToUnfollow": "Click to Unfollow",
+	"ActionOnTwitchTemplate": "{0} on Twitch",
+	"LiveOnTwitch": "Live on Twitch now!",
+	"ProfilePicTemplate": "{0} profile pic",
+	"TotalClipsOnKlipTok": "Total clips on KlipTok",
+	"TotalLikesAcrossAllClips": "Total Likes across all clips",
+	"TotalCommentsAcrossAllClips": "Total comments across all clips",
+	"TotalViewsAcrossAllClips": "Total views across all clips",
+	"LastClipAdded": "Last Clip Added:",
+	"NoProfilePicAvailable": "No profile pic available"
 }
