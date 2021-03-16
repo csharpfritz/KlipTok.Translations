@@ -1,19 +1,18 @@
 {
-
-  // Components
+	// Components
 	"SuggestedStreamers": "Aanbevolen Streamers",
 
 	// Clip
-	"Recorded": "Opgenomen {0}",
-	"Likes": "Vind ik leuks",
-	"Comments": "Commentaar",
-	"ClipViews": "Clip keer bekeken",
+	"Recorded": "Opgenomen op {0}",
+	"Likes": "Likes",
+	"Comments": "Opmerkingen",
+	"ClipViews": "Clip Weergaven",
 	"ShareThisClip": "Deel deze Clip",
-	"KlipTokContentPlaceholder": "KlipTok tijdelijke inhoud aanduiding",
+	"KlipTokContentPlaceholder": "KlipTok Inhoud Placeholder",
 
 	// Comments
-	"ByLineFormat": "Op {0} {1} schreef:",
-	"Reply": "Antwoord",
+	"ByLineFormat": "Op {0} schreef {1}:",
+	"Reply": "Beantwoorden",
 
 	// Login View
 	"DarkMode": "Donkere Modus",
