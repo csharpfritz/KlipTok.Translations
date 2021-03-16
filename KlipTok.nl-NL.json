@@ -1,4 +1,26 @@
 {
-	"SuggestedStreamers": "Voorgestelde Streamers"
+	// Components
 
+	// Clip
+	"Recorded": "Opgenomen {0}",
+	"Likes": "Vind ik leuks",
+	"Comments": "Commentaar",
+	"ClipViews": "Clip keer bekeken",
+	"ShareThisClip": "Deel deze Clip",
+	"KlipTokContentPlaceholder": "KlipTok tijdelijke inhoud aanduiding",
+
+	// Comments
+	"ByLineFormat": "Op {0} {1} schreef:",
+	"Reply": "Antwoord",
+
+	// Login View
+	"DarkMode": "Donkere Modus",
+
+
+	// Sidebar
+	"SuggestedStreamers": "Aanbevolen Streamers",
+	"FollowedStreamers": "Gevolgde Streamers",
+	"AllStreamers": "Alle Streamers",
+	"About": "Over",
+	"Close": "Sluiten"
 }
