@@ -1,4 +1,25 @@
 {
-	"SuggestedStreamers": "Vorgeschlagene Streamer"
+	// Components
 
+	// Clip
+	"Recorded": "Aufgenommen {0}",
+	"Likes": "Gefällt Mir",
+	"Comments": "Kommentare",
+	"ClipViews": "Aufrufe",
+	"ShareThisClip": "Teile diesen Clip",
+	"KlipTokContentPlaceholder": "KlipTok Platzhalter",
+
+	// Comments
+	"ByLineFormat": "Bei {0} hat {1} geschrieben:",
+	"Reply": "Antworten",
+
+	// Login View
+	"DarkMode": "Dunkles Design",
+
+	// Sidebar
+	"SuggestedStreamers": "Vorgeschlagene Streamer",
+	"FollowedStreamers": "Du folgst",
+	"AllStreamers": "Alle Streamer",
+	"About": "Über Uns",
+	"Close": "Schließen"
 }
