@@ -10,11 +10,20 @@ namespace KlipTok.Client.I18nText
         /// <summary>"About"</summary>
         public string About;
 
+        /// <summary>"{0} on Twitch"</summary>
+        public string ActionOnTwitchTemplate;
+
         /// <summary>"All Streamers"</summary>
         public string AllStreamers;
 
         /// <summary>"At {0} {1} wrote:"</summary>
         public string ByLineFormat;
+
+        /// <summary>"Click to Follow"</summary>
+        public string ClickToFollow;
+
+        /// <summary>"Click to Unfollow"</summary>
+        public string ClickToUnfollow;
 
         /// <summary>"Clip Views"</summary>
         public string ClipViews;
@@ -34,8 +43,26 @@ namespace KlipTok.Client.I18nText
         /// <summary>"KlipTok Content Placeholder"</summary>
         public string KlipTokContentPlaceholder;
 
+        /// <summary>"Last Clip Added:"</summary>
+        public string LastClipAdded;
+
         /// <summary>"Likes"</summary>
         public string Likes;
+
+        /// <summary>"Live on Twitch now!"</summary>
+        public string LiveOnTwitch;
+
+        /// <summary>"Login with Twitch"</summary>
+        public string LoginWithTwitch;
+
+        /// <summary>"Logout"</summary>
+        public string Logout;
+
+        /// <summary>"No profile pic available"</summary>
+        public string NoProfilePicAvailable;
+
+        /// <summary>"{0} profile pic"</summary>
+        public string ProfilePicTemplate;
 
         /// <summary>"Recorded {0}"</summary>
         public string Recorded;
@@ -43,10 +70,28 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Reply"</summary>
         public string Reply;
 
+        /// <summary>"Search for a channel..."</summary>
+        public string SearchForChannel;
+
+        /// <summary>"{0} not found"</summary>
+        public string SearchNotFoundFormat;
+
         /// <summary>"Share this Clip"</summary>
         public string ShareThisClip;
 
         /// <summary>"Suggested Streamers"</summary>
         public string SuggestedStreamers;
+
+        /// <summary>"Total clips on KlipTok"</summary>
+        public string TotalClipsOnKlipTok;
+
+        /// <summary>"Total comments across all clips"</summary>
+        public string TotalCommentsAcrossAllClips;
+
+        /// <summary>"Total Likes across all clips"</summary>
+        public string TotalLikesAcrossAllClips;
+
+        /// <summary>"Total views across all clips"</summary>
+        public string TotalViewsAcrossAllClips;
     }
 }
