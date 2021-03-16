@@ -1,4 +1,26 @@
 {
-	"SuggestedStreamers": "Streamer yang Disarankan"
+	// Components
 
+	// Clip
+	"Recorded": "Direkam {0}",
+	"Likes": "Suka",
+	"Comments": "Komentar",
+	"ClipViews": "Ditonton",
+	"ShareThisClip": "Bagikan Klip ini",
+	"KlipTokContentPlaceholder": "Wadah Konten Kliptok",
+
+	// Comments
+	"ByLineFormat": "Pada {0} {1} tulis:",
+	"Reply": "Balas",
+
+	// Login View
+	"DarkMode": "Mode Gelap",
+
+
+	// Sidebar
+	"SuggestedStreamers": "Streamer yang Disarankan",
+	"FollowedStreamers": "Streamer yang Diikuti",
+	"AllStreamers": "Semua Streamer",
+	"About": "Tentang",
+	"Close": "Tutup"
 }
