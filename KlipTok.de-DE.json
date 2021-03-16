@@ -14,13 +14,31 @@
 	"Reply": "Antworten",
 
 	// Login View
-	"DarkMode": "Dunkler Modus",
+	"DarkMode": "Dunkles Design",
+	"LoginWithTwitch": "Einloggen mit Twitch",
+	"Logout": "Ausloggen",
 
+	// Header
+	"SearchForChannel": "Kanal suchen...",
+	"SearchNotFoundFormat": "{0} nicht gefunden",
 
 	// Sidebar
 	"SuggestedStreamers": "Empfohlene Streamer",
 	"FollowedStreamers": "Streamer, denen du folgst",
 	"AllStreamers": "Alle Streamer",
 	"About": "Über uns",
-	"Close": "Schließen"
+	"Close": "Schließen",
+
+	// Streamer Page
+	"ClickToFollow": "Klicken um zu Folgen",
+	"ClickToUnfollow": "Klicken um zu Entfolgen",
+	"ActionOnTwitchTemplate": "{0} auf Twitch",
+	"LiveOnTwitch": "Jetzt live auf Twitch!",
+	"ProfilePicTemplate": "{0} Profilbild",
+	"TotalClipsOnKlipTok": "Clips gesamt auf KlipTok",
+	"TotalLikesAcrossAllClips": "Gefällt mir über alle Clips",
+	"TotalCommentsAcrossAllClips": "Kommentare über alle Clips",
+	"TotalViewsAcrossAllClips": "Aufrufe über alle Clips",
+	"LastClipAdded": "Letzter Clip hinzugefügt:",
+	"NoProfilePicAvailable": "Kein Profilbild verfügbar"
 }
