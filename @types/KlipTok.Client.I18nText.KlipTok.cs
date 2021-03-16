@@ -7,6 +7,45 @@ namespace KlipTok.Client.I18nText
 
         public string this[string key] => global::Toolbelt.Blazor.I18nText.I18nTextExtensions.GetFieldValue(this, key);
 
+        /// <summary>"About"</summary>
+        public string About;
+
+        /// <summary>"All Streamers"</summary>
+        public string AllStreamers;
+
+        /// <summary>"At {0} {1} wrote:"</summary>
+        public string ByLineFormat;
+
+        /// <summary>"Clip Views"</summary>
+        public string ClipViews;
+
+        /// <summary>"Close"</summary>
+        public string Close;
+
+        /// <summary>"Comments"</summary>
+        public string Comments;
+
+        /// <summary>"Dark Mode"</summary>
+        public string DarkMode;
+
+        /// <summary>"Followed Streamers"</summary>
+        public string FollowedStreamers;
+
+        /// <summary>"KlipTok Content Placeholder"</summary>
+        public string KlipTokContentPlaceholder;
+
+        /// <summary>"Likes"</summary>
+        public string Likes;
+
+        /// <summary>"Recorded {0}"</summary>
+        public string Recorded;
+
+        /// <summary>"Reply"</summary>
+        public string Reply;
+
+        /// <summary>"Share this Clip"</summary>
+        public string ShareThisClip;
+
         /// <summary>"Suggested Streamers"</summary>
         public string SuggestedStreamers;
     }

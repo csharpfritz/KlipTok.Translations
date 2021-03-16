@@ -1,4 +1,26 @@
 {
-	"SuggestedStreamers": "Suggested Streamers"
+	// Components
 
+	// Clip
+	"Recorded": "Recorded {0}",
+	"Likes": "Likes",
+	"Comments": "Comments",
+	"ClipViews": "Clip Views",
+	"ShareThisClip": "Share this Clip",
+	"KlipTokContentPlaceholder": "KlipTok Content Placeholder",
+
+	// Comments
+	"ByLineFormat": "At {0} {1} wrote:",
+	"Reply": "Reply",
+
+	// Login View
+	"DarkMode": "Dark Mode",
+
+
+	// Sidebar
+	"SuggestedStreamers": "Suggested Streamers",
+	"FollowedStreamers": "Followed Streamers",
+	"AllStreamers": "All Streamers",
+	"About": "About",
+	"Close": "Close"
 }
