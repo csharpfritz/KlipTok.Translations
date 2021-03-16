@@ -1,4 +1,26 @@
 {
-	"SuggestedStreamers": "Proponowani streamerzy"
+	// Components
 
+	// Clip
+	"Recorded": "Nagrane {0}",
+	"Likes": "Polubienia",
+	"Comments": "Komentarze",
+	"ClipViews": "Liczba wyświetleń klipu",
+	"ShareThisClip": "Udostęp klip",
+	"KlipTokContentPlaceholder": "Obszar treści KlipToka",
+
+	// Comments
+	"ByLineFormat": "O {0} {1} napisał:",
+	"Reply": "Odpowiedz",
+
+	// Login View
+	"DarkMode": "Tryb ciemny",
+
+
+	// Sidebar
+	"SuggestedStreamers": "Proponowani streamerzy",
+	"FollowedStreamers": "Śledzeni streamerzy",
+	"AllStreamers": "Wszyscy streamerzy",
+	"About": "O KlipToku",
+	"Close": "Zamknij"
 }
