@@ -16,6 +16,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"All Streamers"</summary>
         public string AllStreamers;
 
+        /// <summary>"Your authentication with Twitch and KlipTok is no longer valid.  Please login to KlipTok with Twitch to continue."</summary>
+        public string AuthenticationIsNoLongerValid;
+
         /// <summary>"At {0} {1} wrote:"</summary>
         public string ByLineFormat;
 
@@ -37,11 +40,17 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Dark Mode"</summary>
         public string DarkMode;
 
+        /// <summary>"An error occured while loading."</summary>
+        public string ErrorWhileLoading;
+
         /// <summary>"Followed Streamers"</summary>
         public string FollowedStreamers;
 
         /// <summary>"KlipTok Content Placeholder"</summary>
         public string KlipTokContentPlaceholder;
+
+        /// <summary>"Last Clip:"</summary>
+        public string LastClip;
 
         /// <summary>"Last Clip Added:"</summary>
         public string LastClipAdded;
@@ -52,6 +61,12 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Live on Twitch now!"</summary>
         public string LiveOnTwitch;
 
+        /// <summary>"Logged Out from KlipTok and Twitch"</summary>
+        public string LoggedOutFromKlipTokAndTwitch;
+
+        /// <summary>"Login to KlipTok with Twitch"</summary>
+        public string LoginToKlipTokWithTwitch;
+
         /// <summary>"Login with Twitch"</summary>
         public string LoginWithTwitch;
 
@@ -61,14 +76,23 @@ namespace KlipTok.Client.I18nText
         /// <summary>"No profile pic available"</summary>
         public string NoProfilePicAvailable;
 
+        /// <summary>"Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followers with KlipTok to access this functionality."</summary>
+        public string NotLoggedIn;
+
         /// <summary>"{0} profile pic"</summary>
         public string ProfilePicTemplate;
+
+        /// <summary>"PUBLIC BETA"</summary>
+        public string PublicBeta;
 
         /// <summary>"Recorded {0}"</summary>
         public string Recorded;
 
         /// <summary>"Reply"</summary>
         public string Reply;
+
+        /// <summary>"Retry"</summary>
+        public string RetryButton;
 
         /// <summary>"Search for a channel..."</summary>
         public string SearchForChannel;
@@ -93,5 +117,8 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Total views across all clips"</summary>
         public string TotalViewsAcrossAllClips;
+
+        /// <summary>"Twitch Channels I Follow"</summary>
+        public string TwitchChannelsIFollow;
     }
 }

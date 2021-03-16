@@ -40,5 +40,24 @@
 	"TotalCommentsAcrossAllClips": "Total comments across all clips",
 	"TotalViewsAcrossAllClips": "Total views across all clips",
 	"LastClipAdded": "Last Clip Added:",
-	"NoProfilePicAvailable": "No profile pic available"
+	"LastClip": "Last Clip:",
+	"NoProfilePicAvailable": "No profile pic available",
+
+	// Layout
+	"PublicBeta": "PUBLIC BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Logged Out from KlipTok and Twitch",
+	"LoginToKlipTokWithTwitch": "Login to KlipTok with Twitch",
+	"AuthenticationIsNoLongerValid": "Your authentication with Twitch and KlipTok is no longer valid.  Please login to KlipTok with Twitch to continue.",
+
+	// Errors
+	"ErrorWhileLoading": "An error occured while loading.",
+	"RetryButton": "Retry",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Twitch Channels I Follow",
+	"NotLoggedIn": "Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followers with KlipTok to access this functionality.",
+
+	// Home Page
+
+
 }
