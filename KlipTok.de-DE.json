@@ -23,7 +23,7 @@
 	"SearchNotFoundFormat": "{0} nicht gefunden",
 
 	// Sidebar
-	"SuggestedStreamers": "Empfohlene Streamer",
+	"SuggestedStreamers": "Vorgeschlagene Streamer",
 	"FollowedStreamers": "Streamer, denen du folgst",
 	"AllStreamers": "Alle Streamer",
 	"About": "Über uns",
@@ -36,9 +36,9 @@
 	"LiveOnTwitch": "Jetzt live auf Twitch!",
 	"ProfilePicTemplate": "{0} Profilbild",
 	"TotalClipsOnKlipTok": "Clips gesamt auf KlipTok",
-	"TotalLikesAcrossAllClips": "Gefällt mir über alle Clips",
-	"TotalCommentsAcrossAllClips": "Kommentare über alle Clips",
-	"TotalViewsAcrossAllClips": "Aufrufe über alle Clips",
+	"TotalLikesAcrossAllClips": "Gefällt Mir gesamt",
+	"TotalCommentsAcrossAllClips": "Kommentare gesamt",
+	"TotalViewsAcrossAllClips": "Aufrufe gesamt",
 	"LastClipAdded": "Letzter Clip hinzugefügt:",
 	"NoProfilePicAvailable": "Kein Profilbild verfügbar"
 }
