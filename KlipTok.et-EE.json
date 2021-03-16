@@ -1,0 +1,26 @@
+{
+	// Components
+
+	// Clip
+	"Recorded": "Salvestatud {0}",
+	"Likes": "Meeldib",
+	"Comments": "Kommentaarid",
+	"ClipViews": "Klipi Vaatamised",
+	"ShareThisClip": "Jaga seda Klippi",
+	"KlipTokContentPlaceholder": "KlipTok Sisu Kohatäide",
+
+	// Comments
+	"ByLineFormat": "{0} {1} kirjutas:",
+	"Reply": "Vasta",
+
+	// Login View
+	"DarkMode": "Tume Teema",
+
+
+	// Sidebar
+	"SuggestedStreamers": "Striimija Soovitused",
+	"FollowedStreamers": "Jälgitud Striimerid",
+	"AllStreamers": "Kõik Striimerid",
+	"About": "Meist",
+	"Close": "Sulge"
+}

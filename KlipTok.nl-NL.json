@@ -1,5 +1,7 @@
 {
-	// Components
+
+  // Components
+	"SuggestedStreamers": "Aanbevolen Streamers"
 
 	// Clip
 	"Recorded": "Opgenomen {0}",
