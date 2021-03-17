@@ -15,12 +15,49 @@
 
 	// Login View
 	"DarkMode": "Ciemny motyw",
+	"LoginWithTwitch": "Zaloguj się z Twitch",
+	"Logout": "Wyloguj się",
 
+	// Header
+	"SearchForChannel": "Znajdź kanał...",
+	"SearchNotFoundFormat": "Nie znaleziono {0}",
 
 	// Sidebar
-	"SuggestedStreamers": "Proponowani streamerzy",
-	"FollowedStreamers": "Obserwowani streamerzy",
-	"AllStreamers": "Wszyscy streamerzy",
+	"SuggestedStreamers": "Polecane Kanały",
+	"FollowedStreamers": "Obserwowane Kanały",
+	"AllStreamers": "Wszystkie Kanały",
 	"About": "O nas",
-	"Close": "Zamknij"
+	"Close": "Zamknij",
+
+	// Streamer Page
+	"ClickToFollow": "Obserwuj",
+	"ClickToUnfollow": "Przestań Obserwować",
+	"ActionOnTwitchTemplate": "{0} na Twitch",
+	"LiveOnTwitch": "Oglądaj na żywo na Twitch!",
+	"ProfilePicTemplate": "Zdjęcie profilowe {0}",
+	"TotalClipsOnKlipTok": "Ilość klipów na KlipTok",
+	"TotalLikesAcrossAllClips": "Ilość polubień wszystkich klipów",
+	"TotalCommentsAcrossAllClips": "Ilość komentarzy we wszystkich klipach",
+	"TotalViewsAcrossAllClips": "Ilość wyświetleń wszystkich klipów",
+	"LastClipAdded": "Ostatni Klip Dodano:",
+	"LastClip": "Ostatni Klip:",
+	"NoProfilePicAvailable": "Brak zdjęcia profilowego",
+
+	// Layout
+	"PublicBeta": "PUBLICZNA BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Wylogowano z KlipTok i Twitch",
+	"LoginToKlipTokWithTwitch": "Zaloguj się na KlipTok z Twitch",
+	"AuthenticationIsNoLongerValid": "Twoje uwierzytelnienie z Twitch i KlipTok jest już nie ważne.  Zaloguj się na KlipTok z Twitch aby kontynuować.",
+
+	// Errors
+	"ErrorWhileLoading": "Wystąpił błąd podczas ładowania.",
+	"RetryButton": "Spróbuj ponownie",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Obserwowane Kanały na Twitch",
+	"NotLoggedIn": "Nie można wyświetlić listy obserwowanych kanałów ponieważ nie jesteś zalogowany z Twitch.  Zaloguj się z Twitch i zsynchronizuj listę obserwowanych z KlipTok aby uzyskaćdostęp do tej funkcji.",
+
+	// Home Page
+	"DiscoverPopularClips": "Odkryj Popularne Klipy",
+	"DiscoverClips": "Odkryj Klipy",
 }
