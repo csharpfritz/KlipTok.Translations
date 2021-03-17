@@ -40,6 +40,12 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Dark Mode"</summary>
         public string DarkMode;
 
+        /// <summary>"Discover Clips"</summary>
+        public string DiscoverClips;
+
+        /// <summary>"Discover Popular Clips"</summary>
+        public string DiscoverPopularClips;
+
         /// <summary>"An error occured while loading."</summary>
         public string ErrorWhileLoading;
 

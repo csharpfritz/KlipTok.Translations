@@ -58,6 +58,9 @@
 	"NotLoggedIn": "Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followers with KlipTok to access this functionality.",
 
 	// Home Page
+	"DiscoverPopularClips": "Discover Popular Clips",
+	"DiscoverClips": "Discover Clips",
+
 
 
 }
