@@ -1,0 +1,66 @@
+{
+	// Components
+
+	// Clip
+	"Recorded": "Optaget {0}",
+	"Likes": "Likes",
+	"Comments": "Kommentarer",
+	"ClipViews": "Klipvisninger",
+	"ShareThisClip": "Del dette Klip",
+	"KlipTokContentPlaceholder": "KlipTok Indhold",
+
+	// Comments
+	"ByLineFormat": "Den {0} {1} skrev:",
+	"Reply": "Svar",
+
+	// Login View
+	"DarkMode": "Mørkt tema",
+	"LoginWithTwitch": "Log ind med Twitch",
+	"Logout": "Log ud",
+
+	// Header
+	"SearchForChannel": "Søg efter kanal...",
+	"SearchNotFoundFormat": "{0} ikke fundet",
+
+	// Sidebar
+	"SuggestedStreamers": "Anbefalede Streamers",
+	"FollowedStreamers": "Streamers, du følger",
+	"AllStreamers": "Alle Streamers",
+	"About": "Om",
+	"Close": "Luk",
+
+	// Streamer Page
+	"ClickToFollow": "Klik for at følge",
+	"ClickToUnfollow": "Stop med at følge",
+	"ActionOnTwitchTemplate": "{0} på Twitch",
+	"LiveOnTwitch": "Live på Twitch nu!",
+	"ProfilePicTemplate": "{0} profilbillede",
+	"TotalClipsOnKlipTok": "Totalt antal klip på KlipTok",
+	"TotalLikesAcrossAllClips": "Totalt antal likes på tværs af alle klip",
+	"TotalCommentsAcrossAllClips": "Totalt antal kommentarer på tværs af alle klip",
+	"TotalViewsAcrossAllClips": "Totalt antal visninger på tværs af alle klip",
+	"LastClipAdded": "Seneste Klip Tilføjet:",
+	"LastClip": "Seneste Klip:",
+	"NoProfilePicAvailable": "Intet profilbillede tilgængeligt",
+
+	// Layout
+	"PublicBeta": "OFFENTLIG BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Logget ud af KlipTok og Twitch",
+	"LoginToKlipTokWithTwitch": "Log ind på KlipTok med Twitch",
+	"AuthenticationIsNoLongerValid": "Din adgang med  Twitch og KlipTok er ikke længere gyldig. Log venligst ind i KlipTok med Twitch for at fortsætte.",
+
+	// Errors
+	"ErrorWhileLoading": "Der opstod en fejl.",
+	"RetryButton": "Prøv igen",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Twitch-kanaler jeg følger",
+	"NotLoggedIn": "Kan ikke vise konti du følger på Twitch, fordi du ikke er logget ind med en Twitch konto. Log venligst ind og synkronisér dine følgere med KlipTok for at tilgå denne funktionalitet.",
+	
+	// Home Page
+	"DiscoverPopularClips": "Opdag Populære Klip",
+	"DiscoverClips": "Opdag Klip",
+
+
+
+}
