@@ -47,7 +47,7 @@
 	"PublicBeta": "PUBLICZNA BETA",
 	"LoggedOutFromKlipTokAndTwitch": "Wylogowano z KlipTok i Twitch",
 	"LoginToKlipTokWithTwitch": "Zaloguj się na KlipTok z Twitch",
-	"AuthenticationIsNoLongerValid": "Twoje uwierzytelnienie z Twitch i KlipTok jest już nie ważne.  Zaloguj się na KlipTok z Twitch aby kontynuować.",
+	"AuthenticationIsNoLongerValid": "Twoje uwierzytelnienie z Twitch i KlipTok jest już nie ważne. Zaloguj się na KlipTok z Twitch aby kontynuować.",
 
 	// Errors
 	"ErrorWhileLoading": "Wystąpił błąd podczas ładowania.",
