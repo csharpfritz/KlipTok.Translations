@@ -19,7 +19,7 @@
 	"Logout": "Wyloguj się",
 
 	// Header
-	"SearchForChannel": "Znajdź kanał...",
+	"SearchForChannel": "Znajdź streamera...",
 	"SearchNotFoundFormat": "Nie znaleziono {0}",
 
 	// Sidebar
@@ -54,8 +54,8 @@
 	"RetryButton": "Spróbuj ponownie",
 
 	// Follows page
-	"TwitchChannelsIFollow": "Obserwowane Kanały na Twitch",
-	"NotLoggedIn": "Nie można wyświetlić listy obserwowanych kanałów ponieważ nie jesteś zalogowany z Twitch. Zaloguj się z Twitch i zsynchronizuj listę obserwowanych z KlipTok aby uzyskać dostęp do tej funkcji.",
+	"TwitchChannelsIFollow": "Obserwowani streamerzy na Twitch",
+	"NotLoggedIn": "Nie można wyświetlić listy obserwowanych streamerów ponieważ nie jesteś zalogowany z Twitch. Zaloguj się z Twitch i zsynchronizuj listę obserwowanych z KlipTok aby uzyskać dostęp do tej funkcji.",
 
 	// Home Page
 	"DiscoverPopularClips": "Odkryj popularne klipy",
