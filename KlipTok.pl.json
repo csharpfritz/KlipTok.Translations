@@ -58,6 +58,6 @@
 	"NotLoggedIn": "Nie można wyświetlić listy obserwowanych kanałów ponieważ nie jesteś zalogowany z Twitch. Zaloguj się z Twitch i zsynchronizuj listę obserwowanych z KlipTok aby uzyskać dostęp do tej funkcji.",
 
 	// Home Page
-	"DiscoverPopularClips": "Odkryj Popularne Klipy",
+	"DiscoverPopularClips": "Odkryj popularne klipy",
 	"DiscoverClips": "Odkryj Klipy",
 }
