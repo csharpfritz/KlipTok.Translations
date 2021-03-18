@@ -2,7 +2,7 @@
 	// Components
 
 	// Clip
-	"Recorded": "Recorded {0}",
+	"Recorded": "Recorded {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
 	"Likes": "Likes",
 	"Comments": "Comments",
 	"ClipViews": "Clip Views",
@@ -10,7 +10,7 @@
 	"KlipTokContentPlaceholder": "KlipTok Content Placeholder",
 
 	// Comments
-	"ByLineFormat": "At {0} {1} wrote:",
+	"ByLineFormat": "At {0} {1} wrote:",  // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Reply",
 
 	// Login View
@@ -20,7 +20,7 @@
 
 	// Header
 	"SearchForChannel": "Search for a channel...",
-	"SearchNotFoundFormat": "{0} not found",
+	"SearchNotFoundFormat": "{0} not found", // {0} is the search term that was not found
 
 	// Sidebar
 	"SuggestedStreamers": "Suggested Streamers",
@@ -32,9 +32,9 @@
 	// Streamer Page
 	"ClickToFollow": "Click to Follow",
 	"ClickToUnfollow": "Click to Unfollow",
-	"ActionOnTwitchTemplate": "{0} on Twitch",
+	"ActionOnTwitchTemplate": "{0} on Twitch",   // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "Live on Twitch now!",
-	"ProfilePicTemplate": "{0} profile pic",
+	"ProfilePicTemplate": "{0} profile pic",    // {0} is the Streamer's Display Name
 	"TotalClipsOnKlipTok": "Total clips on KlipTok",
 	"TotalLikesAcrossAllClips": "Total Likes across all clips",
 	"TotalCommentsAcrossAllClips": "Total comments across all clips",
@@ -48,6 +48,7 @@
 	"LoggedOutFromKlipTokAndTwitch": "Logged Out from KlipTok and Twitch",
 	"LoginToKlipTokWithTwitch": "Login to KlipTok with Twitch",
 	"AuthenticationIsNoLongerValid": "Your authentication with Twitch and KlipTok is no longer valid.  Please login to KlipTok with Twitch to continue.",
+	"Loading": "Loading...",
 
 	// Errors
 	"ErrorWhileLoading": "An error occured while loading.",
@@ -69,23 +70,31 @@
 
 	// Liked Clips
 	"NoLikedClips": "You haven't liked any clips on KlipTok yet!",
-	"TryLikeButtonTemplate": "Try clicking the heart icon {0} below a clip to 'like' it and we'll report it here for you so you can easily find it again in the future",
+	"TryLikeButtonTemplate": "Try clicking the heart icon {0} below a clip to 'like' it and we'll report it here for you so you can easily find it again in the future",  //  {0} is the heart icon
 
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch clips.",
 	"AutoPlayVideosOnScroll": "Auto-play videos on scroll",
 	"IndexClipsOfMyChannel": "Index clips of my channel",
-	"OptedOutDateTemplate": "Opted out of indexing on: {0}",
+	"OptedOutDateTemplate": "Opted out of indexing on: {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Save my changes",
 	"SyncFollowersWithKlipTok":"Sync Followers with KlipTok",
 	"MutedChannels": "Muted Channels",
 	"Channel": "Channel",
 	"MutedUntil": "Muted Until",
 	"RightToForget": "Right to forget",
-	"DangerZone": "[ Danger Zone ]",
+	"DangerZone": "[ Danger Zone ]",     // This is a label indicating the items beneath it make destructive changes to your record on the application 
 	"RightToForgetDescription": "You have the right to request KlipTok forgets all information that you have shared.  By clicking this link and confirming, KlipTok will remove all of your comments, likes, and clips.",
 	"RemoveMyContentFromKlipTok": "Remove my content from KlipTok",
-	"ForgottenAsOfTemplate": "Forgotten as of : {0}",
+	"ForgottenAsOfTemplate": "Forgotten as of : {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Single Clip Page
+	"MissingClipError": "KlipTok does not have a record of this clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok.",
+	"LikedBy": "Liked By:",
+	"UserLikedTimeTemplate": "{0} liked {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+
+			 
+
 
 
 }
