@@ -64,13 +64,13 @@
 	"InsertCoin": "Munt inwerpen",
 	"MyFavoriteChannels": "Mijn favoriete kanalen",
 	"Favorites": "Favorieten",
-	"ClipsILike": "Clips die ik leuk vind",
+	"ClipsILike": "Clips die ik like",
 	"LikedClips": "Clips die ik heb geliket",
 	"UserProfile": "Gebruikersprofiel",
 
 	// Liked Clips
 	"NoLikedClips": "Je hebt nog geen clips geliket op KlipTok!",
-	"TryLikeButtonTemplate": "Klik op het hartpictogram {0} onder een clip om deze te 'liken' en we zullen het hier voor je melden, zodat je het in de toekomst gemakkelijk terug kunt vinden",
+	"TryLikeButtonTemplate": "Klik op het hartpictogram {0} onder een clip om deze te 'liken', en we zullen het hier voor je melden, zodat je het in de toekomst gemakkelijk terug kunt vinden",
 
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok bewaart geen afzonderlijke gebruikersinformatie van Twitch en is gebouwd als een service om Twitch-clips te verbeteren.",
@@ -84,7 +84,7 @@
 	"MutedUntil": "Gedempt tot",
 	"RightToForget": "Recht om te vergeten",
 	"DangerZone": "[ Danger Zone ]",
-	"RightToForgetDescription": "Je hebt het recht om te verzoeken dat KlipTok alle informatie vergeet die je hebt gedeeld. Door op deze link te klikken en te bevestigen, verwijdert KlipTok al uw opmerkingen, vind-ik-leuks en clips.",
+	"RightToForgetDescription": "Je hebt het recht om te verzoeken dat KlipTok alle informatie vergeet die je hebt gedeeld. Door op deze link te klikken en te bevestigen, verwijdert KlipTok al uw opmerkingen, likes en clips.",
 	"RemoveMyContentFromKlipTok": "Verwijder mijn content van KlipTok",
 	"ForgottenAsOfTemplate": "Vergeten sinds: {0}"
 }
