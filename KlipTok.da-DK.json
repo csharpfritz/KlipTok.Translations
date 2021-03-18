@@ -47,7 +47,7 @@
 	"PublicBeta": "OFFENTLIG BETA",
 	"LoggedOutFromKlipTokAndTwitch": "Logget ud af KlipTok og Twitch",
 	"LoginToKlipTokWithTwitch": "Log ind på KlipTok med Twitch",
-	"AuthenticationIsNoLongerValid": "Din adgang med  Twitch og KlipTok er ikke længere gyldig. Log venligst ind i KlipTok med Twitch for at fortsætte.",
+	"AuthenticationIsNoLongerValid": "Din adgang med Twitch og KlipTok er ikke længere gyldig. Log venligst ind i KlipTok med Twitch for at fortsætte.",
 
 	// Errors
 	"ErrorWhileLoading": "Der opstod en fejl.",
