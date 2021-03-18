@@ -78,7 +78,7 @@
 	"IndexClipsOfMyChannel": "Index my Clips",
 	"OptedOutDateTemplate": "Opted out of indexing on: {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Save my changes",
-	"SyncFollowersWithKlipTok":"Sync Followers with KlipTok",
+	"SyncFollowersWithKlipTok":"Sync Followed Streamers with KlipTok",
 	"MutedChannels": "Muted Streamers",
 	"Channel": "Streamer",
 	"MutedUntil": "Muted Until",

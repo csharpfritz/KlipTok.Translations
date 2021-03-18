@@ -229,7 +229,7 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Suggested Streamers"</summary>
         public string SuggestedStreamers;
 
-        /// <summary>"Sync Followers with KlipTok"</summary>
+        /// <summary>"Sync Followed Streamers with KlipTok"</summary>
         public string SyncFollowersWithKlipTok;
 
         /// <summary>"Total Clips on KlipTok"</summary>
