@@ -16,12 +16,31 @@
 
 	// Login View
 	"DarkMode": "Donkere Modus",
+	"LoginWithTwitch": "Inloggen via Twitch",
+	"Logout": "Uitloggen",
 
+	// Header
+	"SearchForChannel": "Zoeken naar kanaal...",
+	"SearchNotFoundFormat": "{0} niet gevonden",
 
 	// Sidebar
 	"SuggestedStreamers": "Aanbevolen Streamers",
 	"FollowedStreamers": "Gevolgde Streamers",
 	"AllStreamers": "Alle Streamers",
 	"About": "Over",
-	"Close": "Sluiten"
+	"Close": "Sluiten",
+
+	// Streamer Page
+	"ClickToFollow": "Klik om te volgen",
+	"ClickToUnfollow": "Klik om te stoppen met volgen",
+	"ActionOnTwitchTemplate": "{0} op Twitch",
+	"LiveOnTwitch": "Nu live op Twitch!",
+	"ProfilePicTemplate": "{0} profielfoto",
+	"TotalClipsOnKlipTok": "Totaal aantal clips op KlipTok",
+	"TotalLikesAcrossAllClips": "Totaal aantal likes voor alle clips",
+	"TotalCommentsAcrossAllClips": "Totaal aantal opmerkingen voor alle clips",
+	"TotalViewsAcrossAllClips": "Totaal aantal weergaven voor alle clips",
+	"LastClipAdded": "Laatst toegevoegde clip:",
+	"LastClip": "Laatste clip:",
+	"NoProfilePicAvailable": "Geen profielfoto beschikbaar"
 }
