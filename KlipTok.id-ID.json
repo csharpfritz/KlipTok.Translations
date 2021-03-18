@@ -2,7 +2,7 @@
 	// Components
 
 	// Clip
-	"Recorded": "Direkam {0}",
+	"Recorded": "Direkam {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
 	"Likes": "Suka",
 	"Comments": "Komentar",
 	"ClipViews": "Ditonton",
@@ -10,7 +10,7 @@
 	"KlipTokContentPlaceholder": "Placeholder Konten Kliptok",
 
 	// Comments
-	"ByLineFormat": "Pada {0} {1} tulis:",
+	"ByLineFormat": "Pada {0} {1} tulis:",  // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Balas",
 
 	// Login View
@@ -19,8 +19,8 @@
 	"Logout": "Logout",
 	
 	// Header
-	"SearchForChannel": "Telusuri channel...",
-	"SearchNotFoundFormat": "{0} tidak ditemukan",
+	"SearchForChannel": "Telusuri Streamer...",
+	"SearchNotFoundFormat": "{0} tidak ditemukan", // {0} is the search term that was not found
 
 	// Sidebar
 	"SuggestedStreamers": "Streamer yang Disarankan",
@@ -32,13 +32,13 @@
 	// Streamer Page
 	"ClickToFollow": "Klik untuk Mengikuti",
 	"ClickToUnfollow": "Klik untuk Setop Ikuti",
-	"ActionOnTwitchTemplate": "{0} di Twitch",
+	"ActionOnTwitchTemplate": "{0} di Twitch",   // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "Live di Twitch sekarang!",
-	"ProfilePicTemplate": "{0} gambar profil",
-	"TotalClipsOnKlipTok": "Total klip di KlipTok",
+	"ProfilePicTemplate": "{0} gambar profil",    // {0} is the Streamer's Display Name
+	"TotalClipsOnKlipTok": "Total Klip di KlipTok",
 	"TotalLikesAcrossAllClips": "Total Suka di semua klip",
-	"TotalCommentsAcrossAllClips": "Total komentar di semua klip",
-	"TotalViewsAcrossAllClips": "Total tontonan di semua klip",
+	"TotalCommentsAcrossAllClips": "Total Komentar di semua Klip",
+	"TotalViewsAcrossAllClips": "Total tontonan di semua Klip",
 	"LastClipAdded": "Klip Terakhir Ditambah:",
 	"LastClip": "Klip Terakhir:",
 	"NoProfilePicAvailable": "Tidak ada gambar profil",
@@ -48,44 +48,69 @@
 	"LoggedOutFromKlipTokAndTwitch": "Keluar dari KlipTok dan Twitch",
 	"LoginToKlipTokWithTwitch": "Masuk ke KlipTok dengan Twitch",
 	"AuthenticationIsNoLongerValid": "Autentikasi Anda dengan Twitch sudah tidak berlaku. Silakan login ke Kliptok dengan Twitch untuk melanjutkan.",
+	"Loading": "Memuat...",
 
 	// Errors
 	"ErrorWhileLoading": "Telah terjadi kesalahan ketika memuat.",
 	"RetryButton": "Coba Lagi",
 
 	// Follows page
-	"TwitchChannelsIFollow": "Channel Twitch yang Diikuti",
+	"TwitchChannelsIFollow": "Streamer Twitch yang Kuikuti",
 	"NotLoggedIn": "Tidak dapat menampilkan catatan akun yang Anda ikuti di Twitch karena Anda belum login dengan akun Twitch. Silakan login dan sinkron streamer yang Anda ikuti dengan Kliptok untuk mengakses fungsi ini.",
 
 	// Home Page
 	"DiscoverPopularClips": "Temukan Klip Populer",
 	"DiscoverClips": "Temukan Klip",
 	"InsertCoin": "Masukkan Koin",
-	"MyFavoriteChannels": "Channel Favoritku",
+	"MyFavoriteChannels": "Streamer Favoritku",
 	"Favorites": "Favorit",
 	"ClipsILike": "Klip yang Kusukai",
 	"LikedClips": "Klip yang Disukai",
 	"UserProfile": "Profil Pengguna",
 
 	// Liked Clips
-	"NoLikedClips": "Anda belum menyukai klip di KlipTok!",
-	"TryLikeButtonTemplate": "Klik ikon hati {0} di bawah klip untuk 'suka' dan kami akan menampilkannya di sini agar untuk selanjutnya Anda dapat lebih mudah menemukannya lagi.",
+	"NoLikedClips": "Anda belum menyukai Klip di KlipTok!",
+	"TryLikeButtonTemplate": "Klik ikon hati {0} di bawah Klip untuk 'Suka' dan kami akan menampilkannya di sini agar untuk selanjutnya Anda dapat lebih mudah menemukannya lagi.",  //  {0} is the heart icon
 
 	// User Profile
-	"DoesNotKeepSeparateUserInformation": "KlipTok tidak menyimpan informasi pengguna secara terpisah dari Twitch, dan dibangun sebagai servis untuk menambahkan klip Twitch.",
+	"DoesNotKeepSeparateUserInformation": "KlipTok tidak menyimpan informasi pengguna secara terpisah dari Twitch, dan dibangun sebagai servis untuk menambahkan Klip Twitch.",
 	"AutoPlayVideosOnScroll": "Auto-play video saat scroll",
-	"IndexClipsOfMyChannel": "Indeks klip channelku",
-	"OptedOutDateTemplate": "Memilih untuk tidak mengindeks pada: {0}",
+	"IndexClipsOfMyChannel": "Indeks Klip channelku",
+	"OptedOutDateTemplate": "Memilih untuk tidak mengindeks pada: {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Simpan setelanku",
-	"SyncFollowersWithKlipTok":"Sinkron Pengikut dengan Kliptok",
-	"MutedChannels": "Channel yang Dibisukan",
-	"Channel": "Channel",
+	"SyncFollowersWithKlipTok":"Sinkron Streamer yang Diikuti dengan Kliptok",
+	"MutedChannels": "Streamer yang Dibisukan",
+	"Channel": "Streamer",
 	"MutedUntil": "Dibisukan hingga",
 	"RightToForget": "Hak untuk melupakan",
-	"DangerZone": "[ Zona Bahaya ]",
-	"RightToForgetDescription": "Anda berhak meminta Kliptok untuk melupakan semua informasi yang telah Anda bagikan. Dengan meng-klik link ini dan mengkonfirmasikan, Kliptok akan menghapus semua komentar, suka, dan klip Anda.",
+	"DangerZone": "[ Zona Bahaya ]",     // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "Anda berhak meminta Kliptok untuk melupakan semua informasi yang telah Anda bagikan. Dengan mengklik link ini dan mengkonfirmasikan, Kliptok akan menghapus semua Komentar, Suka, dan Klip Anda.",
 	"RemoveMyContentFromKlipTok": "Hapus kontenku dari Kliptok",
-	"ForgottenAsOfTemplate": "Dilupakan pada : {0}",
+	"ForgottenAsOfTemplate": "Dilupakan pada : {0}", // {0} is the datestamp of when the 'forget' action was taken	
 	
-	
+	// Single Clip Page
+	"MissingClipError": "KlipTok tidak mempunyai catatan Klip ini. Klip tidak ada atau channel Twitch tersebut memilih untuk tidak berpartisipasi dalam KlipTok.",
+	"LikedBy": "Disukai Oleh:",
+	"UserLikedTimeTemplate": "{0} suka {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "Membalas untuk: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Masukkan Komentar baru...",
+	"LoginWithTwitchToComment": "Login dengan Twitch untuk Komentar",
+	"CommentButton": "Komentar",
+
+	// Streamer Page
+	"MuteForLabel": "Dibisukan selama:",
+	"StreamerIsMutedUntilTemplate": "Streamer dibisukan hingga: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Bunyikan",   // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Selamanya",   // Label for "Mute Forever" action button
+	"SortByLabel": "Urut berdasarkan:",
+	"Views": "Ditonton",     // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Skor", 		// A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Terbaru",  // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Klip dari:",   // Label above the date range filter component
+	"SearchButton": "Cari",  // Text on the search button to filter by date range
+	"ResetButton": "Reset",    // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Tidak Ada Klip yang Tersedia",
+	"AddClipsForThisStreamer": "Tambahkan Klip untuk Streamer ini",
+	"NotifyOnOptIn": "Perlu diketahui: jika Anda menambahkan Klip untuk Streamer ini, kami memohon Anda untuk memberitahu mereka bahwa Anda telah menambahkan Klip mereka ke dalam situs ini. Kami tidak memiliki cara untuk langsung menghubungi Streamer."
+
 }
