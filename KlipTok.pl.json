@@ -23,9 +23,9 @@
 	"SearchNotFoundFormat": "Nie znaleziono {0}",
 
 	// Sidebar
-	"SuggestedStreamers": "Polecane Kanały",
-	"FollowedStreamers": "Obserwowane Kanały",
-	"AllStreamers": "Wszystkie Kanały",
+	"SuggestedStreamers": "Polecani streamerzy",
+	"FollowedStreamers": "Obserwowani streamerzy",
+	"AllStreamers": "Wszyscy streamerzy",
 	"About": "O nas",
 	"Close": "Zamknij",
 
