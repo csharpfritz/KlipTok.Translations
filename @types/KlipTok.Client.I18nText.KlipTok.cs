@@ -88,6 +88,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Last Clip Added:"</summary>
         public string LastClipAdded;
 
+        /// <summary>"Liked By:"</summary>
+        public string LikedBy;
+
         /// <summary>"Liked Clips"</summary>
         public string LikedClips;
 
@@ -96,6 +99,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Live on Twitch now!"</summary>
         public string LiveOnTwitch;
+
+        /// <summary>"Loading..."</summary>
+        public string Loading;
 
         /// <summary>"Logged Out from KlipTok and Twitch"</summary>
         public string LoggedOutFromKlipTokAndTwitch;
@@ -108,6 +114,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Logout"</summary>
         public string Logout;
+
+        /// <summary>"KlipTok does not have a record of this clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok."</summary>
+        public string MissingClipError;
 
         /// <summary>"Muted Channels"</summary>
         public string MutedChannels;
@@ -189,6 +198,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Twitch Channels I Follow"</summary>
         public string TwitchChannelsIFollow;
+
+        /// <summary>"{0} liked {1}"</summary>
+        public string UserLikedTimeTemplate;
 
         /// <summary>"User Profile"</summary>
         public string UserProfile;
