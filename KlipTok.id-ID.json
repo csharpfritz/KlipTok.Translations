@@ -55,9 +55,37 @@
 
 	// Follows page
 	"TwitchChannelsIFollow": "Channel Twitch yang Diikuti",
-	"NotLoggedIn": "Tidak dapat menampilkan catatan akun yang Anda ikuti di Twitch karena Anda belum login dengan akun Twitch. Silakan login dan sinkron pengikut Anda dengan Kliptok untuk mengakses fungsi ini.",
+	"NotLoggedIn": "Tidak dapat menampilkan catatan akun yang Anda ikuti di Twitch karena Anda belum login dengan akun Twitch. Silakan login dan sinkron streamer yang Anda ikuti dengan Kliptok untuk mengakses fungsi ini.",
 
 	// Home Page
 	"DiscoverPopularClips": "Temukan Klip Populer",
 	"DiscoverClips": "Temukan Klip",
+	"InsertCoin": "Masukkan Koin",
+	"MyFavoriteChannels": "Channel Favoritku",
+	"Favorites": "Favorit",
+	"ClipsILike": "Klip yang Kusukai",
+	"LikedClips": "Klip yang Disukai",
+	"UserProfile": "Profil Pengguna",
+
+	// Liked Clips
+	"NoLikedClips": "Anda belum menyukai klip di KlipTok!",
+	"TryLikeButtonTemplate": "Klik ikon hati {0} di bawah klip untuk 'suka' dan kami akan menampilkannya di sini agar untuk selanjutnya Anda dapat lebih mudah menemukannya lagi.",
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok tidak menyimpan informasi pengguna secara terpisah dari Twitch, dan dibangun sebagai servis untuk menambahkan klip Twitch.",
+	"AutoPlayVideosOnScroll": "Auto-play video saat scroll",
+	"IndexClipsOfMyChannel": "Indeks klip channelku",
+	"OptedOutDateTemplate": "Memilih untuk tidak mengindeks pada: {0}",
+	"SaveMyChanges": "Simpan setelanku",
+	"SyncFollowersWithKlipTok":"Sinkron Pengikut dengan Kliptok",
+	"MutedChannels": "Channel yang Dibisukan",
+	"Channel": "Channel",
+	"MutedUntil": "Dibisukan hingga",
+	"RightToForget": "Hak untuk melupakan",
+	"DangerZone": "[ Zona Bahaya ]",
+	"RightToForgetDescription": "Anda berhak meminta Kliptok untuk melupakan semua informasi yang telah Anda bagikan. Dengan meng-klik link ini dan mengkonfirmasikan, Kliptok akan menghapus semua komentar, suka, dan klip Anda.",
+	"RemoveMyContentFromKlipTok": "Hapus kontenku dari Kliptok",
+	"ForgottenAsOfTemplate": "Dilupakan pada : {0}",
+	
+	
 }
