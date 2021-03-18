@@ -10,7 +10,7 @@
 	"KlipTokContentPlaceholder": "Zawartość zastępcza",
 
 	// Comments
-	"ByLineFormat": "{0} {1} napisał:",
+	"ByLineFormat": "{0}, {1} napisał:",
 	"Reply": "Odpowiedz",
 
 	// Login View
@@ -48,6 +48,7 @@
 	"LoggedOutFromKlipTokAndTwitch": "Wylogowano z KlipTok i Twitch",
 	"LoginToKlipTokWithTwitch": "Zaloguj się na KlipTok z Twitch",
 	"AuthenticationIsNoLongerValid": "Twoje uwierzytelnienie z Twitch i KlipTok jest już nie ważne. Zaloguj się na KlipTok z Twitch aby kontynuować.",
+	"Loading": "Ładowanie...",
 
 	// Errors
 	"ErrorWhileLoading": "Wystąpił błąd podczas ładowania.",
@@ -60,4 +61,55 @@
 	// Home Page
 	"DiscoverPopularClips": "Odkryj popularne klipy",
 	"DiscoverClips": "Odkryj klipy",
+	"InsertCoin": "Wrzuć monetę",
+	"MyFavoriteChannels": "Moi ulubieni streamerzy",
+	"Favorites": "Ulubione",
+	"ClipsILike": "Klipy które lubię",
+	"LikedClips": "Lubiane klipy",
+	"UserProfile": "Profil użytkownika",
+
+	// Liked Clips
+	"NoLikedClips": "Jeszcze nie polubiłeś żadnych klipów na KlipTok!",
+	"TryLikeButtonTemplate": "Kliknij ikonę serca {0} poniżej klipu aby polubić ten klip. Polubione klipy będą wyświetlone tutaj dla łatwego dostępu.",
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok nie zapisuje żadnych informacji o użytkowniku z Twitch. Kliptok jest usługą usprawniającą klipy z Twitch.",
+	"AutoPlayVideosOnScroll": "Automatycznie odtwarzaj klipy podczas przewijania strony",
+	"IndexClipsOfMyChannel": "Zindeksuj moje klipy",
+	"OptedOutDateTemplate": "Zrezygnowano z indeksowania o: {0}",
+	"SaveMyChanges": "Zapisz zmiany",
+	"SyncFollowersWithKlipTok":"Synchronizuj obserwowanych streamerów z KlipTok",
+	"MutedChannels": "Wyciszeni streamerzy",
+	"Channel": "Streamer",
+	"MutedUntil": "Wyciszony do",
+	"RightToForget": "Prawo do usunięcia danych",
+	"DangerZone": "[ Strefa zagrożenia ]",
+	"RightToForgetDescription": "Masz prawo zarządać aby KlipTok usunął wszystkie dane powiązane z Tobą. Klikając ten odnośnik oraz potwierdzając, KlipTok usunie wszystkie Twoje komentarze, polubienia i klipy.",
+	"RemoveMyContentFromKlipTok": "Usuń moje dane z KlipTok",
+	"ForgottenAsOfTemplate": "Usunięto dane o: {0}",
+
+	// Single Clip Page
+	"MissingClipError": "KlipTok nie posiada zapisu tego klipu. Możliwe ze klip nie istnieje lub że streamer zrezygnował z indeksowania na KlipTok.",
+	"LikedBy": "Polubiane przez:",
+	"UserLikedTimeTemplate": "{0} polubił o {1}",
+	"InReplyToTemplate": "W odpowiedzi do: {0}",
+	"EnterNewComment": "Wprowadź komentarz...",
+	"LoginWithTwitchToComment": "Zalogój z Twitch aby skomentować",
+	"CommentButton": "Komentuj",
+
+	// Streamer Page
+	"MuteForLabel": "Wycisz przez:",
+	"StreamerIsMutedUntilTemplate": "Streamer wyciszony do: {0}",
+	"NoMute": "Zatrzymaj wyciszenie",
+	"Forever": "Na zawsze",
+	"SortByLabel": "Sortuj według:",
+	"Views": "Wyświetlenia",
+	"Score": "Punkty",
+	"Latest": "Ostatnio dodane",
+	"ClipsFromLabel": "Klipy dodano:",
+	"SearchButton": "Szukaj",
+	"ResetButton": "Wyczyść",
+	"NoClipsAvailable": "Brak klipów",
+	"AddClipsForThisStreamer": "Dodaj klipy tego streamera",
+	"NotifyOnOptIn": "Uwaga: jeśli dodasz klipy tego streamera, uprzejmie prosimy o poinformowanie tego streamera o dodaniu ich klipów do KlipTok. Nie mamy możliwości poinformowć ich automatycznie."
 }
