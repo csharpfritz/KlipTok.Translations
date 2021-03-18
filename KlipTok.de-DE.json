@@ -2,24 +2,43 @@
 	// Components
 
 	// Clip
-	"Recorded": "Aufgenommen {0}",
-	"Likes": "Gefällt Mir",
+	"Recorded": "{0} aufgenommen",
+	"Likes": "Gefällt mir",
 	"Comments": "Kommentare",
 	"ClipViews": "Aufrufe",
 	"ShareThisClip": "Teile diesen Clip",
 	"KlipTokContentPlaceholder": "KlipTok Platzhalter",
 
 	// Comments
-	"ByLineFormat": "Bei {0} hat {1} geschrieben:",
+	"ByLineFormat": "{1} hat am {0} geschrieben:",
 	"Reply": "Antworten",
 
 	// Login View
 	"DarkMode": "Dunkles Design",
+	"LoginWithTwitch": "Einloggen mit Twitch",
+	"Logout": "Ausloggen",
+
+	// Header
+	"SearchForChannel": "Kanal suchen...",
+	"SearchNotFoundFormat": "{0} nicht gefunden",
 
 	// Sidebar
 	"SuggestedStreamers": "Vorgeschlagene Streamer",
-	"FollowedStreamers": "Du folgst",
+	"FollowedStreamers": "Streamer, denen du folgst",
 	"AllStreamers": "Alle Streamer",
-	"About": "Über Uns",
-	"Close": "Schließen"
+	"About": "Über uns",
+	"Close": "Schließen",
+
+	// Streamer Page
+	"ClickToFollow": "Klicken um zu Folgen",
+	"ClickToUnfollow": "Klicken um zu Entfolgen",
+	"ActionOnTwitchTemplate": "{0} auf Twitch",
+	"LiveOnTwitch": "Jetzt live auf Twitch!",
+	"ProfilePicTemplate": "{0} Profilbild",
+	"TotalClipsOnKlipTok": "Clips gesamt auf KlipTok",
+	"TotalLikesAcrossAllClips": "Gefällt Mir gesamt",
+	"TotalCommentsAcrossAllClips": "Kommentare gesamt",
+	"TotalViewsAcrossAllClips": "Aufrufe gesamt",
+	"LastClipAdded": "Letzter Clip hinzugefügt:",
+	"NoProfilePicAvailable": "Kein Profilbild verfügbar"
 }
