@@ -55,7 +55,7 @@
 
 	// Follows page
 	"TwitchChannelsIFollow": "Twitch Channels I Follow",
-	"NotLoggedIn": "Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followers with KlipTok to access this functionality.",
+	"NotLoggedIn": "Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followed streamers with KlipTok to access this functionality.",
 
 	// Home Page
 	"DiscoverPopularClips": "Discover Popular Clips",
@@ -86,6 +86,6 @@
 	"RightToForgetDescription": "You have the right to request KlipTok forgets all information that you have shared.  By clicking this link and confirming, KlipTok will remove all of your comments, likes, and clips.",
 	"RemoveMyContentFromKlipTok": "Remove my content from KlipTok",
 	"ForgottenAsOfTemplate": "Forgotten as of : {0}",
-	
+
 
 }

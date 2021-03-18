@@ -124,7 +124,7 @@ namespace KlipTok.Client.I18nText
         /// <summary>"No profile pic available"</summary>
         public string NoProfilePicAvailable;
 
-        /// <summary>"Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followers with KlipTok to access this functionality."</summary>
+        /// <summary>"Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followed streamers with KlipTok to access this functionality."</summary>
         public string NotLoggedIn;
 
         /// <summary>"Opted out of indexing on: {0}"</summary>
