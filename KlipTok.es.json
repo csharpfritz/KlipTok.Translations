@@ -15,11 +15,75 @@
 
 	// Login View
 	"DarkMode": "Modo Oscuro",
+	"LoginWithTwitch": "Iniciar sesión con Twitch",
+	"Logout": "Cerrar sesión",
+
+	// Header
+	"SearchForChannel": "Buscar por un canal...",
+	"SearchNotFoundFormat": "{0} no encontrado",
 
 	// Sidebar
 	"SuggestedStreamers": "Streamers sugeridos",
 	"FollowedStreamers": "Streamers que sigues",
 	"AllStreamers": "Todos los Streamers",
 	"About": "Acerca de",
-	"Close": "Cerrar"
+	"Close": "Cerrar",
+
+	// Streamer Page
+	"ClickToFollow": "Clic para seguir",
+	"ClickToUnfollow": "Clic para dejar de seguir",
+	"ActionOnTwitchTemplate": "{0} en Twitch",
+	"LiveOnTwitch": "¡Transmitiendo en Twitch ahora!",
+	"ProfilePicTemplate": "{0} foto de perfil",
+	"TotalClipsOnKlipTok": "Total de clips en KlipTok",
+	"TotalLikesAcrossAllClips": "Total de \"Me gusta\" en todos los clips",
+	"TotalCommentsAcrossAllClips": "Total de comentarios en todos los clips",
+	"TotalViewsAcrossAllClips": "Total views across all clips",
+	"LastClipAdded": "Último Clip Agregado:",
+	"LastClip": "Último Clip:",
+	"NoProfilePicAvailable": "Foto de perfil no disponible",
+
+	// Layout
+	"PublicBeta": "BETA PÚBLICA",
+	"LoggedOutFromKlipTokAndTwitch": "Sesión cerrada en KlipTok y Twitch",
+	"LoginToKlipTokWithTwitch": "Iniciar sesión en KlipTok con Twitch",
+	"AuthenticationIsNoLongerValid": "Tu autenticación con Twitch y KlipTok ya no es válida.  Por favor inicia sesión en KlipTok con Twitch para continuar.",
+
+	// Errors
+	"ErrorWhileLoading": "Un error ha ocurrido mientras cargaba.",
+	"RetryButton": "Reintentar",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Canales de Twitch que sigues",
+	"NotLoggedIn": "Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followed streamers with KlipTok to access this functionality.",
+
+	// Home Page
+	"DiscoverPopularClips": "Descubre Clips Populares",
+	"DiscoverClips": "Descubre Clips",
+	"InsertCoin": "Inserte una moneda",
+	"MyFavoriteChannels": "Mis canales favoritos",
+	"Favorites": "Favoritos",
+	"ClipsILike": "Clips que has destacado",
+	"LikedClips": "Clips destacados",
+	"UserProfile": "Perfil de usuario",
+
+	// Liked Clips
+	"NoLikedClips": "¡Aún no tienes clips destacados!",
+	"TryLikeButtonTemplate": "Try clicking the heart icon {0} below a clip to 'like' it and we'll report it here for you so you can easily find it again in the future",
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch clips.",
+	"AutoPlayVideosOnScroll": "Auto-play videos on scroll",
+	"IndexClipsOfMyChannel": "Index clips of my channel",
+	"OptedOutDateTemplate": "Opted out of indexing on: {0}",
+	"SaveMyChanges": "Save my changes",
+	"SyncFollowersWithKlipTok":"Sync Followers with KlipTok",
+	"MutedChannels": "Canales silenciados",
+	"Channel": "Canal",
+	"MutedUntil": "Muted Until",
+	"RightToForget": "Right to forget",
+	"DangerZone": "[ Danger Zone ]",
+	"RightToForgetDescription": "You have the right to request KlipTok forgets all information that you have shared.  By clicking this link and confirming, KlipTok will remove all of your comments, likes, and clips.",
+	"RemoveMyContentFromKlipTok": "Remove my content from KlipTok",
+	"ForgottenAsOfTemplate": "Forgotten as of : {0}"
 }
