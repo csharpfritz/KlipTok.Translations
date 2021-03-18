@@ -16,7 +16,8 @@
 
 	// Login View
 	"DarkMode": "Donkere Modus",
-
+	"LoginWithTwitch": "Inloggen via Twitch",
+	"Logout": "Uitloggen",
 
 	// Sidebar
 	"SuggestedStreamers": "Aanbevolen Streamers",
