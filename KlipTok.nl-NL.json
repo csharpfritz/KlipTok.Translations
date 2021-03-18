@@ -6,8 +6,8 @@
 	"Recorded": "Opgenomen op {0}",
 	"Likes": "Likes",
 	"Comments": "Opmerkingen",
-	"ClipViews": "Clip Weergaven",
-	"ShareThisClip": "Deel deze Clip",
+	"ClipViews": "Clip weergaven",
+	"ShareThisClip": "Deel deze clip",
 	"KlipTokContentPlaceholder": "KlipTok Inhoud Placeholder",
 
 	// Comments
@@ -42,5 +42,49 @@
 	"TotalViewsAcrossAllClips": "Totaal aantal weergaven voor alle clips",
 	"LastClipAdded": "Laatst toegevoegde clip:",
 	"LastClip": "Laatste clip:",
-	"NoProfilePicAvailable": "Geen profielfoto beschikbaar"
+	"NoProfilePicAvailable": "Geen profielfoto beschikbaar",
+
+	// Layout
+	"PublicBeta": "PUBLIC BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Uitgelogd van KlipTok and Twitch",
+	"LoginToKlipTokWithTwitch": "Inloggen op KlipTok met Twitch",
+	"AuthenticationIsNoLongerValid": "Je authenticatie met Twitch en KlipTok is niet langer geldig. Log in op KlipTok met Twitch om door te gaan.",
+
+	// Errors
+	"ErrorWhileLoading": "Er is een fout opgetreden tijdens het laden.",
+	"RetryButton": "Opnieuw",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Twitch kanalen die ik volg",
+	"NotLoggedIn": "Kan geen gegevens weergeven van accounts die je volgt op Twitch omdat je niet bent aangemeld met een Twitch-account. Log in en synchroniseer je gevolgde streamers met KlipTok om toegang te krijgen tot deze functionaliteit.",
+
+	// Home Page
+	"DiscoverPopularClips": "Populaire clips ontdekken",
+	"DiscoverClips": "Clips ontdekken",
+	"InsertCoin": "Munt inwerpen",
+	"MyFavoriteChannels": "Mijn favoriete kanalen",
+	"Favorites": "Favorieten",
+	"ClipsILike": "Clips die ik like",
+	"LikedClips": "Clips die ik heb geliket",
+	"UserProfile": "Gebruikersprofiel",
+
+	// Liked Clips
+	"NoLikedClips": "Je hebt nog geen clips geliket op KlipTok!",
+	"TryLikeButtonTemplate": "Klik op het hartpictogram {0} onder een clip om deze te 'liken', en we zullen het hier voor je melden, zodat je het in de toekomst gemakkelijk terug kunt vinden",
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok bewaart geen afzonderlijke gebruikersinformatie van Twitch en is gebouwd als een service om Twitch-clips te verbeteren.",
+	"AutoPlayVideosOnScroll": "Speel videos automatisch af wanneer je scrollt",
+	"IndexClipsOfMyChannel": "Indexeer clips van mijn kanaal",
+	"OptedOutDateTemplate": "Uitgeschreven voor indexeren op: {0}",
+	"SaveMyChanges": "Bewaar mijn wijzigingen",
+	"SyncFollowersWithKlipTok":"Synchroniseer volgers met KlipTok",
+	"MutedChannels": "Gedempte kanalen",
+	"Channel": "Kanaal",
+	"MutedUntil": "Gedempt tot",
+	"RightToForget": "Recht om te vergeten",
+	"DangerZone": "[ Danger Zone ]",
+	"RightToForgetDescription": "Je hebt het recht om te verzoeken dat KlipTok alle informatie vergeet die je hebt gedeeld. Door op deze link te klikken en te bevestigen, verwijdert KlipTok al uw opmerkingen, likes en clips.",
+	"RemoveMyContentFromKlipTok": "Verwijder mijn content van KlipTok",
+	"ForgottenAsOfTemplate": "Vergeten sinds: {0}"
 }
