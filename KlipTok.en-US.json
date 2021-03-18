@@ -92,9 +92,25 @@
 	"MissingClipError": "KlipTok does not have a record of this clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok.",
 	"LikedBy": "Liked By:",
 	"UserLikedTimeTemplate": "{0} liked {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "In reply to: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Enter new comment...",
+	"LoginWithTwitchToComment": "Login with Twitch to comment",
+	"CommentButton": "Comment",
 
-			 
-
-
+	// Streamer Page
+	"MuteForLabel": "Mute for:",
+	"StreamerIsMutedUntilTemplate": "Streamer is muted until: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Unmute",   // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Forever",   // Label for "Mute Forever" action button
+	"SortByLabel": "Sort by:",
+	"Views": "Views",     // The number of Clip Views for a clip that we are sorting by
+	"Score": "Score", 		// A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Latest",  // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Clips from:",   // Label above the date range filter component
+	"SearchButton": "Search",  // Text on the search button to filter by date range
+	"ResetButton": "Reset",    // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "No Clips Available",
+	"AddClipsForThisStreamer": "Add Clips for this Streamer",
+	"NotifyOnOptIn": "Please note: if you add clips for this streamer, we kindly request you notify them that you have added their clips to this site.  We have no direct way to reach out to the broadcaster."
 
 }
