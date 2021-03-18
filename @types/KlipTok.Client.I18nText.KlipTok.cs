@@ -13,6 +13,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"{0} on Twitch"</summary>
         public string ActionOnTwitchTemplate;
 
+        /// <summary>"Add Clips for this Streamer"</summary>
+        public string AddClipsForThisStreamer;
+
         /// <summary>"All Streamers"</summary>
         public string AllStreamers;
 
@@ -25,7 +28,7 @@ namespace KlipTok.Client.I18nText
         /// <summary>"At {0} {1} wrote:"</summary>
         public string ByLineFormat;
 
-        /// <summary>"Channel"</summary>
+        /// <summary>"Streamer"</summary>
         public string Channel;
 
         /// <summary>"Click to Follow"</summary>
@@ -33,6 +36,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Click to Unfollow"</summary>
         public string ClickToUnfollow;
+
+        /// <summary>"Clips from:"</summary>
+        public string ClipsFromLabel;
 
         /// <summary>"Clips I Like"</summary>
         public string ClipsILike;
@@ -42,6 +48,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Close"</summary>
         public string Close;
+
+        /// <summary>"Comment"</summary>
+        public string CommentButton;
 
         /// <summary>"Comments"</summary>
         public string Comments;
@@ -58,8 +67,11 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Discover Popular Clips"</summary>
         public string DiscoverPopularClips;
 
-        /// <summary>"KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch clips."</summary>
+        /// <summary>"KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch Clips."</summary>
         public string DoesNotKeepSeparateUserInformation;
+
+        /// <summary>"Enter new Comment..."</summary>
+        public string EnterNewComment;
 
         /// <summary>"An error occured while loading."</summary>
         public string ErrorWhileLoading;
@@ -70,11 +82,17 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Followed Streamers"</summary>
         public string FollowedStreamers;
 
+        /// <summary>"Forever"</summary>
+        public string Forever;
+
         /// <summary>"Forgotten as of : {0}"</summary>
         public string ForgottenAsOfTemplate;
 
-        /// <summary>"Index clips of my channel"</summary>
+        /// <summary>"Index my Clips"</summary>
         public string IndexClipsOfMyChannel;
+
+        /// <summary>"In reply to: {0}"</summary>
+        public string InReplyToTemplate;
 
         /// <summary>"Insert Coin"</summary>
         public string InsertCoin;
@@ -88,6 +106,12 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Last Clip Added:"</summary>
         public string LastClipAdded;
 
+        /// <summary>"Latest"</summary>
+        public string Latest;
+
+        /// <summary>"Liked By:"</summary>
+        public string LikedBy;
+
         /// <summary>"Liked Clips"</summary>
         public string LikedClips;
 
@@ -96,6 +120,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Live on Twitch now!"</summary>
         public string LiveOnTwitch;
+
+        /// <summary>"Loading..."</summary>
+        public string Loading;
 
         /// <summary>"Logged Out from KlipTok and Twitch"</summary>
         public string LoggedOutFromKlipTokAndTwitch;
@@ -106,23 +133,41 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Login with Twitch"</summary>
         public string LoginWithTwitch;
 
+        /// <summary>"Login with Twitch to Comment"</summary>
+        public string LoginWithTwitchToComment;
+
         /// <summary>"Logout"</summary>
         public string Logout;
 
-        /// <summary>"Muted Channels"</summary>
+        /// <summary>"KlipTok does not have a record of this Clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok."</summary>
+        public string MissingClipError;
+
+        /// <summary>"Muted Streamers"</summary>
         public string MutedChannels;
 
         /// <summary>"Muted Until"</summary>
         public string MutedUntil;
 
-        /// <summary>"My Favorite Channels"</summary>
+        /// <summary>"Mute for:"</summary>
+        public string MuteForLabel;
+
+        /// <summary>"My Favorite Streamers"</summary>
         public string MyFavoriteChannels;
 
-        /// <summary>"You haven&apos;t liked any clips on KlipTok yet!"</summary>
+        /// <summary>"No Clips Available"</summary>
+        public string NoClipsAvailable;
+
+        /// <summary>"You haven&apos;t liked any Clips on KlipTok yet!"</summary>
         public string NoLikedClips;
+
+        /// <summary>"Unmute"</summary>
+        public string NoMute;
 
         /// <summary>"No profile pic available"</summary>
         public string NoProfilePicAvailable;
+
+        /// <summary>"Please note: if you add Clips for this streamer, we kindly request you notify them that you have added their Clips to this site.  We have no direct way to reach out to the broadcaster."</summary>
+        public string NotifyOnOptIn;
 
         /// <summary>"Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followed streamers with KlipTok to access this functionality."</summary>
         public string NotLoggedIn;
@@ -145,19 +190,28 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Reply"</summary>
         public string Reply;
 
+        /// <summary>"Reset"</summary>
+        public string ResetButton;
+
         /// <summary>"Retry"</summary>
         public string RetryButton;
 
         /// <summary>"Right to forget"</summary>
         public string RightToForget;
 
-        /// <summary>"You have the right to request KlipTok forgets all information that you have shared.  By clicking this link and confirming, KlipTok will remove all of your comments, likes, and clips."</summary>
+        /// <summary>"You have the right to request KlipTok forgets all information that you have shared.  By clicking this link and confirming, KlipTok will remove all of your Comments, Likes, and Clips."</summary>
         public string RightToForgetDescription;
 
         /// <summary>"Save my changes"</summary>
         public string SaveMyChanges;
 
-        /// <summary>"Search for a channel..."</summary>
+        /// <summary>"Score"</summary>
+        public string Score;
+
+        /// <summary>"Search"</summary>
+        public string SearchButton;
+
+        /// <summary>"Search for a Streamer..."</summary>
         public string SearchForChannel;
 
         /// <summary>"{0} not found"</summary>
@@ -166,31 +220,43 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Share this Clip"</summary>
         public string ShareThisClip;
 
+        /// <summary>"Sort by:"</summary>
+        public string SortByLabel;
+
+        /// <summary>"Streamer is muted until: {0}"</summary>
+        public string StreamerIsMutedUntilTemplate;
+
         /// <summary>"Suggested Streamers"</summary>
         public string SuggestedStreamers;
 
-        /// <summary>"Sync Followers with KlipTok"</summary>
+        /// <summary>"Sync Followed Streamers with KlipTok"</summary>
         public string SyncFollowersWithKlipTok;
 
-        /// <summary>"Total clips on KlipTok"</summary>
+        /// <summary>"Total Clips on KlipTok"</summary>
         public string TotalClipsOnKlipTok;
 
-        /// <summary>"Total comments across all clips"</summary>
+        /// <summary>"Total Comments across all Clips"</summary>
         public string TotalCommentsAcrossAllClips;
 
-        /// <summary>"Total Likes across all clips"</summary>
+        /// <summary>"Total Likes across all Clips"</summary>
         public string TotalLikesAcrossAllClips;
 
-        /// <summary>"Total views across all clips"</summary>
+        /// <summary>"Total views across all Clips"</summary>
         public string TotalViewsAcrossAllClips;
 
-        /// <summary>"Try clicking the heart icon {0} below a clip to &apos;like&apos; it and we&apos;ll report it here for you so you can easily find it again in the future"</summary>
+        /// <summary>"Try clicking the heart icon {0} below a Clip to &apos;Like&apos; it and we&apos;ll report it here for you so you can easily find it again in the future"</summary>
         public string TryLikeButtonTemplate;
 
-        /// <summary>"Twitch Channels I Follow"</summary>
+        /// <summary>"Twitch Streamers I Follow"</summary>
         public string TwitchChannelsIFollow;
+
+        /// <summary>"{0} liked {1}"</summary>
+        public string UserLikedTimeTemplate;
 
         /// <summary>"User Profile"</summary>
         public string UserProfile;
+
+        /// <summary>"Views"</summary>
+        public string Views;
     }
 }
