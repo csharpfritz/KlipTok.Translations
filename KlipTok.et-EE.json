@@ -15,12 +15,101 @@
 
 	// Login View
 	"DarkMode": "Tume Teema",
-
+	"LoginWithTwitch": "Sisene Twitchiga",
+	"Logout": "Logi välja",
 
 	// Sidebar
 	"SuggestedStreamers": "Striimija Soovitused",
 	"FollowedStreamers": "Jälgitud Striimerid",
 	"AllStreamers": "Kõik Striimerid",
 	"About": "Meist",
-	"Close": "Sulge"
+	"Close": "Sulge",
+
+	// Header
+	"SearchForChannel": "Otsi striimerit...",
+	"SearchNotFoundFormat": "{0} ei leitud", // {0} is the search term that was not found
+
+	// Streamer Page
+	"ClickToFollow": "Kliki, et jälgida",
+	"ClickToUnfollow": "Kliki, et jälgimine eemaldada",
+	"ActionOnTwitchTemplate": "{0} Twitchis", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+	"LiveOnTwitch": "Praegu Twitchis otse!", 
+	"ProfilePicTemplate": "{0} profiili pilt", // {0} is the Streamer's Display Name
+	"TotalClipsOnKlipTok": "KlipToki klippe kokku",
+	"TotalLikesAcrossAllClips": "Kõikide Klippide Laikide arv kokku",
+	"TotalCommentsAcrossAllClips": "Kõikide Klippide kommentaaride arv kokku",
+	"TotalViewsAcrossAllClips": "Kõikide Klippide vaatamised kokku",
+	"LastClipAdded": "Viimane Klipp lisatud:",
+	"LastClip": "Viimane Klipp:",
+	"NoProfilePicAvailable": "Profiili pilt pole saadaval",
+
+	// Layout
+	"PublicBeta": "AVALIK BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Välja logitud Kliptokist ja Twitchist",
+	"LoginToKlipTokWithTwitch": "Sisene KlipTokki Twitch'ga",
+	"AuthenticationIsNoLongerValid": "Sinu sessioon Twitchi ja Kliptokiga pole enam kehtiv. Palun logi uuesti sisse.",
+	"Loading": "Laadimine...",
+
+	// Errors
+	"ErrorWhileLoading": "Laadimisel tekkis viga",
+	"RetryButton": "Proovi uuesti",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Twitch Striimijad keda jälgin",
+	"NotLoggedIn": "Ei suuda jälgitud kontosid kuvada, kuna te pole Twitchi kontoga sisse logitud. Palun logi sisse ja süngi jälgitud striimijad KlipTokiga, et seda funktsionaalsust kasutada", 
+
+	// Home Page
+	"DiscoverPopularClips": "Avasta Populaarseid Klippe",
+	"DiscoverClips": "Avasta Klippe",
+	"InsertCoin": "Sisesta Münt",
+	"MyFavoriteChannels": "Minu Lemmikud Striimijad",
+	"Favorites": "Lemmikud",
+	"ClipsILike": "Meelidvad Klipid", //Clips I Like
+	"LikedClips": "Laigitud Klipid",
+	"UserProfile": "Kasutaja profiil",
+
+	// Liked Clips
+	"NoLikedClips": "Te pole veel ühtegi klippi KlipTokis laikinud!",
+	"TryLikeButtonTemplate": "Proovi vajutada südame ikoonil {0} Klipi all, et seda Laikida ja kuvame me selle siin, et seda tulevikus lihtsam leida oleks", //  {0} is the heart icon
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok ei talleta eraldi kasutaja andmeid Twitchist, vaid on loodud teenusena Twitchi täiendamaks.", //KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch Clips.
+	"AutoPlayVideosOnScroll": "Auto-mängi videoid kerimisel",
+	"IndexClipsOfMyChannel": "Indekseeri minu Klipid",
+	"OptedOutDateTemplate": "Indekseerimisest loobutud: {0}", // {0} is the datestamp of when opt-out was recorded 
+	"SaveMyChanges": "Salvesta muudatused",
+	"SyncFollowersWithKlipTok": "Süngi jälgitud Striimijad KlipTokiga", // Sync Followed Streamers with KlipTok
+	"MutedChannels": "Vaigistatud Striimijad",
+	"Channel": "Striimija",
+	"MutedUntil": "Vaigistatud Kuni",
+	"RightToForget": "Õigus unustada",
+	"DangerZone": "[ Ohtlik Ala ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "Teil on õigus nõuda KlipTokilt Teie jagatud andmete kustutamist. Sellele lingile vajutades ja kinnitades eemaldab KlipTok kõik Teie Kommentaarid, Laigid ja Klipid",
+	"RemoveMyContentFromKlipTok": "Eemalda minu andmed KlipTokist",
+	"ForgottenAsOfTemplate": "Unustatud alates : {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Single Clip Page
+	"MissingClipError": "KlipTok ei oma selle Klipi kirjet. See kas ei eksisteeri või selle Twitchi kanal on loobunud KlipTokis osalemast.", 
+	"LikedBy": "Laikis:",
+	"UserLikedTimeTemplate": "{0} laikis {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "Vastuseks: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Sisesta uus Kommentaar...",
+	"LoginWithTwitchToComment": "Sisene Twitchiga, et kommenteerida",
+	"CommentButton": "Kommenteeri",
+
+	// Streamer Page
+	"MuteForLabel": "Vaigista:",
+	"StreamerIsMutedUntilTemplate": "Striimija on vaigistatud kuni: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Tühista vaigistus", // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Igaveseks", // Label for "Mute Forever" action button
+	"SortByLabel": "Sorteeri:",
+	"Views": "Vaatamised", // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Skoor", // A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Viimased", // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Klipid alates:", // Label above the date range filter component
+	"SearchButton": "Otsi", // Text on the search button to filter by date range
+	"ResetButton": "Lähtesta", // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Klippe pole saadaval",
+	"AddClipsForThisStreamer": "Lisa Klippe sellele Striimijale",
+	"NotifyOnOptIn": "Pane tähele: kui lisate Klippe sellele striimijale, palume et teavitate neid sellest. Meil ei ole otsest viisi striimijaga ühendust võtta" 
 }
