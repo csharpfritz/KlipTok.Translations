@@ -60,7 +60,32 @@
 	// Home Page
 	"DiscoverPopularClips": "Discover Popular Clips",
 	"DiscoverClips": "Discover Clips",
+	"InsertCoin": "Insert Coin",
+	"MyFavoriteChannels": "My Favorite Channels",
+	"Favorites": "Favorites",
+	"ClipsILike": "Clips I Like",
+	"LikedClips": "Liked Clips",
+	"UserProfile": "User Profile",
 
+	// Liked Clips
+	"NoLikedClips": "You haven't liked any clips on KlipTok yet!",
+	"TryLikeButtonTemplate": "Try clicking the heart icon {0} below a clip to 'like' it and we'll report it here for you so you can easily find it again in the future",
 
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch clips.",
+	"AutoPlayVideosOnScroll": "Auto-play videos on scroll",
+	"IndexClipsOfMyChannel": "Index clips of my channel",
+	"OptedOutDateTemplate": "Opted out of indexing on: {0}",
+	"SaveMyChanges": "Save my changes",
+	"SyncFollowersWithKlipTok":"Sync Followers with KlipTok",
+	"MutedChannels": "Muted Channels",
+	"Channel": "Channel",
+	"MutedUntil": "Muted Until",
+	"RightToForget": "Right to forget",
+	"DangerZone": "[ Danger Zone ]",
+	"RightToForgetDescription": "You have the right to request KlipTok forgets all information that you have shared.  By clicking this link and confirming, KlipTok will remove all of your comments, likes, and clips.",
+	"RemoveMyContentFromKlipTok": "Remove my content from KlipTok",
+	"ForgottenAsOfTemplate": "Forgotten as of : {0}",
+	
 
 }
