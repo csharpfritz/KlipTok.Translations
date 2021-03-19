@@ -18,7 +18,7 @@
 		"marcoruval"
 	],
 	"et-EE": [
-		"kgkopli"
+		"KGKopli"
 	],
 	"fr": [
 		"sptremblay"
@@ -26,17 +26,20 @@
 	"hr-HR": [
 		"mucnjakf"
 	],
+	"id-ID": [
+		"FreyaLWN"
+	],
 	"it-IT": [
 		"microjumper"
 	],
 	"nl-NL": [
 		"jkrooncoding",
-		"mdebruin93",
-		"reindertkorver",
+		"MdeBruin93",
+		"ReindertKorver",
 		"rickvdbosch"
 	],
 	"pl": [
-		"jakubociepa",
+		"JakubOciepa",
 		"mpanowicz",
 		"ptasznikarium"
 	],
