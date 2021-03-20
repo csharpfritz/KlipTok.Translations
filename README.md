@@ -1,5 +1,5 @@
 # KlipTok.Translations
-A collection of translation files for the KlipTok website
+A collection of translation files for the KlipTok website, as requested from the [KlipTok Feedback site](https://feedback.kliptok.com/posts/6/localization).  Updates and suggestions are always welcome.
 
 The en-US json file is a template that any other translation should mimic. Only the fields defined in this file are in use in KlipTok.
 
