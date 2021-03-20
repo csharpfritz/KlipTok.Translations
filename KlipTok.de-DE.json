@@ -2,43 +2,115 @@
 	// Components
 
 	// Clip
-	"Recorded": "{0} aufgenommen",
+	"Recorded": "{0} aufgenommen", // {0} ist der relative Zeitstempel der Aufnahme: "vor 3 Tagen"
 	"Likes": "Gefällt mir",
 	"Comments": "Kommentare",
 	"ClipViews": "Aufrufe",
-	"ShareThisClip": "Teile diesen Clip",
+	"ShareThisClip": "Diesen Clip teilen",
 	"KlipTokContentPlaceholder": "KlipTok Platzhalter",
 
 	// Comments
-	"ByLineFormat": "{1} hat am {0} geschrieben:",
+	"ByLineFormat": "{1} hat {0} geschrieben:", // {0} ist der relative Zeitstempel des Kommentars, {1} ist der Name des Kommentierenden
 	"Reply": "Antworten",
 
 	// Login View
 	"DarkMode": "Dunkles Design",
-	"LoginWithTwitch": "Einloggen mit Twitch",
+	"LoginWithTwitch": "Mit Twitch Einloggen",
 	"Logout": "Ausloggen",
 
 	// Header
 	"SearchForChannel": "Kanal suchen...",
-	"SearchNotFoundFormat": "{0} nicht gefunden",
+	"SearchNotFoundFormat": "Keine Ergebnisse für {0}", // {0} ist der Suchbegriff, der nicht gefunden wurde
 
 	// Sidebar
 	"SuggestedStreamers": "Vorgeschlagene Streamer",
-	"FollowedStreamers": "Streamer, denen du folgst",
+	"FollowedStreamers": "Streamer, denen ich folge",
 	"AllStreamers": "Alle Streamer",
 	"About": "Über uns",
 	"Close": "Schließen",
 
 	// Streamer Page
-	"ClickToFollow": "Klicken um zu Folgen",
-	"ClickToUnfollow": "Klicken um zu Entfolgen",
-	"ActionOnTwitchTemplate": "{0} auf Twitch",
+	"ClickToFollow": "Auf Twitch Folgen",
+	"ClickToUnfollow": "Auf Twitch Entfolgen",
+	"ActionOnTwitchTemplate": "{0} auf Twitch", // {0} wird ersetzt mit "Follow" oder "Unfollow" -> "Follow on Twitch"
 	"LiveOnTwitch": "Jetzt live auf Twitch!",
-	"ProfilePicTemplate": "{0} Profilbild",
+	"ProfilePicTemplate": "Profilbild von {0}", // {0} ist der Display Name des  Streamers
 	"TotalClipsOnKlipTok": "Clips gesamt auf KlipTok",
 	"TotalLikesAcrossAllClips": "Gefällt Mir gesamt",
 	"TotalCommentsAcrossAllClips": "Kommentare gesamt",
 	"TotalViewsAcrossAllClips": "Aufrufe gesamt",
-	"LastClipAdded": "Letzter Clip hinzugefügt:",
-	"NoProfilePicAvailable": "Kein Profilbild verfügbar"
+	"LastClipAdded": "Neuster Clip:",
+	"NoProfilePicAvailable": "Kein Profilbild verfügbar",
+
+
+	// Layout
+	"PublicBeta": "PUBLIC BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Von KlipTok und Twitch ausgeloggt",
+	"LoginToKlipTokWithTwitch": "Mit Twitch bei KlipTon anmelden",
+	"AuthenticationIsNoLongerValid": "Deine Authentifizierung mit Twitch und KlipTok ist nicht mehr gültig. Bitte melde dich mit Twitch an, um fortzufahren.",
+	"Loading": "Laden...",
+
+	// Errors
+	"ErrorWhileLoading": "Fehler beim Laden.",
+	"RetryButton": "Erneut versuchen",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Kanäle, denen ich folge",
+	"NotLoggedIn": "Bitte melde dich an, um Kanäle anzuzeigen, denen du folgst.",
+
+	// Home Page
+	"DiscoverPopularClips": "Beliebte Clips entdecken",
+	"DiscoverClips": "Clips entdecken",
+	"InsertCoin": "Insert Coin",
+	"MyFavoriteChannels": "Meine Favoriten",
+	"Favorites": "Favoriten",
+	"ClipsILike": "Clips, die ich mag",
+	"LikedClips": "Clips, die ich mag",
+	"UserProfile": "Profil",
+
+	// Liked Clips
+	"NoLikedClips": "Du hast noch bei keinem Clip 'Gefällt mir' geklickt!",
+	"TryLikeButtonTemplate": "Klicke unter einem Clip auf das Herz {0} and we'll report it here for you so you can easily find it again in the future",  // {0} ist das Herz Icon
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok speichert keine Nutzerinformation abseits von Twitch, and wurde als Service entwickelt, um Twitch Clips zu erweitern.",
+	"AutoPlayVideosOnScroll": "Videos beim Scrollen automatisch abspielen",
+	"IndexClipsOfMyChannel": "Meine Clips indizieren",
+	"OptedOutDateTemplate": "Automatische Indizierung abgewählt am: {0}", // {0} ist das Datum des Opt-outs
+	"SaveMyChanges": "Änderungen speichern",
+	"SyncFollowersWithKlipTok":"Kanäle, denen ich folge mit, KlipTop synchronisieren",
+	"MutedChannels": "Stummgeschaltete Streamer",
+	"Channel": "Kanal",
+	"MutedUntil": "Stummgeschaltet bis",
+	"RightToForget": "Recht auf Vergessenwerden",
+	"DangerZone": "[ Gefahrenzone ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "Du hast das Recht, dass KlipTok alle Informationen, die Du geteilt hast, löscht. Mit einem Klick auf diesen Link bestätigst Du, dass KlipTok alle deine Kommentare, Likes und Clips entfernt.",
+	"RemoveMyContentFromKlipTok": "Meine Informationen und Inhalte von KlipTok löschen",
+	"ForgottenAsOfTemplate": "Daten gelöscht am: {0}", // {0} ist das Datum, an dem die Datenlöschung veranlasst wurde
+
+	// Single Clip Page
+	"MissingClipError": "KlipTok kennt diesen Clip nicht. Entweder existiert er nicht, oder der Twitch Kanal hat die Indizirung auf KlipTok abgewählt.",
+	"LikedBy": "Gefällt:",
+	"UserLikedTimeTemplate": "{0} gefällt dieser Clip", // {0} ist der Displayname des Nutzers, dem der Clip gefällt, {1} ist der relative Zeitstempel
+	"InReplyToTemplate": "Antwort auf {0}", // {0} ist der Displayname des Nutzers, auf dessen Kommentar geantwortet wird
+	"EnterNewComment": "Neuer Kommentar...",
+	"LoginWithTwitchToComment": "Mit Twitch einloggen, um zu kommentieren",
+	"CommentButton": "Kommentieren",
+
+	// Streamer Page
+	"MuteForLabel": "Stummschalten für:",
+	"StreamerIsMutedUntilTemplate": "Streamer ist stummgeschaltet bis: {0}", // {0} ist das Datum, wenn die Stummschaltung ausläuft
+	"NoMute": "Stummschaltung aufheben",   // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Immer",   // Label for "Mute Forever" action button
+	"SortByLabel": "Sortiere nach:",
+	"Views": "Aufrufe",     // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Beste", 		// A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Neueste",  // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Clips von:",   // Label above the date range filter component
+	"SearchButton": "Suchen",  // Text on the search button to filter by date range
+	"ResetButton": "Zurücksetzen",    // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Keine Clips verfügbar",
+	"AddClipsForThisStreamer": "Clips für diesen Streamer hinzufügen",
+	"NotifyOnOptIn": "Hinweis: Wenn du für diesen Streamer Clips hinzufügst, benachrichtige ihn bitte darüber. Wir haben leider keine Möglichkeit, den Streamer darüber zu infomieren."
+
 }
