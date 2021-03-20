@@ -70,7 +70,7 @@
 
 	// Liked Clips
 	"NoLikedClips": "Du hast noch bei keinem Clip 'Gefällt mir' geklickt!",
-	"TryLikeButtonTemplate": "Klicke unter einem Clip auf das Herz {0} and we'll report it here for you so you can easily find it again in the future",  // {0} ist das Herz Icon
+	"TryLikeButtonTemplate": "Klicke unter einem Clip auf das Herz {0}. Clips, die dir gefallen, werden hier angezeigt, damit du sie leicht wiederfindest.",  // {0} ist das Herz Icon
 
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok speichert keine Nutzerinformation abseits von Twitch, and wurde als Service entwickelt, um Twitch Clips zu erweitern.",
