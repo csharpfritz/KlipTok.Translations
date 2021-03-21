@@ -1,0 +1,61 @@
+{
+	"da-DK": [
+		"smc83dk"
+	],
+  	"de-DE": [
+		"binber18",
+		"fstreicher"
+	],
+	"en-US": [
+		"csharpfritz"
+	],
+	"en-GB": [
+		"smabuk"	
+	],
+	"es": [
+		"chepew23",
+		"jahnog",
+		"marcoruval"
+	],
+	"et-EE": [
+		"KGKopli"
+	],
+	"fi-FI": [
+		"JoelLamsi"
+	],
+	"fr": [
+		"sptremblay"
+	],
+	"hr-HR": [
+		"mucnjakf"
+	],
+	"id-ID": [
+		"FreyaLWN"
+	],
+	"it-IT": [
+		"microjumper"
+	],
+	"nl-NL": [
+		"jkrooncoding",
+		"MdeBruin93",
+		"ReindertKorver",
+		"rickvdbosch"
+	],
+	"pl": [
+		"JakubOciepa",
+		"mpanowicz",
+		"ptasznikarium"
+	],
+	"pt-BR": [
+		"rafaeldca"
+	],
+	"ru": [
+		"tryonelove"
+	],
+	"sw": [
+		"adrwer"
+	],
+	"uk": [
+		"nikolaylutsenko"
+	]
+}

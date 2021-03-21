@@ -10,7 +10,7 @@
 	"KlipTokContentPlaceholder": "KlipTok Content Placeholder",
 
 	// Comments
-	"ByLineFormat": "At {0} {1} wrote:",  // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"ByLineFormat": "At {0}, {1} wrote:",  // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Reply",
 
 	// Login View
@@ -19,7 +19,7 @@
 	"Logout": "Logout",
 
 	// Header
-	"SearchForChannel": "Search for a Streamer...",
+	"SearchForChannel": "Search for a channel...",
 	"SearchNotFoundFormat": "{0} not found", // {0} is the search term that was not found
 
 	// Sidebar
@@ -35,16 +35,13 @@
 	"ActionOnTwitchTemplate": "{0} on Twitch",   // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "Live on Twitch now!",
 	"ProfilePicTemplate": "{0} profile pic",    // {0} is the Streamer's Display Name
-	"TotalClipsOnKlipTok": "Total Clips on KlipTok",
-	"TotalLikesAcrossAllClips": "Total Likes across all Clips",
-	"TotalCommentsAcrossAllClips": "Total Comments across all Clips",
-	"TotalViewsAcrossAllClips": "Total views across all Clips",
+	"TotalClipsOnKlipTok": "Total clips on KlipTok",
+	"TotalLikesAcrossAllClips": "Total Likes across all clips",
+	"TotalCommentsAcrossAllClips": "Total comments across all clips",
+	"TotalViewsAcrossAllClips": "Total views across all clips",
 	"LastClipAdded": "Last Clip Added:",
 	"LastClip": "Last Clip:",
 	"NoProfilePicAvailable": "No profile pic available",
-	"DateRangePicker_Start": "Start Date",  // The Start Date label on the filter on the streamer page
-	"DateRangePicker_End": "End Date",			// The End Date label on the filter on the streamer page
-	"ShareStreamer": "Share Streamer",		// The tooltip for the Share button on the streamer page
 
 	// Layout
 	"PublicBeta": "PUBLIC BETA",
@@ -58,46 +55,46 @@
 	"RetryButton": "Retry",
 
 	// Follows page
-	"TwitchChannelsIFollow": "Twitch Streamers I Follow",
+	"TwitchChannelsIFollow": "Twitch Channels I Follow",
 	"NotLoggedIn": "Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followed streamers with KlipTok to access this functionality.",
 
 	// Home Page
 	"DiscoverPopularClips": "Discover Popular Clips",
 	"DiscoverClips": "Discover Clips",
 	"InsertCoin": "Insert Coin",
-	"MyFavoriteChannels": "My Favorite Streamers",
-	"Favorites": "Favorites",
+	"MyFavoriteChannels": "My Favourite Channels",
+	"Favorites": "Favourites",
 	"ClipsILike": "Clips I Like",
 	"LikedClips": "Liked Clips",
 	"UserProfile": "User Profile",
 
 	// Liked Clips
-	"NoLikedClips": "You haven't liked any Clips on KlipTok yet!",
-	"TryLikeButtonTemplate": "Try clicking the heart icon {0} below a Clip to 'Like' it and we'll report it here for you so you can easily find it again in the future",  //  {0} is the heart icon
+	"NoLikedClips": "You haven't liked any clips on KlipTok yet!",
+	"TryLikeButtonTemplate": "Try clicking the heart icon {0} below a clip to 'like' it and we'll report it here for you so you can easily find it again in the future",  //  {0} is the heart icon
 
 	// User Profile
-	"DoesNotKeepSeparateUserInformation": "KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch Clips.",
+	"DoesNotKeepSeparateUserInformation": "KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch clips.",
 	"AutoPlayVideosOnScroll": "Auto-play videos on scroll",
-	"IndexClipsOfMyChannel": "Index my Clips",
+	"IndexClipsOfMyChannel": "Index clips of my channel",
 	"OptedOutDateTemplate": "Opted out of indexing on: {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Save my changes",
-	"SyncFollowersWithKlipTok":"Sync Followed Streamers with KlipTok",
-	"MutedChannels": "Muted Streamers",
-	"Channel": "Streamer",
+	"SyncFollowersWithKlipTok":"Sync Followers with KlipTok",
+	"MutedChannels": "Muted Channels",
+	"Channel": "Channel",
 	"MutedUntil": "Muted Until",
 	"RightToForget": "Right to forget",
 	"DangerZone": "[ Danger Zone ]",     // This is a label indicating the items beneath it make destructive changes to your record on the application 
-	"RightToForgetDescription": "You have the right to request KlipTok forgets all information that you have shared.  By clicking this link and confirming, KlipTok will remove all of your Comments, Likes, and Clips.",
+	"RightToForgetDescription": "You have the right to request that KlipTok forgets all of the information that you have shared.  By clicking this link and confirming, KlipTok will remove all of your comments, likes, and clips.",
 	"RemoveMyContentFromKlipTok": "Remove my content from KlipTok",
 	"ForgottenAsOfTemplate": "Forgotten as of : {0}", // {0} is the datestamp of when the 'forget' action was taken
 
 	// Single Clip Page
-	"MissingClipError": "KlipTok does not have a record of this Clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok.",
+	"MissingClipError": "KlipTok does not have a record of this clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok.",
 	"LikedBy": "Liked By:",
 	"UserLikedTimeTemplate": "{0} liked {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
 	"InReplyToTemplate": "In reply to: {0}", // {0} is the user display name whose comment we are replying to
-	"EnterNewComment": "Enter new Comment...",
-	"LoginWithTwitchToComment": "Login with Twitch to Comment",
+	"EnterNewComment": "Enter new comment...",
+	"LoginWithTwitchToComment": "Login with Twitch to comment",
 	"CommentButton": "Comment",
 
 	// Streamer Page
@@ -106,7 +103,7 @@
 	"NoMute": "Unmute",   // Remove the mute effect on this streamer so that you can see their content again
 	"Forever": "Forever",   // Label for "Mute Forever" action button
 	"SortByLabel": "Sort by:",
-	"Views": "Views",     // The number of Clip Views for a Clip that we are sorting by
+	"Views": "Views",     // The number of Clip Views for a clip that we are sorting by
 	"Score": "Score", 		// A reference to the KlipTok algorithm assigned score for this Clip
 	"Latest": "Latest",  // A selector for the sort order to indicate the most recent created Clips should appear first
 	"ClipsFromLabel": "Clips from:",   // Label above the date range filter component
@@ -114,6 +111,6 @@
 	"ResetButton": "Reset",    // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "No Clips Available",
 	"AddClipsForThisStreamer": "Add Clips for this Streamer",
-	"NotifyOnOptIn": "Please note: if you add Clips for this streamer, we kindly request you notify them that you have added their Clips to this site.  We have no direct way to reach out to the broadcaster."
+	"NotifyOnOptIn": "Please note: if you add clips for this streamer, we kindly request you notify them that you have added their clips to this site.  We have no direct way to reach out to the broadcaster."
 
 }
