@@ -1,0 +1,114 @@
+{
+	// Components
+
+	// Clip
+	"Recorded": "Tallennettu {0}",
+	"Likes": "Tykkäykset",
+	"Comments": "Kommentit",
+	"ClipViews": "Leikkeen Katselumäärä",
+	"ShareThisClip": "Jaa tämä Leike",
+	"KlipTokContentPlaceholder": "KlipTok-sisällön Paikkamerkki",
+
+	// Comments
+	"ByLineFormat": "{0} {1} kirjoitti:",
+	"Reply": "Vastaa",
+
+	// Login View
+	"DarkMode": "Tumma Tila",
+	"LoginWithTwitch": "Twitch Sisäänkirjautuminen",
+	"Logout": "Kirjaudu ulos",
+
+	// Header
+	"SearchForChannel": "Kanavan haku...",
+	"SearchNotFoundFormat": "{0} ei löydetty",
+
+	// Sidebar
+	"SuggestedStreamers": "Ehdotetut Lähetykset",
+	"FollowedStreamers": "Seuratut Lähetykset",
+	"AllStreamers": "Kaikki Lähetykset",
+	"About": "Tietoa",
+	"Close": "Sulje",
+
+	// Streamer Page
+	"ClickToFollow": "Seuraa",
+	"ClickToUnfollow": "Lopeta Seuraaminen",
+	"ActionOnTwitchTemplate": "{0} on Twitch",
+	"LiveOnTwitch": "Juuri nyt Suoratoistona Twitchissä!",
+	"ProfilePicTemplate": "{0} profiilikuva",
+	"TotalClipsOnKlipTok": "Leikkeitä yhteensä KlipTokissa",
+	"TotalLikesAcrossAllClips": "Leikkeiden Tykkäykset yhteensä",
+	"TotalCommentsAcrossAllClips": "Leikkeiden Kommentoinnit yhteensä",
+	"TotalViewsAcrossAllClips": "Leikkeiden katsomiskerrat yhteensä",
+	"LastClipAdded": "Viimeksi Lisätty Leike:",
+	"LastClip": "Viimeisin Leike:",
+	"NoProfilePicAvailable": "Profiilikuva ei käytettävissä",
+
+	// Layout
+	"PublicBeta": "PUBLIC BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Uloskirjauduttu KlipTokista ja Twitchistä",
+	"LoginToKlipTokWithTwitch": "Kirjaudu KlipTokiin Twitchistä",
+	"AuthenticationIsNoLongerValid": "Sisäänkirjautuminen KlipTokiin on vanhentunut. Jatkaaksesi kirjaudu sisään uudelleen Twitchin kautta.",
+
+	// Errors
+	"ErrorWhileLoading": "Virhe tapahtui ladatessa.",
+	"RetryButton": "Yritä uudelleen",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Seuraamani Twitch Kanavat",
+	"NotLoggedIn": "Seuraamiasi tilejä ei voida näyttää koska et ole kirjautunut Twitch-tililläsi. Tämä toiminto vaatii sisänkirjautumista, jotta seuraamasi kanavat synkronoi.",
+	// Home Page
+	"DiscoverPopularClips": "Selaa Suosittuja Leikkeitä",
+	"DiscoverClips": "Selaa Leikkeitä",
+	"InsertCoin": "Syötä Kolikko",
+	"MyFavoriteChannels": "Suosikki Kanavani",
+	"Favorites": "Suosikit",
+	"ClipsILike": "Tykkäämäni Leikkeet",
+	"LikedClips": "Tykätyt Leikkeet",
+	"UserProfile": "Käyttäjän Profiili",
+
+	// Liked Clips
+	"NoLikedClips": "Et ole vielä tykännyt KlipTok leikkeistä!",
+	"TryLikeButtonTemplate": "'Tykkää' painamalla leikkeen alla olevasta sydämmestä {0}, jotta löydät leikkeen jatkossa",
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok ei tallenna Twitchin erinäisiä käyttäjätietoja, ja palvelee Twitch videoleikkeiden lisäyksenä.",
+	"AutoPlayVideosOnScroll": "Toista videot selatessa",
+	"IndexClipsOfMyChannel": "Luetteloi kanavani leikkeet",
+	"OptedOutDateTemplate": "Opted out of indexing on: {0}",
+	"SaveMyChanges": "Tallenna muutokset",
+	"SyncFollowersWithKlipTok":"Synkronoi Seuraajat KlipTokista",
+	"MutedChannels": "Mykistetyt Kanavat",
+	"Channel": "Kanava",
+	"MutedUntil": "Mykistä",
+	"RightToForget": "Tietojen poistamisen oikeudet",
+	"DangerZone": "[ Danger Zone ]",
+	"RightToForgetDescription": "Kaikki jakamasi tiedot poistetaan kokonaan KlipTokista. Kommentit, tykkäykset ja videoleikkeet tullaan poistamaan alla olevasta painikkeesta.",
+	"RemoveMyContentFromKlipTok": "Poista sisältöni KlipTokista",
+	"ForgottenAsOfTemplate": "Poistettu: {0}",
+
+	// Single Clip Page
+	"MissingClipError": "Videoleikkeen tallennetta ei löydetty. Joko leikettä ei ole tai Twitch kanava ei ole osallinen KlipTok-palvelussa.",
+	"LikedBy": "Tykkäys käyttäjältä:",
+	"UserLikedTimeTemplate": "{0} tykkäsi {1} leikkeestä", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "Vastauksena käyttäjälle: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Lisää kommentti...",
+	"LoginWithTwitchToComment": "Kirjaudu Twitchiin kommentoidaksesi",
+	"CommentButton": "Kommentoi",
+
+	// Streamer Page
+	"MuteForLabel": "Mykistä:",
+	"StreamerIsMutedUntilTemplate": "Striimaja mykistys päättyy: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Lopeta mykiastys",   // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Toistaiseksi",   // Label for "Mute Forever" action button
+	"SortByLabel": "Suodata:",
+	"Views": "Katselukerrat",     // The number of Clip Views for a clip that we are sorting by
+	"Score": "Pisteytys", 		// A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Latest",  // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Leikkeet ajalta:",   // Label above the date range filter component
+	"SearchButton": "Hae",  // Text on the search button to filter by date range
+	"ResetButton": "Nollaa",    // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Leikkeitä ei löydetty",
+	"AddClipsForThisStreamer": "Lisää Leikkeet Striimaajalle",
+	"NotifyOnOptIn": "Huomautus: Mikäli lisäät leikkeitä pyydämme että olet yhteydessä ensin kyseiseen Stríimaajaan.",
+
+}
