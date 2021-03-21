@@ -1,0 +1,116 @@
+{
+	// Components
+
+	// Clip
+	"Recorded": "Записано {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
+	"Likes": "Вподобання",
+	"Comments": "Коментарі",
+	"ClipViews": "Перегляди",
+	"ShareThisClip": "Поширити цей запис",
+	"KlipTokContentPlaceholder": "KlipTok заповнювач контенту",
+
+	// Comments
+	"ByLineFormat": "О {0} {1} написав:",  // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"Reply": "Відповісти",
+
+	// Login View
+	"DarkMode": "Темна Тема",
+	"LoginWithTwitch": "Увійти через Twitch",
+	"Logout": "Вийти",
+
+	// Header
+	"SearchForChannel": "Знайти Стримера...",
+	"SearchNotFoundFormat": "{0} не знайдено", // {0} is the search term that was not found
+
+	// Sidebar
+	"SuggestedStreamers": "Запропоновані Стримери",
+	"FollowedStreamers": "Відстежувані Стримери",
+	"AllStreamers": "Всі Стримери",
+	"About": "Опис",
+	"Close": "Зачинити",
+
+	// Streamer Page
+	"ClickToFollow": "Натисни, щоб стежити",
+	"ClickToUnfollow": "Натисни, щоб припинити стежити",
+	"ActionOnTwitchTemplate": "{0} на Twitch",   // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+	"LiveOnTwitch": "Єфір наживо на Twitch зараз!",
+	"ProfilePicTemplate": "{0} зображення користувача",    // {0} is the Streamer's Display Name
+	"TotalClipsOnKlipTok": "Загальна кількість кліпів у KlipTok",
+	"TotalLikesAcrossAllClips": "Загальна кількість вподобань кліпів",
+	"TotalCommentsAcrossAllClips": "Загальна кількість коментарів кліпів",
+	"TotalViewsAcrossAllClips": "Загальна кількість переглядів кліпів ",
+	"LastClipAdded": "Останній доданий кліп:",
+	"LastClip": "Останній кліп:",
+	"NoProfilePicAvailable": "Немає зображення користувача",
+
+	// Layout
+	"PublicBeta": "ПУБЛІЧНА БЕТА",
+	"LoggedOutFromKlipTokAndTwitch": "Вийти з KlipTok та Twitch",
+	"LoginToKlipTokWithTwitch": "Увійти до KlipTok за допомогою Twitch",
+	"AuthenticationIsNoLongerValid": "Ваша авторизація на Twitch та KlipTok більше не дійсна. Будь-ласка, авторизуйтесь у KlipTok за допомогою Twitch, щоб продовжити.",
+	"Loading": "Завантаження...",
+
+	// Errors
+	"ErrorWhileLoading": "При завантаженні сталася помилка.",
+	"RetryButton": "Оновити",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Стримери Twitch, відстежувані мною",
+	"NotLoggedIn": "Неможливо відобразити записи користувачів, за якими Ви стежите у Twitch, бо Ви не увійшли у свій Twitch профіль. Будь ласка, увійдіть та оновіть Стримерів, за якими Ви слідкуєте у KlipTok щоб користуватись цією функцією.",
+
+	// Home Page
+	"DiscoverPopularClips": "Пошук популярних Кліпів",
+	"DiscoverClips": "Знайти Кліпи",
+	"InsertCoin": "Вкиньте Гривню",
+	"MyFavoriteChannels": "Мої улюблені Стримери",
+	"Favorites": "Улюблені",
+	"ClipsILike": "Кліпи, які сподобались",
+	"LikedClips": "Вподобані Кліпи",
+	"UserProfile": "Профіль Користувача",
+
+	// Liked Clips
+	"NoLikedClips": "У Вас ще не має вподобаних кліпів у KlipTok!",
+	"TryLikeButtonTemplate": "Спробуйте натиснути на зображення серця {0} внизу Кліпа щоб поставити 'Вподобання' щоб Ви його змогли швидко знайти у майбутньому",  //  {0} is the heart icon
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok не зберігає окремо інформацію користувача з Twitch та використовується для того, щоб збільшити кількість Кліпів у Twitch.",
+	"AutoPlayVideosOnScroll": "Автоматичне відтворення відео при гортанні",
+	"IndexClipsOfMyChannel": "Індексувати мої Кліпи Index my Clips",
+	"OptedOutDateTemplate": "Індексація завершена о: {0}", // {0} is the datestamp of when opt-out was recorded 
+	"SaveMyChanges": "Зберегти мої зміни",
+	"SyncFollowersWithKlipTok":"Синхронізувати відстежуваних Стримеріз з KlipTok",
+	"MutedChannels": "Приглушені Стримери",
+	"Channel": "Стример",
+	"MutedUntil": "Приглушити до",
+	"RightToForget": "Право на забуття",
+	"DangerZone": "[ Небезпечна Зона ]",     // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "Ви маєте право запросити у KlipTok забути усю інформацію яку Ви поширювали.  Натискаючи на це посилання і підтверджуючи, KlipTok видалить усі Ваші Коментарі, Вподобання та Кліпи.",
+	"RemoveMyContentFromKlipTok": "Видалити мій контент з KlipTok",
+	"ForgottenAsOfTemplate": "Забутий з: {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Single Clip Page
+	"MissingClipError": "KlipTok не має запису цього Кліпу. Він або не існує, або канал на Twitch не давав згоди на розміщення у KlipTok.",
+	"LikedBy": "Вподобано:",
+	"UserLikedTimeTemplate": "{0} вподобано {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "Відповідаючи: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Залиште новий коментар...",
+	"LoginWithTwitchToComment": "Увійдіь у Twitch, щоб прокоментувати",
+	"CommentButton": "Кометар",
+
+	// Streamer Page
+	"MuteForLabel": "Приглушити:",
+	"StreamerIsMutedUntilTemplate": "Стример приглушений до: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Відмінити приглушення",   // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Назавжди",   // Label for "Mute Forever" action button
+	"SortByLabel": "Сортувати за:",
+	"Views": "Перегляди",     // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Оцінки", 		// A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Найсвіжіші",  // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Кліпи з:",   // Label above the date range filter component
+	"SearchButton": "Пошук",  // Text on the search button to filter by date range
+	"ResetButton": "Скинути",    // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Немає доступних кліпів",
+	"AddClipsForThisStreamer": "Додати кліпи цього Стримера",
+	"NotifyOnOptIn": "Будь ласка, зауважте: якщо Ви додаєте кліпи цього Стримера, ми дуже просимо Вас повідомити його (Стримера-Власника), що Ви додали цого кліпи на KlipTok. Ми не маємо змоги напряму зв'язатися з ним та повідомити."
+
+}
