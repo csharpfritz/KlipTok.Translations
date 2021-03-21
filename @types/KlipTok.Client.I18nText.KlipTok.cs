@@ -223,6 +223,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"{0} not found"</summary>
         public string SearchNotFoundFormat;
 
+        /// <summary>"Share Streamer"</summary>
+        public string ShareStreamer;
+
         /// <summary>"Share this Clip"</summary>
         public string ShareThisClip;
 
