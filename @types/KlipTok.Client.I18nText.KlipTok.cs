@@ -61,6 +61,12 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Dark Mode"</summary>
         public string DarkMode;
 
+        /// <summary>"End Date"</summary>
+        public string DateRangePicker_End;
+
+        /// <summary>"Start Date"</summary>
+        public string DateRangePicker_Start;
+
         /// <summary>"Discover Clips"</summary>
         public string DiscoverClips;
 
