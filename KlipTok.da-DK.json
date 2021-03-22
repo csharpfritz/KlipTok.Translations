@@ -64,7 +64,7 @@
 	"DiscoverPopularClips": "Opdag Populære Klip",
 	"DiscoverClips": "Opdag Klip",
 	"InsertCoin": "Indkast mønt",
-	"MyFavoriteChannels": "Mine favorit-streamers",
+	"MyFavoriteChannels": "Mine favoritter",
 	"Favorites": "Favoritter",
 	"ClipsILike": "Klip jeg liker",
 	"LikedClips": "Likede Klip",
@@ -80,7 +80,7 @@
 	"IndexClipsOfMyChannel": "Indekser mine Klip",
 	"OptedOutDateTemplate": "Fravalgt indeksering pr. den: {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Gem ændringer",
-	"SyncFollowersWithKlipTok":"Synkromiser Streamers, Du Følger med KlipTok",
+	"SyncFollowersWithKlipTok":"Synkroniser Streamers, Du Følger med KlipTok",
 	"MutedChannels": "Streamers, der er slået fra",
 	"Channel": "Streamer",
 	"MutedUntil": "Slået fra indtil",
