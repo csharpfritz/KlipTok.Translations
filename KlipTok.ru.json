@@ -2,15 +2,15 @@
 	// Components
 
 	// Clip
-	"Recorded": "Создано {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
-	"Likes": "Лайков",
-	"Comments": "Комментариев",
-	"ClipViews": "Просмотров",
-	"ShareThisClip": "Поделиться кипом",
+	"Recorded": "Создан {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
+	"Likes": "Нравится",
+	"Comments": "Комментарии",
+	"ClipViews": "Просмотры",
+	"ShareThisClip": "Поделиться Клипом",
 	"KlipTokContentPlaceholder": "KlipTok Content Placeholder",
 
 	// Comments
-	"ByLineFormat": "{1} в {0}:",  // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"ByLineFormat": "{1} в {0}:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Ответить",
 
 	// Login View
@@ -19,98 +19,101 @@
 	"Logout": "Выйти",
 
 	// Header
-	"SearchForChannel": "Найти стримера...",
+	"SearchForChannel": "Найти Стримера...",
 	"SearchNotFoundFormat": "{0} не найден", // {0} is the search term that was not found
 
 	// Sidebar
-	"SuggestedStreamers": "Предлагаемые стримеры",
-	"FollowedStreamers": "Отслеживаемые стримеры",
-	"AllStreamers": "Все стримеры",
+	"SuggestedStreamers": "Предлагаемые Стримеры",
+	"FollowedStreamers": "Отслеживаемые Стримеры",
+	"AllStreamers": "Все Стримеры",
 	"About": "О нас",
 	"Close": "Закрыть",
 
 	// Streamer Page
 	"ClickToFollow": "Отслеживать",
-	"ClickToUnfollow": "Перестать отслеживать",
-	"ActionOnTwitchTemplate": "{0} на Twitch",   // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+	"ClickToUnfollow": "Перестать Отслеживать",
+	"ActionOnTwitchTemplate": "{0} на Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "Ведет трансляцию на Twitch!",
-	"ProfilePicTemplate": "Фотография профиля {0}",    // {0} is the Streamer's Display Name
-	"TotalClipsOnKlipTok": "Всего клипов на KlipTok",
-	"TotalLikesAcrossAllClips": "Всего отметок нравится среди всех клипов",
-	"TotalCommentsAcrossAllClips": "Всего комментариев среди всех клипов",
-	"TotalViewsAcrossAllClips": "Всего просмотров среди всех клипов",
-	"LastClipAdded": "Последний добавленный клип:",
-	"LastClip": "Последний клип:",
+	"ProfilePicTemplate": "Фотография профиля {0}", // {0} is the Streamer's Display Name
+	"TotalClipsOnKlipTok": "Всего Клипов на KlipTok",
+	"TotalLikesAcrossAllClips": "Всего отметок Нравится среди всех Клипов",
+	"TotalCommentsAcrossAllClips": "Всего комментариев среди всех Клипов",
+	"TotalViewsAcrossAllClips": "Всего просмотров среди всех Клипов",
+	"LastClipAdded": "Последний добавленный Клип:",
+	"LastClip": "Последний Клип:",
 	"NoProfilePicAvailable": "Фотография профиля недоступна",
+	"DateRangePicker_Start": "С", // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "По", // The End Date label on the filter on the streamer page
+	"ShareStreamer": "Поделиться ссылкой на канал Стримера", // The tooltip for the Share button on the streamer page
 
 	// Layout
 	"PublicBeta": "PUBLIC BETA",
-	"LoggedOutFromKlipTokAndTwitch": "Выход из KlipTok и Twitch",
-	"LoginToKlipTokWithTwitch": "Зайти на KlipTok с помощью Twitch",
+	"LoggedOutFromKlipTokAndTwitch": "Выйти из KlipTok",
+	"LoginToKlipTokWithTwitch": "Войти на KlipTok с помощью Twitch",
 	"AuthenticationIsNoLongerValid": "Ваша авторизация Twitch и KlipTok недействительна. Пожалуйста, войдите на KlipTok с помощью Twitch.",
 	"Loading": "Загрузка...",
 
 	// Errors
-	"ErrorWhileLoading": "Ошибка прпи загрузке.",
+	"ErrorWhileLoading": "Ошибка при загрузке.",
 	"RetryButton": "Попробовать снова.",
 
 	// Follows page
-	"TwitchChannelsIFollow": "Стримеры, которых я отслеживаю",
-	"NotLoggedIn": "Не удалось отобразить записи отслеживаемых стримеров, потому что вы не зашли с помощью Twitch аккаунта. Пожалуйста, войдите и синхронизируйте всех своих отслеживаемых стримеров с KlipTok, чтобы получить доступ ко всем возможностям.",
+	"TwitchChannelsIFollow": "Стримеры, которых я Отслеживаю",
+	"NotLoggedIn": "Не удалось отобразить записи отслеживаемых стримеров, потому что вы не вошли с помощью Twitch аккаунта. Пожалуйста, войдите и синхронизируйте всех своих отслеживаемых стримеров с KlipTok, чтобы получить доступ ко всем возможностям.",
 
 	// Home Page
-	"DiscoverPopularClips": "Новые популярные клипы",
-	"DiscoverClips": "Новые клипы",
-	"InsertCoin": "Insert Coin",
-	"MyFavoriteChannels": "Мои любимые стримеры",
-	"Favorites": "Любимые",
+	"DiscoverPopularClips": "Новые популярные Клипы",
+	"DiscoverClips": "Новые Клипы",
+	"InsertCoin": "Вставьте Монету",
+	"MyFavoriteChannels": "Отслеживаемые Cтримеры",
+	"Favorites": "Отслеживаемые",
 	"ClipsILike": "Клипы, которые мне нравятся",
-	"LikedClips": "Понравившиеся клипы",
+	"LikedClips": "Понравившиеся Клипы",
 	"UserProfile": "Профиль",
 
 	// Liked Clips
-	"NoLikedClips": "Вы еще не оценили ни одного клипа на KlipTok!",
-	"TryLikeButtonTemplate": "Попробуйте нажать на сердечко {0} под клипом, чтобы поставить отметку нравится и мы сохраним его здесть, чтобы Вы могли легко найти этот клип в будущем",  //  {0} is the heart icon
+	"NoLikedClips": "Вы еще не оценили ни одного Клипа на KlipTok!",
+	"TryLikeButtonTemplate": "Попробуйте нажать на сердечко {0} под клипом, чтобы поставить отметку Нравится и мы сохраним его здесть, чтобы Вы могли легко найти этот клип в будущем", //  {0} is the heart icon
 
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok не хранит информацию о пользователях и был создан исключительно для того, чтобы собирать клипы с Twitch.",
 	"AutoPlayVideosOnScroll": "Автоматическое воспроизведение клипов при прокрутке",
-	"IndexClipsOfMyChannel": "Проиндексировать мои клипы",
+	"IndexClipsOfMyChannel": "Проиндексировать мои Клипы",
 	"OptedOutDateTemplate": "Индексация закончена: {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Сохранить мои изменения",
-	"SyncFollowersWithKlipTok":"Синхронизировать отслеживаемых стримеров с KlipTok",
-	"MutedChannels": "Muted Streamers",
+	"SyncFollowersWithKlipTok": "Синхронизировать отслеживаемых Стримеров с KlipTok",
+	"MutedChannels": "Стримеры которых вы скрыли",
 	"Channel": "Стример",
-	"MutedUntil": "Muted Until",
-	"RightToForget": "Направо, чтобы забыть",
-	"DangerZone": "[ Опасная Зона ]",     // This is a label indicating the items beneath it make destructive changes to your record on the application 
-	"RightToForgetDescription": "У вас есть возможность запросить удаление своей информации с KlipTok. После нажатия на ссылку и подтверждения действия, KlipTok удалит все ваши комментарии, отметки нравится и клипы.",
+	"MutedUntil": "Скрыт до",
+	"RightToForget": "Право на забвение",
+	"DangerZone": "[ Опасная Зона ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "У вас есть возможность запросить удаление своей информации с KlipTok. После нажатия на ссылку и подтверждения действия, KlipTok удалит все ваши комментарии, отметки Нравится и Клипы.",
 	"RemoveMyContentFromKlipTok": "Удалить мои данные с KlipTok",
 	"ForgottenAsOfTemplate": "Информация была удалена: {0}", // {0} is the datestamp of when the 'forget' action was taken
 
 	// Single Clip Page
-	"MissingClipError": "KlipTok не удалось найти клип.  Либо клип был удален, либо стример запретил использовать свои клипы на KlipTok.",
-	"LikedBy": "Оценили:",
+	"MissingClipError": "KlipTok не удалось найти Клип.  Либо Клип был удален, либо стример запретил использовать свои клипы на KlipTok.",
+	"LikedBy": "Понравилось:",
 	"UserLikedTimeTemplate": "{0} нравится {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
 	"InReplyToTemplate": "В ответ на: {0}", // {0} is the user display name whose comment we are replying to
 	"EnterNewComment": "Введите комментарий...",
-	"LoginWithTwitchToComment": "Зайдите с помощью Twitch, чтобы комментировать",
+	"LoginWithTwitchToComment": "Войдите с помощью Twitch, чтобы комментировать",
 	"CommentButton": "Комментировать",
 
 	// Streamer Page
-	"MuteForLabel": "Mute for:",
-	"StreamerIsMutedUntilTemplate": "Streamer is muted until: {0}", // {0} is a datestamp of when the mute operation ends
-	"NoMute": "Unmute",   // Remove the mute effect on this streamer so that you can see their content again
-	"Forever": "Навсегда",   // Label for "Mute Forever" action button
-	"SortByLabel": "Отсортировать по:",
-	"Views": "Просмотры",     // The number of Clip Views for a Clip that we are sorting by
-	"Score": "Очки", 		// A reference to the KlipTok algorithm assigned score for this Clip
-	"Latest": "Последним",  // A selector for the sort order to indicate the most recent created Clips should appear first
-	"ClipsFromLabel": "Клипы с:",   // Label above the date range filter component
-	"SearchButton": "Поиск",  // Text on the search button to filter by date range
-	"ResetButton": "Сбросить",    // Text on the reset button to no longer filter by date range
-	"NoClipsAvailable": "Нет доступных клипов",
-	"AddClipsForThisStreamer": "Добавить клипы этого стримера",
-	"NotifyOnOptIn": "Обратите внимание: если вы хотите добавить клипы этого стримера, мы убедительно просим уведомить их о добавлении клипов на наш сайт. У нас нет возможности связаться со всеми стримерами."
+	"MuteForLabel": "Скрыть:",
+	"StreamerIsMutedUntilTemplate": "Стример скрыт до: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Не скрывать", // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Навсегда", // Label for "Mute Forever" action button
+	"SortByLabel": "Сортировать по:",
+	"Views": "Просмотры", // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Рейтинг", // A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Последним", // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Клипы:", // Label above the date range filter component
+	"SearchButton": "Поиск", // Text on the search button to filter by date range
+	"ResetButton": "Сбросить", // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Нет доступных Клипов",
+	"AddClipsForThisStreamer": "Добавить Клипы этого Стримера",
+	"NotifyOnOptIn": "Обратите внимание: если вы хотите добавить Клипы этого Стримера, мы убедительно просим уведомить их о добавлении Клипов на наш сайт. У нас нет возможности связаться со всеми Стримерами."
 
 }
