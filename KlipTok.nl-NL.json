@@ -1,7 +1,6 @@
 {
 	// Components
-	"SuggestedStreamers": "Aanbevolen Streamers",
-
+	
 	// Clip
 	"Recorded": "Opgenomen op {0}",
 	"Likes": "Likes",
@@ -43,6 +42,9 @@
 	"LastClipAdded": "Laatst toegevoegde clip:",
 	"LastClip": "Laatste Clip:",
 	"NoProfilePicAvailable": "Geen profielfoto beschikbaar",
+	"DateRangePicker_Start": "Start Datum",  // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Eind Datum",			// The End Date label on the filter on the streamer page
+	"ShareStreamer": "Deel Streamer",		// The tooltip for the Share button on the streamer page
 	
 	// Layout
 	"PublicBeta": "PUBLIEKE BETA",
