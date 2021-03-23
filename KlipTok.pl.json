@@ -42,7 +42,10 @@
 	"LastClipAdded": "Ostatni klip dodano:",
 	"LastClip": "Ostatni klip:",
 	"NoProfilePicAvailable": "Brak zdjęcia profilowego",
-
+	"DateRangePicker_Start": "Data początkowa",
+	"DateRangePicker_End": "Data końcowa",
+	"ShareStreamer": "Udostępnij tego streamera",
+	
 	// Layout
 	"PublicBeta": "PUBLICZNA BETA",
 	"LoggedOutFromKlipTokAndTwitch": "Wylogowano z KlipTok i Twitch",
