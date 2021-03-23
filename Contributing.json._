@@ -20,6 +20,9 @@
 	"et-EE": [
 		"KGKopli"
 	],
+	"fi-FI": [
+		"JoelLamsi"
+	],
 	"fr": [
 		"sptremblay"
 	],
@@ -51,5 +54,8 @@
 	],
 	"sw": [
 		"adrwer"
+	],
+	"uk": [
+		"nikolaylutsenko"
 	]
 }

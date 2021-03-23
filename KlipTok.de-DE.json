@@ -39,14 +39,18 @@
 	"TotalLikesAcrossAllClips": "Gefällt Mir gesamt",
 	"TotalCommentsAcrossAllClips": "Kommentare gesamt",
 	"TotalViewsAcrossAllClips": "Aufrufe gesamt",
-	"LastClipAdded": "Neuster Clip:",
+	"LastClipAdded": "Neuester Clip:",
+	"LastClip": "Neuester Clip:",
 	"NoProfilePicAvailable": "Kein Profilbild verfügbar",
+	"DateRangePicker_Start": "Startdatum", // Label für den Datumsfilter auf der Streamerseite
+	"DateRangePicker_End": "Enddatum", // Label für den Datumsfilter auf der Streamerseite
+	"ShareStreamer": "Streamer teilen", // Tooltip für den 'Teilen'-Button auf der Streamerseite
 
 
 	// Layout
 	"PublicBeta": "PUBLIC BETA",
 	"LoggedOutFromKlipTokAndTwitch": "Von KlipTok und Twitch ausgeloggt",
-	"LoginToKlipTokWithTwitch": "Mit Twitch bei KlipTon anmelden",
+	"LoginToKlipTokWithTwitch": "Mit Twitch bei KlipTok anmelden",
 	"AuthenticationIsNoLongerValid": "Deine Authentifizierung mit Twitch und KlipTok ist nicht mehr gültig. Bitte melde dich mit Twitch an, um fortzufahren.",
 	"Loading": "Laden...",
 
@@ -61,7 +65,7 @@
 	// Home Page
 	"DiscoverPopularClips": "Beliebte Clips entdecken",
 	"DiscoverClips": "Clips entdecken",
-	"InsertCoin": "Insert Coin",
+	"InsertCoin": "Münze einwerfen...",
 	"MyFavoriteChannels": "Meine Favoriten",
 	"Favorites": "Favoriten",
 	"ClipsILike": "Clips, die ich mag",
@@ -78,7 +82,7 @@
 	"IndexClipsOfMyChannel": "Meine Clips indizieren",
 	"OptedOutDateTemplate": "Automatische Indizierung abgewählt am: {0}", // {0} ist das Datum des Opt-outs
 	"SaveMyChanges": "Änderungen speichern",
-	"SyncFollowersWithKlipTok":"Kanäle, denen ich folge mit, KlipTop synchronisieren",
+	"SyncFollowersWithKlipTok":"Kanäle, denen ich folge, mit KlipTok synchronisieren",
 	"MutedChannels": "Stummgeschaltete Streamer",
 	"Channel": "Kanal",
 	"MutedUntil": "Stummgeschaltet bis",

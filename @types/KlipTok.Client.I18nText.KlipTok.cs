@@ -61,6 +61,12 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Dark Mode"</summary>
         public string DarkMode;
 
+        /// <summary>"End Date"</summary>
+        public string DateRangePicker_End;
+
+        /// <summary>"Start Date"</summary>
+        public string DateRangePicker_Start;
+
         /// <summary>"Discover Clips"</summary>
         public string DiscoverClips;
 
@@ -216,6 +222,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"{0} not found"</summary>
         public string SearchNotFoundFormat;
+
+        /// <summary>"Share Streamer"</summary>
+        public string ShareStreamer;
 
         /// <summary>"Share this Clip"</summary>
         public string ShareThisClip;
