@@ -42,6 +42,9 @@
 	"LastClipAdded": "Último Clip Agregado:",
 	"LastClip": "Último Clip:",
 	"NoProfilePicAvailable": "Foto de perfil no disponible",
+	"DateRangePicker_Start": "Desde",  	// The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Hasta",		// The End Date label on the filter on the streamer page
+	"ShareStreamer": "Compartir Streamer",	// The tooltip for the Share button on the streamer page
 
 	// Layout
 	"PublicBeta": "BETA PÚBLICA",
