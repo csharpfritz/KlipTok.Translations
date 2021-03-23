@@ -30,9 +30,9 @@
 	"Close": "Schließen",
 
 	// Streamer Page
-	"ClickToFollow": "Auf Twitch Folgen",
-	"ClickToUnfollow": "Auf Twitch Entfolgen",
-	"ActionOnTwitchTemplate": "{0} auf Twitch", // {0} wird ersetzt mit "Follow" oder "Unfollow" -> "Follow on Twitch"
+	"ClickToFollow": "Folgen",
+	"ClickToUnfollow": "Entfolgen",
+	"ActionOnTwitchTemplate": "Auf Twitch {0}", // {0} wird ersetzt mit "Follow" oder "Unfollow" -> "Follow on Twitch"
 	"LiveOnTwitch": "Jetzt live auf Twitch!",
 	"ProfilePicTemplate": "Profilbild von {0}", // {0} ist der Display Name des  Streamers
 	"TotalClipsOnKlipTok": "Clips gesamt auf KlipTok",
