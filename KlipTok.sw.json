@@ -1,0 +1,90 @@
+{
+  // Components
+
+	// Clip
+	"Recorded": "Iliyorekodiwa mara {0}",
+	"Likes": "Imependeza",
+	"Comments": "Maoni",
+	"ClipViews": "Kipande cha video imetazamwa mara",
+	"ShareThisClip": "Shiriki kipande cha video hii",
+	"KlipTokContentPlaceholder": "Kishika nafasi cha yaliyomo kwenye KlipTok",
+
+  // Comments
+	"ByLineFormat": "Katika {0} {1} aliandika:",
+	"Reply": "Jibu",
+
+  // Login View
+	"DarkMode": "Hali ya Giza",
+	"LoginWithTwitch": "Ingia na Twitch",
+	"Logout": "Ondoka",
+
+  // Header
+	"SearchForChannel": "Tafuta kituo...",
+	"SearchNotFoundFormat": "{0} haipatikani",
+
+  // Sidebar
+	"SuggestedStreamers": "Streamers Wanaopendekezwa",
+	"FollowedStreamers": "Streamers Unaofuatwa",
+	"AllStreamers": "Streamers Wote",
+	"About": "Kuhusu",
+	"Close": "Funga",
+
+  // Streamer Page
+	"ClickToFollow": "Bonyeza kufuata",
+	"ClickToUnfollow": "Bonyeza kuacha kufuata",
+	"ActionOnTwitchTemplate": "{0} kwenye Twitch",
+	"LiveOnTwitch": "Live kwenye Twitch saa hii!",
+	"ProfilePicTemplate": "{0} picha ya wasifu",
+	"TotalClipsOnKlipTok": "Vipande vyote vya video kwenye KlipTok",
+	"TotalLikesAcrossAllClips": "Jumla ya zilizopendwa kwenye vipande vyote vya video",
+	"TotalCommentsAcrossAllClips": "Jumla ya maoni kwenye vipande vyote vya video",
+	"TotalViewsAcrossAllClips": "Jumla ya mitazamo kwenye vipande vyote vya video",
+	"LastClipAdded": "Kipande cha video cha mwisho kuongezwa:",
+	"LastClip": "Kipande cha video cha mwisho:",
+	"NoProfilePicAvailable": "Hakuna picha ya wasifu inayopatikana",
+
+  // Layout
+	"PublicBeta": "BETA YA UMMA",
+	"LoggedOutFromKlipTokAndTwitch": "Ondoka KlipTok na Twitch",
+	"LoginToKlipTokWithTwitch": "Ingia KlipTok na Twitch",
+	"AuthenticationIsNoLongerValid": "Uthibitishaji wako na Twitch na KlipTok sio halali tena. Tafadhali ingia kwenye KlipTok kutumia Twitch ili kuendelea.",
+
+  // Errors
+	"ErrorWhileLoading": "Hitilafu imetokea wakati wa kupakia.",
+	"RetryButton": "Jaribu tena",
+
+  // Follows page
+	"TwitchChannelsIFollow": "Vituo vya Twitch ninavyofuata",
+	"NotLoggedIn": "Imeshindwa kuonyesha rekodi za akaunti unazofuata kwenye Twitch kwa sababu haujaingia na akaunti ya Twitch. Tafadhali ingia na usawazishe streamers unaofuata kwenya KlipTok ili kutumia utendakazi huu.",
+
+  // Home Page
+	"DiscoverPopularClips": "Gundua vipande vya video maarufu",
+	"DiscoverClips": "Gundua vipande vya video",
+	"InsertCoin": "Ingiza Sarafu",
+	"MyFavoriteChannels": "Vituo Unavyopendelea",
+	"Favorites": "Unayopendelea",
+	"ClipsILike": "Vipande vya video ninavyopenda",
+	"LikedClips": "Vipande vya video vilivyopendwa",
+	"UserProfile": "Wasifu wa mtumiaji",
+
+  // Liked Clips
+	"NoLikedClips": "Bado hujapendezwa na kipande cha video yeyote!",
+	"TryLikeButtonTemplate": "Jaribu kubonyeza aikoni ya moyo {0} chini ya kipande cha video ili 'uipende' na tutaripoti hapa kwako ili uweze kuipata tena baadaye",
+
+  // User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok haihifadhi habari za watumiaji tofauti kutoka kwa Twitch, na imejengwa kama huduma ya kuongeza sehemu za Twitch.",
+	"AutoPlayVideosOnScroll": "Cheza video kiotomatiki kwenye kusogeza",
+	"IndexClipsOfMyChannel": "Weka farahisi kwa vipande vya video kwenya kituo changu",
+	"OptedOutDateTemplate": "Amua kutoka kwa faharisi: {0}",
+	"SaveMyChanges": "Okoa mabadiliko yangu",
+	"SyncFollowersWithKlipTok":"Sawazisha Wafuasi na KlipTok",
+	"MutedChannels": "Vituo vilivyonyamazishwa",
+	"Channel": "Kituo",
+	"MutedUntil": "Kimya Mpaka",
+	"RightToForget": "Haki ya kusahau",
+	"DangerZone": "[ Eneo la Hatari  ]",
+	"RightToForgetDescription": "Una haki ya kuomba KlipTok kusahau habari zote ambazo umeshiriki. Kwa kubofya kiunga hiki na kudhibitisha, KlipTok itaondoa maoni yako yote, uliyopenda, na vipande vya video.",
+	"RemoveMyContentFromKlipTok": "Ondoa yaliyomo kwenye KlipTok yangu",
+	"ForgottenAsOfTemplate": "Sahauliwa kuanzia : {0}",
+
+}

@@ -1,0 +1,120 @@
+{
+	// Components
+
+	// Clip
+	"Recorded": "Optaget {0}",  // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
+	"Likes": "Likes",
+	"Comments": "Kommentarer",
+	"ClipViews": "Klipvisninger",
+	"ShareThisClip": "Del dette Klip",
+	"KlipTokContentPlaceholder": "KlipTok Indhold",
+
+	// Comments
+	"ByLineFormat": "Den {0} {1} skrev:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"Reply": "Svar",
+
+	// Login View
+	"DarkMode": "Mørkt tema",
+	"LoginWithTwitch": "Log ind med Twitch",
+	"Logout": "Log ud",
+
+	// Header
+	"SearchForChannel": "Søg efter Streamer...",
+	"SearchNotFoundFormat": "{0} ikke fundet", // {0} is the search term that was not found
+
+	// Sidebar
+	"SuggestedStreamers": "Anbefalede Streamere",
+	"FollowedStreamers": "Streamere, du følger",
+	"AllStreamers": "Alle Streamere",
+	"About": "Om",
+	"Close": "Luk",
+
+	// Streamer Page
+	"ClickToFollow": "Klik for at følge",
+	"ClickToUnfollow": "Stop med at følge",
+	"ActionOnTwitchTemplate": "{0} på Twitch",
+	"LiveOnTwitch": "Live på Twitch nu!",
+	"ProfilePicTemplate": "{0} profilbillede",
+	"TotalClipsOnKlipTok": "Totalt antal klip på KlipTok",
+	"TotalLikesAcrossAllClips": "Totalt antal likes på tværs af alle klip",
+	"TotalCommentsAcrossAllClips": "Totalt antal kommentarer på tværs af alle klip",
+	"TotalViewsAcrossAllClips": "Totalt antal visninger på tværs af alle klip",
+	"LastClipAdded": "Seneste Klip Tilføjet:",
+	"LastClip": "Seneste Klip:",
+	"NoProfilePicAvailable": "Intet profilbillede tilgængeligt",
+	"DateRangePicker_Start": "Fra-dato",  // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Til-dato",			// The End Date label on the filter on the streamer page
+	"ShareStreamer": "Del Streamer",		// The tooltip for the Share button on the streamer page
+
+	// Layout
+	"PublicBeta": "OFFENTLIG BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Logget ud af KlipTok og Twitch",
+	"LoginToKlipTokWithTwitch": "Log ind på KlipTok med Twitch",
+	"AuthenticationIsNoLongerValid": "Din adgang med Twitch og KlipTok er ikke længere gyldig. Log venligst ind i KlipTok med Twitch for at fortsætte.",
+	"Loading": "Indlæser...",
+	// Errors
+	"ErrorWhileLoading": "Der opstod en fejl.",
+	"RetryButton": "Prøv igen",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Twitch-streamere jeg følger",
+	"NotLoggedIn": "Kan ikke vise konti du følger på Twitch, fordi du ikke er logget ind med en Twitch konto. Log venligst ind og synkronisér dine følgere med KlipTok for at tilgå denne funktionalitet.",
+	
+	// Home Page
+	"DiscoverPopularClips": "Opdag Populære Klip",
+	"DiscoverClips": "Opdag Klip",
+	"InsertCoin": "Indkast mønt",
+	"MyFavoriteChannels": "Mine favoritter",
+	"Favorites": "Favoritter",
+	"ClipsILike": "Klip jeg liker",
+	"LikedClips": "Likede Klip",
+	"UserProfile": "Brugerprofil",
+
+	// Liked Clips
+	"NoLikedClips": "Du har ikke liket nogen Klip på KlipTok endnu!",
+	"TryLikeButtonTemplate": "Prøv at klikke på hjerte-ikonet {0} under et Klip for at 'like' det og så viser vi det her, så du nemt kan finde det igen i fremtiden",  //  {0} is the heart icon
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok gemmer ikke seperat brugerinformation fra Twitch og er bygget, som en service for at berige Twitch Klip.",
+	"AutoPlayVideosOnScroll": "Afspil videoer automatisk ved rulning",
+	"IndexClipsOfMyChannel": "Indekser mine Klip",
+	"OptedOutDateTemplate": "Fravalgt indeksering pr. den: {0}", // {0} is the datestamp of when opt-out was recorded 
+	"SaveMyChanges": "Gem ændringer",
+	"SyncFollowersWithKlipTok":"Synkroniser Streamere, Du Følger med KlipTok",
+	"MutedChannels": "Streamere, der er slået fra",
+	"Channel": "Streamer",
+	"MutedUntil": "Slået fra indtil",
+	"RightToForget": "Retten til at blive glemt",
+	"DangerZone": "[ Farezone ]",     // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "Du har ret til at kræve, at KlipTok glemmer al information du har delt. Ved at klikke på dette link og bekræfte, vil KlipTok fjerne alle dine kommentarer, Likes og Klip.",
+	"RemoveMyContentFromKlipTok": "Fjern mit indhold fra KlipTok",
+	"ForgottenAsOfTemplate": "Glemt pr. den : {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Single Clip Page
+	"MissingClipError": "KlipTok har ikke informationer om dette Klip.  Enten eksisterer det ikke, eller  Twitch-kanalen har fravalgt at deltage på KlipTok.",
+	"LikedBy": "Liket af:",
+	"UserLikedTimeTemplate": "{0} likede {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "Som svar til: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Skriv ny kommentar...",
+	"LoginWithTwitchToComment": "Log ind med Twitch for at kommentere",
+	"CommentButton": "Kommenter",
+
+	// Streamer Page
+	"MuteForLabel": "Slå fra for:",
+	"StreamerIsMutedUntilTemplate": "Streamer er slået fra indtil: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Slå til",   // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Altid",   // Label for "Mute Forever" action button
+	"SortByLabel": "Sortér efter:",
+	"Views": "Visninger",     // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Score", 		// A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Nyeste",  // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Klip fra:",   // Label above the date range filter component
+	"SearchButton": "Søg",  // Text on the search button to filter by date range
+	"ResetButton": "Nulstil",    // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Ingen tilgængelige Klip",
+	"AddClipsForThisStreamer": "Tilføj Klip for denne Streamer",
+	"NotifyOnOptIn": "Bemærk: hvis du tilføjer Klip for denne Streamer, beder vi dig om at give besked til streameren om at du har tilføjet deres Klip til dette site. Vi har ingen direkte måde at kontakte streameren."
+
+
+
+}

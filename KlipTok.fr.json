@@ -1,0 +1,27 @@
+{
+	// Components
+
+	// Clip
+	"Recorded": "Enregistré {0}",
+	"Likes": "Aime",
+	"Comments": "Commentaires",
+	"ClipViews": "Nombre de vues",
+	"ShareThisClip": "Partager ce clip",
+	"KlipTokContentPlaceholder": "Espace réservé de contenu KlipTok",
+
+	// Comments
+	"ByLineFormat": "A écrit {0} {1}:",
+	"Reply": "Répondre",
+
+	// Login View
+	"DarkMode": "Mode sombre",
+
+
+	// Sidebar
+	"SuggestedStreamers": "Streamers suggérés",
+	"FollowedStreamers": "Streamers suivis",
+	"AllStreamers": "Tous les streamers",
+	"About": "À propos",
+	"Close": "Fermer"	
+
+}
