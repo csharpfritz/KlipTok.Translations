@@ -23,9 +23,9 @@
 	"SearchNotFoundFormat": "{0} ikke fundet", // {0} is the search term that was not found
 
 	// Sidebar
-	"SuggestedStreamers": "Anbefalede Streamers",
-	"FollowedStreamers": "Streamers, du følger",
-	"AllStreamers": "Alle Streamers",
+	"SuggestedStreamers": "Anbefalede Streamere",
+	"FollowedStreamers": "Streamere, du følger",
+	"AllStreamers": "Alle Streamere",
 	"About": "Om",
 	"Close": "Luk",
 
@@ -57,7 +57,7 @@
 	"RetryButton": "Prøv igen",
 
 	// Follows page
-	"TwitchChannelsIFollow": "Twitch-streamers jeg følger",
+	"TwitchChannelsIFollow": "Twitch-streamere jeg følger",
 	"NotLoggedIn": "Kan ikke vise konti du følger på Twitch, fordi du ikke er logget ind med en Twitch konto. Log venligst ind og synkronisér dine følgere med KlipTok for at tilgå denne funktionalitet.",
 	
 	// Home Page
@@ -80,8 +80,8 @@
 	"IndexClipsOfMyChannel": "Indekser mine Klip",
 	"OptedOutDateTemplate": "Fravalgt indeksering pr. den: {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Gem ændringer",
-	"SyncFollowersWithKlipTok":"Synkroniser Streamers, Du Følger med KlipTok",
-	"MutedChannels": "Streamers, der er slået fra",
+	"SyncFollowersWithKlipTok":"Synkroniser Streamere, Du Følger med KlipTok",
+	"MutedChannels": "Streamere, der er slået fra",
 	"Channel": "Streamer",
 	"MutedUntil": "Slået fra indtil",
 	"RightToForget": "Retten til at blive glemt",
