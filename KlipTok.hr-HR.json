@@ -24,14 +24,14 @@
 
 	// Sidebar
 	"SuggestedStreamers": "Predloženi kanali",
-	"FollowedStreamers": "Pračeni kanali",
+	"FollowedStreamers": "Praćeni kanali",
 	"AllStreamers": "Svi kanali",
 	"About": "O nama",
 	"Close": "Zatvori",
 
 	// Streamer Page
-	"ClickToFollow": "Klikni za pračenje",
-	"ClickToUnfollow": "Klikni za prestanak pračenja",
+	"ClickToFollow": "Klikni za praćenje",
+	"ClickToUnfollow": "Klikni za prestanak praćenja",
 	"ActionOnTwitchTemplate": "{0} na Twitch-u",   // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "Uživo na Twitch-u!",
 	"ProfilePicTemplate": "{0} profilna slika",    // {0} is the Streamer's Display Name
