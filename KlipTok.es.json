@@ -6,8 +6,8 @@
 	"Likes": "Me gusta",
 	"Comments": "Comentarios",
 	"ClipViews": "Visualizaciones",
-	"ShareThisClip": "Compartir Video",
-	"KlipTokContentPlaceholder": "KlipTok ubicación de contenido",
+	"ShareThisClip": "Compartir Clip",
+	"KlipTokContentPlaceholder": "Contenido de KlipTok",
 
 	// Comments
 	"ByLineFormat": "El {0} {1} escribió:",
@@ -19,7 +19,7 @@
 	"Logout": "Cerrar sesión",
 
 	// Header
-	"SearchForChannel": "Buscar por un canal...",
+	"SearchForChannel": "Buscar un Canal...",
 	"SearchNotFoundFormat": "{0} no encontrado",
 
 	// Sidebar
@@ -30,18 +30,18 @@
 	"Close": "Cerrar",
 
 	// Streamer Page
-	"ClickToFollow": "Clic para seguir",
-	"ClickToUnfollow": "Clic para dejar de seguir",
+	"ClickToFollow": "Clic para Seguir",
+	"ClickToUnfollow": "Clic para Dejar de seguir",
 	"ActionOnTwitchTemplate": "{0} en Twitch",
 	"LiveOnTwitch": "¡Transmitiendo en Twitch ahora!",
 	"ProfilePicTemplate": "{0} foto de perfil",
-	"TotalClipsOnKlipTok": "Total de clips en KlipTok",
-	"TotalLikesAcrossAllClips": "Total de \"Me gusta\" en todos los clips",
-	"TotalCommentsAcrossAllClips": "Total de comentarios en todos los clips",
-	"TotalViewsAcrossAllClips": "Total views across all clips",
+	"TotalClipsOnKlipTok": "Total de Clips en KlipTok",
+	"TotalLikesAcrossAllClips": "Total de \"Me gusta\" en todos los Clips",
+	"TotalCommentsAcrossAllClips": "Comentarios en todos los Clips",
+	"TotalViewsAcrossAllClips": "Visualizaciones de todos los Clips",
 	"LastClipAdded": "Último Clip Agregado:",
 	"LastClip": "Último Clip:",
-	"NoProfilePicAvailable": "Foto de perfil no disponible",
+	"NoProfilePicAvailable": "Foto de Perfil no disponible",
 	"DateRangePicker_Start": "Desde",  	// The Start Date label on the filter on the streamer page
 	"DateRangePicker_End": "Hasta",		// The End Date label on the filter on the streamer page
 	"ShareStreamer": "Compartir Streamer",	// The tooltip for the Share button on the streamer page
@@ -53,7 +53,7 @@
 	"AuthenticationIsNoLongerValid": "Tu autenticación con Twitch y KlipTok ya no es válida.  Por favor inicia sesión en KlipTok con Twitch para continuar.",
 
 	// Errors
-	"ErrorWhileLoading": "Un error ha ocurrido mientras cargaba.",
+	"ErrorWhileLoading": "Un error ha ocurrido durante la carga.",
 	"RetryButton": "Reintentar",
 
 	// Follows page
@@ -63,8 +63,8 @@
 	// Home Page
 	"DiscoverPopularClips": "Descubre Clips Populares",
 	"DiscoverClips": "Descubre Clips",
-	"InsertCoin": "Inserte una moneda",
-	"MyFavoriteChannels": "Mis canales favoritos",
+	"InsertCoin": "Inserte una Moneda",
+	"MyFavoriteChannels": "Mis Streamers favoritos",
 	"Favorites": "Favoritos",
 	"ClipsILike": "Clips que has destacado",
 	"LikedClips": "Clips destacados",
@@ -72,15 +72,15 @@
 
 	// Liked Clips
 	"NoLikedClips": "¡Aún no tienes clips destacados!",
-	"TryLikeButtonTemplate": "Intenta hacer clic en el ícono del corazón {0} debajo de un clip  para agregarlo a tus 'Me gusta' y te los mostraremos aquí para que los encuentres con mayor facilidad.",
+	"TryLikeButtonTemplate": "Intenta hacer clic en el ícono del corazón {0} debajo de un clip para agregarlo a tus \"Me gusta\" y te los mostraremos aquí para que los encuentres con mayor facilidad.",
 
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok no almacena información adicional del usuario de Twitch, está diseñado como un servicio para aumentar Twitch Clips.",
-	"AutoPlayVideosOnScroll": "Autoreproducir videos",
-	"IndexClipsOfMyChannel": "Indexar clips de mi canal",
+	"AutoPlayVideosOnScroll": "Autoreproducir Videos",
+	"IndexClipsOfMyChannel": "Indexar Clips de mi Canal",
 	"OptedOutDateTemplate": "Dejando de indexar mi contenido desde: {0}",
 	"SaveMyChanges": "Guardar cambios",
-	"SyncFollowersWithKlipTok": "Sincronizar streamers seguidos KlipTok",
+	"SyncFollowersWithKlipTok": "Sincronizar Streamers seguidos KlipTok",
 	"MutedChannels": "Canales silenciados",
 	"Channel": "Canal",
 	"MutedUntil": "Silenciado hasta",
@@ -89,7 +89,6 @@
 	"RightToForgetDescription": "Tienes derecho a solicitar a KlipTok que deje de recordar toda la información que has compartido. Al hacer clic en este vínculo y confirmarlo, KlipTok eliminará todos tus comentarios, 'me gusta', y clips.",
 	"RemoveMyContentFromKlipTok": "Eliminar mi contenido de KlipTok",
 	"ForgottenAsOfTemplate": "Eliminado desde : {0}",
-	
 	
 	// Single Clip Page
 	"MissingClipError": "KlipTok no tiene registros de este Clip.  Puede ser que no existe o el canal de Twitch ha solicitado dejar de participar en KlipTok.",
