@@ -1,5 +1,6 @@
 {
 	"da-DK": [
+		"DukaSoft",
 		"smc83dk"
 	],
   	"de-DE": [
@@ -33,6 +34,7 @@
 		"FreyaLWN"
 	],
 	"it-IT": [
+		"abbadon1334",
 		"microjumper"
 	],
 	"nl-NL": [
@@ -50,12 +52,14 @@
 		"rafaeldca"
 	],
 	"ru": [
-		"tryonelove"
+		"tryonelove",
+		"RUSHAM"
 	],
 	"sw": [
 		"adrwer"
 	],
 	"uk": [
-		"nikolaylutsenko"
+		"nikolaylutsenko",
+		"@Daria Lutsenko"
 	]
 }

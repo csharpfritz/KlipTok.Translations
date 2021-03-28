@@ -33,12 +33,12 @@
 	"ClickToFollow": "Натисни, щоб стежити",
 	"ClickToUnfollow": "Натисни, щоб припинити стежити",
 	"ActionOnTwitchTemplate": "{0} на Twitch",   // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
-	"LiveOnTwitch": "Єфір наживо на Twitch зараз!",
+	"LiveOnTwitch": "Зараз наживо на Twitch!",
 	"ProfilePicTemplate": "{0} зображення користувача",    // {0} is the Streamer's Display Name
 	"TotalClipsOnKlipTok": "Загальна кількість кліпів у KlipTok",
 	"TotalLikesAcrossAllClips": "Загальна кількість вподобань кліпів",
 	"TotalCommentsAcrossAllClips": "Загальна кількість коментарів кліпів",
-	"TotalViewsAcrossAllClips": "Загальна кількість переглядів кліпів ",
+	"TotalViewsAcrossAllClips": "Загальна кількість переглядів кліпів",
 	"LastClipAdded": "Останній доданий кліп:",
 	"LastClip": "Останній кліп:",
 	"NoProfilePicAvailable": "Немає зображення користувача",
@@ -70,15 +70,15 @@
 
 	// Liked Clips
 	"NoLikedClips": "У Вас ще не має вподобаних кліпів у KlipTok!",
-	"TryLikeButtonTemplate": "Спробуйте натиснути на зображення серця {0} внизу Кліпа щоб поставити 'Вподобання' щоб Ви його змогли швидко знайти у майбутньому",  //  {0} is the heart icon
+	"TryLikeButtonTemplate": "Спробуйте натиснути на зображення серця {0} внизу Кліпа щоб поставити 'Вподобання', щоб Ви його змогли швидко знайти у майбутньому",  //  {0} is the heart icon
 
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok не зберігає окремо інформацію користувача з Twitch та використовується для того, щоб збільшити кількість Кліпів у Twitch.",
 	"AutoPlayVideosOnScroll": "Автоматичне відтворення відео при гортанні",
-	"IndexClipsOfMyChannel": "Індексувати мої Кліпи Index my Clips",
+	"IndexClipsOfMyChannel": "Індексувати мої Кліпи",
 	"OptedOutDateTemplate": "Індексація завершена о: {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Зберегти мої зміни",
-	"SyncFollowersWithKlipTok":"Синхронізувати відстежуваних Стримеріз з KlipTok",
+	"SyncFollowersWithKlipTok":"Синхронізувати відстежуваних Стримерів з KlipTok",
 	"MutedChannels": "Приглушені Стримери",
 	"Channel": "Стример",
 	"MutedUntil": "Приглушити до",
