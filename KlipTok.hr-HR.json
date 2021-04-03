@@ -1,3 +1,119 @@
 {
-	"SuggestedStreamers": "Predloženi Streameri"
+	// Components
+
+	// Clip
+	"Recorded": "Snimljeno {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
+	"Likes": "Lajkovi",
+	"Comments": "Komentari",
+	"ClipViews": "Pregledi klipova",
+	"ShareThisClip": "Podijeli ovaj klip",
+	"KlipTokContentPlaceholder": "KlipTok sadržaj rezerviranog mjesta",
+
+	// Comments
+	"ByLineFormat": "U {0}, {1} je komentirao:",  // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"Reply": "Odgovori",
+
+	// Login View
+	"DarkMode": "Tamna tema",
+	"LoginWithTwitch": "Prijavite se sa Twitch računom",
+	"Logout": "Odjava",
+
+	// Header
+	"SearchForChannel": "Potraži kanale...",
+	"SearchNotFoundFormat": "{0} nije nađen", // {0} is the search term that was not found
+
+	// Sidebar
+	"SuggestedStreamers": "Predloženi kanali",
+	"FollowedStreamers": "Praćeni kanali",
+	"AllStreamers": "Svi kanali",
+	"About": "O nama",
+	"Close": "Zatvori",
+
+	// Streamer Page
+	"ClickToFollow": "Klikni za praćenje",
+	"ClickToUnfollow": "Klikni za prestanak praćenja",
+	"ActionOnTwitchTemplate": "{0} na Twitch-u",   // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+	"LiveOnTwitch": "Uživo na Twitch-u!",
+	"ProfilePicTemplate": "{0} profilna slika",    // {0} is the Streamer's Display Name
+	"TotalClipsOnKlipTok": "Ukupno klipova na KlipTok-u",
+	"TotalLikesAcrossAllClips": "Ukupno lajkova na svim klipovima",
+	"TotalCommentsAcrossAllClips": "Ukupno komentara na svim klipovima",
+	"TotalViewsAcrossAllClips": "Ukupno pregleda na svim klipovima",
+	"LastClipAdded": "Posljednji klip dodan:",
+	"LastClip": "Posljednji klip:",
+	"NoProfilePicAvailable": "Nedostupna slika profila",
+	"DateRangePicker_Start": "Početni datum",  // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Završni datum",			// The End Date label on the filter on the streamer page
+	"ShareStreamer": "Podijeli kanal",		// The tooltip for the Share button on the streamer page
+
+	// Layout
+	"PublicBeta": "JAVNA BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Odjavljen sa KlipTok-a i Twitch-a",
+	"LoginToKlipTokWithTwitch": "Prijavi se na KlipTok sa Twitch računom",
+	"AuthenticationIsNoLongerValid": "Vaša provjera autentičnosti s Twitch-om i KlipTok-om više nije važeća. Molimo vas prijavite se na KlipTok pomoću Twitch računa kako bi ste nastavili.",
+	"Loading": "Učitavanje...",
+
+	// Errors
+	"ErrorWhileLoading": "Došlo je do pogreške prilikom učitavanja.",
+	"RetryButton": "Pokušajte ponovno",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Twitch kanali koje pratim",
+	"NotLoggedIn": "Nije moguće prikazati podatke računa koje pratite na Twitch-u jer niste prijavljeni Twitch računom. Molimo prijavite se i sinkronizirajte kanale koje pratite sa KlipTok-om kako bi pristupili ovoj funkcionalnosti.",
+
+	// Home Page
+	"DiscoverPopularClips": "Otkrij popularne klipove",
+	"DiscoverClips": "Otkrij klipove",
+	"InsertCoin": "Ubacite novčić",
+	"MyFavoriteChannels": "Moji omiljeni kanali",
+	"Favorites": "Omiljeni",
+	"ClipsILike": "Moji lajkani kanali",
+	"LikedClips": "Lajkani kanali",
+	"UserProfile": "Korisnički profil",
+
+	// Liked Clips
+	"NoLikedClips": "Još nisi lajkao ni jedan klip na KlipTok-u!",
+	"TryLikeButtonTemplate": "Kliknite na ikonu srca {0} ispod klipa da biste ga lajkali, tako da ga možete lako pronaći u budućnosti",  //  {0} is the heart icon
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch Clips.",
+	"AutoPlayVideosOnScroll": "Automatska reprodukcija klipova",
+	"IndexClipsOfMyChannel": "Indeksiraj moje klipove",
+	"OptedOutDateTemplate": "Isključeno indeksiranje od: {0}", // {0} is the datestamp of when opt-out was recorded 
+	"SaveMyChanges": "Spremi moje promjene",
+	"SyncFollowersWithKlipTok":"Sinkroniziraj kanale sa KlipTok-om",
+	"MutedChannels": "Isključi zvuk kanala",
+	"Channel": "Kanal",
+	"MutedUntil": "Isključi zvuk kanala do",
+	"RightToForget": "Pravo na zaborav",
+	"DangerZone": "[ Zona opasnosti ]",     // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "Imate pravo zatražiti da KlipTok ukloni sve podatke koje ste podijelili. Klikom ovdje i potvrdom, KlipTok će ukloniti sve vaše komentare, lajkove i klipove.",
+	"RemoveMyContentFromKlipTok": "Ukloni moj sadržaj sa KlipTok-a",
+	"ForgottenAsOfTemplate": "Uklonjen od: {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Single Clip Page
+	"MissingClipError": "KlipTok nema podatke o ovom klipu. Klip ili ne postoji ili je Twitch kanal onemogučio KlipTok-u pristup.",
+	"LikedBy": "Lajkao ga:",
+	"UserLikedTimeTemplate": "{0} je lajkao {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "Odgovor: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Unesite novi komentar...",
+	"LoginWithTwitchToComment": "Prijavi se sa Twitch računom da bi komentirali",
+	"CommentButton": "Komentiraj",
+
+	// Streamer Page
+	"MuteForLabel": "Isključi zvuk za:",
+	"StreamerIsMutedUntilTemplate": "Zvuk kanala isključen je do: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Uključi zvuk",   // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Zauvijek",   // Label for "Mute Forever" action button
+	"SortByLabel": "Poredati po:",
+	"Views": "Pregledi",     // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Ocjena", 		// A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Najnoviji",  // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Klipovi od:",   // Label above the date range filter component
+	"SearchButton": "Pretraživanje",  // Text on the search button to filter by date range
+	"ResetButton": "Resetiraj",    // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Nema dostupnih klipova",
+	"AddClipsForThisStreamer": "Dodaj klipove za ovaj kanal",
+	"NotifyOnOptIn": "Obavijest: ako dodajete klipove za ovaj kanal, molimo vas da ih obavijestite da ste dodali njihove klipove na ovu stranicu. Nemamo izravan način da obavijestimo kanal."
+
 }

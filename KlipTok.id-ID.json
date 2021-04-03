@@ -42,6 +42,9 @@
 	"LastClipAdded": "Klip Terakhir Ditambah:",
 	"LastClip": "Klip Terakhir:",
 	"NoProfilePicAvailable": "Tidak ada gambar profil",
+	"DateRangePicker_Start": "Tanggal Mulai",  // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Tanggal Akhir",			// The End Date label on the filter on the streamer page
+	"ShareStreamer": "Bagikan Streamer",	
 	
 	// Layout
 	"PublicBeta": "BETA PUBLIK",

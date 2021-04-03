@@ -1,8 +1,9 @@
 {
 	"da-DK": [
+		"DukaSoft",
 		"smc83dk"
 	],
-  "de-DE": [
+  	"de-DE": [
 		"binber18",
 		"fstreicher"
 	],
@@ -14,10 +15,14 @@
 	],
 	"es": [
 		"chepew23",
-		"jahnog"
+		"jahnog",
+		"marcoruval"
 	],
 	"et-EE": [
-		"kgkopli"
+		"KGKopli"
+	],
+	"fi-FI": [
+		"JoelLamsi"
 	],
 	"fr": [
 		"sptremblay"
@@ -25,17 +30,21 @@
 	"hr-HR": [
 		"mucnjakf"
 	],
+	"id-ID": [
+		"FreyaLWN"
+	],
 	"it-IT": [
+		"abbadon1334",
 		"microjumper"
 	],
 	"nl-NL": [
 		"jkrooncoding",
-		"mdebruin93",
-		"reindertkorver",
+		"MdeBruin93",
+		"ReindertKorver",
 		"rickvdbosch"
 	],
 	"pl": [
-		"jakubociepa",
+		"JakubOciepa",
 		"mpanowicz",
 		"ptasznikarium"
 	],
@@ -43,9 +52,14 @@
 		"rafaeldca"
 	],
 	"ru": [
-		"tryonelove"
+		"tryonelove",
+		"RUSHAM"
 	],
 	"sw": [
 		"adrwer"
+	],
+	"uk": [
+		"nikolaylutsenko",
+		"@Daria Lutsenko"
 	]
 }
