@@ -17,6 +17,10 @@
 	"DarkMode": "Tume Teema",
 	"LoginWithTwitch": "Sisene Twitchiga",
 	"Logout": "Logi välja",
+	
+	// Header
+	"SearchForChannel": "Otsi striimerit...",
+	"SearchNotFoundFormat": "{0} ei leitud", // {0} is the search term that was not found
 
 	// Sidebar
 	"SuggestedStreamers": "Striimija Soovitused",
@@ -24,10 +28,6 @@
 	"AllStreamers": "Kõik Striimerid",
 	"About": "Meist",
 	"Close": "Sulge",
-
-	// Header
-	"SearchForChannel": "Otsi striimerit...",
-	"SearchNotFoundFormat": "{0} ei leitud", // {0} is the search term that was not found
 
 	// Streamer Page
 	"ClickToFollow": "Kliki, et jälgida",
@@ -42,7 +42,9 @@
 	"LastClipAdded": "Viimane Klipp lisatud:",
 	"LastClip": "Viimane Klipp:",
 	"NoProfilePicAvailable": "Profiili pilt pole saadaval",
-
+	"DateRangePicker_Start": "Alguskuupäev",  // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Lõpukuupäev",			// The End Date label on the filter on the streamer page
+	"ShareStreamer": "Jaga Striimerit",		// The tooltip for the Share button on the streamer page
 	// Layout
 	"PublicBeta": "AVALIK BETA",
 	"LoggedOutFromKlipTokAndTwitch": "Välja logitud Kliptokist ja Twitchist",
