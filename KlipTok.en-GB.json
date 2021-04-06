@@ -1,5 +1,6 @@
 {
 	// Components
+
 	// Clip
 	"Recorded": "Recorded {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
 	"Likes": "Likes",
@@ -7,22 +8,34 @@
 	"ClipViews": "Clip Views",
 	"ShareThisClip": "Share this Clip",
 	"KlipTokContentPlaceholder": "KlipTok Content Placeholder",
+
 	// Comments
 	"ByLineFormat": "At {0}, {1} wrote:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Reply",
+
 	// Login View
 	"DarkMode": "Dark Mode",
 	"LoginWithTwitch": "Login with Twitch",
 	"Logout": "Logout",
+
 	// Header
-	"SearchForChannel": "Search for a Streamer...",
+	"SearchForChannel": "Search for a Streamer...", // Deprecated
 	"SearchNotFoundFormat": "{0} not found", // {0} is the search term that was not found
+
+	// Search and Search Results
+	"SearchKlipTok": "Search KlipTok...",
+	"SearchAllOfKlipTok": "Search all of KlipTok for {0}", // {0} is the search term to search clips for
+	"SearchResults": "Search Results",
+	"SearchedKlipTokAndFoundTemplate": "We searched KlipTok for \"{0}\" and found:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} playing {1}", // {0} is the streamer name, {1} is the category played,
+
 	// Sidebar
 	"SuggestedStreamers": "Suggested Streamers",
 	"FollowedStreamers": "Followed Streamers",
 	"AllStreamers": "All Streamers",
 	"About": "About",
 	"Close": "Close",
+
 	// Streamer Page
 	"ClickToFollow": "Click to Follow",
 	"ClickToUnfollow": "Click to Unfollow",
@@ -39,30 +52,36 @@
 	"DateRangePicker_Start": "Start Date", // The Start Date label on the filter on the streamer page
 	"DateRangePicker_End": "End Date", // The End Date label on the filter on the streamer page
 	"ShareStreamer": "Share Streamer", // The tooltip for the Share button on the streamer page
+
 	// Layout
 	"PublicBeta": "PUBLIC BETA",
 	"LoggedOutFromKlipTokAndTwitch": "Logged Out from KlipTok and Twitch",
 	"LoginToKlipTokWithTwitch": "Login to KlipTok with Twitch",
 	"AuthenticationIsNoLongerValid": "Your authentication with Twitch and KlipTok is no longer valid.  Please login to KlipTok with Twitch to continue.",
 	"Loading": "Loading...",
+
 	// Errors
 	"ErrorWhileLoading": "An error occurred while loading.",
 	"RetryButton": "Retry",
+
 	// Follows page
 	"TwitchChannelsIFollow": "Twitch Streamers I Follow",
 	"NotLoggedIn": "Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followed streamers with KlipTok to access this functionality.",
+
 	// Home Page
 	"DiscoverPopularClips": "Discover Popular Clips",
 	"DiscoverClips": "Discover Clips",
 	"InsertCoin": "Insert Coin",
-	"MyFavoriteChannels": "My Favourite Streamers",
-	"Favorites": "Favourites",
+	"MyFavoriteChannels": "My Favorrite Streamers",
+	"Favorites": "Favorrites",
 	"ClipsILike": "Clips I Like",
 	"LikedClips": "Liked Clips",
 	"UserProfile": "User Profile",
+
 	// Liked Clips
 	"NoLikedClips": "You haven't liked any Clips on KlipTok yet!",
 	"TryLikeButtonTemplate": "Try clicking the heart icon {0} below a Clip to 'Like' it and we'll report it here for you so you can easily find it again in the future", //  {0} is the heart icon
+
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch Clips.",
 	"AutoPlayVideosOnScroll": "Auto-play videos on scroll",
@@ -78,6 +97,7 @@
 	"RightToForgetDescription": "You have the right to request KlipTok forgets all information that you have shared.  By clicking this link and confirming, KlipTok will remove all of your Comments, Likes, and Clips.",
 	"RemoveMyContentFromKlipTok": "Remove my content from KlipTok",
 	"ForgottenAsOfTemplate": "Forgotten as of: {0}", // {0} is the datestamp of when the 'forget' action was taken
+
 	// Single Clip Page
 	"MissingClipError": "KlipTok does not have a record of this Clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok.",
 	"LikedBy": "Liked By:",
@@ -86,6 +106,7 @@
 	"EnterNewComment": "Enter new Comment...",
 	"LoginWithTwitchToComment": "Login with Twitch to Comment",
 	"CommentButton": "Comment",
+
 	// Streamer Page
 	"MuteForLabel": "Mute for:",
 	"StreamerIsMutedUntilTemplate": "Streamer is muted until: {0}", // {0} is a datestamp of when the mute operation ends
@@ -101,4 +122,5 @@
 	"NoClipsAvailable": "No Clips Available",
 	"AddClipsForThisStreamer": "Add Clips for this Streamer",
 	"NotifyOnOptIn": "Please note: if you add Clips for this streamer, we kindly request you notify them that you have added their Clips to this site.  We have no direct way to reach out to the broadcaster."
+
 }
