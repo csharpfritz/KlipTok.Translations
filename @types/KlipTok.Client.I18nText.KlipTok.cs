@@ -214,14 +214,26 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Score"</summary>
         public string Score;
 
+        /// <summary>"Search all of KlipTok for {0}"</summary>
+        public string SearchAllOfKlipTok;
+
         /// <summary>"Search"</summary>
         public string SearchButton;
+
+        /// <summary>"We searched KlipTok for &quot;{0}&quot; and found:"</summary>
+        public string SearchedKlipTokAndFoundTemplate;
 
         /// <summary>"Search for a Streamer..."</summary>
         public string SearchForChannel;
 
+        /// <summary>"Search KlipTok..."</summary>
+        public string SearchKlipTok;
+
         /// <summary>"{0} not found"</summary>
         public string SearchNotFoundFormat;
+
+        /// <summary>"Search Results"</summary>
+        public string SearchResults;
 
         /// <summary>"Share Streamer"</summary>
         public string ShareStreamer;
@@ -234,6 +246,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Streamer is muted until: {0}"</summary>
         public string StreamerIsMutedUntilTemplate;
+
+        /// <summary>"{0} playing {1}"</summary>
+        public string StreamerPlayingCategoryTemplate;
 
         /// <summary>"Suggested Streamers"</summary>
         public string SuggestedStreamers;
