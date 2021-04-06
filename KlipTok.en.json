@@ -61,7 +61,7 @@
 	"Loading": "Loading...",
 
 	// Errors
-	"ErrorWhileLoading": "An error occured while loading.",
+	"ErrorWhileLoading": "An error occurred while loading.",
 	"RetryButton": "Retry",
 
 	// Follows page
