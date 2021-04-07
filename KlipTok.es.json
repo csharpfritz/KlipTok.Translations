@@ -2,7 +2,7 @@
 	// Components
 
 	// Clip
-	"Recorded": "Grabado {0}",
+	"Recorded": "Grabado {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
 	"Likes": "Me gusta",
 	"Comments": "Comentarios",
 	"ClipViews": "Visualizaciones",
@@ -10,7 +10,7 @@
 	"KlipTokContentPlaceholder": "Contenido de KlipTok",
 
 	// Comments
-	"ByLineFormat": "El {0} {1} escribió:",
+	"ByLineFormat": "El {0} {1} escribió:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Responder",
 
 	// Login View
@@ -19,8 +19,15 @@
 	"Logout": "Cerrar sesión",
 
 	// Header
-	"SearchForChannel": "Buscar un Canal...",
-	"SearchNotFoundFormat": "{0} no encontrado",
+	"SearchForChannel": "Buscar un Canal...", // Deprecated
+	"SearchNotFoundFormat": "{0} no encontrado", // {0} is the search term that was not found
+
+	// Search and Search Results
+	"SearchKlipTok": "Buscar en KlipTok...",
+	"SearchAllOfKlipTok": "Buscar {0} en todo KlipTok", // {0} is the search term to search clips for
+	"SearchResults": "Resultados de la búsqueda",
+	"SearchedKlipTokAndFoundTemplate": "Buscamos \"{0}\" en KlipTok y encontramos:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} está jugando {1}", // {0} is the streamer name, {1} is the category played,
 
 	// Sidebar
 	"SuggestedStreamers": "Streamers sugeridos",
@@ -32,9 +39,9 @@
 	// Streamer Page
 	"ClickToFollow": "Clic para Seguir",
 	"ClickToUnfollow": "Clic para Dejar de seguir",
-	"ActionOnTwitchTemplate": "{0} en Twitch",
+	"ActionOnTwitchTemplate": "{0} en Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "¡Transmitiendo en Twitch ahora!",
-	"ProfilePicTemplate": "{0} foto de perfil",
+	"ProfilePicTemplate": "Foto de perfil de {0}", // {0} is the Streamer's Display Name
 	"TotalClipsOnKlipTok": "Total de Clips en KlipTok",
 	"TotalLikesAcrossAllClips": "Total de \"Me gusta\" en todos los Clips",
 	"TotalCommentsAcrossAllClips": "Comentarios en todos los Clips",
@@ -51,6 +58,7 @@
 	"LoggedOutFromKlipTokAndTwitch": "Sesión cerrada en KlipTok y Twitch",
 	"LoginToKlipTokWithTwitch": "Iniciar sesión en KlipTok con Twitch",
 	"AuthenticationIsNoLongerValid": "Tu autenticación con Twitch y KlipTok ya no es válida.  Por favor inicia sesión en KlipTok con Twitch para continuar.",
+	"Loading": "Cargando...",
 
 	// Errors
 	"ErrorWhileLoading": "Un error ha ocurrido durante la carga.",
@@ -78,14 +86,14 @@
 	"DoesNotKeepSeparateUserInformation": "KlipTok no almacena información adicional del usuario de Twitch, está diseñado como un servicio para aumentar Twitch Clips.",
 	"AutoPlayVideosOnScroll": "Autoreproducir Videos",
 	"IndexClipsOfMyChannel": "Indexar Clips de mi Canal",
-	"OptedOutDateTemplate": "Dejando de indexar mi contenido desde: {0}",
+	"OptedOutDateTemplate": "Dejando de indexar mi contenido desde: {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Guardar cambios",
 	"SyncFollowersWithKlipTok": "Sincronizar Streamers seguidos KlipTok",
 	"MutedChannels": "Canales silenciados",
 	"Channel": "Canal",
 	"MutedUntil": "Silenciado hasta",
 	"RightToForget": "Dejar de recordar",
-	"DangerZone": "[ Zona de riesgo ]",
+	"DangerZone": "[ Zona de riesgo ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
 	"RightToForgetDescription": "Tienes derecho a solicitar a KlipTok que deje de recordar toda la información que has compartido. Al hacer clic en este vínculo y confirmarlo, KlipTok eliminará todos tus comentarios, 'me gusta', y clips.",
 	"RemoveMyContentFromKlipTok": "Eliminar mi contenido de KlipTok",
 	"ForgottenAsOfTemplate": "Eliminado desde : {0}",
