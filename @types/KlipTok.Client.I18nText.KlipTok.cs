@@ -79,7 +79,7 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Enter new Comment..."</summary>
         public string EnterNewComment;
 
-        /// <summary>"An error occured while loading."</summary>
+        /// <summary>"An error occurred while loading."</summary>
         public string ErrorWhileLoading;
 
         /// <summary>"Favorites"</summary>
