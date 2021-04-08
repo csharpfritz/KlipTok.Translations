@@ -27,7 +27,7 @@
 	"SearchAllOfKlipTok": "Telusuri seluruh KlipTok untuk {0}", // {0} is the search term to search clips for
 	"SearchResults": "Hasil telusuran",
 	"SearchedKlipTokAndFoundTemplate": "Penelusuran dalam KlipTok untuk \"{0}\" menemukan:", // {0} is the term sought
-	"StreamerPlayingCategoryTemplate": "{0} yang memainkan {1}", // {0} is the streamer name, {1} is the category played,
+	"StreamerPlayingCategoryTemplate": "{0} memainkan {1}", // {0} is the streamer name, {1} is the category played,
 
 	// Sidebar
 	"SuggestedStreamers": "Streamer yang Disarankan",
