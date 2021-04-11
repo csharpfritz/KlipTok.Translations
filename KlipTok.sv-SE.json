@@ -1,0 +1,126 @@
+{
+	// Components
+
+	// Clip
+	"Recorded": "Inspelat för {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
+	"Likes": "Likes",
+	"Comments": "Kommentarer",
+	"ClipViews": "Clip Visningar",
+	"ShareThisClip": "Dela detta Clip",
+	"KlipTokContentPlaceholder": "KlipTok innehållsplatshållare",
+
+	// Comments
+	"ByLineFormat": "Den {0} {1} skrev:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"Reply": "Svara",
+
+	// Login View
+	"DarkMode": "Mörkt läge",
+	"LoginWithTwitch": "Logga in med Twitch",
+	"Logout": "Logga ut",
+
+	// Header
+	"SearchForChannel": "Sök efter en Streamer...", // Deprecated
+	"SearchNotFoundFormat": "{0} hittades inte", // {0} is the search term that was not found
+
+	// Search and Search Results
+	"SearchKlipTok": "Sök KlipTok...",
+	"SearchAllOfKlipTok": "Sök i alla KlipToks {0}", // {0} is the search term to search clips for
+	"SearchResults": "Sök resultat",
+	"SearchedKlipTokAndFoundTemplate": "Vi sökte i KlipTok efter \"{0}\" och hittade:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} spelar {1}", // {0} is the streamer name, {1} is the category played,
+
+	// Sidebar
+	"SuggestedStreamers": "Föreslagna Streamers",
+	"FollowedStreamers": "Följda Streamers",
+	"AllStreamers": "Alla Streamers",
+	"About": "Om",
+	"Close": "Stäng",
+
+	// Streamer Page
+	"ClickToFollow": "Clicka för att följa",
+	"ClickToUnfollow": "Klicka för att sluta följa",
+	"ActionOnTwitchTemplate": "{0} på Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+	"LiveOnTwitch": "Live på Twitch nu!",
+	"ProfilePicTemplate": "{0} profil bild", // {0} is the Streamer's Display Name
+	"TotalClipsOnKlipTok": "Totalt antal clips på KlipTok",
+	"TotalLikesAcrossAllClips": "Totalt antal likes över alla clips",
+	"TotalCommentsAcrossAllClips": "Totalt antal kommentarer över alla clips",
+	"TotalViewsAcrossAllClips": "Totalt antal visningar över alla clips",
+	"LastClipAdded": "Senaste Clip tillagt:",
+	"LastClip": "Senaste Clip:",
+	"NoProfilePicAvailable": "Ingen profil bild tillgänglig",
+	"DateRangePicker_Start": "Startdatum", // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Slutdatum", // The End Date label on the filter on the streamer page
+	"ShareStreamer": "Dela Streamer", // The tooltip for the Share button on the streamer page
+
+	// Layout
+	"PublicBeta": "PUBLIK BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Utloggad från KlipTok och Twitch",
+	"LoginToKlipTokWithTwitch": "Logga in på KlipTok med Twitch",
+	"AuthenticationIsNoLongerValid": "Din inloggning med Twitch och KlipTok är inte längre giltig. Vänligen logga in med Twitch för att fortsätta.",
+	"Loading": "Laddar...",
+
+	// Errors
+	"ErrorWhileLoading": "Ett fel uppstod.",
+	"RetryButton": "Försök igen",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Twitch Streamers jag följer",
+	"NotLoggedIn": "Kunde inte visa konton du följer på Twitch eftersom du inte är inloggad med ett Twitch konto. Vänligen logga in och synka dina följda streamers med KlipTok för att få tillgång till denna funktion.",
+
+	// Home Page
+	"DiscoverPopularClips": "Hitta populära Clips",
+	"DiscoverClips": "Hitta Clips",
+	"InsertCoin": "Sätt in mynt",
+	"MyFavoriteChannels": "Mina favorit Streamers",
+	"Favorites": "Favoriter",
+	"ClipsILike": "Clips jag gillar",
+	"LikedClips": "Gillade Clips",
+	"UserProfile": "Användarprofil",
+
+	// Liked Clips
+	"NoLikedClips": "Du har inte gillat några Clips på KlipTok än!",
+	"TryLikeButtonTemplate": "Testa att klicka på hjärtat {0] under ett Clip för att 'gilla' det och vi kommer att rapportera det här så att du kan hitta det igen lätt.",
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok sparar inte separat information från Twitch och är byggt som en tjänst för att förstärka Twitch klipp.",
+	"AutoPlayVideosOnScroll": "Spela upp videos automatiskt när du scrollar.",
+	"IndexClipsOfMyChannel": "Indexera mina Clips",
+	"OptedOutDateTemplate": "Optad ut från indexering på {0}",
+	"SaveMyChanges": "Spara mina ändringar",
+	"SyncFollowersWithKlipTok": "Synka följda streamers med KlipTok",
+	"MutedChannels": "Tystade Streamers",
+	"Channel": "Streamer",
+	"MutedUntil": "Tystad till",
+	"RightToForget": "Rätt att glömma",
+	"DangerZone": "[ Farozon ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "Du har full rätt att be KlipTok att ta bort all information som du har delat. Genom att klicka på länken så ber du KlipTok att ta bort alla kommentarer, likes och Clips.",
+	"RemoveMyContentFromKlipTok": "Ta bort min content på KlipTok",
+	"ForgottenAsOfTemplate": "Glömt sedan : {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Single Clip Page
+	"MissingClipError": "KlipTok har ingen vetskap av detta Clip. Antingen finns det inte på Twitch eller så har kanalen optat ut från KlipTok.",
+	"LikedBy": "Gillat av:",
+	"UserLikedTimeTemplate": "{0} gillade {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "Som svar på: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Skriv en ny kommentar...",
+	"LoginWithTwitchToComment": "Logga in med Twitch för att kommentera",
+	"CommentButton": "Kommentera",
+
+	// Streamer Page
+	"MuteForLabel": "Tyst för:",
+	"StreamerIsMutedUntilTemplate": "Streamer är tystad till: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Ta bort tyst läge", // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Föralltid", // Label for "Mute Forever" action button
+	"SortByLabel": "Sortera efter:",
+	"Views": "Visningar", // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Poäng", // A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Senaste", // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Clips från:", // Label above the date range filter component
+	"SearchButton": "Sök", // Text on the search button to filter by date range
+	"ResetButton": "Återställ", // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Inga Clips tillgängliga",
+	"AddClipsForThisStreamer": "Lägg till Clips för denna streamer",
+	"NotifyOnOptIn": "Vänligen tänk på att om du lägger till Clips för denna streamer att du även notifierar streamern om detta. Vi har inten automatisk väg att notifiera streamern."
+
+}
