@@ -16,6 +16,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Add Clips for this Streamer"</summary>
         public string AddClipsForThisStreamer;
 
+        /// <summary>"Advanced Filtering"</summary>
+        public string AdvancedFiltering;
+
         /// <summary>"All Streamers"</summary>
         public string AllStreamers;
 
@@ -82,8 +85,14 @@ namespace KlipTok.Client.I18nText
         /// <summary>"An error occurred while loading."</summary>
         public string ErrorWhileLoading;
 
+        /// <summary>"Exclude these channels"</summary>
+        public string ExcludeChannels;
+
         /// <summary>"Favorites"</summary>
         public string Favorites;
+
+        /// <summary>"Filter"</summary>
+        public string FilterButton;
 
         /// <summary>"Followed Streamers"</summary>
         public string FollowedStreamers;
@@ -93,6 +102,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Forgotten as of : {0}"</summary>
         public string ForgottenAsOfTemplate;
+
+        /// <summary>"Include these channels"</summary>
+        public string IncludeChannels;
 
         /// <summary>"Index my Clips"</summary>
         public string IndexClipsOfMyChannel;
@@ -160,6 +172,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"My Favorite Streamers"</summary>
         public string MyFavoriteChannels;
 
+        /// <summary>"Next Page"</summary>
+        public string NextPage;
+
         /// <summary>"No Clips Available"</summary>
         public string NoClipsAvailable;
 
@@ -180,6 +195,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Opted out of indexing on: {0}"</summary>
         public string OptedOutDateTemplate;
+
+        /// <summary>"Previous Page"</summary>
+        public string PreviousPage;
 
         /// <summary>"{0} profile pic"</summary>
         public string ProfilePicTemplate;
