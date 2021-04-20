@@ -26,9 +26,16 @@
 	"SearchKlipTok": "Telusuri KlipTok...",
 	"SearchAllOfKlipTok": "Telusuri seluruh KlipTok untuk {0}", // {0} is the search term to search clips for
 	"SearchResults": "Hasil telusuran",
-	"SearchedKlipTokAndFoundTemplate": "Penelusuran dalam KlipTok untuk \"{0}\" menemukan:", // {0} is the term sought
+	"SearchedKlipTokAndFoundTemplate": "Hasil penelusuran untuk \"{0}\" dalam KlipTok:", // {0} is the term sought
 	"StreamerPlayingCategoryTemplate": "{0} memainkan {1}", // {0} is the streamer name, {1} is the category played,
-
+	"AdvancedFiltering": "Saringan lanjutan",
+	"IncludeChannels": "Sertakan channel ini",
+	"ExcludeChannels": "Abaikan channel ini",
+	"FilterButton": "Saring", // The button to apply the advanced search filter
+	"PreviousPage": "Sebelumnya",
+	"NextPage":  "Berikutnya",
+	
+	
 	// Sidebar
 	"SuggestedStreamers": "Streamer yang Disarankan",
 	"FollowedStreamers": "Streamer yang Diikuti",
