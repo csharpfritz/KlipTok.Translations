@@ -22,6 +22,19 @@
 	"SearchForChannel": "Znajdź streamera...",
 	"SearchNotFoundFormat": "Nie znaleziono {0}",
 
+	// Search and Search Results
+	"SearchKlipTok": "Wyszukaj w KlipTok...",
+	"SearchAllOfKlipTok": "Wyszukaj wszystkie klipy dla {0}",
+	"SearchResults": "Wyniki wyszukiwania",
+	"SearchedKlipTokAndFoundTemplate": "Przeszukaliśmy KlipTok dla \"{0}\" i znaleźliśmy:",
+	"StreamerPlayingCategoryTemplate": "{0} gra w {1}",
+	"AdvancedFiltering": "Zaawansowane filtrowanie",
+	"IncludeChannels": "Uwzględnij te kanały",
+	"ExcludeChannels": "Nie uwzględniaj tych kanałów",
+	"FilterButton": "Filtruj",
+	"PreviousPage": "Poprzednia strona",
+	"NextPage": "Następna strona",
+
 	// Sidebar
 	"SuggestedStreamers": "Polecani streamerzy",
 	"FollowedStreamers": "Obserwowani streamerzy",
