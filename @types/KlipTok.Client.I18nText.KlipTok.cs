@@ -88,7 +88,7 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Exclude these channels"</summary>
         public string ExcludeChannels;
 
-        /// <summary>"Favorites"</summary>
+        /// <summary>"Following"</summary>
         public string Favorites;
 
         /// <summary>"Filter"</summary>
@@ -169,7 +169,7 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Mute for:"</summary>
         public string MuteForLabel;
 
-        /// <summary>"My Favorite Streamers"</summary>
+        /// <summary>"Clips from channels I follow"</summary>
         public string MyFavoriteChannels;
 
         /// <summary>"Next Page"</summary>

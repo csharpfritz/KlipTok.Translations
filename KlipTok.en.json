@@ -78,8 +78,8 @@
 	"DiscoverPopularClips": "Discover Popular Clips",
 	"DiscoverClips": "Discover Clips",
 	"InsertCoin": "Insert Coin",
-	"MyFavoriteChannels": "My Favorite Streamers",
-	"Favorites": "Favorites",
+	"MyFavoriteChannels": "Clips from channels I follow", // Tooltip for the Following tab
+	"Favorites": "Following", // Renamed on April 27, 2021 to "Following"
 	"ClipsILike": "Clips I Like",
 	"LikedClips": "Liked Clips",
 	"UserProfile": "User Profile",
