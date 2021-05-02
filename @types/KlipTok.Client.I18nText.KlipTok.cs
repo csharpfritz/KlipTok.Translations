@@ -40,6 +40,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Click to Unfollow"</summary>
         public string ClickToUnfollow;
 
+        /// <summary>"Clipped by {0}"</summary>
+        public string ClippedByFormat;
+
         /// <summary>"Clips from:"</summary>
         public string ClipsFromLabel;
 

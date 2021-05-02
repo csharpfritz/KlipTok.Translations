@@ -8,6 +8,7 @@
 	"ClipViews": "Clip Views",
 	"ShareThisClip": "Share this Clip",
 	"KlipTokContentPlaceholder": "KlipTok Content Placeholder",
+	"ClippedByFormat": "Clipped by {0}", // {0} is the display name of the clip creator
 
 	// Comments
 	"ByLineFormat": "At {0} {1} wrote:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
