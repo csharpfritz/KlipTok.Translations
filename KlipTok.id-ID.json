@@ -79,8 +79,8 @@
 	"DiscoverPopularClips": "Temukan Klip Populer",
 	"DiscoverClips": "Temukan Klip",
 	"InsertCoin": "Masukkan Koin",
-	"MyFavoriteChannels": "Streamer Favoritku",
-	"Favorites": "Favorit",
+	"MyFavoriteChannels": "Klip dari channel yang diikuti", // Tooltip for the Following tab
+	"Favorites": "Mengikuti",				// Renamed on April 27, 2021 to "Following"
 	"ClipsILike": "Klip yang Kusukai",
 	"LikedClips": "Klip yang Disukai",
 	"UserProfile": "Profil Pengguna",
