@@ -5,9 +5,10 @@
 	"Recorded": "Iliyorekodiwa mara {0}",
 	"Likes": "Imependeza",
 	"Comments": "Maoni",
-	"ClipViews": "Kipande cha video imetazamwa mara",
-	"ShareThisClip": "Shiriki kipande cha video hii",
+	"ClipViews": "Klipu imetazamwa mara",
+	"ShareThisClip": "Shiriki klipu hii",
 	"KlipTokContentPlaceholder": "Kishika nafasi cha yaliyomo kwenye KlipTok",
+	"ClippedByFormat": "Imepigwa na {0}",
 
   // Comments
 	"ByLineFormat": "Katika {0} {1} aliandika:",
@@ -22,6 +23,19 @@
 	"SearchForChannel": "Tafuta kituo...",
 	"SearchNotFoundFormat": "{0} haipatikani",
 
+	// Search and Search Results
+	"SearchKlipTok": "Tafuta KlipTok...",
+	"SearchAllOfKlipTok": "Tafuta KlipTok kote kwa {0}", // {0} is the search term to search clips for
+	"SearchResults": "Matokeo ya Utaftaji",
+	"SearchedKlipTokAndFoundTemplate": "Tulitafuta KlipTok kwa \"{0}\" na tukapata:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} anacheza {1}", // {0} is the streamer name, {1} is the category played,
+	"AdvancedFiltering": "Kuchuja kwa hali ya juu",
+	"IncludeChannels": "Jumuisha Vituo hivi",
+	"ExcludeChannels": "Tenga Vituo hivi",
+	"FilterButton": "Kichujio", // The button to apply the advanced search filter
+	"PreviousPage": "Ukurasa Uliotangulia",
+	"NextPage": "Ukurasa Unaofuata",
+
   // Sidebar
 	"SuggestedStreamers": "Streamers Wanaopendekezwa",
 	"FollowedStreamers": "Streamers Unaofuatwa",
@@ -35,19 +49,23 @@
 	"ActionOnTwitchTemplate": "{0} kwenye Twitch",
 	"LiveOnTwitch": "Live kwenye Twitch saa hii!",
 	"ProfilePicTemplate": "{0} picha ya wasifu",
-	"TotalClipsOnKlipTok": "Vipande vyote vya video kwenye KlipTok",
-	"TotalLikesAcrossAllClips": "Jumla ya zilizopendwa kwenye vipande vyote vya video",
-	"TotalCommentsAcrossAllClips": "Jumla ya maoni kwenye vipande vyote vya video",
-	"TotalViewsAcrossAllClips": "Jumla ya mitazamo kwenye vipande vyote vya video",
-	"LastClipAdded": "Kipande cha video cha mwisho kuongezwa:",
-	"LastClip": "Kipande cha video cha mwisho:",
+	"TotalClipsOnKlipTok": "Klipu zote kwenye KlipTok",
+	"TotalLikesAcrossAllClips": "Jumla ya zilizopendwa kwenye klipu zote",
+	"TotalCommentsAcrossAllClips": "Jumla ya maoni kwenye klipu zote",
+	"TotalViewsAcrossAllClips": "Jumla ya mitazamo kwenye klipu zote",
+	"LastClipAdded": "Klipu ya mwisho kuongezwa:",
+	"LastClip": "Klipu ya mwisho:",
 	"NoProfilePicAvailable": "Hakuna picha ya wasifu inayopatikana",
+	"DateRangePicker_Start": "Tarehe ya Kuanza",  // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Tarehe ya Mwisho",			// The End Date label on the filter on the streamer page
+	"ShareStreamer": "Shiriki Streamer",		// The tooltip for the Share button on the streamer page
 
   // Layout
 	"PublicBeta": "BETA YA UMMA",
 	"LoggedOutFromKlipTokAndTwitch": "Ondoka KlipTok na Twitch",
 	"LoginToKlipTokWithTwitch": "Ingia KlipTok na Twitch",
 	"AuthenticationIsNoLongerValid": "Uthibitishaji wako na Twitch na KlipTok sio halali tena. Tafadhali ingia kwenye KlipTok kutumia Twitch ili kuendelea.",
+	"Loading": "Inapakia...",
 
   // Errors
 	"ErrorWhileLoading": "Hitilafu imetokea wakati wa kupakia.",
@@ -58,23 +76,23 @@
 	"NotLoggedIn": "Imeshindwa kuonyesha rekodi za akaunti unazofuata kwenye Twitch kwa sababu haujaingia na akaunti ya Twitch. Tafadhali ingia na usawazishe streamers unaofuata kwenya KlipTok ili kutumia utendakazi huu.",
 
   // Home Page
-	"DiscoverPopularClips": "Gundua vipande vya video maarufu",
-	"DiscoverClips": "Gundua vipande vya video",
+	"DiscoverPopularClips": "Gundua klipu maarufu",
+	"DiscoverClips": "Gundua klipu",
 	"InsertCoin": "Ingiza Sarafu",
 	"MyFavoriteChannels": "Vituo Unavyopendelea",
 	"Favorites": "Unayopendelea",
-	"ClipsILike": "Vipande vya video ninavyopenda",
-	"LikedClips": "Vipande vya video vilivyopendwa",
+	"ClipsILike": "Klipu ninazopenda",
+	"LikedClips": "Klipu zilizopendwa",
 	"UserProfile": "Wasifu wa mtumiaji",
 
   // Liked Clips
-	"NoLikedClips": "Bado hujapendezwa na kipande cha video yeyote!",
-	"TryLikeButtonTemplate": "Jaribu kubonyeza aikoni ya moyo {0} chini ya kipande cha video ili 'uipende' na tutaripoti hapa kwako ili uweze kuipata tena baadaye",
+	"NoLikedClips": "Bado hujapendezwa na klipu yeyote!",
+	"TryLikeButtonTemplate": "Jaribu kubonyeza aikoni ya moyo {0} chini ya klipu ili 'uipende' na tutaripoti hapa kwako ili uweze kuipata tena baadaye",
 
   // User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok haihifadhi habari za watumiaji tofauti kutoka kwa Twitch, na imejengwa kama huduma ya kuongeza sehemu za Twitch.",
 	"AutoPlayVideosOnScroll": "Cheza video kiotomatiki kwenye kusogeza",
-	"IndexClipsOfMyChannel": "Weka farahisi kwa vipande vya video kwenya kituo changu",
+	"IndexClipsOfMyChannel": "Weka farahisi kwa klipu kwenya kituo changu",
 	"OptedOutDateTemplate": "Amua kutoka kwa faharisi: {0}",
 	"SaveMyChanges": "Okoa mabadiliko yangu",
 	"SyncFollowersWithKlipTok":"Sawazisha Wafuasi na KlipTok",
@@ -83,8 +101,33 @@
 	"MutedUntil": "Kimya Mpaka",
 	"RightToForget": "Haki ya kusahau",
 	"DangerZone": "[ Eneo la Hatari  ]",
-	"RightToForgetDescription": "Una haki ya kuomba KlipTok kusahau habari zote ambazo umeshiriki. Kwa kubofya kiunga hiki na kudhibitisha, KlipTok itaondoa maoni yako yote, uliyopenda, na vipande vya video.",
+	"RightToForgetDescription": "Una haki ya kuomba KlipTok kusahau habari zote ambazo umeshiriki. Kwa kubofya kiunga hiki na kudhibitisha, KlipTok itaondoa maoni yako yote, uliyopenda, na klipu.",
 	"RemoveMyContentFromKlipTok": "Ondoa yaliyomo kwenye KlipTok yangu",
 	"ForgottenAsOfTemplate": "Sahauliwa kuanzia : {0}",
+
+	// Single Clip Page
+	"MissingClipError": "KlipTok haina rekodi ya klipu hii. Labda haipo au kituo cha Twitch kimechagua kutoshiriki kwenye KlipTok.",
+	"LikedBy": "Ilipendwa Na:",
+	"UserLikedTimeTemplate": "{0} aliipenda {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "Kwa kumjibu: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Weka Maoni mapya...",
+	"LoginWithTwitchToComment": "Ingia na Twitch kutoa Maoni",
+	"CommentButton": "Toa Maoni",
+
+	// Streamer Page
+	"MuteForLabel": "Nyamazisha kwa:",
+	"StreamerIsMutedUntilTemplate": "Streamer amenyamazishwa hadi: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Onyesha Sauti",   // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Milele",   // Label for "Mute Forever" action button
+	"SortByLabel": "Panga kwa:",
+	"Views": "Mitazamo",     // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Alama", 		// A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Ya Hivi Karibuni",  // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Vipande vya video kutoka:",   // Label above the date range filter component
+	"SearchButton": "Tafuta",  // Text on the search button to filter by date range
+	"ResetButton": "Weka upya",    // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Hakuna Klipu Zinazopatikana",
+	"AddClipsForThisStreamer": "Ongeza Klipu za Streamer huyu",
+	"NotifyOnOptIn": "Tafadhali kumbuka: ikiwa unaongeza Klipu za Streamer huyu, tunakuomba uwaarifu kuwa umeongeza Klipu zao kwenye wavuti hii. Hatuna njia ya moja kwa moja ya kufikia mtangazaji."
 
 }
