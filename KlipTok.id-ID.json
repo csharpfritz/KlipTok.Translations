@@ -8,9 +8,10 @@
 	"ClipViews": "Ditonton",
 	"ShareThisClip": "Bagikan Klip ini",
 	"KlipTokContentPlaceholder": "Placeholder Konten Kliptok",
+	"ClippedByFormat": "Diklip oleh {0}", // {0} is the display name of the clip creator
 
 	// Comments
-	"ByLineFormat": "Pada {0} {1} tulis:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"ByLineFormat": "Pada {0}, {1} tulis:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Balas",
 
 	// Login View
@@ -33,7 +34,7 @@
 	"ExcludeChannels": "Abaikan channel ini",
 	"FilterButton": "Saring", // The button to apply the advanced search filter
 	"PreviousPage": "Sebelumnya",
-	"NextPage":  "Berikutnya",
+	"NextPage": "Berikutnya",	
 	
 	
 	// Sidebar
@@ -80,7 +81,7 @@
 	"DiscoverClips": "Temukan Klip",
 	"InsertCoin": "Masukkan Koin",
 	"MyFavoriteChannels": "Klip dari channel yang diikuti", // Tooltip for the Following tab
-	"Favorites": "Mengikuti",				// Renamed on April 27, 2021 to "Following"
+	"Favorites": "Mengikuti", // Renamed on April 27, 2021 to "Following"
 	"ClipsILike": "Klip yang Kusukai",
 	"LikedClips": "Klip yang Disukai",
 	"UserProfile": "Profil Pengguna",
@@ -103,7 +104,7 @@
 	"DangerZone": "[ Zona Bahaya ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
 	"RightToForgetDescription": "Anda berhak meminta Kliptok untuk melupakan semua informasi yang telah Anda bagikan. Dengan mengklik link ini dan mengkonfirmasikan, Kliptok akan menghapus semua Komentar, Suka, dan Klip Anda.",
 	"RemoveMyContentFromKlipTok": "Hapus kontenku dari Kliptok",
-	"ForgottenAsOfTemplate": "Dilupakan pada : {0}", // {0} is the datestamp of when the 'forget' action was taken	
+	"ForgottenAsOfTemplate": "Dilupakan pada: {0}", // {0} is the datestamp of when the 'forget' action was taken	
 	
 	// Single Clip Page
 	"MissingClipError": "KlipTok tidak mempunyai catatan Klip ini. Klip tidak ada atau channel Twitch tersebut memilih untuk tidak berpartisipasi dalam KlipTok.",
