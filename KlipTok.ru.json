@@ -8,6 +8,7 @@
 	"ClipViews": "Просмотры",
 	"ShareThisClip": "Поделиться Клипом",
 	"KlipTokContentPlaceholder": "KlipTok Content Placeholder",
+	"ClippedByFormat": "Автор Клипа: {0}", // {0} is the display name of the clip creator
 
 	// Comments
 	"ByLineFormat": "{1} в {0}:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
@@ -21,6 +22,20 @@
 	// Header
 	"SearchForChannel": "Найти Стримера...",
 	"SearchNotFoundFormat": "{0} не найден", // {0} is the search term that was not found
+
+	// Search and Search Results
+	"SearchKlipTok": "Поиск в KlipTok...",
+	"SearchAllOfKlipTok": "Поиск по всему KlipTok {0}", // {0} is the search term to search clips for
+	"SearchResults": "Результаты Поиска",
+	"SearchedKlipTokAndFoundTemplate": "Мы выполнили поиск в KlipTok по запросу \"{0}\" и нашли:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} играет в {1}", // {0} is the streamer name, {1} is the category played,
+	"AdvancedFiltering": "Расширенная Фильтрация",
+	"IncludeChannels": "Включая каналы",
+	"ExcludeChannels": "Исключая каналы",
+	"FilterButton": "Применить", // The button to apply the advanced search filter
+	"PreviousPage": "Предыдущая Страница",
+	"NextPage": "Следующая Страница",
+
 
 	// Sidebar
 	"SuggestedStreamers": "Предлагаемые Стримеры",
@@ -68,7 +83,7 @@
 	"MyFavoriteChannels": "Отслеживаемые Cтримеры",
 	"Favorites": "Отслеживаемые",
 	"ClipsILike": "Клипы, которые мне нравятся",
-	"LikedClips": "Понравившиеся Клипы",
+	"LikedClips": "Понравившиеся",
 	"UserProfile": "Профиль",
 
 	// Liked Clips
