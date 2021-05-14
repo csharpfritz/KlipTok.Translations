@@ -2,16 +2,16 @@
 	// Components
 
 	// Clip
-	"Recorded": "ضبط شده {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
+	"Recorded": "ضبط شده {0}",
 	"Likes": "پسندیدن",
 	"Comments": "نظر ها",
 	"ClipViews": "بازدید های کلیپ",
 	"ShareThisClip": "اشتراک گذاری این کلیپ",
 	"KlipTokContentPlaceholder": "نگهدارنده محتوای کلیپ تاک",
-	"ClippedByFormat": "کلیپ شده توسط {0}", // {0} is the display name of the clip creator
+	"ClippedByFormat": "کلیپ شده توسظ {0}", 
 
 	// Comments
-	"ByLineFormat": "در {0} {1} نوشت:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"ByLineFormat": "در {0} {1} نوشت:",
 	"Reply": "پاسخ",
 
 	// Login View
@@ -21,14 +21,14 @@
 
 	// Header
 	"SearchForChannel": "برای یک استریمر بگرد...", // Deprecated
-	"SearchNotFoundFormat": "{0} پیدا نشد", // {0} is the search term that was not found
+	"SearchNotFoundFormat": "{0} پیدا نشد", 
 
 	// Search and Search Results
 	"SearchKlipTok": "جستوجو در کلیپ تاک... ",
-	"SearchAllOfKlipTok": "جستوجو در تمام کلیپ تاک {0}", // {0} is the search term to search clips for
+	"SearchAllOfKlipTok": "جستوجو در تمام کلیپ تاک {0}", 
 	"SearchResults": "نتایج جستوجو",
-	"SearchedKlipTokAndFoundTemplate": "ما کلیپ تاک را برای \"{0}\" گشتیم و این نتایج را پیدا کردیم :", // {0} is the term sought
-	"StreamerPlayingCategoryTemplate": "{0} درحال پخش {1}", // {0} is the streamer name, {1} is the category played,
+	"SearchedKlipTokAndFoundTemplate": "ما کلیپ تاک را برای \"{0}\" گشتیم و این نتایج را پیدا کردیم :", 
+	"StreamerPlayingCategoryTemplate": "{0} درحال پخش {1}", 
 	"AdvancedFiltering": "فیلتر کردن پیشرفته",
 	"IncludeChannels": " شامل این کانال ها باشد ",
 	"ExcludeChannels": "از این کانال ها جدا باشد",
@@ -47,9 +47,9 @@
 	// Streamer Page
 	"ClickToFollow": "برای دنبال کردن کلیک کنید",
 	"ClickToUnfollow": "برای لغو دنبال کردن کلیک کنید",
-	"ActionOnTwitchTemplate": "{0} در توییچ", // {0} will be replaced with "دنبال کردن" or "Unfollowدنبال نکردن" to read "Follow on Twitch"
+	"ActionOnTwitchTemplate": "{0} در توییچ", 
 	"LiveOnTwitch": "الان زنده در توییچ",
-	"ProfilePicTemplate": "{0} عکس پروفایل", // {0} is the Streamer's Display Name
+	"ProfilePicTemplate": "{0} عکس پروفایل", 
 	"TotalClipsOnKlipTok": "تمام کلیپ ها در کلیپ تاک",
 	"TotalLikesAcrossAllClips": "تمام پسندیدن ها برای تمای کلیپ ها",
 	"TotalCommentsAcrossAllClips": "تمام نظر ها برای تمای کلیپ ها",
@@ -88,13 +88,13 @@
 
 	// Liked Clips
 	"NoLikedClips": "شما هنور در کلیپ تاک کلیپی را نپسندیده اید!",
-	"TryLikeButtonTemplate": "با کلیک کردن روی ایکون قلب {0} زیر هر کلیپ میتوانید آن را بپسندید و ما اینجا به شما گزارش میکنیم تا در آینده بتوانید به راحتی آن را پیدا کنید", //  {0} is the heart icon
+	"TryLikeButtonTemplate": "با کلیک کردن روی ایکون قلب {0} زیر هر کلیپ میتوانید آن را بپسندید و ما اینجا به شما گزارش میکنیم تا در آینده بتوانید به راحتی آن را پیدا کنید", 
 
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "کلیپ تاک اطلاعات کاربران از توییج را جداگانه نگهداری نمیکند,و بعنوان یک سرویس برای تقویت کردن کلیپ های توییچ ساخته شده.",
 	"AutoPlayVideosOnScroll": "پخش خودکار ویدیو ها در پیمایش صفحه ",
 	"IndexClipsOfMyChannel": "کلیپ های من را فهرست کنید",
-	"OptedOutDateTemplate": "از فهرست خارج شد در: {0}", // {0} is the datestamp of when opt-out was recorded 
+	"OptedOutDateTemplate": "از فهرست خارج شد در: {0}",  
 	"SaveMyChanges": "تغییرات من را ذخیره کن",
 	"SyncFollowersWithKlipTok": " همگام سازی استریمر های دنبال شده با کلیپ تاک ",
 	"MutedChannels": "استریم های بی صدا شده",
@@ -104,20 +104,20 @@
 	"DangerZone": "[ محدوده خطر ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
 	"RightToForgetDescription": "شما این حق رو دارید که به کلیپ تاک درخواست بدهید تا تمام اطلاعاتی که شما به اشتراک گذاشتید فراموش شود,با کلیک روی این لینک و تایید کردن ,کلیپ تاک تمام نظر ها , پسندیدن ها و کلیپ های شما را حذف خواهد کرد.",
 	"RemoveMyContentFromKlipTok": "پاک کردن محتوای من از کلیپ تاک",
-	"ForgottenAsOfTemplate": "فراموش شده در : {0}", // {0} is the datestamp of when the 'forget' action was taken
+	"ForgottenAsOfTemplate": "فراموش شده در : {0}", 
 
 	// Single Clip Page
 	"MissingClipError": "کلیپ تاک برای این کلیپ رکوردی ندارد. یا در کانال توییچ وجود ندارد یا کانال از همکاری با کلیپ تاک خارج شده است.",
 	"LikedBy": "پسندیده شده توسط:",
-	"UserLikedTimeTemplate": "{0} پسندید {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
-	"InReplyToTemplate": "در پاسخ به: {0}", // {0} is the user display name whose comment we are replying to
+	"UserLikedTimeTemplate": "{0} پسندید {1}", 
+	"InReplyToTemplate": "در پاسخ به: {0}", 
 	"EnterNewComment": "نظر جدیدی ثبت کنید ...",
 	"LoginWithTwitchToComment": "برای گذاشتن نظر با حساب توییچ خود وارد شوید",
 	"CommentButton": "نظر",
 
 	// Streamer Page
 	"MuteForLabel": "بی صدا برای:",
-	"StreamerIsMutedUntilTemplate": "استریمر بی صداست تا: {0}", // {0} is a datestamp of when the mute operation ends
+	"StreamerIsMutedUntilTemplate": "استریمر بی صداست تا: {0}", 
 	"NoMute": "با صدا", // Remove the mute effect on this streamer so that you can see their content again
 	"Forever": "همیشه", // Label for "Mute Forever" action button
 	"SortByLabel": "چیندمان بر اساس:",
