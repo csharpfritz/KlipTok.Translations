@@ -8,7 +8,7 @@
 	"ClipViews": "بازدید های کلیپ",
 	"ShareThisClip": "اشتراک گذاری این کلیپ",
 	"KlipTokContentPlaceholder": "نگهدارنده محتوای کلیپ تاک",
-	"ClippedByFormat": "کلیپ شده توسظ {0}", // {0} is the display name of the clip creator
+	"ClippedByFormat": "کلیپ شده توسط {0}", // {0} is the display name of the clip creator
 
 	// Comments
 	"ByLineFormat": "در {0} {1} نوشت:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
