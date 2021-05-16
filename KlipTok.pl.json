@@ -8,6 +8,7 @@
 	"ClipViews": "Wyświetlenia",
 	"ShareThisClip": "Udostępnij ten klip",
 	"KlipTokContentPlaceholder": "Zawartość zastępcza",
+	"ClippedByFormat": "Klip wykonany przez {0}", // {0} is the display name of the clip creator
 
 	// Comments
 	"ByLineFormat": "{0}, {1} napisał:",
@@ -78,8 +79,8 @@
 	"DiscoverPopularClips": "Odkryj popularne klipy",
 	"DiscoverClips": "Odkryj klipy",
 	"InsertCoin": "Wrzuć monetę",
-	"MyFavoriteChannels": "Moi ulubieni streamerzy",
-	"Favorites": "Ulubione",
+	"MyFavoriteChannels": "Klipy z kanałów które obserwuję",
+	"Favorites": "Obserwowane", // Renamed on April 27, 2021 to "Following"
 	"ClipsILike": "Klipy które lubię",
 	"LikedClips": "Lubiane klipy",
 	"UserProfile": "Profil użytkownika",
