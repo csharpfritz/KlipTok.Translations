@@ -20,13 +20,13 @@
 	"Logout": "خروج",
 
 	// Header
-	"SearchForChannel": "برای یک استریمر بگرد...", // Deprecated
+	"SearchForChannel": "جستجو برای پیداکردن استریمر...", // Deprecated
 	"SearchNotFoundFormat": "{0} پیدا نشد", 
 
 	// Search and Search Results
-	"SearchKlipTok": "جستوجو در کلیپ تاک... ",
-	"SearchAllOfKlipTok": "جستوجو در تمام کلیپ تاک {0}", 
-	"SearchResults": "نتایج جستوجو",
+	"SearchKlipTok": "جستجو در کلیپ تاک... ",
+	"SearchAllOfKlipTok": "جستجو در تمام کلیپ تاک {0}", 
+	"SearchResults": "نتایج جستجو",
 	"SearchedKlipTokAndFoundTemplate": "ما کلیپ تاک را برای \"{0}\" گشتیم و این نتایج را پیدا کردیم :", 
 	"StreamerPlayingCategoryTemplate": "{0} درحال پخش {1}", 
 	"AdvancedFiltering": "فیلتر کردن پیشرفته",
