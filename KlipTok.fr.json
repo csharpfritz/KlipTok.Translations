@@ -10,7 +10,7 @@
 	"KlipTokContentPlaceholder": "Espace réservé de contenu KlipTok",
 
 	// Comments
-	"ByLineFormat": "A écrit {0} {1}:",
+	"ByLineFormat": "À {1}, {0} a écrit:",
 	"Reply": "Répondre",
 
 	// Login View
