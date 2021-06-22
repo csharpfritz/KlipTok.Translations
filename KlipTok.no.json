@@ -1,3 +1,4 @@
+{
 // Components
 
 	// Clip
@@ -117,7 +118,7 @@
 	"MuteForLabel": "Demp for:",
 	"StreamerIsMutedUntilTemplate": "Streamer er dempet til: {0}", // {0} is a datestamp of when the mute operation ends
 	"NoMute": "Ta bort dempning", // Remove the mute effect on this streamer so that you can see their content again
-	"Forever": "for alltid": // Label for "Mute Forever" action button
+	"Forever": "for alltid", // Label for "Mute Forever" action button
 	"SortByLabel": "Sorter etter:",
 	"Views": "Visninger", // The number of Clip Views for a Clip that we are sorting by
 	"Score": "Poeng", // A reference to the KlipTok algorithm assigned score for this Clip

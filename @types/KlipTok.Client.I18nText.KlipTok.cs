@@ -16,6 +16,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Add Clips for this Streamer"</summary>
         public string AddClipsForThisStreamer;
 
+        /// <summary>"Legg til klipp for denne streameren"</summary>
+        public string AddklippForThisStreamer;
+
         /// <summary>"Advanced Filtering"</summary>
         public string AdvancedFiltering;
 
@@ -76,8 +79,14 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Discover Clips"</summary>
         public string DiscoverClips;
 
+        /// <summary>"Finn klipp"</summary>
+        public string Discoverklipp;
+
         /// <summary>"Discover Popular Clips"</summary>
         public string DiscoverPopularClips;
+
+        /// <summary>"Finn populære klipp"</summary>
+        public string DiscoverPopularklipp;
 
         /// <summary>"KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch Clips."</summary>
         public string DoesNotKeepSeparateUserInformation;
@@ -112,11 +121,20 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Index my Clips"</summary>
         public string IndexClipsOfMyChannel;
 
+        /// <summary>"indeks mine klipp"</summary>
+        public string IndexklippOfMyChannel;
+
         /// <summary>"In reply to: {0}"</summary>
         public string InReplyToTemplate;
 
         /// <summary>"Insert Coin"</summary>
         public string InsertCoin;
+
+        /// <summary>"klipp fra:"</summary>
+        public string klippFromLabel;
+
+        /// <summary>"klipp jeg liker"</summary>
+        public string klippILike;
 
         /// <summary>"KlipTok Content Placeholder"</summary>
         public string KlipTokContentPlaceholder;
@@ -135,6 +153,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Liked Clips"</summary>
         public string LikedClips;
+
+        /// <summary>"Likte klipp"</summary>
+        public string Likedklipp;
 
         /// <summary>"Likes"</summary>
         public string Likes;
@@ -181,8 +202,14 @@ namespace KlipTok.Client.I18nText
         /// <summary>"No Clips Available"</summary>
         public string NoClipsAvailable;
 
+        /// <summary>"Ingen klipp tilgjengelig"</summary>
+        public string NoklippAvailable;
+
         /// <summary>"You haven&apos;t liked any Clips on KlipTok yet!"</summary>
         public string NoLikedClips;
+
+        /// <summary>"Du har ikke likt noen klipp på KlipTok enda!"</summary>
+        public string NoLikedklipp;
 
         /// <summary>"Unmute"</summary>
         public string NoMute;
@@ -283,11 +310,23 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Total Comments across all Clips"</summary>
         public string TotalCommentsAcrossAllClips;
 
+        /// <summary>"Totalt antall kommentarer over alle klipp"</summary>
+        public string TotalCommentsAcrossAllklipp;
+
+        /// <summary>"Totalt antal klipp på KlipTok"</summary>
+        public string TotalklippOnKlipTok;
+
         /// <summary>"Total Likes across all Clips"</summary>
         public string TotalLikesAcrossAllClips;
 
+        /// <summary>"Totalt antall likes over alle klipp"</summary>
+        public string TotalLikesAcrossAllklipp;
+
         /// <summary>"Total views across all Clips"</summary>
         public string TotalViewsAcrossAllClips;
+
+        /// <summary>"Totalt antal visningar over alle klipp"</summary>
+        public string TotalViewsAcrossAllklipp;
 
         /// <summary>"Try clicking the heart icon {0} below a Clip to &apos;Like&apos; it and we&apos;ll report it here for you so you can easily find it again in the future"</summary>
         public string TryLikeButtonTemplate;
