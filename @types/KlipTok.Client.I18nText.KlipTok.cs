@@ -160,6 +160,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Likes"</summary>
         public string Likes;
 
+        /// <summary>"LIVE"</summary>
+        public string Live;
+
         /// <summary>"Live on Twitch now!"</summary>
         public string LiveOnTwitch;
 

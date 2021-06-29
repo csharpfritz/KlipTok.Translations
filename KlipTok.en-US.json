@@ -49,6 +49,7 @@
 	"ClickToUnfollow": "Click to Unfollow",
 	"ActionOnTwitchTemplate": "{0} on Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "Live on Twitch now!",
+	"Live":  "LIVE", // Text for the red live indicator.  Should be all capitalized
 	"ProfilePicTemplate": "{0} profile pic", // {0} is the Streamer's Display Name
 	"TotalClipsOnKlipTok": "Total Clips on KlipTok",
 	"TotalLikesAcrossAllClips": "Total Likes across all Clips",
