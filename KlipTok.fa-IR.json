@@ -130,5 +130,15 @@
 	"NoClipsAvailable": "هیچ کلیپی در دسترس نیست",
 	"AddClipsForThisStreamer": "افزودن کلیپ برای این استریمر",
 	"NotifyOnOptIn": "لطفا توجه داشته باشید : اگر برای این استریمر کلیپی اضافه کردید , لطف کنید بهشون در این باره اطلاع بدید که کلیپی ازشون در این سایت قرار دادید. ما هیچ راهی برای ارتباط با فرد اجرا کننده نداریم"
-
+	
+	// Streamer Dashboard
+	"Live": "زنده", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "کلیپ ها", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "داشبورد", // Label for the dashboard tab on the top of the Streamer page 
+	"ClipsCreatedLast90Days": "کلیپ های ساخته شده در ۹۰ روز اخیر", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "کلیپ های ساخته شده در هفته", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "کلیپ ها بر اساس روزهای هفته", // Label for the clips by the day of week tile
+	"MostViewedClippers": "پر بازدیدترین کلیپ ساز ها", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "پر بازدید ترین دسته بندی ها", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "مورد پسندترین کلیپ ساز"
 }
