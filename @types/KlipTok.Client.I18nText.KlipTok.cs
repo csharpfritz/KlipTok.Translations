@@ -46,11 +46,23 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Clipped by {0}"</summary>
         public string ClippedByFormat;
 
+        /// <summary>"Clips by Day of Week"</summary>
+        public string ClipsByDayOfWeek;
+
+        /// <summary>"Clips Created in last 90 days"</summary>
+        public string ClipsCreatedLast90Days;
+
+        /// <summary>"Clips Created per Week"</summary>
+        public string ClipsCreatedPerWeek;
+
         /// <summary>"Clips from:"</summary>
         public string ClipsFromLabel;
 
         /// <summary>"Clips I Like"</summary>
         public string ClipsILike;
+
+        /// <summary>"Clips"</summary>
+        public string ClipsTab;
 
         /// <summary>"Clip Views"</summary>
         public string ClipViews;
@@ -69,6 +81,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Dark Mode"</summary>
         public string DarkMode;
+
+        /// <summary>"Dashboard"</summary>
+        public string DashboardTab;
 
         /// <summary>"End Date"</summary>
         public string DateRangePicker_End;
@@ -186,6 +201,15 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"KlipTok does not have a record of this Clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok."</summary>
         public string MissingClipError;
+
+        /// <summary>"Most Liked Clippers"</summary>
+        public string MostLikedClippers;
+
+        /// <summary>"Most Viewed Categories"</summary>
+        public string MostViewedCategories;
+
+        /// <summary>"Most Viewed Clippers"</summary>
+        public string MostViewedClippers;
 
         /// <summary>"Muted Streamers"</summary>
         public string MutedChannels;

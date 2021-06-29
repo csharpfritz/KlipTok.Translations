@@ -34,7 +34,7 @@
 	"ExcludeChannels": "Exclude these channels",
 	"FilterButton": "Filter", // The button to apply the advanced search filter
 	"PreviousPage": "Previous Page",
-	"NextPage":  "Next Page",
+	"NextPage": "Next Page",
 
 
 	// Sidebar
@@ -49,7 +49,6 @@
 	"ClickToUnfollow": "Click to Unfollow",
 	"ActionOnTwitchTemplate": "{0} on Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "Live on Twitch now!",
-	"Live":  "LIVE", // Text for the red live indicator.  Should be all capitalized
 	"ProfilePicTemplate": "{0} profile pic", // {0} is the Streamer's Display Name
 	"TotalClipsOnKlipTok": "Total Clips on KlipTok",
 	"TotalLikesAcrossAllClips": "Total Likes across all Clips",
@@ -82,7 +81,7 @@
 	"DiscoverClips": "Discover Clips",
 	"InsertCoin": "Insert Coin",
 	"MyFavoriteChannels": "Clips from channels I follow", // Tooltip for the Following tab
-	"Favorites": "Following",				// Renamed on April 27, 2021 to "Following"
+	"Favorites": "Following", // Renamed on April 27, 2021 to "Following"
 	"ClipsILike": "Clips I Like",
 	"LikedClips": "Liked Clips",
 	"UserProfile": "User Profile",
@@ -130,6 +129,16 @@
 	"ResetButton": "Reset", // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "No Clips Available",
 	"AddClipsForThisStreamer": "Add Clips for this Streamer",
-	"NotifyOnOptIn": "Please note: if you add Clips for this streamer, we kindly request you notify them that you have added their Clips to this site.  We have no direct way to reach out to the broadcaster."
+	"NotifyOnOptIn": "Please note: if you add Clips for this streamer, we kindly request you notify them that you have added their Clips to this site.  We have no direct way to reach out to the broadcaster.",
 
+	// Streamer Dashboard
+	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Clips", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Dashboard", // Label for the dashboard tab on the top of the Streamer page 
+	"ClipsCreatedLast90Days": "Clips Created in last 90 days", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Clips Created per Week", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Clips by Day of Week", // Label for the clips by the day of week tile
+	"MostViewedClippers": "Most Viewed Clippers", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Most Viewed Categories", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Most Liked Clippers"
 }
