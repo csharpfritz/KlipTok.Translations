@@ -11,7 +11,7 @@
 	"ClippedByFormat": "Diklip oleh {0}", // {0} is the display name of the clip creator
 
 	// Comments
-	"ByLineFormat": "Pada {0}, {1} tulis:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"ByLineFormat": "Pada {0} {1} tulis:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Balas",
 
 	// Login View
@@ -129,6 +129,16 @@
 	"ResetButton": "Reset", // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "Tidak Ada Klip yang Tersedia",
 	"AddClipsForThisStreamer": "Tambahkan Klip untuk Streamer ini",
-	"NotifyOnOptIn": "Perlu diketahui: jika Anda menambahkan Klip untuk Streamer ini, kami memohon Anda untuk memberitahu mereka bahwa Anda telah menambahkan Klip mereka ke dalam situs ini. Kami tidak memiliki cara untuk langsung menghubungi Streamer."
+	"NotifyOnOptIn": "Perlu diketahui: jika Anda menambahkan Klip untuk Streamer ini, kami memohon Anda untuk memberitahu mereka bahwa Anda telah menambahkan Klip mereka ke dalam situs ini. Kami tidak memiliki cara langsung untuk menghubungi Streamer.",
 
+	// Streamer Dashboard
+	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Klip", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Beranda", // Label for the dashboard tab on the top of the Streamer page 
+	"ClipsCreatedLast90Days": "Klip Dibuat dalam 90 hari terakhir", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Klip dibuat per Minggu", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Klip menurut Hari", // Label for the clips by the day of week tile
+	"MostViewedClippers": "Clipper yang paling banyak ditonton", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Kategori yang paling banyak Ditonton", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Clipper yang paling Disukai"
 }
