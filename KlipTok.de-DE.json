@@ -15,7 +15,7 @@
 
 	// Login View
 	"DarkMode": "Dunkles Design",
-	"LoginWithTwitch": "Mit Twitch Einloggen",
+	"LoginWithTwitch": "Mit Twitch einloggen",
 	"Logout": "Ausloggen",
 
 	// Header
@@ -77,7 +77,7 @@
 	"TryLikeButtonTemplate": "Klicke unter einem Clip auf das Herz {0}. Clips, die dir gefallen, werden hier angezeigt, damit du sie leicht wiederfindest.",  // {0} ist das Herz Icon
 
 	// User Profile
-	"DoesNotKeepSeparateUserInformation": "KlipTok speichert keine Nutzerinformation abseits von Twitch, and wurde als Service entwickelt, um Twitch Clips zu erweitern.",
+	"DoesNotKeepSeparateUserInformation": "KlipTok speichert keine Nutzerinformation abseits von Twitch und wurde als Service entwickelt, um Twitch Clips zu erweitern.",
 	"AutoPlayVideosOnScroll": "Videos beim Scrollen automatisch abspielen",
 	"IndexClipsOfMyChannel": "Meine Clips indizieren",
 	"OptedOutDateTemplate": "Automatische Indizierung abgewählt am: {0}", // {0} ist das Datum des Opt-outs
@@ -93,7 +93,7 @@
 	"ForgottenAsOfTemplate": "Daten gelöscht am: {0}", // {0} ist das Datum, an dem die Datenlöschung veranlasst wurde
 
 	// Single Clip Page
-	"MissingClipError": "KlipTok kennt diesen Clip nicht. Entweder existiert er nicht, oder der Twitch Kanal hat die Indizirung auf KlipTok abgewählt.",
+	"MissingClipError": "KlipTok kennt diesen Clip nicht. Entweder existiert er nicht oder der Twitch Kanal hat die Indizirung auf KlipTok abgewählt.",
 	"LikedBy": "Gefällt:",
 	"UserLikedTimeTemplate": "{0} gefällt dieser Clip", // {0} ist der Displayname des Nutzers, dem der Clip gefällt, {1} ist der relative Zeitstempel
 	"InReplyToTemplate": "Antwort auf {0}", // {0} ist der Displayname des Nutzers, auf dessen Kommentar geantwortet wird
