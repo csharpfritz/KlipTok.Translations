@@ -93,7 +93,7 @@
 	"ForgottenAsOfTemplate": "Daten gelöscht am: {0}", // {0} ist das Datum, an dem die Datenlöschung veranlasst wurde
 
 	// Single Clip Page
-	"MissingClipError": "KlipTok kennt diesen Clip nicht. Entweder existiert er nicht oder der Twitch Kanal hat die Indizirung auf KlipTok abgewählt.",
+	"MissingClipError": "KlipTok kennt diesen Clip nicht. Entweder existiert er nicht oder der Twitch Kanal hat die Indizierung auf KlipTok abgewählt.",
 	"LikedBy": "Gefällt:",
 	"UserLikedTimeTemplate": "{0} gefällt dieser Clip", // {0} ist der Displayname des Nutzers, dem der Clip gefällt, {1} ist der relative Zeitstempel
 	"InReplyToTemplate": "Antwort auf {0}", // {0} ist der Displayname des Nutzers, auf dessen Kommentar geantwortet wird
