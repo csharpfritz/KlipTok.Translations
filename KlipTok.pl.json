@@ -59,12 +59,12 @@
 	"DateRangePicker_Start": "Data początkowa",
 	"DateRangePicker_End": "Data końcowa",
 	"ShareStreamer": "Udostępnij tego streamera",
-	
+
 	// Layout
 	"PublicBeta": "PUBLICZNA BETA",
 	"LoggedOutFromKlipTokAndTwitch": "Wylogowano z KlipTok i Twitch",
 	"LoginToKlipTokWithTwitch": "Zaloguj się na KlipTok z Twitch",
-	"AuthenticationIsNoLongerValid": "Twoje uwierzytelnienie z Twitch i KlipTok jest już nie ważne. Zaloguj się na KlipTok z Twitch aby kontynuować.",
+	"AuthenticationIsNoLongerValid": "Twoje uwierzytelnienie z Twitch i KlipTok jest już nie ważne. Zaloguj się na KlipTok z Twitch, aby kontynuować.",
 	"Loading": "Ładowanie...",
 
 	// Errors
@@ -73,21 +73,21 @@
 
 	// Follows page
 	"TwitchChannelsIFollow": "Obserwowani streamerzy na Twitch",
-	"NotLoggedIn": "Nie można wyświetlić listy obserwowanych streamerów ponieważ nie jesteś zalogowany z Twitch. Zaloguj się z Twitch i zsynchronizuj listę obserwowanych z KlipTok aby uzyskać dostęp do tej funkcji.",
+	"NotLoggedIn": "Nie można wyświetlić listy obserwowanych streamerów, ponieważ nie jesteś zalogowany z Twitch. Zaloguj się z Twitch i zsynchronizuj listę obserwowanych z KlipTok, aby uzyskać dostęp do tej funkcji.",
 
 	// Home Page
 	"DiscoverPopularClips": "Odkryj popularne klipy",
 	"DiscoverClips": "Odkryj klipy",
 	"InsertCoin": "Wrzuć monetę",
-	"MyFavoriteChannels": "Klipy z kanałów które obserwuję",
+	"MyFavoriteChannels": "Klipy z kanałów, które obserwuję",
 	"Favorites": "Obserwowane", // Renamed on April 27, 2021 to "Following"
-	"ClipsILike": "Klipy które lubię",
+	"ClipsILike": "Klipy, które lubię",
 	"LikedClips": "Lubiane klipy",
 	"UserProfile": "Profil użytkownika",
 
 	// Liked Clips
 	"NoLikedClips": "Jeszcze nie polubiłeś żadnych klipów na KlipTok!",
-	"TryLikeButtonTemplate": "Kliknij ikonę serca {0} poniżej klipu aby polubić ten klip. Polubione klipy będą wyświetlone tutaj dla łatwego dostępu.",
+	"TryLikeButtonTemplate": "Kliknij ikonę serca {0} poniżej klipu, aby polubić ten klip. Polubione klipy będą wyświetlone tutaj dla łatwego dostępu.",
 
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok nie zapisuje żadnych informacji o użytkowniku z Twitch. Kliptok jest usługą usprawniającą klipy z Twitch.",
@@ -101,17 +101,17 @@
 	"MutedUntil": "Wyciszony do",
 	"RightToForget": "Prawo do usunięcia danych",
 	"DangerZone": "[ Strefa zagrożenia ]",
-	"RightToForgetDescription": "Masz prawo zarządać aby KlipTok usunął wszystkie dane powiązane z Tobą. Klikając ten odnośnik oraz potwierdzając, KlipTok usunie wszystkie Twoje komentarze, polubienia i klipy.",
+	"RightToForgetDescription": "Masz prawo zarządać, aby KlipTok usunął wszystkie dane powiązane z Tobą. Klikając ten odnośnik oraz potwierdzając, KlipTok usunie wszystkie Twoje komentarze, polubienia i klipy.",
 	"RemoveMyContentFromKlipTok": "Usuń moje dane z KlipTok",
 	"ForgottenAsOfTemplate": "Usunięto dane o: {0}",
 
 	// Single Clip Page
-	"MissingClipError": "KlipTok nie posiada zapisu tego klipu. Możliwe ze klip nie istnieje lub że streamer zrezygnował z indeksowania na KlipTok.",
+	"MissingClipError": "KlipTok nie posiada zapisu tego klipu. Możliwe, że klip nie istnieje lub że streamer zrezygnował z indeksowania na KlipTok.",
 	"LikedBy": "Polubiane przez:",
 	"UserLikedTimeTemplate": "{0} polubił o {1}",
 	"InReplyToTemplate": "W odpowiedzi do: {0}",
 	"EnterNewComment": "Wprowadź komentarz...",
-	"LoginWithTwitchToComment": "Zalogój z Twitch aby skomentować",
+	"LoginWithTwitchToComment": "Zaloguj z Twitch, aby skomentować",
 	"CommentButton": "Komentuj",
 
 	// Streamer Page
@@ -128,5 +128,16 @@
 	"ResetButton": "Wyczyść",
 	"NoClipsAvailable": "Brak klipów",
 	"AddClipsForThisStreamer": "Dodaj klipy tego streamera",
-	"NotifyOnOptIn": "Uwaga: jeśli dodasz klipy tego streamera, uprzejmie prosimy o poinformowanie tego streamera o dodaniu ich klipów do KlipTok. Nie mamy możliwości poinformowć ich automatycznie."
+	"NotifyOnOptIn": "Uwaga: jeśli dodasz klipy tego streamera, uprzejmie prosimy o poinformowanie tego streamera o dodaniu ich klipów do KlipTok. Nie mamy możliwości poinformowć ich automatycznie.",
+
+	// Streamer Dashboard
+	"Live": "NA ŻYWO", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Klipy", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Panel kontrolny", // Label for the dashboard tab on the top of the Streamer page
+	"ClipsCreatedLast90Days": "Klipy utworzone w ciągu ostatnich 90 dni", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Klipy tworzone na tydzień", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Klipy według dnia tygodnia", // Label for the clips by the day of week tile
+	"MostViewedClippers": "Najczęściej oglądani klipujący", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Najczęściej oglądane kategorie", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Najbardziej lubiani klipujący"
 }
