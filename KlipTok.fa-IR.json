@@ -129,7 +129,7 @@
 	"ResetButton": " ست کردن مجدد", // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "هیچ کلیپی در دسترس نیست",
 	"AddClipsForThisStreamer": "افزودن کلیپ برای این استریمر",
-	"NotifyOnOptIn": "لطفا توجه داشته باشید : اگر برای این استریمر کلیپی اضافه کردید , لطف کنید بهشون در این باره اطلاع بدید که کلیپی ازشون در این سایت قرار دادید. ما هیچ راهی برای ارتباط با فرد اجرا کننده نداریم"
+	"NotifyOnOptIn": "لطفا توجه داشته باشید : اگر برای این استریمر کلیپی اضافه کردید , لطف کنید بهشون در این باره اطلاع بدید که کلیپی ازشون در این سایت قرار دادید. ما هیچ راهی برای ارتباط با فرد اجرا کننده نداریم",
 	
 	// Streamer Dashboard
 	"Live": "زنده", // Text for the red live indicator.  Should be all capitalized
