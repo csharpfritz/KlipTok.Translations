@@ -8,6 +8,7 @@
 	"ClipViews": "Aufrufe",
 	"ShareThisClip": "Diesen Clip teilen",
 	"KlipTokContentPlaceholder": "KlipTok Platzhalter",
+	"ClippedByFormat": "Aufgenommen von {0}", // {0} is the display name of the clip creator
 
 	// Comments
 	"ByLineFormat": "{1} hat {0} geschrieben:", // {0} ist der relative Zeitstempel des Kommentars, {1} ist der Name des Kommentierenden
@@ -21,6 +22,19 @@
 	// Header
 	"SearchForChannel": "Kanal suchen...",
 	"SearchNotFoundFormat": "Keine Ergebnisse für {0}", // {0} ist der Suchbegriff, der nicht gefunden wurde
+
+	// Search and Search Results
+	"SearchKlipTok": "Auf KlipTok suchen...",
+	"SearchAllOfKlipTok": "Durchsuche KlipTok nach {0}", // {0} is the search term to search clips for
+	"SearchResults": "Suchergebnisse",
+	"SearchedKlipTokAndFoundTemplate": "Wir durchsuchten KlipTok nach \"{0}\" und fanden:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} spielt {1}", // {0} is the streamer name, {1} is the category played,
+	"AdvancedFiltering": "Erweiterte Filterung",
+	"IncludeChannels": "Diese Kanäle einziehen",
+	"ExcludeChannels": "Diese Kanäle ausschließen",
+	"FilterButton": "Filter", // The button to apply the advanced search filter
+	"PreviousPage": "Vorherige Seite",
+	"NextPage": "Nächste Seite",
 
 	// Sidebar
 	"SuggestedStreamers": "Vorgeschlagene Streamer",
@@ -46,7 +60,6 @@
 	"DateRangePicker_End": "Enddatum", // Label für den Datumsfilter auf der Streamerseite
 	"ShareStreamer": "Streamer teilen", // Tooltip für den 'Teilen'-Button auf der Streamerseite
 
-
 	// Layout
 	"PublicBeta": "PUBLIC BETA",
 	"LoggedOutFromKlipTokAndTwitch": "Von KlipTok und Twitch ausgeloggt",
@@ -61,7 +74,7 @@
 	// Follows page
 	"TwitchChannelsIFollow": "Kanäle, denen ich folge",
 	"NotLoggedIn": "Bitte melde dich an, um Kanäle anzuzeigen, denen du folgst.",
-
+	
 	// Home Page
 	"DiscoverPopularClips": "Beliebte Clips entdecken",
 	"DiscoverClips": "Clips entdecken",
@@ -91,7 +104,7 @@
 	"RightToForgetDescription": "Du hast das Recht, dass KlipTok alle Informationen, die Du geteilt hast, löscht. Mit einem Klick auf diesen Link bestätigst Du, dass KlipTok alle deine Kommentare, Likes und Clips entfernt.",
 	"RemoveMyContentFromKlipTok": "Meine Informationen und Inhalte von KlipTok löschen",
 	"ForgottenAsOfTemplate": "Daten gelöscht am: {0}", // {0} ist das Datum, an dem die Datenlöschung veranlasst wurde
-
+	
 	// Single Clip Page
 	"MissingClipError": "KlipTok kennt diesen Clip nicht. Entweder existiert er nicht oder der Twitch Kanal hat die Indizierung auf KlipTok abgewählt.",
 	"LikedBy": "Gefällt:",
@@ -100,7 +113,7 @@
 	"EnterNewComment": "Neuer Kommentar...",
 	"LoginWithTwitchToComment": "Mit Twitch einloggen, um zu kommentieren",
 	"CommentButton": "Kommentieren",
-
+	
 	// Streamer Page
 	"MuteForLabel": "Stummschalten für:",
 	"StreamerIsMutedUntilTemplate": "Streamer ist stummgeschaltet bis: {0}", // {0} ist das Datum, wenn die Stummschaltung ausläuft
@@ -116,5 +129,16 @@
 	"NoClipsAvailable": "Keine Clips verfügbar",
 	"AddClipsForThisStreamer": "Clips für diesen Streamer hinzufügen",
 	"NotifyOnOptIn": "Hinweis: Wenn du für diesen Streamer Clips hinzufügst, benachrichtige ihn bitte darüber. Wir haben leider keine Möglichkeit, den Streamer darüber zu infomieren."
+
+	// Streamer Dashboard
+	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Clips", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Dashboard", // Label for the dashboard tab on the top of the Streamer page 
+	"ClipsCreatedLast90Days": "Clips der letzten 90 Tagen", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Clips pro Woche", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Clips nach Wochentag", // Label for the clips by the day of week tile
+	"MostViewedClippers": "Meistgesehene Clipper", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Meistgesehene Kategorien", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Beliebeste Clipper"
 
 }
