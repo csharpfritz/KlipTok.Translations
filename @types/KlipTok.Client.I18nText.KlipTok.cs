@@ -43,6 +43,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Click to Unfollow"</summary>
         public string ClickToUnfollow;
 
+        /// <summary>"This clip has a transcription that can be searched"</summary>
+        public string ClipHasTranscription;
+
         /// <summary>"Clipped by {0}"</summary>
         public string ClippedByFormat;
 
@@ -309,6 +312,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Search Results"</summary>
         public string SearchResults;
+
+        /// <summary>"Results from clip transcription search for text: {0}"</summary>
+        public string SearchResultsFromTranscriptionSearch;
 
         /// <summary>"Share Streamer"</summary>
         public string ShareStreamer;

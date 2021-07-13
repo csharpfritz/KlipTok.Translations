@@ -140,5 +140,11 @@
 	"ClipsByDayOfWeek": "Clips by Day of Week", // Label for the clips by the day of week tile
 	"MostViewedClippers": "Most Viewed Clippers", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Most Viewed Categories", // Label for the Most Viewed Categories table
-	"MostLikedClippers": "Most Liked Clippers"
+	"MostLikedClippers": "Most Liked Clippers",
+
+	// Transcription Features
+	"ClipHasTranscription": "This clip has a transcription that can be searched", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Results from clip transcription search for text: {0}" // Clip transcription search results header.  {0} is the search text
+
+
 }
