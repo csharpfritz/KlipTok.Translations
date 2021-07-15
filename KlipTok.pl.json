@@ -139,5 +139,9 @@
 	"ClipsByDayOfWeek": "Klipy według dnia tygodnia", // Label for the clips by the day of week tile
 	"MostViewedClippers": "Najczęściej oglądani klipujący", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Najczęściej oglądane kategorie", // Label for the Most Viewed Categories table
-	"MostLikedClippers": "Najbardziej lubiani klipujący"
+	"MostLikedClippers": "Najbardziej lubiani klipujący",
+
+	// Transcription Features
+	"ClipHasTranscription": "Ten klip ma transkrypcję, którą można przeszukiwać", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Wyniki wyszukiwania w transkrypcji klipu tekstu: {0}" // Clip transcription search results header.  {0} is the search text
 }
