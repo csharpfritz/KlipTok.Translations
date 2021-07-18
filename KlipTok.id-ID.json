@@ -140,5 +140,11 @@
 	"ClipsByDayOfWeek": "Klip menurut Hari", // Label for the clips by the day of week tile
 	"MostViewedClippers": "Clipper yang paling banyak ditonton", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Kategori yang paling banyak Ditonton", // Label for the Most Viewed Categories table
-	"MostLikedClippers": "Clipper yang paling Disukai"
+	"MostLikedClippers": "Clipper yang paling Disukai",
+
+	// Transcription Features
+	"ClipHasTranscription": "Klip ini memiliki transkripsi yang dapat ditelusuri", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Hasil penelusuran transkripsi klip untuk: {0}" // Clip transcription search results header.  {0} is the search text
+
+
 }
