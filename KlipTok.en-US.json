@@ -144,7 +144,7 @@
 
 	// Transcription Features
 	"ClipHasTranscription": "This clip has a transcription that can be searched", // Tooltip for the transcription icon
-	"SearchResultsFromTranscriptionSearch": "Results from clip transcription search for text: {0}" // Clip transcription search results header.  {0} is the search text
-
+	"SearchResultsFromTranscriptionSearch": "Results from clip transcription search for text: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Clip Transcription by AssemblyAI:" // Clip transcription attribution to AssemblyAI
 
 }

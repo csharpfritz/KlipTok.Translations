@@ -67,6 +67,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Clips"</summary>
         public string ClipsTab;
 
+        /// <summary>"Clip Transcription by AssemblyAI:"</summary>
+        public string ClipTranscriptionByAssemblyAI;
+
         /// <summary>"Clip Views"</summary>
         public string ClipViews;
 
