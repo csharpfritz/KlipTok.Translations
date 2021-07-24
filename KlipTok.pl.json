@@ -143,5 +143,6 @@
 
 	// Transcription Features
 	"ClipHasTranscription": "Ten klip ma transkrypcję, którą można przeszukiwać", // Tooltip for the transcription icon
-	"SearchResultsFromTranscriptionSearch": "Wyniki wyszukiwania w transkrypcji klipu tekstu: {0}" // Clip transcription search results header.  {0} is the search text
+	"SearchResultsFromTranscriptionSearch": "Wyniki wyszukiwania w transkrypcji klipu tekstu: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Transkrypcja klipów przez AssemblyAI:" // Clip transcription attribution to AssemblyAI
 }
