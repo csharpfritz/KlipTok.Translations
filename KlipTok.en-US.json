@@ -138,6 +138,7 @@
 	"ClipsCreatedLast90Days": "Clips Created in last 90 days", // Label for the Clips Created in the last 90 days graph
 	"ClipsCreatedPerWeek": "Clips Created per Week", // The label on the x-axis for the Clips Created in the Last 90 days graph
 	"ClipsByDayOfWeek": "Clips by Day of Week", // Label for the clips by the day of week tile
+	"TitleDayCreated":  "Day Created", // Title for the Clips by Day of week radar chart
 	"MostViewedClippers": "Most Viewed Clippers", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Most Viewed Categories", // Label for the Most Viewed Categories table
 	"MostLikedClippers": "Most Liked Clippers",

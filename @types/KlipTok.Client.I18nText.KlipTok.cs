@@ -340,6 +340,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Sync Followed Streamers with KlipTok"</summary>
         public string SyncFollowersWithKlipTok;
 
+        /// <summary>"Day Created"</summary>
+        public string TitleDayCreated;
+
         /// <summary>"Total Clips on KlipTok"</summary>
         public string TotalClipsOnKlipTok;
 
