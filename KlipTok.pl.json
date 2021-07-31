@@ -137,6 +137,7 @@
 	"ClipsCreatedLast90Days": "Klipy utworzone w ciągu ostatnich 90 dni", // Label for the Clips Created in the last 90 days graph
 	"ClipsCreatedPerWeek": "Klipy tworzone na tydzień", // The label on the x-axis for the Clips Created in the Last 90 days graph
 	"ClipsByDayOfWeek": "Klipy według dnia tygodnia", // Label for the clips by the day of week tile
+	"TitleDayCreated": "Dzień utworzenia", // Title for the Clips by Day of week radar chart
 	"MostViewedClippers": "Najczęściej oglądani klipujący", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Najczęściej oglądane kategorie", // Label for the Most Viewed Categories table
 	"MostLikedClippers": "Najbardziej lubiani klipujący",
