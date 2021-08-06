@@ -138,13 +138,14 @@
 	"ClipsCreatedLast90Days": "Klip Dibuat dalam 90 hari terakhir", // Label for the Clips Created in the last 90 days graph
 	"ClipsCreatedPerWeek": "Klip dibuat per Minggu", // The label on the x-axis for the Clips Created in the Last 90 days graph
 	"ClipsByDayOfWeek": "Klip menurut Hari", // Label for the clips by the day of week tile
+	"TitleDayCreated":  "Hari Dibuat", // Title for the Clips by Day of week radar chart
 	"MostViewedClippers": "Clipper yang paling banyak ditonton", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Kategori yang paling banyak Ditonton", // Label for the Most Viewed Categories table
 	"MostLikedClippers": "Clipper yang paling Disukai",
 
 	// Transcription Features
 	"ClipHasTranscription": "Klip ini memiliki transkripsi yang dapat ditelusuri", // Tooltip for the transcription icon
-	"SearchResultsFromTranscriptionSearch": "Hasil penelusuran transkripsi klip untuk: {0}" // Clip transcription search results header.  {0} is the search text
-
+	"SearchResultsFromTranscriptionSearch": "Hasil penelusuran transkripsi klip untuk: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Transkripsi Klip oleh AssemblyAI:" // Clip transcription attribution to AssemblyAI
 
 }
