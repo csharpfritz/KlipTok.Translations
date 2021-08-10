@@ -259,6 +259,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Opted out of indexing on: {0}"</summary>
         public string OptedOutDateTemplate;
 
+        /// <summary>"Preview Thumbnail for the clip &apos;{0}&apos;"</summary>
+        public string PreviewThumbnailForClip;
+
         /// <summary>"Previous Page"</summary>
         public string PreviousPage;
 
@@ -300,6 +303,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Search"</summary>
         public string SearchButton;
+
+        /// <summary>"Results from clip title search for text: {0}"</summary>
+        public string SearchedClipTitlesAndFoundTemplate;
 
         /// <summary>"We searched KlipTok for &quot;{0}&quot; and found:"</summary>
         public string SearchedKlipTokAndFoundTemplate;
