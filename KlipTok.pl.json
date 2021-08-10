@@ -9,6 +9,7 @@
 	"ShareThisClip": "Udostępnij ten klip",
 	"KlipTokContentPlaceholder": "Zawartość zastępcza",
 	"ClippedByFormat": "Klip wykonany przez {0}", // {0} is the display name of the clip creator
+	"PreviewThumbnailForClip": "Podgląd miniatury dla klipu '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
 
 	// Comments
 	"ByLineFormat": "{0}, {1} napisał:",
@@ -20,8 +21,8 @@
 	"Logout": "Wyloguj się",
 
 	// Header
-	"SearchForChannel": "Znajdź streamera...",
-	"SearchNotFoundFormat": "Nie znaleziono {0}",
+	"SearchForChannel": "Znajdź streamera...", // Deprecated
+	"SearchNotFoundFormat": "Nie znaleziono {0}", // {0} is the search term that was not found
 
 	// Search and Search Results
 	"SearchKlipTok": "Wyszukaj w KlipTok...",
