@@ -9,7 +9,8 @@
 	"ShareThisClip": "Diesen Clip teilen",
 	"KlipTokContentPlaceholder": "KlipTok Platzhalter",
 	"ClippedByFormat": "Aufgenommen von {0}", // {0} is the display name of the clip creator
-
+	"PreviewThumbnailForClip": "Vorschau Thumbnail für Clip '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
+	
 	// Comments
 	"ByLineFormat": "{1} hat {0} geschrieben:", // {0} ist der relative Zeitstempel des Kommentars, {1} ist der Name des Kommentierenden
 	"Reply": "Antworten",
@@ -28,6 +29,7 @@
 	"SearchAllOfKlipTok": "Durchsuche KlipTok nach {0}", // {0} is the search term to search clips for
 	"SearchResults": "Suchergebnisse",
 	"SearchedKlipTokAndFoundTemplate": "Wir durchsuchten KlipTok nach \"{0}\" und fanden:", // {0} is the term sought
+	"SearchedClipTitlesAndFoundTemplate": "Ergebnisse der Suche von Clip-Titel nach: {0}", // {0} is the search term for the clip title search
 	"StreamerPlayingCategoryTemplate": "{0} spielt {1}", // {0} is the streamer name, {1} is the category played,
 	"AdvancedFiltering": "Erweiterte Filterung",
 	"IncludeChannels": "Diese Kanäle einziehen",
@@ -137,6 +139,7 @@
 	"ClipsCreatedLast90Days": "Clips der letzten 90 Tagen", // Label for the Clips Created in the last 90 days graph
 	"ClipsCreatedPerWeek": "Clips pro Woche", // The label on the x-axis for the Clips Created in the Last 90 days graph
 	"ClipsByDayOfWeek": "Clips nach Wochentag", // Label for the clips by the day of week tile
+	"TitleDayCreated": "Wochentag erstellt", // Title for the Clips by Day of week radar chart
 	"MostViewedClippers": "Meistgesehene Clipper", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Meistgesehene Kategorien", // Label for the Most Viewed Categories table
 	"MostLikedClippers": "Beliebeste Clipper",
