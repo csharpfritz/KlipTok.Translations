@@ -139,5 +139,10 @@
 	"ClipsByDayOfWeek": "Clips per dag van de week", // Label for the clips by the day of week tile
 	"MostViewedClippers": "Meest bekeken Clippers", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Meest bekeken categorieën", // Label for the Most Viewed Categories table
-	"MostLikedClippers": "Meest leuk gevonden Clippers"
+	"MostLikedClippers": "Meest leuk gevonden Clippers",
+
+	// Transcription Features
+	"ClipHasTranscription": "Deze clip heeft een transcriptie dat opgezocht kan worden", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Resultaten van clip transcriptie zoeken voor de tekst: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Clip getranscribeerd door AssemblyAI:" // Clip transcription attribution to AssemblyAI
 }
