@@ -140,7 +140,7 @@
 	"ClipsByDayOfWeek": "کلیپ ها بر اساس روزهای هفته", // Label for the clips by the day of week tile
 	"MostViewedClippers": "پر بازدیدترین کلیپ ساز ها", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "پر بازدید ترین دسته بندی ها", // Label for the Most Viewed Categories table
-	"MostLikedClippers": "مورد پسندترین کلیپ ساز ها"
+	"MostLikedClippers": "مورد پسندترین کلیپ ساز ها",
 	
 	// Transcription Features
 	"ClipHasTranscription": "این کلیپ دارای رونوشت قابل جستجو میباشد", // Tooltip for the transcription icon
