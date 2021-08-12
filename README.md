@@ -25,3 +25,5 @@ Translation files shall be named `KlipTok.LANGUAGE-ABBREVIATION.json`
 
 The LANGUAGE-ABBREVIATION is derived from the ISO 639 two-letter lowercase culture code and the ISO 3166 two-letter uppercase subculture code.  A complete reference of supported language tags is available from the [Windows Support page](https://docs.microsoft.com/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c).
 
+Languages are referenced and native names are provided from https://www.venea.net/web/culture_code
+
