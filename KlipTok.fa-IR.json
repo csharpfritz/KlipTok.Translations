@@ -120,7 +120,7 @@
 	"StreamerIsMutedUntilTemplate": "استریمر بی صداست تا: {0}", 
 	"NoMute": "با صدا", // Remove the mute effect on this streamer so that you can see their content again
 	"Forever": "همیشه", // Label for "Mute Forever" action button
-	"SortByLabel": "چیندمان بر اساس:",
+	"SortByLabel": "چیدمان بر اساس:",
 	"Views": "تعداد بازدید", // The number of Clip Views for a Clip that we are sorting by
 	"Score": "امتیاز", // A reference to the KlipTok algorithm assigned score for this Clip
 	"Latest": "جدیدترین", // A selector for the sort order to indicate the most recent created Clips should appear first
@@ -141,4 +141,12 @@
 	"MostViewedClippers": "پر بازدیدترین کلیپ ساز ها", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "پر بازدید ترین دسته بندی ها", // Label for the Most Viewed Categories table
 	"MostLikedClippers": "مورد پسندترین کلیپ ساز ها"
+	
+	// Transcription Features
+	"ClipHasTranscription": "این کلیپ دارای رونوشت قابل جستجو میباشد", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "نتایج رونوشت کلیپ برای متن: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "AssemblyAI :رونوشت کلیپ توسط" // Clip transcription attribution to AssemblyAI
+	
+	
+		
 }
