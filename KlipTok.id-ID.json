@@ -9,6 +9,7 @@
 	"ShareThisClip": "Bagikan Klip ini",
 	"KlipTokContentPlaceholder": "Placeholder Konten Kliptok",
 	"ClippedByFormat": "Diklip oleh {0}", // {0} is the display name of the clip creator
+	"PreviewThumbnailForClip": "Pratinjau Thumbnail dalam klip '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
 
 	// Comments
 	"ByLineFormat": "Pada {0} {1} tulis:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
@@ -29,6 +30,7 @@
 	"SearchResults": "Hasil telusuran",
 	"SearchedKlipTokAndFoundTemplate": "Hasil penelusuran untuk \"{0}\" dalam KlipTok:", // {0} is the term sought
 	"StreamerPlayingCategoryTemplate": "{0} memainkan {1}", // {0} is the streamer name, {1} is the category played,
+	"SearchedClipTitlesAndFoundTemplate": "Hasil penelusuran judul klip untuk: {0}", // {0} is the search term for the clip title search
 	"AdvancedFiltering": "Saringan lanjutan",
 	"IncludeChannels": "Sertakan channel ini",
 	"ExcludeChannels": "Abaikan channel ini",
@@ -138,7 +140,7 @@
 	"ClipsCreatedLast90Days": "Klip Dibuat dalam 90 hari terakhir", // Label for the Clips Created in the last 90 days graph
 	"ClipsCreatedPerWeek": "Klip dibuat per Minggu", // The label on the x-axis for the Clips Created in the Last 90 days graph
 	"ClipsByDayOfWeek": "Klip menurut Hari", // Label for the clips by the day of week tile
-	"TitleDayCreated":  "Hari Dibuat", // Title for the Clips by Day of week radar chart
+	"TitleDayCreated": "Hari Dibuat", // Title for the Clips by Day of week radar chart
 	"MostViewedClippers": "Clipper yang paling banyak ditonton", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Kategori yang paling banyak Ditonton", // Label for the Most Viewed Categories table
 	"MostLikedClippers": "Clipper yang paling Disukai",
