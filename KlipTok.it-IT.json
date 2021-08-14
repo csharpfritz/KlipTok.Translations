@@ -55,7 +55,7 @@
 	"TotalLikesAcrossAllClips": "Mi piace totali su tutte le Clip",
 	"TotalCommentsAcrossAllClips": "Commenti totali su tutte le Clip",
 	"TotalViewsAcrossAllClips": "Visualizzazioni totali su tutte le Clip",
-	"LastClipAdded": "Ultima Clip Aggiunta:",
+	"LastClipAdded": "Ultima Clip:",
 	"LastClip": "Ultima Clip:",
 	"NoProfilePicAvailable": "Nessuna foto profilo disponibile",
 	"DateRangePicker_Start": "Data inizio", // The Start Date label on the filter on the streamer page
@@ -83,8 +83,8 @@
 	"InsertCoin": "Insert Coin",
 	"MyFavoriteChannels": "Clip dagli streamer che seguo",
 	"Favorites": "Preferiti",
-	"ClipsILike": "Clip che mi piacciono",
-	"LikedClips": "Clip che mi sono piaciute",
+	"ClipsILike": "Tutte le Clip a cui ho messo \"mi piace\"",
+	"LikedClips": "Clip piaciute",
 	"UserProfile": "Profilo utente",
 
 	// Liked Clips
@@ -117,7 +117,7 @@
 	"CommentButton": "Commenta",
 
 	// Streamer Page
-	"MuteForLabel": "Silenziato per:",
+	"MuteForLabel": "Silenzia:",
 	"StreamerIsMutedUntilTemplate": "Streamer silenziato fino al: {0}", // {0} is a datestamp of when the mute operation ends
 	"NoMute": "Desilenzia", // Remove the mute effect on this streamer so that you can see their content again
 	"Forever": "Per sempre", // Label for "Mute Forever" action button
@@ -125,7 +125,7 @@
 	"Views": "Più visti", // The number of Clip Views for a Clip that we are sorting by
 	"Score": "Più punti", // A reference to the KlipTok algorithm assigned score for this Clip
 	"Latest": "Più recenti", // A selector for the sort order to indicate the most recent created Clips should appear first
-	"ClipsFromLabel": "Clip dal:", // Label above the date range filter component
+	"ClipsFromLabel": "Data:", // Label above the date range filter component
 	"SearchButton": "Ricerca", // Text on the search button to filter by date range
 	"ResetButton": "Cancella", // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "Nessuna Clip Disponibile",
@@ -138,7 +138,7 @@
 	"DashboardTab": "Dashboard", // Label for the dashboard tab on the top of the Streamer page 
 	"ClipsCreatedLast90Days": "Clip create negli ultimi 90 giorni", // Label for the Clips Created in the last 90 days graph
 	"ClipsCreatedPerWeek": "Clip create per settimana", // The label on the x-axis for the Clips Created in the Last 90 days graph
-	"ClipsByDayOfWeek": "Clip per giorno della settimana", // Label for the clips by the day of week tile
+	"ClipsByDayOfWeek": "Clip per giorno", // Label for the clips by the day of week tile
 	"TitleDayCreated": "Giorno creazione", // Title for the Clips by Day of week radar chart
 	"MostViewedClippers": "Clip più viste", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Categorie più viste", // Label for the Most Viewed Categories table
