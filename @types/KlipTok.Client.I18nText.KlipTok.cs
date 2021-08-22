@@ -37,6 +37,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Streamer"</summary>
         public string Channel;
 
+        /// <summary>"Channels Indexed"</summary>
+        public string ChannelsIndexed;
+
         /// <summary>"Click to Follow"</summary>
         public string ClickToFollow;
 
@@ -48,6 +51,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Clipped by {0}"</summary>
         public string ClippedByFormat;
+
+        /// <summary>"Clips By Date"</summary>
+        public string ClipsByDate;
 
         /// <summary>"Clips by Day of Week"</summary>
         public string ClipsByDayOfWeek;
@@ -66,6 +72,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Clips"</summary>
         public string ClipsTab;
+
+        /// <summary>"Clips Transcribed By Date"</summary>
+        public string ClipsTranscribedByDate;
 
         /// <summary>"Clip Transcription by AssemblyAI:"</summary>
         public string ClipTranscriptionByAssemblyAI;
@@ -229,6 +238,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Clips from channels I follow"</summary>
         public string MyFavoriteChannels;
 
+        /// <summary>"New Channels Today"</summary>
+        public string NewChannelsToday;
+
         /// <summary>"Next Page"</summary>
         public string NextPage;
 
@@ -346,11 +358,26 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Sync Followed Streamers with KlipTok"</summary>
         public string SyncFollowersWithKlipTok;
 
+        /// <summary>"We&apos;re making details about the growth of KlipTok openly available for you to review."</summary>
+        public string SystemDashboardDescription;
+
+        /// <summary>"System Status Dashboard"</summary>
+        public string SystemStatusDashboard;
+
         /// <summary>"Day Created"</summary>
         public string TitleDayCreated;
 
+        /// <summary>"Total Channels Identified"</summary>
+        public string TotalChannelsIdentified;
+
+        /// <summary>"Total Clips"</summary>
+        public string TotalClips;
+
         /// <summary>"Total Clips on KlipTok"</summary>
         public string TotalClipsOnKlipTok;
+
+        /// <summary>"Total Clips Transcribed"</summary>
+        public string TotalClipsTranscribed;
 
         /// <summary>"Total Comments across all Clips"</summary>
         public string TotalCommentsAcrossAllClips;

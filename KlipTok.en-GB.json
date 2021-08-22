@@ -147,7 +147,18 @@
 	// Transcription Features
 	"ClipHasTranscription": "This clip has a transcription that can be searched", // Tooltip for the transcription icon
 	"SearchResultsFromTranscriptionSearch": "Results from clip transcription search for text: {0}", // Clip transcription search results header.  {0} is the search text
-	"ClipTranscriptionByAssemblyAI": "Clip Transcription by AssemblyAI:" // Clip transcription attribution to AssemblyAI
+	"ClipTranscriptionByAssemblyAI": "Clip Transcription by AssemblyAI:", // Clip transcription attribution to AssemblyAI
+
+	// System Dashboard
+	"SystemStatusDashboard": "System Status Dashboard",
+	"SystemDashboardDescription": "We're making details about the growth of KlipTok openly available for you to review.",
+	"TotalClips": "Total Clips",
+	"ChannelsIndexed": "Channels Indexed",
+	"NewChannelsToday": "New Channels Today",
+	"TotalChannelsIdentified": "Total Channels Identified",
+	"TotalClipsTranscribed": "Total Clips Transcribed",
+	"ClipsTranscribedByDate": "Clips Transcribed By Date",
+	"ClipsByDate": "Clips By Date"
 
 
 }
