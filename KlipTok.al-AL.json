@@ -1,0 +1,164 @@
+{
+  // Components
+
+  // Clip
+  "Recorded": "Regjistruar në {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
+  "Likes": "Pëlqime",
+  "Comments": "Komente",
+  "ClipViews": "Shikime",
+  "ShareThisClip": "Shpërnda kete klip",
+  "KlipTokContentPlaceholder": "KlipTok Content Placeholder",
+  "ClippedByFormat": "Krijuesi klipit {0}", // {0} is the display name of the clip creator
+  "PreviewThumbnailForClip": "Miniaturë paraprake për klipin '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
+
+  // Comments
+  "ByLineFormat": "Në {0} {1} shkroi:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+  "Reply": "Përgjigju",
+
+  // Login View
+  "DarkMode": "Pamje e errët",
+  "LoginWithTwitch": "Kyëu me Twitch",
+  "Logout": "Shkyëu",
+
+  // Header
+  "SearchForChannel": "Kërko për një Streamer...", // Deprecated
+  "SearchNotFoundFormat": "{0} nuk u gjet", // {0} is the search term that was not found
+
+  // Search and Search Results
+  "SearchKlipTok": "Kërko KlipTok...",
+  "SearchAllOfKlipTok": "Kërko të gjithë all of KlipTok for {0}", // {0} is the search term to search clips for
+  "SearchResults": "Rezultatet e kërkimit",
+  "SearchedKlipTokAndFoundTemplate": "Ne kërkuam në KlipTok për \"{0}\" dhe gjetëm:", // {0} is the term sought
+  "StreamerPlayingCategoryTemplate": "{0} duke luajtur {1}", // {0} is the streamer name, {1} is the category played,
+  "SearchedClipTitlesAndFoundTemplate": "Rezultatet nga kërkimi i titullit të klipit për text: {0}", // {0} is the search term for the clip title search
+  "AdvancedFiltering": "Filtra të avancuar",
+  "IncludeChannels": "Përfshi këto kanale",
+  "ExcludeChannels": "Hiq këto kanale",
+  "FilterButton": "Filtro", // The button to apply the advanced search filter
+  "PreviousPage": "Para",
+  "NextPage": "Pas",
+
+
+  // Sidebar
+  "SuggestedStreamers": "Streamera të sygjeruar",
+  "FollowedStreamers": "Streamerat që ndjek",
+  "AllStreamers": "Të gjithë streamerat",
+  "About": "Rreth",
+  "Close": "Mbyll",
+
+  // Streamer Page
+  "ClickToFollow": "Kliko për të ndjekur",
+  "ClickToUnfollow": "Kliko për të c'ndjekur",
+  "ActionOnTwitchTemplate": "{0} në Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+  "LiveOnTwitch": "Direkt në Twitch tani!",
+  "ProfilePicTemplate": "{0} fotoja e profilit", // {0} is the Streamer's Display Name
+  "TotalClipsOnKlipTok": "Klipe totale në KlipTok",
+  "TotalLikesAcrossAllClips": "Totali i pëlqimeve në të gjithë klipet",
+  "TotalCommentsAcrossAllClips": "Totali i komenteve në të gjithë klipets",
+  "TotalViewsAcrossAllClips": "Totali i shikimeve në të gjithë klipet",
+  "LastClipAdded": "Klipi i fundit i shtuar:",
+  "LastClip": "Klipi i fundit:",
+  "NoProfilePicAvailable": "Nuk ka foto profili",
+  "DateRangePicker_Start": "Data e fillimit", // The Start Date label on the filter on the streamer page
+  "DateRangePicker_End": "Data e fundit", // The End Date label on the filter on the streamer page
+  "ShareStreamer": "Shpërnda Streamer-in", // The tooltip for the Share button on the streamer page
+
+  // Layout
+  "PublicBeta": "Versioni Beta",
+  "LoggedOutFromKlipTokAndTwitch": "U shkyce nga Kliptok dhe Twitch",
+  "LoginToKlipTokWithTwitch": "U kyce në Kliptok nga Twitch",
+  "AuthenticationIsNoLongerValid": "Autentikimi me Twitch dhe Kliptok nuk është më i vlefshëm. Ju lutemi kycuni me Twitch në Kliptok që të vazhdoni. ",
+  "Loading": "Ju lutem prisni...",
+
+  // Errors
+  "ErrorWhileLoading": "Ndodhi një gabim gjatë ngarkimit.",
+  "RetryButton": "Riprovo",
+
+  // Follows page
+  "TwitchChannelsIFollow": "Twitch Streamers që ndjek",
+  "NotLoggedIn": " E pamundur të tregojë rekorde të llogarive që ndiqni në Twitch sepse nuk jeni të kycur me një llogari Twitch. Ju lutem kycuni dhe përditësoni personat që ndiqni me Kliptok për të parë këtë funksionalitet",
+
+  // Home Page
+  "DiscoverPopularClips": "Gjeni klipe popullore",
+  "DiscoverClips": "Gjeni klipe",
+  "InsertCoin": "Vendosni monedhën",
+  "MyFavoriteChannels": "Klipe nga kanalet që ndjek", // Tooltip for the Following tab
+  "Favorites": "Ndjekur", // Renamed on April 27, 2021 to "Following"
+  "ClipsILike": "Klipe që pëlqej",
+  "LikedClips": "Klipe të pëlqyera",
+  "UserProfile": "Profili",
+
+  // Liked Clips
+  "NoLikedClips": "Nuk keni pelqyer asgjë në Kliptok akoma!",
+  "TryLikeButtonTemplate": "Kliko në ikonën e zemrës {0} poshtë një klipi që të pëlqesh dhe ne do ta tregojmë këtu në mënyrë që ta gjesh thjeshtë në të ardhmen.", //  {0} is the heart icon
+
+  // User Profile
+  "DoesNotKeepSeparateUserInformation": "KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch Clips.",
+  "AutoPlayVideosOnScroll": "Auto-luaj videot në skroll",
+  "IndexClipsOfMyChannel": "Indekso klipet e mia",
+  "OptedOutDateTemplate": "Zgjodhi indeksimin e aktivizuar: {0}", // {0} is the datestamp of when opt-out was recorded 
+  "SaveMyChanges": "Ruaj ndryshimet",
+  "SyncFollowersWithKlipTok": "Përditeso Streamerat e ndjekur me Kliptok",
+  "MutedChannels": "Streamerat e mute",
+  "Channel": "Streamer",
+  "MutedUntil": "Muted deri",
+  "RightToForget": "Harro",
+  "DangerZone": "[ Zonë rreziku ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
+  "RightToForgetDescription": "Ju keni të drejtë të kërkoni që KlipTok harron të gjitha informacionet që keni ndarë. Duke klikuar këtë lidhje dhe duke konfirmuar, KlipTok do të heqë të gjitha komentet, pëlqimet dhe klipet tuaja.",
+  "RemoveMyContentFromKlipTok": "Hiq përmbajtjen time nga KlipTok",
+  "ForgottenAsOfTemplate": "I harruar që nga : {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+  // Single Clip Page
+  "MissingClipError": "KlipTok nuk ka një regjistrim të këtij Klipi. Ai ose nuk ekziston ose kanali Twitch ka hequr dorë nga pjesëmarrja në KlipTok.",
+  "LikedBy": "Pëlqyer nga:",
+  "UserLikedTimeTemplate": "{0} pëlqeu {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+  "InReplyToTemplate": "Përgjigje e: {0}", // {0} is the user display name whose comment we are replying to
+  "EnterNewComment": "Shto një koment...",
+  "LoginWithTwitchToComment": "Kycu me Twitch për të komentuar",
+  "CommentButton": "Komento",
+
+  // Streamer Page
+  "MuteForLabel": "Mute për:",
+  "StreamerIsMutedUntilTemplate": "Streamer-i është mute deri në: {0}", // {0} is a datestamp of when the mute operation ends
+  "NoMute": "Unmute", // Remove the mute effect on this streamer so that you can see their content again
+  "Forever": "Përgjithmonë", // Label for "Mute Forever" action button
+  "SortByLabel": "Rradhiti nga:",
+  "Views": "Shikime", // The number of Clip Views for a Clip that we are sorting by
+  "Score": "Pikë", // A reference to the KlipTok algorithm assigned score for this Clip
+  "Latest": "Më të fundit", // A selector for the sort order to indicate the most recent created Clips should appear first
+  "ClipsFromLabel": "Klipe nga:", // Label above the date range filter component
+  "SearchButton": "Kërko", // Text on the search button to filter by date range
+  "ResetButton": "Rivendos", // Text on the reset button to no longer filter by date range
+  "NoClipsAvailable": "Nuk ka klipe",
+  "AddClipsForThisStreamer": "Shto klipe për këtë streamer",
+  "NotifyOnOptIn": "Ju lutemi vini re: nëse shtoni Klipe për këtë transmetues, ne kërkojmë nga ju që t'i njoftoni se i keni shtuar Klipet e tyre në këtë faqe. Ne nuk kemi asnjë mënyrë të drejtpërdrejtë për të arritur tek transmetuesi.",
+
+  // Streamer Dashboard
+  "Live": "DIREKT", // Text for the red live indicator.  Should be all capitalized
+  "ClipsTab": "Klipe", // Label for the Clips tab on the top of the Streamer page
+  "DashboardTab": "Paneli", // Label for the dashboard tab on the top of the Streamer page 
+  "ClipsCreatedLast90Days": "Klipe të krijuar 90 ditët e fundit", // Label for the Clips Created in the last 90 days graph
+  "ClipsCreatedPerWeek": "Klipe të krijuara për javë", // The label on the x-axis for the Clips Created in the Last 90 days graph
+  "ClipsByDayOfWeek": "Klipe të rradhitur nga data e krijimit", // Label for the clips by the day of week tile
+  "TitleDayCreated": "Dita krijimit", // Title for the Clips by Day of week radar chart
+  "MostViewedClippers": "Kliperat më të shikuar", // Label for the Most Viewed Clippers table
+  "MostViewedCategories": "Kategoritë më të shikuara", // Label for the Most Viewed Categories table
+  "MostLikedClippers": "Kliperat më të pëlqyer",
+
+  // Transcription Features
+  "ClipHasTranscription": "Ky klip ka një transkriptim që mund të kërkohet", // Tooltip for the transcription icon
+  "SearchResultsFromTranscriptionSearch": "Rezultatet nga kërkimi i transkriptimit të klipit për tekstin: {0}", // Clip transcription search results header.  {0} is the search text
+  "ClipTranscriptionByAssemblyAI": "Klipi i transkriptuar nga AssemblyAI:", // Clip transcription attribution to AssemblyAI
+
+  // System Dashboard
+  "SystemStatusDashboard": "Paneli statusit të sistemit",
+  "SystemDashboardDescription": "Po bëjmë detajet e rritjes se Kliptok të hapura për ty që t'i shikosh.",
+  "TotalClips": "Totali klipeve",
+  "ChannelsIndexed": "Kanale të indeksuar",
+  "NewChannelsToday": "Kanale të rinj sot",
+  "TotalChannelsIdentified": "Totali i kanaleve të identifikuara",
+  "TotalClipsTranscribed": "Totali i klipeve të transkriptuar",
+  "ClipsTranscribedByDate": "Klipe të trankriptuar nga data",
+  "ClipsByDate": "Klipe nga data"
+
+}
