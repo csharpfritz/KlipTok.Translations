@@ -136,7 +136,7 @@
 	// Streamer Dashboard
 	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
 	"ClipsTab": "Klip", // Label for the Clips tab on the top of the Streamer page
-	"DashboardTab": "Beranda", // Label for the dashboard tab on the top of the Streamer page 
+	"DashboardTab": "Dasbor", // Label for the dashboard tab on the top of the Streamer page 
 	"ClipsCreatedLast90Days": "Klip Dibuat dalam 90 hari terakhir", // Label for the Clips Created in the last 90 days graph
 	"ClipsCreatedPerWeek": "Klip dibuat per Minggu", // The label on the x-axis for the Clips Created in the Last 90 days graph
 	"ClipsByDayOfWeek": "Klip menurut Hari", // Label for the clips by the day of week tile
@@ -148,6 +148,17 @@
 	// Transcription Features
 	"ClipHasTranscription": "Klip ini memiliki transkripsi yang dapat ditelusuri", // Tooltip for the transcription icon
 	"SearchResultsFromTranscriptionSearch": "Hasil penelusuran transkripsi klip untuk: {0}", // Clip transcription search results header.  {0} is the search text
-	"ClipTranscriptionByAssemblyAI": "Transkripsi Klip oleh AssemblyAI:" // Clip transcription attribution to AssemblyAI
+	"ClipTranscriptionByAssemblyAI": "Transkripsi Klip oleh AssemblyAI:", // Clip transcription attribution to AssemblyAI
+
+	// System Dashboard
+	"SystemStatusDashboard": "Dasbor Status Sistem",
+	"SystemDashboardDescription": "Kami menyediakan detail pertumbuhan Kliptok secara terbuka untuk tinjauan Anda.",
+	"TotalClips": "Total Klip",
+	"ChannelsIndexed": "Channel Diindeks",
+	"NewChannelsToday": "Channel Baru Hari Ini",
+	"TotalChannelsIdentified": "Total Channel yang Teridentifikasi",
+	"TotalClipsTranscribed": "Total Klip yang Ditranskripsi",
+	"ClipsTranscribedByDate": "Klip Ditranskripsi berdasarkan Tanggal",
+	"ClipsByDate": "Klip berdasarkan Tanggal"
 
 }
