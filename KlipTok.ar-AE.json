@@ -130,7 +130,7 @@
 	"ResetButton": "إعادة تعيين", // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "لا توجد مقاطع متوفرة",
 	"AddClipsForThisStreamer": "إضافة مقاطع للقائم بالبث",
-	"NotifyOnOptIn": "ملاحظة: إذا قمت بإضافة مقاطع إلى هذا الموقع، يرجى إخطارهم بأنك أضفت مقاطعهم إلى هذا الموقع حيث ليس لدينا طريقة مباشرة للوصول إلى القائم بالبث."
+	"NotifyOnOptIn": "ملاحظة: إذا قمت بإضافة مقاطع إلى هذا الموقع، يرجى إخطارهم بأنك أضفت مقاطعهم إلى هذا الموقع حيث ليس لدينا طريقة مباشرة للوصول إلى القائم بالبث.",
 	
 		// Streamer Dashboard
 	"Live": "مباشر", // Text for the red live indicator.  Should be all capitalized
