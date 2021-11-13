@@ -136,13 +136,13 @@
 	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
 	"ClipsTab": "Clips", // Label for the Clips tab on the top of the Streamer page
 	"DashboardTab": "Dashboard", // Label for the dashboard tab on the top of the Streamer page 
-	"ClipsCreatedLast90Days": "Clips der letzten 90 Tagen", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedLast90Days": "Clips der letzten 90 Tage", // Label for the Clips Created in the last 90 days graph
 	"ClipsCreatedPerWeek": "Clips pro Woche", // The label on the x-axis for the Clips Created in the Last 90 days graph
 	"ClipsByDayOfWeek": "Clips nach Wochentag", // Label for the clips by the day of week tile
 	"TitleDayCreated": "Wochentag erstellt", // Title for the Clips by Day of week radar chart
 	"MostViewedClippers": "Meistgesehene Clipper", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Meistgesehene Kategorien", // Label for the Most Viewed Categories table
-	"MostLikedClippers": "Beliebeste Clipper",
+	"MostLikedClippers": "Beliebteste Clipper",
 	
 	
 	// Transcription Features
@@ -153,11 +153,11 @@
 	// System Dashboard
 	"SystemStatusDashboard": "System Status Dashboard",
 	"SystemDashboardDescription": "Wir stellen Daten zum Wachstum von KlipTok für jeden zur Verfügung.",
-	"TotalClips": "Clips insgesamt",
+	"TotalClips": "Clips gesamt",
 	"ChannelsIndexed": "Kanäle indexiert",
 	"NewChannelsToday": "Neue Kanäle heute",
-	"TotalChannelsIdentified": "Identifizierte Kanäle insgesamt",
-	"TotalClipsTranscribed": "Transkribierte Clips insgesamt",
+	"TotalChannelsIdentified": "Identifizierte Kanäle gesamt",
+	"TotalClipsTranscribed": "Transkribierte Clips gesamt",
 	"ClipsTranscribedByDate": "Transkribierte Clips nach Datum",
 	"ClipsByDate": "Clips nach Datum"
 }
