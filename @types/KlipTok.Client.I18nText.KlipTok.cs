@@ -337,6 +337,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Results from clip transcription search for text: {0}"</summary>
         public string SearchResultsFromTranscriptionSearch;
 
+        /// <summary>"Select a Category"</summary>
+        public string SelectCategory;
+
         /// <summary>"Share Streamer"</summary>
         public string ShareStreamer;
 

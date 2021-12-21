@@ -62,6 +62,7 @@
 	"DateRangePicker_Start": "Start Date", // The Start Date label on the filter on the streamer page
 	"DateRangePicker_End": "End Date", // The End Date label on the filter on the streamer page
 	"ShareStreamer": "Share Streamer", // The tooltip for the Share button on the streamer page
+	"SelectCategory": "Select a Category", // The default text for the Category Filter combobox
 
 	// Layout
 	"PublicBeta": "PUBLIC BETA",
