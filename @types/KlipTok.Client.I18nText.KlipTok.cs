@@ -133,6 +133,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Following"</summary>
         public string Favorites;
 
+        /// <summary>"Feedback"</summary>
+        public string Feedback;
+
         /// <summary>"Filter"</summary>
         public string FilterButton;
 

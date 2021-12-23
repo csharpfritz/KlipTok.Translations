@@ -43,6 +43,7 @@
 	"FollowedStreamers": "Followed Streamers",
 	"AllStreamers": "All Streamers",
 	"About": "About",
+	"Feedback": "Feedback", // Link to the KlipTok Feedback website
 	"Close": "Close",
 
 	// Streamer Page
