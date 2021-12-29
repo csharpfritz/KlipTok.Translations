@@ -89,6 +89,9 @@
 	"LikedClips": "Liked Clips",
 	"UserProfile": "User Profile",
 
+	// Filters on the scrollable clips
+	"FilterByCategory": "Filter by Category", // watermark on the filter by category type-ahead box
+
 	// Liked Clips
 	"NoLikedClips": "You haven't liked any Clips on KlipTok yet!",
 	"TryLikeButtonTemplate": "Try clicking the heart icon {0} below a Clip to 'Like' it and we'll report it here for you so you can easily find it again in the future", //  {0} is the heart icon

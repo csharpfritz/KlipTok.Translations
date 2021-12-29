@@ -139,6 +139,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Filter"</summary>
         public string FilterButton;
 
+        /// <summary>"Filter by Category"</summary>
+        public string FilterByCategory;
+
         /// <summary>"Followed Streamers"</summary>
         public string FollowedStreamers;
 
