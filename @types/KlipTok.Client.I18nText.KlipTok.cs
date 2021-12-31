@@ -244,6 +244,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Clips from channels I follow"</summary>
         public string MyFavoriteChannels;
 
+        /// <summary>"My Streamer Page"</summary>
+        public string MyStreamerPage;
+
         /// <summary>"New Channels Today"</summary>
         public string NewChannelsToday;
 
@@ -369,6 +372,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"We&apos;re making details about the growth of KlipTok openly available for you to review."</summary>
         public string SystemDashboardDescription;
+
+        /// <summary>"System Status"</summary>
+        public string SystemStatus;
 
         /// <summary>"System Status Dashboard"</summary>
         public string SystemStatusDashboard;

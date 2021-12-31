@@ -19,6 +19,7 @@
 	"DarkMode": "Dark Mode",
 	"LoginWithTwitch": "Login with Twitch",
 	"Logout": "Logout",
+	"MyStreamerPage": "My Streamer Page",
 
 	// Header
 	"SearchForChannel": "Search for a Streamer...", // Deprecated
@@ -91,7 +92,7 @@
 	"UserProfile": "User Profile",
 
 	// Filters on the scrollable clips
-	"FilterByCategory":  "Filter by Category", // watermark on the filter by category type-ahead box
+	"FilterByCategory": "Filter by Category", // watermark on the filter by category type-ahead box
 
 
 	// Liked Clips
@@ -157,6 +158,7 @@
 	"ClipTranscriptionByAssemblyAI": "Clip Transcription by AssemblyAI:", // Clip transcription attribution to AssemblyAI
 
 	// System Dashboard
+	"SystemStatus": "System Status",
 	"SystemStatusDashboard": "System Status Dashboard",
 	"SystemDashboardDescription": "We're making details about the growth of KlipTok openly available for you to review.",
 	"TotalClips": "Total Clips",
