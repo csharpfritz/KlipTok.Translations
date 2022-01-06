@@ -142,6 +142,7 @@
 	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
 	"ClipsTab": "Clips", // Label for the Clips tab on the top of the Streamer page
 	"DashboardTab": "Dashboard", // Label for the dashboard tab on the top of the Streamer page 
+	"CreatedClipsTab": "Created Clips", // Label for the Created Clips tab on the Streamer page
 	"ClipsCreatedLast90Days": "Clips Created in last 90 days", // Label for the Clips Created in the last 90 days graph
 	"ClipsCreatedPerWeek": "Clips Created per Week", // The label on the x-axis for the Clips Created in the Last 90 days graph
 	"ClipsByDayOfWeek": "Clips by Day of Week", // Label for the clips by the day of week tile

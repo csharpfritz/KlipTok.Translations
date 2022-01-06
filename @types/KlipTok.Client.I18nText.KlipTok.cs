@@ -91,6 +91,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Comments"</summary>
         public string Comments;
 
+        /// <summary>"Created Clips"</summary>
+        public string CreatedClipsTab;
+
         /// <summary>"[ Danger Zone ]"</summary>
         public string DangerZone;
 
