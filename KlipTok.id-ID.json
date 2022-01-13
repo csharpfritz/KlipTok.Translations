@@ -19,6 +19,7 @@
 	"DarkMode": "Mode Gelap",
 	"LoginWithTwitch": "Login dengan Twitch",
 	"Logout": "Logout",
+	"MyStreamerPage": "Halaman Streamerku",
 	
 	// Header
 	"SearchForChannel": "Telusuri Streamer...", // Deprecated
@@ -44,6 +45,7 @@
 	"FollowedStreamers": "Streamer yang Diikuti",
 	"AllStreamers": "Semua Streamer",
 	"About": "Tentang",
+	"Feedback": "Umpan Balik", // Link to the KlipTok Feedback website
 	"Close": "Tutup",
 	
 	// Streamer Page
@@ -62,6 +64,10 @@
 	"DateRangePicker_Start": "Tanggal Mulai", // The Start Date label on the filter on the streamer page
 	"DateRangePicker_End": "Tanggal Akhir", // The End Date label on the filter on the streamer page
 	"ShareStreamer": "Bagikan Streamer", // The tooltip for the Share button on the streamer page	
+	"SelectCategory": "Pilih Kategori", // The default text for the Category Filter combobox
+	"UnknownStreamer": "Streamer tidak dikenal: {0}", // The header when an unknown streamer is requested
+	"UnknownStreamerDescription": "KlipTok belum mengidentifikasi streamer dengan nama tersebut {0}.  Jika ini adalah channel nyata, Anda dapat menambahkannya dengan menggunakan cara berikut",
+	"NoRecentClips": "Tidak ada informasi klip terbaru yang tersedia", // Error message displayed on dashboard when no recent clips are available
 	
 	// Layout
 	"PublicBeta": "BETA PUBLIK",
@@ -87,6 +93,10 @@
 	"ClipsILike": "Klip yang Kusukai",
 	"LikedClips": "Klip yang Disukai",
 	"UserProfile": "Profil Pengguna",
+
+	// Filters on the scrollable clips
+	"FilterByCategory": "Saring Berdasarkan Kategori", // watermark on the filter by category type-ahead box
+
 
 	// Liked Clips
 	"NoLikedClips": "Anda belum menyukai Klip di KlipTok!",
@@ -136,7 +146,8 @@
 	// Streamer Dashboard
 	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
 	"ClipsTab": "Klip", // Label for the Clips tab on the top of the Streamer page
-	"DashboardTab": "Dasbor", // Label for the dashboard tab on the top of the Streamer page 
+	"DashboardTab": "Dasbor", // Label for the dashboard tab on the top of the Streamer page
+	"CreatedClipsTab": "Klip yang Dibuat", // Label for the Created Clips tab on the Streamer page 
 	"ClipsCreatedLast90Days": "Klip Dibuat dalam 90 hari terakhir", // Label for the Clips Created in the last 90 days graph
 	"ClipsCreatedPerWeek": "Klip dibuat per Minggu", // The label on the x-axis for the Clips Created in the Last 90 days graph
 	"ClipsByDayOfWeek": "Klip menurut Hari", // Label for the clips by the day of week tile
@@ -151,6 +162,7 @@
 	"ClipTranscriptionByAssemblyAI": "Transkripsi Klip oleh AssemblyAI:", // Clip transcription attribution to AssemblyAI
 
 	// System Dashboard
+	"SystemStatus": "Status Sistem",
 	"SystemStatusDashboard": "Dasbor Status Sistem",
 	"SystemDashboardDescription": "Kami menyediakan detail perkembangan Kliptok secara terbuka untuk tinjauan Anda.",
 	"TotalClips": "Total Klip",
@@ -160,5 +172,4 @@
 	"TotalClipsTranscribed": "Total Klip yang Ditranskripsi",
 	"ClipsTranscribedByDate": "Klip Ditranskripsi berdasarkan Tanggal",
 	"ClipsByDate": "Klip berdasarkan Tanggal"
-
 }
