@@ -65,6 +65,9 @@
 	"DateRangePicker_End": "End Date", // The End Date label on the filter on the streamer page
 	"ShareStreamer": "Share Streamer", // The tooltip for the Share button on the streamer page
 	"SelectCategory": "Select a Category", // The default text for the Category Filter combobox
+	"UnknownStreamer": "Unknown streamer: {0}", // The header when an unknown streamer is requested
+	"UnknownStreamerDescription": "KlipTok has not identified a streamer with the name {0}.  If this is a real channel, you can add them with the following directions",
+	"NoRecentClips": "No recent clip information available", // Error message displayed on dashboard when no recent clips are available
 
 	// Layout
 	"PublicBeta": "PUBLIC BETA",

@@ -274,6 +274,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"No profile pic available"</summary>
         public string NoProfilePicAvailable;
 
+        /// <summary>"No recent clip information available"</summary>
+        public string NoRecentClips;
+
         /// <summary>"Please note: if you add Clips for this streamer, we kindly request you notify them that you have added their Clips to this site.  We have no direct way to reach out to the broadcaster."</summary>
         public string NotifyOnOptIn;
 
@@ -423,6 +426,12 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Twitch Streamers I Follow"</summary>
         public string TwitchChannelsIFollow;
+
+        /// <summary>"Unknown streamer: {0}"</summary>
+        public string UnknownStreamer;
+
+        /// <summary>"KlipTok has not identified a streamer with the name {0}.  If this is a real channel, you can add them with the following directions"</summary>
+        public string UnknownStreamerDescription;
 
         /// <summary>"{0} liked {1}"</summary>
         public string UserLikedTimeTemplate;
