@@ -82,6 +82,7 @@
 
 	// Follows page
 	"TwitchChannelsIFollow": "Twitch Streamers I Follow",
+	"TwitchChannelsIFollowNotOnKlipTok": "Twitch Streamers I Follow who aren't on KlipTok",
 	"NotLoggedIn": "Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followed streamers with KlipTok to access this functionality.",
 
 	// Home Page

@@ -427,6 +427,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Twitch Streamers I Follow"</summary>
         public string TwitchChannelsIFollow;
 
+        /// <summary>"Twitch Streamers I Follow who aren&apos;t on KlipTok"</summary>
+        public string TwitchChannelsIFollowNotOnKlipTok;
+
         /// <summary>"Unknown streamer: {0}"</summary>
         public string UnknownStreamer;
 
