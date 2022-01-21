@@ -82,6 +82,7 @@
 
 	// Follows page
 	"TwitchChannelsIFollow": "Streamer Twitch yang Kuikuti",
+	"TwitchChannelsIFollowNotOnKlipTok": "Streamer Twitch yang Kuikuti yang tidak berada di KlipTok",
 	"NotLoggedIn": "Tidak dapat menampilkan catatan akun yang Anda ikuti di Twitch karena Anda belum login dengan akun Twitch. Silakan login dan sinkron streamer yang Anda ikuti dengan Kliptok untuk mengakses fungsi ini.",
 
 	// Home Page
