@@ -70,6 +70,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Clips I Like"</summary>
         public string ClipsILike;
 
+        /// <summary>"Clips Liked By Date"</summary>
+        public string ClipsLikedByDate;
+
         /// <summary>"Clips"</summary>
         public string ClipsTab;
 
