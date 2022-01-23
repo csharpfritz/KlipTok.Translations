@@ -96,7 +96,7 @@
 	"UserProfile": "Profil Pengguna",
 
 	// Filters on the scrollable clips
-	"FilterByCategory": "Saring Berdasarkan Kategori", // watermark on the filter by category type-ahead box
+	"FilterByCategory": "Saring Menurut Kategori", // watermark on the filter by category type-ahead box
 
 
 	// Liked Clips
@@ -150,12 +150,12 @@
 	"DashboardTab": "Dasbor", // Label for the dashboard tab on the top of the Streamer page
 	"CreatedClipsTab": "Klip yang Dibuat", // Label for the Created Clips tab on the Streamer page 
 	"ClipsCreatedLast90Days": "Klip Dibuat dalam 90 hari terakhir", // Label for the Clips Created in the last 90 days graph
-	"ClipsCreatedPerWeek": "Klip dibuat per Minggu", // The label on the x-axis for the Clips Created in the Last 90 days graph
-	"ClipsByDayOfWeek": "Klip menurut Hari", // Label for the clips by the day of week tile
+	"ClipsCreatedPerWeek": "Klip Dibuat per Minggu", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Klip Menurut Hari", // Label for the clips by the day of week tile
 	"TitleDayCreated": "Hari Dibuat", // Title for the Clips by Day of week radar chart
-	"MostViewedClippers": "Clipper yang paling banyak ditonton", // Label for the Most Viewed Clippers table
-	"MostViewedCategories": "Kategori yang paling banyak Ditonton", // Label for the Most Viewed Categories table
-	"MostLikedClippers": "Clipper yang paling Disukai",
+	"MostViewedClippers": "Clipper yang Paling Banyak Ditonton", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Kategori yang Paling Banyak Ditonton", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Clipper yang Paling Disukai",
 
 	// Transcription Features
 	"ClipHasTranscription": "Klip ini memiliki transkripsi yang dapat ditelusuri", // Tooltip for the transcription icon
@@ -171,6 +171,7 @@
 	"NewChannelsToday": "Channel Baru Hari Ini",
 	"TotalChannelsIdentified": "Total Channel yang Teridentifikasi",
 	"TotalClipsTranscribed": "Total Klip yang Ditranskripsi",
-	"ClipsTranscribedByDate": "Klip Ditranskripsi berdasarkan Tanggal",
-	"ClipsByDate": "Klip berdasarkan Tanggal"
+	"ClipsTranscribedByDate": "Klip Ditranskripsi Menurut Tanggal",
+	"ClipsLikedByDate": "Klip Disukai Menurut Tanggal",
+	"ClipsByDate": "Klip Menurut Tanggal"
 }
