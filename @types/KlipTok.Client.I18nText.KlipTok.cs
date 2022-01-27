@@ -157,6 +157,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Forgotten as of : {0}"</summary>
         public string ForgottenAsOfTemplate;
 
+        /// <summary>"Grid View"</summary>
+        public string GridView;
+
         /// <summary>"Include these channels"</summary>
         public string IncludeChannels;
 
@@ -201,6 +204,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Likes"</summary>
         public string Likes;
+
+        /// <summary>"List View"</summary>
+        public string ListView;
 
         /// <summary>"LIVE"</summary>
         public string Live;

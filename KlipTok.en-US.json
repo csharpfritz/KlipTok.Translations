@@ -11,6 +11,10 @@
 	"ClippedByFormat": "Clipped by {0}", // {0} is the display name of the clip creator
 	"PreviewThumbnailForClip": "Preview Thumbnail for the clip '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
 
+	// Clip Galllery Component
+	"ListView": "List View",
+	"GridView": "Grid View",
+
 	// Comments
 	"ByLineFormat": "At {0} {1} wrote:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Reply",
