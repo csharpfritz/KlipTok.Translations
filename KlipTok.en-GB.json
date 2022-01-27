@@ -129,6 +129,7 @@
 	// Streamer Page
 	"MuteForLabel": "Mute for:",
 	"StreamerIsMutedUntilTemplate": "Streamer is muted until: {0}", // {0} is a datestamp of when the mute operation ends
+	"StreamerIsMuted": "Streamer is muted", // message displayed if a channel is muted forever
 	"NoMute": "Unmute", // Remove the mute effect on this streamer so that you can see their content again
 	"Forever": "Forever", // Label for "Mute Forever" action button
 	"SortByLabel": "Sort by:",

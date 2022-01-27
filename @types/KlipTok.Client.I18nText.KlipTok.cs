@@ -367,6 +367,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Sort by:"</summary>
         public string SortByLabel;
 
+        /// <summary>"Streamer is muted"</summary>
+        public string StreamerIsMuted;
+
         /// <summary>"Streamer is muted until: {0}"</summary>
         public string StreamerIsMutedUntilTemplate;
 
