@@ -13,7 +13,7 @@
 
 	// Clip Galllery Component
 	"ListView": "List View",
-	"GridView":  "Grid View",
+	"GridView": "Grid View",
 
 	// Comments
 	"ByLineFormat": "At {0} {1} wrote:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
@@ -120,6 +120,11 @@
 	"RightToForgetDescription": "You have the right to request KlipTok forgets all information that you have shared.  By clicking this link and confirming, KlipTok will remove all of your Comments, Likes, and Clips.",
 	"RemoveMyContentFromKlipTok": "Remove my content from KlipTok",
 	"ForgottenAsOfTemplate": "Forgotten as of : {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Followed Channel Sync Notifications
+	"BeginAcquiringFollowers": "Acquiring followed channels from Twitch",
+	"IdentifiedFollowerCount": "Identified {0} followed channels to load", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "Completed adding followed channels to KlipTok",
 
 	// Single Clip Page
 	"MissingClipError": "KlipTok does not have a record of this Clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok.",

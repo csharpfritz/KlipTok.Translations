@@ -31,6 +31,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Auto-play videos on scroll"</summary>
         public string AutoPlayVideosOnScroll;
 
+        /// <summary>"Acquiring followed channels from Twitch"</summary>
+        public string BeginAcquiringFollowers;
+
         /// <summary>"At {0} {1} wrote:"</summary>
         public string ByLineFormat;
 
@@ -93,6 +96,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Comments"</summary>
         public string Comments;
+
+        /// <summary>"Completed adding followed channels to KlipTok"</summary>
+        public string CompletedLoadingFollowers;
 
         /// <summary>"Created Clips"</summary>
         public string CreatedClipsTab;
@@ -159,6 +165,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Grid View"</summary>
         public string GridView;
+
+        /// <summary>"Identified {0} followed channels to load"</summary>
+        public string IdentifiedFollowerCount;
 
         /// <summary>"Include these channels"</summary>
         public string IncludeChannels;

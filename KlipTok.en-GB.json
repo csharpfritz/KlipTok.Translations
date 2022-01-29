@@ -121,6 +121,11 @@
 	"RemoveMyContentFromKlipTok": "Remove my content from KlipTok",
 	"ForgottenAsOfTemplate": "Forgotten as of: {0}", // {0} is the datestamp of when the 'forget' action was taken
 
+	// Followed Channel Sync Notifications
+	"BeginAcquiringFollowers": "Acquiring followed channels from Twitch",
+	"IdentifiedFollowerCount": "Identified {0} followed channels to load", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "Completed adding followed channels to KlipTok",
+
 	// Single Clip Page
 	"MissingClipError": "KlipTok does not have a record of this Clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok.",
 	"LikedBy": "Liked By:",
