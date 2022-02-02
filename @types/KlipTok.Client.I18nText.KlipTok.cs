@@ -460,6 +460,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"{0} liked {1}"</summary>
         public string UserLikedTimeTemplate;
 
+        /// <summary>"User Preferences"</summary>
+        public string UserPreferences;
+
         /// <summary>"User Profile"</summary>
         public string UserProfile;
 

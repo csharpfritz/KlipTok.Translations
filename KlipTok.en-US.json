@@ -98,6 +98,7 @@
 	"ClipsILike": "Clips I Like",
 	"LikedClips": "Liked Clips",
 	"UserProfile": "User Profile",
+	"UserPreferences": "User Preferences",
 
 	// Filters on the scrollable clips
 	"FilterByCategory": "Filter by Category", // watermark on the filter by category type-ahead box
