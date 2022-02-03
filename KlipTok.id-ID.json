@@ -11,6 +11,10 @@
 	"ClippedByFormat": "Diklip oleh {0}", // {0} is the display name of the clip creator
 	"PreviewThumbnailForClip": "Pratinjau Thumbnail dalam klip '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
 
+	// Clip Galllery Component
+	"ListView": "Tampilan Daftar",
+	"GridView": "Tampilan Kisi",
+
 	// Comments
 	"ByLineFormat": "Pada {0} {1} tulis:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Balas",
@@ -94,6 +98,7 @@
 	"ClipsILike": "Klip yang Kusukai",
 	"LikedClips": "Klip yang Disukai",
 	"UserProfile": "Profil Pengguna",
+	"UserPreferences": "Preferensi Pengguna",
 
 	// Filters on the scrollable clips
 	"FilterByCategory": "Saring Menurut Kategori", // watermark on the filter by category type-ahead box
@@ -119,6 +124,11 @@
 	"RemoveMyContentFromKlipTok": "Hapus kontenku dari Kliptok",
 	"ForgottenAsOfTemplate": "Dilupakan pada: {0}", // {0} is the datestamp of when the 'forget' action was taken	
 	
+	// Followed Channel Sync Notifications
+	"BeginAcquiringFollowers": "Memperoleh channel yang diikuti dari Twitch",
+	"IdentifiedFollowerCount": "Teridentifikasi {0} channel yang diikuti untuk dimuat", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "Selesai menambahkan channel yang diikuti ke dalam Kliptok",
+
 	// Single Clip Page
 	"MissingClipError": "KlipTok tidak mempunyai catatan Klip ini. Klip tidak ada atau channel Twitch tersebut memilih untuk tidak berpartisipasi dalam KlipTok.",
 	"LikedBy": "Disukai Oleh:",
@@ -131,6 +141,7 @@
 	// Streamer Page
 	"MuteForLabel": "Dibisukan selama:",
 	"StreamerIsMutedUntilTemplate": "Streamer dibisukan hingga: {0}", // {0} is a datestamp of when the mute operation ends
+	"StreamerIsMuted": "Streamer dibisukan", // message displayed if a channel is muted forever
 	"NoMute": "Bunyikan", // Remove the mute effect on this streamer so that you can see their content again
 	"Forever": "Selamanya", // Label for "Mute Forever" action button
 	"SortByLabel": "Urut berdasarkan:",
