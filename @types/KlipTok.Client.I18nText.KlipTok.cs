@@ -70,6 +70,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Clips from:"</summary>
         public string ClipsFromLabel;
 
+        /// <summary>"Clips Heat Map"</summary>
+        public string ClipsHeatMap;
+
         /// <summary>"Clips I Like"</summary>
         public string ClipsILike;
 

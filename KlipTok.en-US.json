@@ -167,6 +167,7 @@
 	"MostViewedClippers": "Most Viewed Clippers", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Most Viewed Categories", // Label for the Most Viewed Categories table
 	"MostLikedClippers": "Most Liked Clippers",
+	"ClipsHeatMap": "Clips Heat Map",
 
 	// Transcription Features
 	"ClipHasTranscription": "This clip has a transcription that can be searched", // Tooltip for the transcription icon
