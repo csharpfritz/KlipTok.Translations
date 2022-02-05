@@ -169,6 +169,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Grid View"</summary>
         public string GridView;
 
+        /// <summary>"{0} clips created on {1}"</summary>
+        public string HeatmapTooltipFormat;
+
         /// <summary>"Identified {0} followed channels to load"</summary>
         public string IdentifiedFollowerCount;
 
