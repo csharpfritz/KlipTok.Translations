@@ -385,6 +385,18 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Share this Clip"</summary>
         public string ShareThisClip;
 
+        /// <summary>"Mute {0}"</summary>
+        public string SidebarMenuMuteChannel;
+
+        /// <summary>"Actions for the {0} channel"</summary>
+        public string SidebarMenuTooltipFormat;
+
+        /// <summary>"Visit {0} Created Clips"</summary>
+        public string SidebarMenuVisitClipsCreated;
+
+        /// <summary>"Visit {0} Dashboard"</summary>
+        public string SidebarMenuVisitDashboard;
+
         /// <summary>"Sort by:"</summary>
         public string SortByLabel;
 

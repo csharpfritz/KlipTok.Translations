@@ -52,6 +52,12 @@
 	"Feedback": "Feedback", // Link to the KlipTok Feedback website
 	"Close": "Close",
 
+	// Sidebar Menu
+	"SidebarMenuTooltipFormat": "Actions for the {0} channel", // 0 is the channel name
+	"SidebarMenuVisitDashboard": "Visit {0} Dashboard", // 0 is the channel name
+	"SidebarMenuVisitClipsCreated": "Visit {0} Created Clips", // 0 is the channel name
+	"SidebarMenuMuteChannel":  "Mute {0}", // 0 is the channel name
+
 	// Streamer Page
 	"ClickToFollow": "Click to Follow",
 	"ClickToUnfollow": "Click to Unfollow",
