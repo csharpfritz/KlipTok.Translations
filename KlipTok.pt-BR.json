@@ -4,8 +4,8 @@
   // Clip
   "Recorded": "Gravado {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
   "Likes": "Curtidas",
-  "Comments": "Commentários",
-  "ClipViews": "Vizualizações de Clipe",
+  "Comments": "Comentários",
+  "ClipViews": "Vizualizações do Clipe",
   "ShareThisClip": "Compartilhe esse Clipe",
   "KlipTokContentPlaceholder": "KlipTok Content Placeholder",
 
@@ -19,7 +19,7 @@
   "Logout": "Sair",
 
   // Header
-  "SearchForChannel": "Procurar um Streamer...",
+  "SearchForChannel": "Procurar um Canal...",
   "SearchNotFoundFormat": "{0} não encontrado", // {0} is the search term that was not found
 
   // Sidebar
@@ -37,9 +37,9 @@
   "ProfilePicTemplate": "{0} imagem do perfil", // {0} is the Streamer's Display Name
   "TotalClipsOnKlipTok": "Total de Clipes no KlipTok",
   "TotalLikesAcrossAllClips": "Total de Curtidas em todos os Clipes",
-  "TotalCommentsAcrossAllClips": "Total de Comentárioss em todos Clipes",
+  "TotalCommentsAcrossAllClips": "Total de Comentários em todos Clipes",
   "TotalViewsAcrossAllClips": "Total de vizualizações em todos Clips",
-  "LastClipAdded": "Últiumo Clipe Adicionado:",
+  "LastClipAdded": "Último Clipe Adicionado:",
   "LastClip": "último Clipe:",
   "NoProfilePicAvailable": "Sem imagem para foto do perfil disponível.",
   "DateRangePicker_Start": "Data de início", // The Start Date label on the filter on the streamer page
@@ -48,8 +48,8 @@
 
   // Layout
   "PublicBeta": "BETA PÚBLICO",
-  "LoggedOutFromKlipTokAndTwitch": "Disconectado do KlipTok e Twitch",
-  "LoginToKlipTokWithTwitch": "Logado no KlipTok com Twitch",
+  "LoggedOutFromKlipTokAndTwitch": "Desconectado do KlipTok e Twitch",
+  "LoginToKlipTokWithTwitch": "Conectado no KlipTok com Twitch",
   "AuthenticationIsNoLongerValid": "Sua autenticacção com Twitch e KlipTok não é válida. Por favor faça Login no KlipTok com Twitch para continuar.",
   "Loading": "Carregando...",
 
@@ -59,11 +59,11 @@
 
   // Follows page
   "TwitchChannelsIFollow": "Streamers do Twitch que Sigo",
-  "NotLoggedIn": "Não é possivel mostrar as contas que voce segue no Twitch porque você não está logado com uma conta do Twitch.  Faça login e sincronize os Streamers que voce segue com kilpTok para acessar essa função.",
+  "NotLoggedIn": "Não é possivel mostrar as contas que você segue no Twitch porque você não está logado com uma conta do Twitch.  Faça login e sincronize os Streamers que você segue com kilpTok para acessar essa função.",
 
   // Home Page
-  "DiscoverPopularClips": "Discobrir Clipes populares",
-  "DiscoverClips": "Discobrir Clipes",
+  "DiscoverPopularClips": "Descobrir Clipes populares",
+  "DiscoverClips": "Descobrir Clipes",
   "InsertCoin": "Inserir Moeda",
   "MyFavoriteChannels": "Meus Streamers Favoritos",
   "Favorites": "Favoritos",
@@ -76,7 +76,7 @@
   "TryLikeButtonTemplate": "Tente clicar no ícone de coração {0} abaixo de um clipe para 'Curtir' e nós iremos salvar aqui para que você ache esse clipe no futuro.", //  {0} is the heart icon
 
   // User Profile
-  "DoesNotKeepSeparateUserInformation": "O KlipTok não guarda informações separado do Twitch. KlipTok é um serviço que expande a função de Clipes do Twitch.",
+  "DoesNotKeepSeparateUserInformation": "KlipTok não guarda informações separadas do Twitch. KlipTok é um serviço que expande a função de Clipes do Twitch.",
   "AutoPlayVideosOnScroll": "Tocar videos automaticamente ao rolar página.",
   "IndexClipsOfMyChannel": "Indexar meus Clipes",
   "OptedOutDateTemplate": "Optou de sair do index em: {0}", // {0} is the datestamp of when opt-out was recorded
@@ -85,18 +85,18 @@
   "MutedChannels": "Streamers em Mudo",
   "Channel": "Streamer",
   "MutedUntil": "Mudo até",
-  "RightToForget": "RDireito de esquecer",
+  "RightToForget": "Direito de esquecer",
   "DangerZone": "[ Área de Perigo ]", // This is a label indicating the items beneath it make destructive changes to your record on the application
   "RightToForgetDescription": "Você tem o direito que requisitar ao KlipTok para apagar todas as informações compartilhadas. Ao clicar neste link e confirmar, KlipTok irá remover todos os comentários, Curtidas e Clipers.",
   "RemoveMyContentFromKlipTok": "Remover meu conteúdo do KlipTok",
   "ForgottenAsOfTemplate": "Esquecido à partir de : {0}", // {0} is the datestamp of when the 'forget' action was taken
 
   // Single Clip Page
-  "MissingClipError": "O KlipTok não possuo nenhum registro desse Clipe.  O Clipe não existe ou o canal requisitou para não ser indexado pelo KlipTok.",
+  "MissingClipError": "O KlipTok não possue nenhum registro desse Clipe.  O Clipe não existe ou o canal requisitou para não ser indexado pelo KlipTok.",
   "LikedBy": "Curtido Por:",
   "UserLikedTimeTemplate": "{0} curtiu {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
   "InReplyToTemplate": "Em resposta à : {0}", // {0} is the user display name whose comment we are replying to
-  "EnterNewComment": "Insire novo cometário...",
+  "EnterNewComment": "Inserir novo cometário...",
   "LoginWithTwitchToComment": "Entre com Twitch para Comentar",
   "CommentButton": "Comente",
 
@@ -114,5 +114,5 @@
   "ResetButton": "Redefinir", // Text on the reset button to no longer filter by date range
   "NoClipsAvailable": "Clipes Indisponíveis",
   "AddClipsForThisStreamer": "Adicioner Clipes para esse Streamer",
-  "NotifyOnOptIn": "Observaçao: se você adicionar um cliper para esse Streamer, pedimos gentilmente que notifique o Streamer que você adicionou os Clipes neste site.  Não possuímos nenhum meio de contactar o Streamer."
+  "NotifyOnOptIn": "Observaçao: se você adicionar um clipe para esse Streamer, pedimos gentilmente que notifique o Streamer que você adicionou os Clipes neste site. Não possuímos nenhum meio de contactar o Streamer."
 }
