@@ -226,6 +226,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"LIVE"</summary>
         public string Live;
 
+        /// <summary>"Live for {0}"</summary>
+        public string LiveForFormat;
+
         /// <summary>"Live on Twitch now!"</summary>
         public string LiveOnTwitch;
 
@@ -321,6 +324,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"PUBLIC BETA"</summary>
         public string PublicBeta;
+
+        /// <summary>"Recently Live Streamers"</summary>
+        public string RecentlyLiveStreamers;
 
         /// <summary>"Recorded {0}"</summary>
         public string Recorded;

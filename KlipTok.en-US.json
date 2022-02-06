@@ -47,10 +47,12 @@
 	// Sidebar
 	"SuggestedStreamers": "Suggested Streamers",
 	"FollowedStreamers": "Followed Streamers",
+	"RecentlyLiveStreamers": "Recently Live Streamers",
 	"AllStreamers": "All Streamers",
 	"About": "About",
 	"Feedback": "Feedback", // Link to the KlipTok Feedback website
 	"Close": "Close",
+	"LiveForFormat": "Live for {0}", // {0} is the relative timestamp of when the stream started
 
 	// Sidebar Menu
 	"SidebarMenuTooltipFormat": "Actions for the {0} channel", // 0 is the channel name
