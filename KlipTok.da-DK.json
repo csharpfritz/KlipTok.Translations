@@ -162,18 +162,18 @@
 
 	// Streamer Dashboard
 	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
-	"ClipsTab": "Clips", // Label for the Clips tab on the top of the Streamer page
-	"DashboardTab": "Dashboard", // Label for the dashboard tab on the top of the Streamer page 
-	"CreatedClipsTab": "Created Clips", // Label for the Created Clips tab on the Streamer page
-	"ClipsCreatedLast90Days": "Clips Created in last 90 days", // Label for the Clips Created in the last 90 days graph
-	"ClipsCreatedPerWeek": "Clips Created per Week", // The label on the x-axis for the Clips Created in the Last 90 days graph
-	"ClipsByDayOfWeek": "Clips by Day of Week", // Label for the clips by the day of week tile
-	"TitleDayCreated": "Day Created", // Title for the Clips by Day of week radar chart
-	"MostViewedClippers": "Most Viewed Clippers", // Label for the Most Viewed Clippers table
-	"MostViewedCategories": "Most Viewed Categories", // Label for the Most Viewed Categories table
-	"MostLikedClippers": "Most Liked Clippers",
-	"ClipsHeatMap": "Clips Heat Map",
-	"HeatmapTooltipFormat": "{0} clips created on {1}", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
+	"ClipsTab": "Klip", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Kontrolpanel", // Label for the dashboard tab on the top of the Streamer page 
+	"CreatedClipsTab": "Oprettede klip", // Label for the Created Clips tab on the Streamer page
+	"ClipsCreatedLast90Days": "Klip oprettet de sidste 90 dage", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Klip oprettet pr. uge", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Klip efter ugedag", // Label for the clips by the day of week tile
+	"TitleDayCreated": "Dag oprettet", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "Mest viste klippere", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Mest viste kategorier", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Mest likede klippere",
+	"ClipsHeatMap": "Klip heat map",
+	"HeatmapTooltipFormat": "{0} klip oprettet den {1}", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
 
 
 	// Transcription Features
