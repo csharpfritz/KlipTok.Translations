@@ -8,6 +8,12 @@
 	"ClipViews": "Klipvisninger",
 	"ShareThisClip": "Del dette Klip",
 	"KlipTokContentPlaceholder": "KlipTok Indhold",
+	"ClippedByFormat": "Klippet af {0}", // {0} is the display name of the clip creator
+	"PreviewThumbnailForClip": "Forhåndsvisning af mini-billede af klippet '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
+
+	// Clip Galllery Component
+	"ListView": "Listevisning",
+	"GridView": "Gittervisning",
 
 	// Comments
 	"ByLineFormat": "Den {0} {1} skrev:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
@@ -17,17 +23,40 @@
 	"DarkMode": "Mørkt tema",
 	"LoginWithTwitch": "Log ind med Twitch",
 	"Logout": "Log ud",
+	"MyStreamerPage": "Min Streamer-side",
 
 	// Header
-	"SearchForChannel": "Søg efter Streamer...",
+	"SearchForChannel": "Søg efter Streamer...", // Deprecated
 	"SearchNotFoundFormat": "{0} ikke fundet", // {0} is the search term that was not found
+
+	// Search and Search Results
+	"SearchKlipTok": "Søg på KlipTok...",
+	"SearchAllOfKlipTok": "Søg på hele KlipTok efter {0}", // {0} is the search term to search clips for
+	"SearchResults": "Søgeresultater",
+	"SearchedKlipTokAndFoundTemplate": "Vi søgte på hele KlipTok efter \"{0}\" og fandt:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} spiller {1}", // {0} is the streamer name, {1} is the category played,
+	"SearchedClipTitlesAndFoundTemplate": "Resultater for klip titelsøgning efter teksten: {0}", // {0} is the search term for the clip title search
+	"AdvancedFiltering": "Avanceret filtrering",
+	"IncludeChannels": "Inkludér disse kanaler",
+	"ExcludeChannels": "Ekskludér disse kanaler",
+	"FilterButton": "Filter", // The button to apply the advanced search filter
+	"PreviousPage": "Forrige side",
+	"NextPage": "Næste side",
 
 	// Sidebar
 	"SuggestedStreamers": "Anbefalede Streamere",
 	"FollowedStreamers": "Streamere, du følger",
 	"AllStreamers": "Alle Streamere",
 	"About": "Om",
+	"Feedback": "Feedback", // Link to the KlipTok Feedback website
 	"Close": "Luk",
+	"LiveForFormat": "Live i {0}", // {0} is the relative timestamp of when the stream started
+
+	// Sidebar Menu
+	"SidebarMenuTooltipFormat": "Handlinger for kanalen {0}", // 0 is the channel name
+	"SidebarMenuVisitDashboard": "Besøg {0} kontrolpanel", // 0 is the channel name
+	"SidebarMenuVisitClipsCreated": "Besøg {0} oprettede klip", // 0 is the channel name
+	"SidebarMenuMuteChannel":  "Ignorér {0}", // 0 is the channel name
 
 	// Streamer Page
 	"ClickToFollow": "Klik for at følge",
@@ -45,6 +74,11 @@
 	"DateRangePicker_Start": "Fra-dato",  // The Start Date label on the filter on the streamer page
 	"DateRangePicker_End": "Til-dato",			// The End Date label on the filter on the streamer page
 	"ShareStreamer": "Del Streamer",		// The tooltip for the Share button on the streamer page
+	"SelectCategory": "Vælg en kategori", // The default text for the Category Filter combobox
+	"UnknownStreamer": "Ukendt streamer: {0}", // The header when an unknown streamer is requested
+	"UnknownStreamerDescription": "KlipTok har ikke fundet en stream med navnet {0}.  Hvis det er en rigtig kanal kan du tilføje den med følgende instruktioner",
+	"NoRecentClips": "Ingen information om nye klip", // Error message displayed on dashboard when no recent clips are available
+
 
 	// Layout
 	"PublicBeta": "OFFENTLIG BETA",
@@ -58,6 +92,7 @@
 
 	// Follows page
 	"TwitchChannelsIFollow": "Twitch-streamere jeg følger",
+	"TwitchChannelsIFollowNotOnKlipTok": "Twitch-streamere jeg følger, som ikke er på KlipTok",
 	"NotLoggedIn": "Kan ikke vise konti du følger på Twitch, fordi du ikke er logget ind med en Twitch konto. Log venligst ind og synkronisér dine følgere med KlipTok for at tilgå denne funktionalitet.",
 	
 	// Home Page
@@ -69,6 +104,10 @@
 	"ClipsILike": "Klip jeg liker",
 	"LikedClips": "Likede Klip",
 	"UserProfile": "Brugerprofil",
+	"UserPreferences": "Brugerindstillinger",
+
+	// Filters on the scrollable clips
+	"FilterByCategory": "Filtrér efter kategori", // watermark on the filter by category type-ahead box
 
 	// Liked Clips
 	"NoLikedClips": "Du har ikke liket nogen Klip på KlipTok endnu!",
@@ -89,6 +128,12 @@
 	"RightToForgetDescription": "Du har ret til at kræve, at KlipTok glemmer al information du har delt. Ved at klikke på dette link og bekræfte, vil KlipTok fjerne alle dine kommentarer, Likes og Klip.",
 	"RemoveMyContentFromKlipTok": "Fjern mit indhold fra KlipTok",
 	"ForgottenAsOfTemplate": "Glemt pr. den : {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Followed Channel Sync Notifications
+	"BeginAcquiringFollowers": "Henter kanaler du følger fra Twitch",
+	"IdentifiedFollowerCount": "Fundet og indlæser {0} kanaler du følger", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "Færdig med at tilføje kanaler du følger til KlipTok",
+
 
 	// Single Clip Page
 	"MissingClipError": "KlipTok har ikke informationer om dette Klip.  Enten eksisterer det ikke, eller  Twitch-kanalen har fravalgt at deltage på KlipTok.",
@@ -113,8 +158,39 @@
 	"ResetButton": "Nulstil",    // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "Ingen tilgængelige Klip",
 	"AddClipsForThisStreamer": "Tilføj Klip for denne Streamer",
-	"NotifyOnOptIn": "Bemærk: hvis du tilføjer Klip for denne Streamer, beder vi dig om at give besked til streameren om at du har tilføjet deres Klip til dette site. Vi har ingen direkte måde at kontakte streameren."
+	"NotifyOnOptIn": "Bemærk: hvis du tilføjer Klip for denne Streamer, beder vi dig om at give besked til streameren om at du har tilføjet deres Klip til dette site. Vi har ingen direkte måde at kontakte streameren.",
+
+	// Streamer Dashboard
+	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Klip", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Kontrolpanel", // Label for the dashboard tab on the top of the Streamer page 
+	"CreatedClipsTab": "Oprettede klip", // Label for the Created Clips tab on the Streamer page
+	"ClipsCreatedLast90Days": "Klip oprettet de sidste 90 dage", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Klip oprettet pr. uge", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Klip efter ugedag", // Label for the clips by the day of week tile
+	"TitleDayCreated": "Dag oprettet", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "Mest viste klippere", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Mest viste kategorier", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Mest likede klippere",
+	"ClipsHeatMap": "Klip heat map",
+	"HeatmapTooltipFormat": "{0} klip oprettet den {1}", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
 
 
+	// Transcription Features
+	"ClipHasTranscription": "This clip has a transcription that can be searched", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Results from clip transcription search for text: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Clip Transcription by AssemblyAI:", // Clip transcription attribution to AssemblyAI
 
+	// System Dashboard
+	"SystemStatus": "System Status",
+	"SystemStatusDashboard": "System Status oversigt",
+	"SystemDashboardDescription": "Vi offentliggør detaljer om Kliptoks vækst så alle kan gennemse.",
+	"TotalClips": "Totalt antal klip",
+	"ChannelsIndexed": "Indekserede kanalee",
+	"NewChannelsToday": "Nye kanaler i dag",
+	"TotalChannelsIdentified": "Totalt antal kanaler identificeret",
+	"TotalClipsTranscribed": "Totalt antal klip transkriberet",
+	"ClipsTranscribedByDate": "Klip Transkriberet efter dato",
+	"ClipsLikedByDate": "Klip liket efter dato",
+	"ClipsByDate": "Klip efter dato"
 }

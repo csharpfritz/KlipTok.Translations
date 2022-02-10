@@ -47,11 +47,19 @@
 	// Sidebar
 	"SuggestedStreamers": "Streamer yang Disarankan",
 	"FollowedStreamers": "Streamer yang Diikuti",
+	"RecentlyLiveStreamers": "Live Streamer Baru-baru Ini",
 	"AllStreamers": "Semua Streamer",
 	"About": "Tentang",
 	"Feedback": "Umpan Balik", // Link to the KlipTok Feedback website
 	"Close": "Tutup",
-	
+	"LiveForFormat": "Live selama {0}", // {0} is the relative timestamp of when the stream started
+
+	// Sidebar Menu
+	"SidebarMenuTooltipFormat": "Pilihan untuk channel {0}", // 0 is the channel name
+	"SidebarMenuVisitDashboard": "Kunjungi Dasbor {0}", // 0 is the channel name
+	"SidebarMenuVisitClipsCreated": "Kunjungi Klip yang Dibuat oleh {0}", // 0 is the channel name
+	"SidebarMenuMuteChannel":  "Bisukan {0}", // 0 is the channel name
+
 	// Streamer Page
 	"ClickToFollow": "Klik untuk Mengikuti",
 	"ClickToUnfollow": "Klik untuk Setop Ikuti",
@@ -139,7 +147,7 @@
 	"CommentButton": "Komentar",
 
 	// Streamer Page
-	"MuteForLabel": "Dibisukan selama:",
+	"MuteForLabel": "Bisukan selama:",
 	"StreamerIsMutedUntilTemplate": "Streamer dibisukan hingga: {0}", // {0} is a datestamp of when the mute operation ends
 	"StreamerIsMuted": "Streamer dibisukan", // message displayed if a channel is muted forever
 	"NoMute": "Bunyikan", // Remove the mute effect on this streamer so that you can see their content again
@@ -167,6 +175,9 @@
 	"MostViewedClippers": "Clipper yang Paling Banyak Ditonton", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Kategori yang Paling Banyak Ditonton", // Label for the Most Viewed Categories table
 	"MostLikedClippers": "Clipper yang Paling Disukai",
+	"ClipsHeatMap": "Heat Map Klip",
+	"HeatmapTooltipFormat": "{0} klip dibuat pada {1}", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
+
 
 	// Transcription Features
 	"ClipHasTranscription": "Klip ini memiliki transkripsi yang dapat ditelusuri", // Tooltip for the transcription icon
