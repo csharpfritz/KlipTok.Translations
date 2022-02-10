@@ -5,9 +5,15 @@
   "Recorded": "Gravado {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
   "Likes": "Curtidas",
   "Comments": "Comentários",
-  "ClipViews": "Vizualizações do Clipe",
+  "ClipViews": "Visualizações do Clipe",
   "ShareThisClip": "Compartilhe esse Clipe",
   "KlipTokContentPlaceholder": "KlipTok Content Placeholder",
+  "ClippedByFormat": "Cortado por {0}", // {0} is the display name of the clip creator
+	"PreviewThumbnailForClip": "Pre-visualização do Thumbnail para o clipe '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
+
+	// Clip Galllery Component
+	"ListView": "Vista em lista",
+	"GridView": "Vista em grelha",
 
   // Comments
   "ByLineFormat": "Às {0} {1} escreveu:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
@@ -17,17 +23,42 @@
   "DarkMode": "Modo Escuro",
   "LoginWithTwitch": "Login com Twitch",
   "Logout": "Sair",
+  "MyStreamerPage": "O meu canal",
 
   // Header
   "SearchForChannel": "Procurar um Canal...",
   "SearchNotFoundFormat": "{0} não encontrado", // {0} is the search term that was not found
 
+// Search and Search Results
+"SearchKlipTok": "Procurar KlipTok...",
+"SearchAllOfKlipTok": "Procurar em todos KlipTok por {0}", // {0} is the search term to search clips for
+"SearchResults": "Resultados da pesquisa",
+"SearchedKlipTokAndFoundTemplate": "Procuramos no KlipTok por \"{0}\" e encontramos:", // {0} is the term sought
+"StreamerPlayingCategoryTemplate": "{0} a jogar {1}", // {0} is the streamer name, {1} is the category played,
+"SearchedClipTitlesAndFoundTemplate": "Resultados da pesquisa de título de clipe para texto: {0}", // {0} is the search term for the clip title search
+"AdvancedFiltering": "Filtros Avançados",
+"IncludeChannels": "Incluir estes canais",
+"ExcludeChannels": "Excluir estes canais",
+"FilterButton": "Filtros", // The button to apply the advanced search filter
+"PreviousPage": "Última Página",
+"NextPage": "Próxima Página",
+
+
   // Sidebar
   "SuggestedStreamers": "Streamers Sugeridos",
   "FollowedStreamers": "Streamers Seguidos",
+  "RecentlyLiveStreamers": "Streamers recentemente ao vivo",
   "AllStreamers": "Todos Streamers",
   "About": "Sobre",
+  "Feedback": "Feedback", // Link to the KlipTok Feedback website
   "Close": "Fechar",
+  "LiveForFormat": "Ao vivo desde {0}", // {0} is the relative timestamp of when the stream started
+
+	// Sidebar Menu
+	"SidebarMenuTooltipFormat": "Ações para o canal {0}", // 0 is the channel name
+	"SidebarMenuVisitDashboard": "Visite o painel {0}", // 0 is the channel name
+	"SidebarMenuVisitClipsCreated": "Visite os clipes criados por {0}", // 0 is the channel name
+	"SidebarMenuMuteChannel":  "Silenciar {0}", // 0 is the channel name
 
   // Streamer Page
   "ClickToFollow": "Clique para Seguir",
@@ -38,27 +69,32 @@
   "TotalClipsOnKlipTok": "Total de Clipes no KlipTok",
   "TotalLikesAcrossAllClips": "Total de Curtidas em todos os Clipes",
   "TotalCommentsAcrossAllClips": "Total de Comentários em todos Clipes",
-  "TotalViewsAcrossAllClips": "Total de vizualizações em todos Clips",
+  "TotalViewsAcrossAllClips": "Total de visualizações em todos Clipes",
   "LastClipAdded": "Último Clipe Adicionado:",
-  "LastClip": "último Clipe:",
-  "NoProfilePicAvailable": "Sem imagem para foto do perfil disponível.",
-  "DateRangePicker_Start": "Data de início", // The Start Date label on the filter on the streamer page
-  "DateRangePicker_End": "Data do fim", // The End Date label on the filter on the streamer page
+  "LastClip": "Último Clipe:",
+  "NoProfilePicAvailable": "Sem imagem para foto do perfil disponível",
+  "DateRangePicker_Start": "Data de Início", // The Start Date label on the filter on the streamer page
+  "DateRangePicker_End": "Data de Fim", // The End Date label on the filter on the streamer page
   "ShareStreamer": "Compartilhe um Streamer", // The tooltip for the Share button on the streamer page
+  "SelectCategory": "Selecionar Categoria", // The default text for the Category Filter combobox
+	"UnknownStreamer": "Streamer desconhecido: {0}", // The header when an unknown streamer is requested
+	"UnknownStreamerDescription": "KlipTok não identificou um streamer com o nome {0}. Se este for um canal existente, pode adicioná-lo seguindo as instruções",
+	"NoRecentClips": "Nenhuma informação de clipe recente disponível", // Error message displayed on dashboard when no recent clips are available
 
   // Layout
   "PublicBeta": "BETA PÚBLICO",
   "LoggedOutFromKlipTokAndTwitch": "Desconectado do KlipTok e Twitch",
-  "LoginToKlipTokWithTwitch": "Conectado no KlipTok com Twitch",
+  "LoginToKlipTokWithTwitch": "Ligar-se ao KlipTok com Twitch",
   "AuthenticationIsNoLongerValid": "Sua autenticacção com Twitch e KlipTok não é válida. Por favor faça Login no KlipTok com Twitch para continuar.",
   "Loading": "Carregando...",
 
   // Errors
-  "ErrorWhileLoading": "ocorreu um erro ao carregar.",
+  "ErrorWhileLoading": "Ocorreu um erro ao carregar.",
   "RetryButton": "Tente novamente",
 
   // Follows page
   "TwitchChannelsIFollow": "Streamers do Twitch que Sigo",
+  "TwitchChannelsIFollowNotOnKlipTok": "Streamers que eu sigo na Twitch e que não estão no KlipTok",
   "NotLoggedIn": "Não é possivel mostrar as contas que você segue no Twitch porque você não está logado com uma conta do Twitch.  Faça login e sincronize os Streamers que você segue com kilpTok para acessar essa função.",
 
   // Home Page
@@ -70,10 +106,15 @@
   "ClipsILike": "Clipes que eu Curto",
   "LikedClips": "Clipes Curtidos",
   "UserProfile": "Perfil do Usuário",
+  "UserPreferences": "Preferências de Utilizador",
+
+	// Filters on the scrollable clips
+	"FilterByCategory": "Filtrar por Categoria", // watermark on the filter by category type-ahead box
+
 
   // Liked Clips
   "NoLikedClips": "Você ainda não curtiu nenhum Clipe no KlipTok!",
-  "TryLikeButtonTemplate": "Tente clicar no ícone de coração {0} abaixo de um clipe para 'Curtir' e nós iremos salvar aqui para que você ache esse clipe no futuro.", //  {0} is the heart icon
+  "TryLikeButtonTemplate": "Tente clicar no ícone de coração {0} abaixo de um clipe para 'Curtir' e nós iremos salvar aqui para que você ache esse clipe no futuro", //  {0} is the heart icon
 
   // User Profile
   "DoesNotKeepSeparateUserInformation": "KlipTok não guarda informações separadas do Twitch. KlipTok é um serviço que expande a função de Clipes do Twitch.",
@@ -86,10 +127,15 @@
   "Channel": "Streamer",
   "MutedUntil": "Mudo até",
   "RightToForget": "Direito de esquecer",
-  "DangerZone": "[ Área de Perigo ]", // This is a label indicating the items beneath it make destructive changes to your record on the application
+  "DangerZone": "[ Área de Perigo ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
   "RightToForgetDescription": "Você tem o direito que requisitar ao KlipTok para apagar todas as informações compartilhadas. Ao clicar neste link e confirmar, KlipTok irá remover todos os comentários, Curtidas e Clipers.",
   "RemoveMyContentFromKlipTok": "Remover meu conteúdo do KlipTok",
   "ForgottenAsOfTemplate": "Esquecido à partir de : {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Followed Channel Sync Notifications
+	"BeginAcquiringFollowers": "Adquirindo canais seguidos na Twitch",
+	"IdentifiedFollowerCount": "Identificou {0} canais seguidos para carregar", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "Concluída a adição de canais seguidos ao KlipTok",
 
   // Single Clip Page
   "MissingClipError": "O KlipTok não possue nenhum registro desse Clipe.  O Clipe não existe ou o canal requisitou para não ser indexado pelo KlipTok.",
@@ -101,18 +147,54 @@
   "CommentButton": "Comente",
 
   // Streamer Page
-  "MuteForLabel": "Mudo para:",
+  "MuteForLabel": "Mudo por:",
   "StreamerIsMutedUntilTemplate": "Streamer está mudo até: {0}", // {0} is a datestamp of when the mute operation ends
+  "StreamerIsMuted": "Streamer está no mudo", // message displayed if a channel is muted forever
   "NoMute": "Sair do Mudo", // Remove the mute effect on this streamer so that you can see their content again
   "Forever": "Eternamente", // Label for "Mute Forever" action button
   "SortByLabel": "Ordenar por:",
-  "Views": "Vizualizações", // The number of Clip Views for a Clip that we are sorting by
-  "Score": "Score", // A reference to the KlipTok algorithm assigned score for this Clip
-  "Latest": "Pontuação", // A selector for the sort order to indicate the most recent created Clips should appear first
-  "ClipsFromLabel": "Clipes à partir:", // Label above the date range filter component
+  "Views": "Visualizações", // The number of Clip Views for a Clip that we are sorting by
+  "Score": "Pontuação", // A reference to the KlipTok algorithm assigned score for this Clip
+  "Latest": "Últimos", // A selector for the sort order to indicate the most recent created Clips should appear first
+  "ClipsFromLabel": "Clipes a partir de:", // Label above the date range filter component
   "SearchButton": "Procurar", // Text on the search button to filter by date range
   "ResetButton": "Redefinir", // Text on the reset button to no longer filter by date range
   "NoClipsAvailable": "Clipes Indisponíveis",
   "AddClipsForThisStreamer": "Adicioner Clipes para esse Streamer",
   "NotifyOnOptIn": "Observaçao: se você adicionar um clipe para esse Streamer, pedimos gentilmente que notifique o Streamer que você adicionou os Clipes neste site. Não possuímos nenhum meio de contactar o Streamer."
+
+
+	// Streamer Dashboard
+	"Live": "AO VIVO", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Clipes", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Painel", // Label for the dashboard tab on the top of the Streamer page 
+	"CreatedClipsTab": "Clipes criados", // Label for the Created Clips tab on the Streamer page
+	"ClipsCreatedLast90Days": "Clipes criados nos últimos 90 dias", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Clipes criados por semana", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Clipes por dia da semana", // Label for the clips by the day of week tile
+	"TitleDayCreated": "Dia Criado", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "Clippers mais vistos", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Categorias mais vistas", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Clippers Mais Gostados",
+	"ClipsHeatMap": "Heat Map de Clipes",
+	"HeatmapTooltipFormat": "{0} clipes criados em {1}", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
+
+
+	// Transcription Features
+	"ClipHasTranscription": "Este clipe tem uma transcrição que pode ser pesquisada", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Resultados da pesquisa de transcrição de clipe para texto: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Transcrição do clipe por AssemblyAI:", // Clip transcription attribution to AssemblyAI
+
+	// System Dashboard
+	"SystemStatus": "Status do sistema",
+	"SystemStatusDashboard": "Painel de status do sistema",
+	"SystemDashboardDescription": "Estamos a disponibilizar os detalhes sobre o crescimento do KlipTok abertamente para sua análise.",
+	"TotalClips": "Total de clipes",
+	"ChannelsIndexed": "Canais indexados",
+	"NewChannelsToday": "Novos canais hoje",
+	"TotalChannelsIdentified": "Total de Canais Identificados",
+	"TotalClipsTranscribed": "Total de clipes transcritos",
+	"ClipsTranscribedByDate": "Clipes transcritos por data",
+	"ClipsLikedByDate": "Clipes gostados por data",
+	"ClipsByDate": "Clipes Por Data"
 }
