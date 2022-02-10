@@ -1,4 +1,7 @@
 {
+	"Supporting Code": [
+		"AshleighAdams"
+	],
 	"ae-AE": [
 		"MrBen0x"
 	],
@@ -13,7 +16,7 @@
 	],
 	"el-GR": [
 		"GiannhsR"
-	].
+	],
 	"en-US": [
 		"csharpfritz"
 	],
@@ -36,8 +39,9 @@
 		"JoelLamsi"
 	],
 	"fr": [
-		"sptremblay",
-		"JorritMaes"
+		"JonathanMenzel",
+		"JorritMaes",
+		"sptremblay"
 	],
 	"hr-HR": [
 		"mucnjakf",
@@ -68,7 +72,12 @@
 		"ptasznikarium"
 	],
 	"pt-BR": [
+		"davidandradeduarte",
+		"drocha87",
 		"rafaeldca"
+	],
+	"pt-PT": [
+		"davidandradeduarte"
 	],
 	"ru": [
 		"tryonelove",

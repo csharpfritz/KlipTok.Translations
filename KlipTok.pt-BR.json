@@ -161,7 +161,7 @@
   "ResetButton": "Redefinir", // Text on the reset button to no longer filter by date range
   "NoClipsAvailable": "Clipes Indisponíveis",
   "AddClipsForThisStreamer": "Adicioner Clipes para esse Streamer",
-  "NotifyOnOptIn": "Observaçao: se você adicionar um clipe para esse Streamer, pedimos gentilmente que notifique o Streamer que você adicionou os Clipes neste site. Não possuímos nenhum meio de contactar o Streamer."
+  "NotifyOnOptIn": "Observaçao: se você adicionar um clipe para esse Streamer, pedimos gentilmente que notifique o Streamer que você adicionou os Clipes neste site. Não possuímos nenhum meio de contactar o Streamer.",
 
 
 	// Streamer Dashboard
