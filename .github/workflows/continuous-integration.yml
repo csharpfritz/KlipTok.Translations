@@ -2,8 +2,9 @@ name: Syntax Check
 
 on:
   push:
+  pull_request:
     branches:
-      - '*'
+      - main
 
 defaults:
   run:
