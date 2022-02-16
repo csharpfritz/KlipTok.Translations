@@ -179,7 +179,7 @@
 	// Transcription Features
 	"ClipHasTranscription": "این کلیپ دارای رونوشت قابل جستجو میباشد", // Tooltip for the transcription icon
 	"SearchResultsFromTranscriptionSearch": "نتایج رونوشت کلیپ برای متن: {0}", // Clip transcription search results header.  {0} is the search text
-	"ClipTranscriptionByAssemblyAI": "AssemblyAI :رونوشت کلیپ توسط" // Clip transcription attribution to AssemblyAI
+	"ClipTranscriptionByAssemblyAI": "AssemblyAI :رونوشت کلیپ توسط", // Clip transcription attribution to AssemblyAI
 
 	// System Dashboard
 	"SystemStatus": "وضعیت سیستم",
