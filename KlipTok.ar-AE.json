@@ -9,6 +9,7 @@
 	"ShareThisClip": "مشاركة هذا المقطع",
 	"KlipTokContentPlaceholder": "مكان وضع محتوى KlipTok",
 	"ClippedByFormat": "سجل بواسطة {0}", // {0} is the display name of the clip creator
+  "PreviewThumbnailForClip": "معاينة الصورة المصغرة للمقطع '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
 
 	// Comments
 	"ByLineFormat": "بتاريخ {0} {1} كتب:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
@@ -29,13 +30,13 @@
 	"SearchResults": "نتائج البحث",
 	"SearchedKlipTokAndFoundTemplate": "قمنا بالبحث في KlipTok عن \"{0}\" ووجدنا هذه النتائج:", // {0} is the term sought
 	"StreamerPlayingCategoryTemplate": "{0} يلعب {1}", // {0} is the streamer name, {1} is the category played,
+  "SearchedClipTitlesAndFoundTemplate": "نتائج البحث عن عنوان المقطع للنص: {0}", // {0} is the search term for the clip title search
 	"AdvancedFiltering": "تصفية متقدمة",
 	"IncludeChannels": "تضمين هذه القنوات",
 	"ExcludeChannels": "استبعاد هذه القنوات",
 	"FilterButton": "تصفية", // The button to apply the advanced search filter
 	"PreviousPage": "الصفحة السابقة",
 	"NextPage":  "الصفحة اللاحقة",
-
 
 	// Sidebar
 	"SuggestedStreamers": "اقتراحات القائمون بالبث",
@@ -129,6 +130,34 @@
 	"ResetButton": "إعادة تعيين", // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "لا توجد مقاطع متوفرة",
 	"AddClipsForThisStreamer": "إضافة مقاطع للقائم بالبث",
-	"NotifyOnOptIn": "ملاحظة: إذا قمت بإضافة مقاطع إلى هذا الموقع، يرجى إخطارهم بأنك أضفت مقاطعهم إلى هذا الموقع حيث ليس لدينا طريقة مباشرة للوصول إلى القائم بالبث."
+	"NotifyOnOptIn": "ملاحظة: إذا قمت بإضافة مقاطع إلى هذا الموقع، يرجى إخطارهم بأنك أضفت مقاطعهم إلى هذا الموقع حيث ليس لدينا طريقة مباشرة للوصول إلى القائم بالبث.",
+
+  // Streamer Dashboard
+	"Live": "مباشر", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "مقاطع", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "لوحة البيانات", // Label for the dashboard tab on the top of the Streamer page 
+	"ClipsCreatedLast90Days": "المقاطع التي تم إنشاؤها في آخر 90 يومًا", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "مقاطع تم إنشاؤها في الأسبوع", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "مقاطع حسب يوم من الأسبوع", // Label for the clips by the day of week tile
+	"TitleDayCreated": "يوم الإنشاء", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "منشئي المقطاع الأكثر مشاهدة", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "الفئات الأكثر مشاهدة", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "منشئي المقطاع الأكثر إعجابا",
+
+	// Transcription Features
+	"ClipHasTranscription": "يحتوي هذا المقطع على نسخة يمكن البحث عنها", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "نتائج البحث عن نص في نسخ المقاطع: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "نسخ المقطع بواسطة AssemblyAI:", // Clip transcription attribution to AssemblyAI
+
+	// System Dashboard
+	"SystemStatusDashboard": "لوحة البيانات لحالة النظام",
+	"SystemDashboardDescription": "نحن نوفر تفاصيل نمو KlipTok متاحة لك بشكل مفتوح لمراجعتها.",
+	"TotalClips": "إجمالي المقاطع",
+	"ChannelsIndexed": "القنوات المفهرسة",
+	"NewChannelsToday": "قنوات جديدة اليوم",
+	"TotalChannelsIdentified": "إجمالي القنوات المحددة",
+	"TotalClipsTranscribed": "إجمالي المقاطع المنسوخة",
+	"ClipsTranscribedByDate": "مقاطع منسوخة حسب التاريخ",
+	"ClipsByDate": "مقاطع حسب التاريخ"
 
 }
