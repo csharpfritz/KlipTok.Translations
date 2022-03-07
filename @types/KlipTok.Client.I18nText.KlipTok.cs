@@ -184,6 +184,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"indeks mine klipp"</summary>
         public string IndexklippOfMyChannel;
 
+        /// <summary>"In reply to {0}"</summary>
+        public string InReplyTo;
+
         /// <summary>"In reply to: {0}"</summary>
         public string InReplyToTemplate;
 

@@ -18,6 +18,7 @@
 	// Comments
 	"ByLineFormat": "At {0} {1} wrote:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Reply",
+	"InReplyTo": "In reply to {0}",
 
 	// Login View
 	"DarkMode": "Dark Mode",
@@ -58,7 +59,7 @@
 	"SidebarMenuTooltipFormat": "Actions for the {0} channel", // 0 is the channel name
 	"SidebarMenuVisitDashboard": "Visit {0} Dashboard", // 0 is the channel name
 	"SidebarMenuVisitClipsCreated": "Visit {0} Created Clips", // 0 is the channel name
-	"SidebarMenuMuteChannel":  "Mute {0}", // 0 is the channel name
+	"SidebarMenuMuteChannel": "Mute {0}", // 0 is the channel name
 
 	// Streamer Page
 	"ClickToFollow": "Click to Follow",
