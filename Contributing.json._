@@ -1,15 +1,22 @@
 {
+	//"Supporting Code": [
+	//	"AshleighAdams"
+	//],
 	"ae-AE": [
 		"MrBen0x"
 	],
 	"da-DK": [
 		"DukaSoft",
+		"kladingnet",
 		"smc83dk"
 	],
 	"de-DE": [
 		"binber18",
 		"fstreicher",
 		"luke-777"
+	],
+	"el-GR": [
+		"GiannhsR"
 	],
 	"en-US": [
 		"csharpfritz"
@@ -26,6 +33,7 @@
 		"KGKopli"
 	],
 	"fa-IR": [
+		"hosseinmusaloo",
 		"MohammadAnsari98",
 		"Rshiya"
 	],
@@ -33,8 +41,9 @@
 		"JoelLamsi"
 	],
 	"fr": [
-		"sptremblay",
-		"JorritMaes"
+		"JonathanMenzel",
+		"JorritMaes",
+		"sptremblay"
 	],
 	"hr-HR": [
 		"mucnjakf",
@@ -65,7 +74,12 @@
 		"ptasznikarium"
 	],
 	"pt-BR": [
+		"davidandradeduarte",
+		"drocha87",
 		"rafaeldca"
+	],
+	"pt-PT": [
+		"davidandradeduarte"
 	],
 	"ru": [
 		"tryonelove",

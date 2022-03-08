@@ -31,6 +31,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Auto-play videos on scroll"</summary>
         public string AutoPlayVideosOnScroll;
 
+        /// <summary>"Acquiring followed channels from Twitch"</summary>
+        public string BeginAcquiringFollowers;
+
         /// <summary>"At {0} {1} wrote:"</summary>
         public string ByLineFormat;
 
@@ -67,8 +70,14 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Clips from:"</summary>
         public string ClipsFromLabel;
 
+        /// <summary>"Clips Heat Map"</summary>
+        public string ClipsHeatMap;
+
         /// <summary>"Clips I Like"</summary>
         public string ClipsILike;
+
+        /// <summary>"Clips Liked By Date"</summary>
+        public string ClipsLikedByDate;
 
         /// <summary>"Clips"</summary>
         public string ClipsTab;
@@ -90,6 +99,12 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Comments"</summary>
         public string Comments;
+
+        /// <summary>"Completed adding followed channels to KlipTok"</summary>
+        public string CompletedLoadingFollowers;
+
+        /// <summary>"Created Clips"</summary>
+        public string CreatedClipsTab;
 
         /// <summary>"[ Danger Zone ]"</summary>
         public string DangerZone;
@@ -133,8 +148,14 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Following"</summary>
         public string Favorites;
 
+        /// <summary>"Feedback"</summary>
+        public string Feedback;
+
         /// <summary>"Filter"</summary>
         public string FilterButton;
+
+        /// <summary>"Filter by Category"</summary>
+        public string FilterByCategory;
 
         /// <summary>"Followed Streamers"</summary>
         public string FollowedStreamers;
@@ -145,6 +166,15 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Forgotten as of : {0}"</summary>
         public string ForgottenAsOfTemplate;
 
+        /// <summary>"Grid View"</summary>
+        public string GridView;
+
+        /// <summary>"{0} clips created on {1}"</summary>
+        public string HeatmapTooltipFormat;
+
+        /// <summary>"Identified {0} followed channels to load"</summary>
+        public string IdentifiedFollowerCount;
+
         /// <summary>"Include these channels"</summary>
         public string IncludeChannels;
 
@@ -153,6 +183,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"indeks mine klipp"</summary>
         public string IndexklippOfMyChannel;
+
+        /// <summary>"In reply to {0}"</summary>
+        public string InReplyTo;
 
         /// <summary>"In reply to: {0}"</summary>
         public string InReplyToTemplate;
@@ -190,8 +223,14 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Likes"</summary>
         public string Likes;
 
+        /// <summary>"List View"</summary>
+        public string ListView;
+
         /// <summary>"LIVE"</summary>
         public string Live;
+
+        /// <summary>"Live for {0}"</summary>
+        public string LiveForFormat;
 
         /// <summary>"Live on Twitch now!"</summary>
         public string LiveOnTwitch;
@@ -238,6 +277,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Clips from channels I follow"</summary>
         public string MyFavoriteChannels;
 
+        /// <summary>"My Streamer Page"</summary>
+        public string MyStreamerPage;
+
         /// <summary>"New Channels Today"</summary>
         public string NewChannelsToday;
 
@@ -262,6 +304,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"No profile pic available"</summary>
         public string NoProfilePicAvailable;
 
+        /// <summary>"No recent clip information available"</summary>
+        public string NoRecentClips;
+
         /// <summary>"Please note: if you add Clips for this streamer, we kindly request you notify them that you have added their Clips to this site.  We have no direct way to reach out to the broadcaster."</summary>
         public string NotifyOnOptIn;
 
@@ -282,6 +327,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"PUBLIC BETA"</summary>
         public string PublicBeta;
+
+        /// <summary>"Recently Live Streamers"</summary>
+        public string RecentlyLiveStreamers;
 
         /// <summary>"Recorded {0}"</summary>
         public string Recorded;
@@ -337,14 +385,32 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Results from clip transcription search for text: {0}"</summary>
         public string SearchResultsFromTranscriptionSearch;
 
+        /// <summary>"Select a Category"</summary>
+        public string SelectCategory;
+
         /// <summary>"Share Streamer"</summary>
         public string ShareStreamer;
 
         /// <summary>"Share this Clip"</summary>
         public string ShareThisClip;
 
+        /// <summary>"Mute {0}"</summary>
+        public string SidebarMenuMuteChannel;
+
+        /// <summary>"Actions for the {0} channel"</summary>
+        public string SidebarMenuTooltipFormat;
+
+        /// <summary>"Visit {0} Created Clips"</summary>
+        public string SidebarMenuVisitClipsCreated;
+
+        /// <summary>"Visit {0} Dashboard"</summary>
+        public string SidebarMenuVisitDashboard;
+
         /// <summary>"Sort by:"</summary>
         public string SortByLabel;
+
+        /// <summary>"Streamer is muted"</summary>
+        public string StreamerIsMuted;
 
         /// <summary>"Streamer is muted until: {0}"</summary>
         public string StreamerIsMutedUntilTemplate;
@@ -360,6 +426,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"We&apos;re making details about the growth of KlipTok openly available for you to review."</summary>
         public string SystemDashboardDescription;
+
+        /// <summary>"System Status"</summary>
+        public string SystemStatus;
 
         /// <summary>"System Status Dashboard"</summary>
         public string SystemStatusDashboard;
@@ -406,8 +475,20 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Twitch Streamers I Follow"</summary>
         public string TwitchChannelsIFollow;
 
+        /// <summary>"Twitch Streamers I Follow who aren&apos;t on KlipTok"</summary>
+        public string TwitchChannelsIFollowNotOnKlipTok;
+
+        /// <summary>"Unknown streamer: {0}"</summary>
+        public string UnknownStreamer;
+
+        /// <summary>"KlipTok has not identified a streamer with the name {0}.  If this is a real channel, you can add them with the following directions"</summary>
+        public string UnknownStreamerDescription;
+
         /// <summary>"{0} liked {1}"</summary>
         public string UserLikedTimeTemplate;
+
+        /// <summary>"User Preferences"</summary>
+        public string UserPreferences;
 
         /// <summary>"User Profile"</summary>
         public string UserProfile;

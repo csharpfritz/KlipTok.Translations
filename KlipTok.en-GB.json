@@ -11,14 +11,20 @@
 	"ClippedByFormat": "Clipped by {0}", // {0} is the display name of the clip creator
 	"PreviewThumbnailForClip": "Preview Thumbnail for the clip '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
 
+	// Clip Galllery Component
+	"ListView": "List View",
+	"GridView": "Grid View",
+
 	// Comments
 	"ByLineFormat": "At {0}, {1} wrote:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Reply",
+	"InReplyTo": "In reply to {0}",
 
 	// Login View
 	"DarkMode": "Dark Mode",
 	"LoginWithTwitch": "Login with Twitch",
 	"Logout": "Logout",
+	"MyStreamerPage": "My Streamer Page",
 
 	// Header
 	"SearchForChannel": "Search for a Streamer...", // Deprecated
@@ -41,9 +47,18 @@
 	// Sidebar
 	"SuggestedStreamers": "Suggested Streamers",
 	"FollowedStreamers": "Followed Streamers",
+	"RecentlyLiveStreamers": "Recently Live Streamers",
 	"AllStreamers": "All Streamers",
 	"About": "About",
+	"Feedback": "Feedback", // Link to the KlipTok Feedback website
 	"Close": "Close",
+	"LiveForFormat": "Live for {0}", // {0} is the relative timestamp of when the stream started
+
+	// Sidebar Menu
+	"SidebarMenuTooltipFormat": "Actions for the {0} channel", // 0 is the channel name
+	"SidebarMenuVisitDashboard": "Visit {0} Dashboard", // 0 is the channel name
+	"SidebarMenuVisitClipsCreated": "Visit {0} Created Clips", // 0 is the channel name
+	"SidebarMenuMuteChannel": "Mute {0}", // 0 is the channel name
 
 	// Streamer Page
 	"ClickToFollow": "Click to Follow",
@@ -61,6 +76,10 @@
 	"DateRangePicker_Start": "Start Date", // The Start Date label on the filter on the streamer page
 	"DateRangePicker_End": "End Date", // The End Date label on the filter on the streamer page
 	"ShareStreamer": "Share Streamer", // The tooltip for the Share button on the streamer page
+	"SelectCategory": "Select a Category", // The default text for the Category Filter combobox
+	"UnknownStreamer": "Unknown streamer: {0}", // The header when an unknown streamer is requested
+	"UnknownStreamerDescription": "KlipTok has not identified a streamer with the name {0}.  If this is a real channel, you can add them with the following directions",
+	"NoRecentClips": "No recent clip information available", // Error message displayed on dashboard when no recent clips are available
 
 	// Layout
 	"PublicBeta": "PUBLIC BETA",
@@ -75,6 +94,7 @@
 
 	// Follows page
 	"TwitchChannelsIFollow": "Twitch Streamers I Follow",
+	"TwitchChannelsIFollowNotOnKlipTok": "Twitch Streamers I Follow who aren't on KlipTok",
 	"NotLoggedIn": "Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followed streamers with KlipTok to access this functionality.",
 
 	// Home Page
@@ -86,6 +106,10 @@
 	"ClipsILike": "Clips I Like",
 	"LikedClips": "Liked Clips",
 	"UserProfile": "User Profile",
+	"UserPreferences": "User Preferences",
+
+	// Filters on the scrollable clips
+	"FilterByCategory": "Filter by Category", // watermark on the filter by category type-ahead box
 
 	// Liked Clips
 	"NoLikedClips": "You haven't liked any Clips on KlipTok yet!",
@@ -107,6 +131,11 @@
 	"RemoveMyContentFromKlipTok": "Remove my content from KlipTok",
 	"ForgottenAsOfTemplate": "Forgotten as of: {0}", // {0} is the datestamp of when the 'forget' action was taken
 
+	// Followed Channel Sync Notifications
+	"BeginAcquiringFollowers": "Acquiring followed channels from Twitch",
+	"IdentifiedFollowerCount": "Identified {0} followed channels to load", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "Completed adding followed channels to KlipTok",
+
 	// Single Clip Page
 	"MissingClipError": "KlipTok does not have a record of this Clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok.",
 	"LikedBy": "Liked By:",
@@ -119,6 +148,7 @@
 	// Streamer Page
 	"MuteForLabel": "Mute for:",
 	"StreamerIsMutedUntilTemplate": "Streamer is muted until: {0}", // {0} is a datestamp of when the mute operation ends
+	"StreamerIsMuted": "Streamer is muted", // message displayed if a channel is muted forever
 	"NoMute": "Unmute", // Remove the mute effect on this streamer so that you can see their content again
 	"Forever": "Forever", // Label for "Mute Forever" action button
 	"SortByLabel": "Sort by:",
@@ -136,6 +166,7 @@
 	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
 	"ClipsTab": "Clips", // Label for the Clips tab on the top of the Streamer page
 	"DashboardTab": "Dashboard", // Label for the dashboard tab on the top of the Streamer page 
+	"CreatedClipsTab": "Created Clips", // Label for the Created Clips tab on the Streamer page
 	"ClipsCreatedLast90Days": "Clips Created in last 90 days", // Label for the Clips Created in the last 90 days graph
 	"ClipsCreatedPerWeek": "Clips Created per Week", // The label on the x-axis for the Clips Created in the Last 90 days graph
 	"ClipsByDayOfWeek": "Clips by Day of Week", // Label for the clips by the day of week tile
@@ -143,6 +174,8 @@
 	"MostViewedClippers": "Most Viewed Clippers", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "Most Viewed Categories", // Label for the Most Viewed Categories table
 	"MostLikedClippers": "Most Liked Clippers",
+	"ClipsHeatMap": "Clips Heat Map",
+	"HeatmapTooltipFormat": "{0} clips created on {1}", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
 
 	// Transcription Features
 	"ClipHasTranscription": "This clip has a transcription that can be searched", // Tooltip for the transcription icon
@@ -150,6 +183,7 @@
 	"ClipTranscriptionByAssemblyAI": "Clip Transcription by AssemblyAI:", // Clip transcription attribution to AssemblyAI
 
 	// System Dashboard
+	"SystemStatus": "System Status",
 	"SystemStatusDashboard": "System Status Dashboard",
 	"SystemDashboardDescription": "We're making details about the growth of KlipTok openly available for you to review.",
 	"TotalClips": "Total Clips",
@@ -158,7 +192,7 @@
 	"TotalChannelsIdentified": "Total Channels Identified",
 	"TotalClipsTranscribed": "Total Clips Transcribed",
 	"ClipsTranscribedByDate": "Clips Transcribed By Date",
+	"ClipsLikedByDate": "Clips Liked By Date",
 	"ClipsByDate": "Clips By Date"
-
 
 }

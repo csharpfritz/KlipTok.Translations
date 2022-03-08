@@ -11,6 +11,10 @@
 	"ClippedByFormat": "Diklip oleh {0}", // {0} is the display name of the clip creator
 	"PreviewThumbnailForClip": "Pratinjau Thumbnail dalam klip '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
 
+	// Clip Galllery Component
+	"ListView": "Tampilan Daftar",
+	"GridView": "Tampilan Kisi",
+
 	// Comments
 	"ByLineFormat": "Pada {0} {1} tulis:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Balas",
@@ -19,6 +23,7 @@
 	"DarkMode": "Mode Gelap",
 	"LoginWithTwitch": "Login dengan Twitch",
 	"Logout": "Logout",
+	"MyStreamerPage": "Halaman Streamerku",
 	
 	// Header
 	"SearchForChannel": "Telusuri Streamer...", // Deprecated
@@ -42,10 +47,19 @@
 	// Sidebar
 	"SuggestedStreamers": "Streamer yang Disarankan",
 	"FollowedStreamers": "Streamer yang Diikuti",
+	"RecentlyLiveStreamers": "Live Streamer Baru-baru Ini",
 	"AllStreamers": "Semua Streamer",
 	"About": "Tentang",
+	"Feedback": "Umpan Balik", // Link to the KlipTok Feedback website
 	"Close": "Tutup",
-	
+	"LiveForFormat": "Live selama {0}", // {0} is the relative timestamp of when the stream started
+
+	// Sidebar Menu
+	"SidebarMenuTooltipFormat": "Pilihan untuk channel {0}", // 0 is the channel name
+	"SidebarMenuVisitDashboard": "Kunjungi Dasbor {0}", // 0 is the channel name
+	"SidebarMenuVisitClipsCreated": "Kunjungi Klip yang Dibuat oleh {0}", // 0 is the channel name
+	"SidebarMenuMuteChannel":  "Bisukan {0}", // 0 is the channel name
+
 	// Streamer Page
 	"ClickToFollow": "Klik untuk Mengikuti",
 	"ClickToUnfollow": "Klik untuk Setop Ikuti",
@@ -62,6 +76,10 @@
 	"DateRangePicker_Start": "Tanggal Mulai", // The Start Date label on the filter on the streamer page
 	"DateRangePicker_End": "Tanggal Akhir", // The End Date label on the filter on the streamer page
 	"ShareStreamer": "Bagikan Streamer", // The tooltip for the Share button on the streamer page	
+	"SelectCategory": "Pilih Kategori", // The default text for the Category Filter combobox
+	"UnknownStreamer": "Streamer tidak dikenal: {0}", // The header when an unknown streamer is requested
+	"UnknownStreamerDescription": "KlipTok belum mengidentifikasi streamer dengan nama tersebut {0}.  Jika ini adalah channel nyata, Anda dapat menambahkannya dengan menggunakan cara berikut",
+	"NoRecentClips": "Tidak ada informasi klip terbaru yang tersedia", // Error message displayed on dashboard when no recent clips are available
 	
 	// Layout
 	"PublicBeta": "BETA PUBLIK",
@@ -76,6 +94,7 @@
 
 	// Follows page
 	"TwitchChannelsIFollow": "Streamer Twitch yang Kuikuti",
+	"TwitchChannelsIFollowNotOnKlipTok": "Streamer Twitch yang Kuikuti yang tidak berada di KlipTok",
 	"NotLoggedIn": "Tidak dapat menampilkan catatan akun yang Anda ikuti di Twitch karena Anda belum login dengan akun Twitch. Silakan login dan sinkron streamer yang Anda ikuti dengan Kliptok untuk mengakses fungsi ini.",
 
 	// Home Page
@@ -87,6 +106,11 @@
 	"ClipsILike": "Klip yang Kusukai",
 	"LikedClips": "Klip yang Disukai",
 	"UserProfile": "Profil Pengguna",
+	"UserPreferences": "Preferensi Pengguna",
+
+	// Filters on the scrollable clips
+	"FilterByCategory": "Saring Menurut Kategori", // watermark on the filter by category type-ahead box
+
 
 	// Liked Clips
 	"NoLikedClips": "Anda belum menyukai Klip di KlipTok!",
@@ -108,6 +132,11 @@
 	"RemoveMyContentFromKlipTok": "Hapus kontenku dari Kliptok",
 	"ForgottenAsOfTemplate": "Dilupakan pada: {0}", // {0} is the datestamp of when the 'forget' action was taken	
 	
+	// Followed Channel Sync Notifications
+	"BeginAcquiringFollowers": "Memperoleh channel yang diikuti dari Twitch",
+	"IdentifiedFollowerCount": "Teridentifikasi {0} channel yang diikuti untuk dimuat", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "Selesai menambahkan channel yang diikuti ke dalam Kliptok",
+
 	// Single Clip Page
 	"MissingClipError": "KlipTok tidak mempunyai catatan Klip ini. Klip tidak ada atau channel Twitch tersebut memilih untuk tidak berpartisipasi dalam KlipTok.",
 	"LikedBy": "Disukai Oleh:",
@@ -118,8 +147,9 @@
 	"CommentButton": "Komentar",
 
 	// Streamer Page
-	"MuteForLabel": "Dibisukan selama:",
+	"MuteForLabel": "Bisukan selama:",
 	"StreamerIsMutedUntilTemplate": "Streamer dibisukan hingga: {0}", // {0} is a datestamp of when the mute operation ends
+	"StreamerIsMuted": "Streamer dibisukan", // message displayed if a channel is muted forever
 	"NoMute": "Bunyikan", // Remove the mute effect on this streamer so that you can see their content again
 	"Forever": "Selamanya", // Label for "Mute Forever" action button
 	"SortByLabel": "Urut berdasarkan:",
@@ -136,14 +166,18 @@
 	// Streamer Dashboard
 	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
 	"ClipsTab": "Klip", // Label for the Clips tab on the top of the Streamer page
-	"DashboardTab": "Dasbor", // Label for the dashboard tab on the top of the Streamer page 
+	"DashboardTab": "Dasbor", // Label for the dashboard tab on the top of the Streamer page
+	"CreatedClipsTab": "Klip yang Dibuat", // Label for the Created Clips tab on the Streamer page 
 	"ClipsCreatedLast90Days": "Klip Dibuat dalam 90 hari terakhir", // Label for the Clips Created in the last 90 days graph
-	"ClipsCreatedPerWeek": "Klip dibuat per Minggu", // The label on the x-axis for the Clips Created in the Last 90 days graph
-	"ClipsByDayOfWeek": "Klip menurut Hari", // Label for the clips by the day of week tile
+	"ClipsCreatedPerWeek": "Klip Dibuat per Minggu", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Klip Menurut Hari", // Label for the clips by the day of week tile
 	"TitleDayCreated": "Hari Dibuat", // Title for the Clips by Day of week radar chart
-	"MostViewedClippers": "Clipper yang paling banyak ditonton", // Label for the Most Viewed Clippers table
-	"MostViewedCategories": "Kategori yang paling banyak Ditonton", // Label for the Most Viewed Categories table
-	"MostLikedClippers": "Clipper yang paling Disukai",
+	"MostViewedClippers": "Clipper yang Paling Banyak Ditonton", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Kategori yang Paling Banyak Ditonton", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Clipper yang Paling Disukai",
+	"ClipsHeatMap": "Heat Map Klip",
+	"HeatmapTooltipFormat": "{0} klip dibuat pada {1}", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
+
 
 	// Transcription Features
 	"ClipHasTranscription": "Klip ini memiliki transkripsi yang dapat ditelusuri", // Tooltip for the transcription icon
@@ -151,14 +185,15 @@
 	"ClipTranscriptionByAssemblyAI": "Transkripsi Klip oleh AssemblyAI:", // Clip transcription attribution to AssemblyAI
 
 	// System Dashboard
+	"SystemStatus": "Status Sistem",
 	"SystemStatusDashboard": "Dasbor Status Sistem",
-	"SystemDashboardDescription": "Kami menyediakan detail pertumbuhan Kliptok secara terbuka untuk tinjauan Anda.",
+	"SystemDashboardDescription": "Kami menyediakan detail perkembangan Kliptok secara terbuka untuk tinjauan Anda.",
 	"TotalClips": "Total Klip",
 	"ChannelsIndexed": "Channel Diindeks",
 	"NewChannelsToday": "Channel Baru Hari Ini",
 	"TotalChannelsIdentified": "Total Channel yang Teridentifikasi",
 	"TotalClipsTranscribed": "Total Klip yang Ditranskripsi",
-	"ClipsTranscribedByDate": "Klip Ditranskripsi berdasarkan Tanggal",
-	"ClipsByDate": "Klip berdasarkan Tanggal"
-
+	"ClipsTranscribedByDate": "Klip Ditranskripsi Menurut Tanggal",
+	"ClipsLikedByDate": "Klip Disukai Menurut Tanggal",
+	"ClipsByDate": "Klip Menurut Tanggal"
 }
