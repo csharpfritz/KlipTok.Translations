@@ -18,6 +18,7 @@
 	// Comments
 	"ByLineFormat": "Pada {0} {1} tulis:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Balas",
+	"InReplyTo": "Balasan untuk {0}",
 
 	// Login View
 	"DarkMode": "Mode Gelap",
