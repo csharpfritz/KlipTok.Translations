@@ -37,6 +37,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"At {0} {1} wrote:"</summary>
         public string ByLineFormat;
 
+        /// <summary>"Today"</summary>
+        public string Calendar_Today;
+
         /// <summary>"Streamer"</summary>
         public string Channel;
 

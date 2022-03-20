@@ -43,6 +43,7 @@
 	"FilterButton": "Filter", // The button to apply the advanced search filter
 	"PreviousPage": "Previous Page",
 	"NextPage": "Next Page",
+	"Calendar_Today":  "Today",
 
 	// Sidebar
 	"SuggestedStreamers": "Suggested Streamers",
