@@ -45,7 +45,6 @@
 	"NextPage": "Next Page",
 	"Calendar_Today":  "Today",
 
-
 	// Sidebar
 	"SuggestedStreamers": "Suggested Streamers",
 	"FollowedStreamers": "Followed Streamers",
@@ -113,7 +112,6 @@
 	// Filters on the scrollable clips
 	"FilterByCategory": "Filter by Category", // watermark on the filter by category type-ahead box
 
-
 	// Liked Clips
 	"NoLikedClips": "You haven't liked any Clips on KlipTok yet!",
 	"TryLikeButtonTemplate": "Try clicking the heart icon {0} below a Clip to 'Like' it and we'll report it here for you so you can easily find it again in the future", //  {0} is the heart icon
@@ -179,7 +177,6 @@
 	"MostLikedClippers": "Most Liked Clippers",
 	"ClipsHeatMap": "Clips Heat Map",
 	"HeatmapTooltipFormat": "{0} clips created on {1}", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
-
 
 	// Transcription Features
 	"ClipHasTranscription": "This clip has a transcription that can be searched", // Tooltip for the transcription icon
