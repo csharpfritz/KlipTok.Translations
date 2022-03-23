@@ -18,6 +18,7 @@
 	// Comments
 	"ByLineFormat": "Op {0} schreef {1}:",
 	"Reply": "Beantwoorden",
+	"InReplyTo": "Als antwoord op {0}",
 
 	// Login View
 	"DarkMode": "Donkere Modus",
@@ -42,6 +43,7 @@
 	"FilterButton": "Filteren",
 	"PreviousPage": "Vorige Pagina",
 	"NextPage": "Volgende Pagina",
+	"Calendar_Today":  "Vandaag",
 
 	// Sidebar
 	"SuggestedStreamers": "Aanbevolen Streamers",
@@ -130,6 +132,11 @@
 	"RemoveMyContentFromKlipTok": "Verwijder mijn inhoud van KlipTok",
 	"ForgottenAsOfTemplate": "Verwijderd op: {0}",
 
+	// Followed Channel Sync Notifications
+	"BeginAcquiringFollowers": "Gevolgde kanalen ophalen van Twitch",
+	"IdentifiedFollowerCount": "{0} gevolgde kanalen gevonden om te laden", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "Klaar met toevoegen gevolgde kanalen aan KlipTok",
+
 	// Single Clip Page
 	"MissingClipError": "Kliptok heeft geen gegevens van deze Clip. Of de Clip bestaat niet, of het kanaal heeft aangegeven niet op KlipTok beschikbaar te willen zijn",
 	"LikedBy": "Leuk gevonden door:",
@@ -160,6 +167,7 @@
 	"Live": "LIVE",
 	"ClipsTab": "Clips",
 	"DashboardTab": "Dashboard",
+	"CreatedClipsTab": "Gemaakte Clips",
 	"ClipsCreatedLast90Days": "Clips gemaakt in de laatste 90 dagen",
 	"ClipsCreatedPerWeek": "Clips gemaakt per week",
 	"ClipsByDayOfWeek": "Clips per dag van de week",
