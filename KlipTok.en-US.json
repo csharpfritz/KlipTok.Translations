@@ -44,6 +44,21 @@
 	"PreviousPage": "Previous Page",
 	"NextPage": "Next Page",
 	"Calendar_Today":  "Today",
+	"AutoComplete_NoData": "No results found", // A generic entry for the autocomplete when no results are found
+	"ShowSearchCriteria": "Show Search Criteria",
+	"HideSearchCriteria": "Hide Search Criteria",
+	"SearchInChannels": "Search in channels",
+
+	"ChannelsIfollow": "I follow", // These four need to be SHORT because they are button labels
+	"ChannelsIDontFollow": "I don't follow",
+	"ChannelsAll": "All",
+	"ChannelsSpecified": "I specify",
+
+	"TitleResults": "Title Results",
+	"TranscriptResults": "Transcript Results",
+	"PageOfFormat": "Page {0} of {1}", // {0} is the current page number, {1} is the total number of pages
+	"FoundChannelsFormat": "Found {0} channels", // {0} is the total number of channels found
+
 
 	// Sidebar
 	"SuggestedStreamers": "Suggested Streamers",

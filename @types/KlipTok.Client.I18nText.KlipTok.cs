@@ -28,6 +28,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Your authentication with Twitch and KlipTok is no longer valid.  Please login to KlipTok with Twitch to continue."</summary>
         public string AuthenticationIsNoLongerValid;
 
+        /// <summary>"No results found"</summary>
+        public string AutoComplete_NoData;
+
         /// <summary>"Auto-play videos on scroll"</summary>
         public string AutoPlayVideosOnScroll;
 
@@ -43,8 +46,20 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Streamer"</summary>
         public string Channel;
 
+        /// <summary>"All"</summary>
+        public string ChannelsAll;
+
+        /// <summary>"I don&apos;t follow"</summary>
+        public string ChannelsIDontFollow;
+
+        /// <summary>"I follow"</summary>
+        public string ChannelsIfollow;
+
         /// <summary>"Channels Indexed"</summary>
         public string ChannelsIndexed;
+
+        /// <summary>"I specify"</summary>
+        public string ChannelsSpecified;
 
         /// <summary>"Click to Follow"</summary>
         public string ClickToFollow;
@@ -169,11 +184,17 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Forgotten as of : {0}"</summary>
         public string ForgottenAsOfTemplate;
 
+        /// <summary>"Found {0} channels"</summary>
+        public string FoundChannelsFormat;
+
         /// <summary>"Grid View"</summary>
         public string GridView;
 
         /// <summary>"{0} clips created on {1}"</summary>
         public string HeatmapTooltipFormat;
+
+        /// <summary>"Hide Search Criteria"</summary>
+        public string HideSearchCriteria;
 
         /// <summary>"Identified {0} followed channels to load"</summary>
         public string IdentifiedFollowerCount;
@@ -319,6 +340,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Opted out of indexing on: {0}"</summary>
         public string OptedOutDateTemplate;
 
+        /// <summary>"Page {0} of {1}"</summary>
+        public string PageOfFormat;
+
         /// <summary>"Preview Thumbnail for the clip &apos;{0}&apos;"</summary>
         public string PreviewThumbnailForClip;
 
@@ -376,6 +400,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Search for a Streamer..."</summary>
         public string SearchForChannel;
 
+        /// <summary>"Search in channels"</summary>
+        public string SearchInChannels;
+
         /// <summary>"Search KlipTok..."</summary>
         public string SearchKlipTok;
 
@@ -396,6 +423,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Share this Clip"</summary>
         public string ShareThisClip;
+
+        /// <summary>"Show Search Criteria"</summary>
+        public string ShowSearchCriteria;
 
         /// <summary>"Mute {0}"</summary>
         public string SidebarMenuMuteChannel;
@@ -439,6 +469,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Day Created"</summary>
         public string TitleDayCreated;
 
+        /// <summary>"Title Results"</summary>
+        public string TitleResults;
+
         /// <summary>"Total Channels Identified"</summary>
         public string TotalChannelsIdentified;
 
@@ -471,6 +504,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Totalt antal visningar over alle klipp"</summary>
         public string TotalViewsAcrossAllklipp;
+
+        /// <summary>"Transcript Results"</summary>
+        public string TranscriptResults;
 
         /// <summary>"Try clicking the heart icon {0} below a Clip to &apos;Like&apos; it and we&apos;ll report it here for you so you can easily find it again in the future"</summary>
         public string TryLikeButtonTemplate;
