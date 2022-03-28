@@ -31,6 +31,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"No results found"</summary>
         public string AutoComplete_NoData;
 
+        /// <summary>"Auto-play videos on hover"</summary>
+        public string AutoPlayVideosOnHover;
+
         /// <summary>"Auto-play videos on scroll"</summary>
         public string AutoPlayVideosOnScroll;
 

@@ -133,6 +133,7 @@
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch Clips.",
 	"AutoPlayVideosOnScroll": "Auto-play videos on scroll",
+	"AutoPlayVideosOnHover": "Auto-play videos on hover",
 	"IndexClipsOfMyChannel": "Index my Clips",
 	"OptedOutDateTemplate": "Opted out of indexing on: {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Save my changes",
