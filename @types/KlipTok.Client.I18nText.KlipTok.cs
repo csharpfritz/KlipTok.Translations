@@ -346,6 +346,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Page {0} of {1}"</summary>
         public string PageOfFormat;
 
+        /// <summary>"{0} - {1} of {2} items"</summary>
+        public string Pager_Display;
+
         /// <summary>"Preview Thumbnail for the clip &apos;{0}&apos;"</summary>
         public string PreviewThumbnailForClip;
 

@@ -1,6 +1,7 @@
 {
 	// Components
-
+	"Pager_Display": "{0} - {1} of {2} items",
+	
 	// Clip
 	"Recorded": "Recorded {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
 	"Likes": "Likes",
