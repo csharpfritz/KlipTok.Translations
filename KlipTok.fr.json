@@ -215,6 +215,10 @@
 	"ClipsByDate": "Clips par date",
 
 	// Playlists
+	"PlaylistsTab": "Listes de lecture",
+	"MyPlaylists": "Mes Listes de lecture",
+	"PlaylistsCreatedBy": "Listes de lecture créées par {0}",
+	"CreateNewPlaylist": "Créer une nouvelle liste de lecture",
 	"AddToPlaylist": "Ajoutés à la liste de lecture",
 	"PlaylistTitle": "Liste de lecture: {0}", // Title displayed at the top of the Playlist page
 	"CreatedBy": "Créer par: {0}", // "by-line" indicating who created the playlist
@@ -223,6 +227,7 @@
 	"NextClip": "Clip suivant",
 	"VideoTagNotSupported": "Votre fureteur ne supporte pas le tag video.",
 	"NoClipsOnPlaylist": "Aucun clips n'est présentement assignés à cette liste de lecture",
+	"NoPlaylistsCreated": "Aucunes listes de lecture n'est présentement sélectionné",
 	"PlaylistName": "Nom de la liste de lecture",
 	"ClipTitle": "Titre",
 	"Remove": "Retiré",
