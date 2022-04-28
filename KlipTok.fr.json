@@ -178,7 +178,7 @@
 	"ResetButton": "Réinitialiser", // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "Aucun Clip de disponible",
 	"AddClipsForThisStreamer": "Ajouter des Clips pour ce Streamer",
-	"NotifyOnOptIn": "Note : Si vous ajoutez des Clips pour ce Streamer, nous vous demandons de bien vouloir l'en informer. Nous n'avons aucun de le contacter.",
+	"NotifyOnOptIn": "Note : Si vous ajoutez des Clips pour ce Streamer, nous vous demandons de bien vouloir l'en informer. Nous n'avons aucun moyen de le contacter.",
 	
 	// Streamer Dashboard
 	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
