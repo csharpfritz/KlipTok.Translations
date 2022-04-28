@@ -226,6 +226,7 @@
 	"NextClip": "Next Clip",
 	"VideoTagNotSupported": "Your browser does not support the video tag.",
 	"NoClipsOnPlaylist": "No clips currently assigned to this playlist",
+	"NoPlaylistsCreated": "No playlists currently created",
 	"PlaylistName": "Playlist Name",
 	"ClipTitle": "Title",
 	"Remove": "Remove",

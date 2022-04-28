@@ -361,6 +361,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Unmute"</summary>
         public string NoMute;
 
+        /// <summary>"No playlists currently created"</summary>
+        public string NoPlaylistsCreated;
+
         /// <summary>"No profile pic available"</summary>
         public string NoProfilePicAvailable;
 
