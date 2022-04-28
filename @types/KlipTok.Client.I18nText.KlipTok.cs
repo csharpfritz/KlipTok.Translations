@@ -19,6 +19,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Legg til klipp for denne streameren"</summary>
         public string AddklippForThisStreamer;
 
+        /// <summary>"Add to Playlist"</summary>
+        public string AddToPlaylist;
+
         /// <summary>"Advanced Filtering"</summary>
         public string AdvancedFiltering;
 
@@ -45,6 +48,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Today"</summary>
         public string Calendar_Today;
+
+        /// <summary>"Cancel"</summary>
+        public string Cancel;
 
         /// <summary>"Streamer"</summary>
         public string Channel;
@@ -106,6 +112,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Clips Transcribed By Date"</summary>
         public string ClipsTranscribedByDate;
 
+        /// <summary>"Title"</summary>
+        public string ClipTitle;
+
         /// <summary>"Clip Transcription by AssemblyAI:"</summary>
         public string ClipTranscriptionByAssemblyAI;
 
@@ -123,6 +132,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Completed adding followed channels to KlipTok"</summary>
         public string CompletedLoadingFollowers;
+
+        /// <summary>"Created By: {0}"</summary>
+        public string CreatedBy;
 
         /// <summary>"Created Clips"</summary>
         public string CreatedClipsTab;
@@ -142,6 +154,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Start Date"</summary>
         public string DateRangePicker_Start;
 
+        /// <summary>"Delete"</summary>
+        public string Delete;
+
         /// <summary>"Discover Clips"</summary>
         public string DiscoverClips;
 
@@ -156,6 +171,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch Clips."</summary>
         public string DoesNotKeepSeparateUserInformation;
+
+        /// <summary>"Edit"</summary>
+        public string Edit;
 
         /// <summary>"Enter new Comment..."</summary>
         public string EnterNewComment;
@@ -189,6 +207,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Found {0} channels"</summary>
         public string FoundChannelsFormat;
+
+        /// <summary>"No records available"</summary>
+        public string Grid_NoRecords;
 
         /// <summary>"Grid View"</summary>
         public string GridView;
@@ -310,11 +331,17 @@ namespace KlipTok.Client.I18nText
         /// <summary>"New Channels Today"</summary>
         public string NewChannelsToday;
 
+        /// <summary>"Next Clip"</summary>
+        public string NextClip;
+
         /// <summary>"Next Page"</summary>
         public string NextPage;
 
         /// <summary>"No Clips Available"</summary>
         public string NoClipsAvailable;
+
+        /// <summary>"No clips currently assigned to this playlist"</summary>
+        public string NoClipsOnPlaylist;
 
         /// <summary>"Ingen klipp tilgjengelig"</summary>
         public string NoklippAvailable;
@@ -349,8 +376,17 @@ namespace KlipTok.Client.I18nText
         /// <summary>"{0} - {1} of {2} items"</summary>
         public string Pager_Display;
 
+        /// <summary>"Playlist Name"</summary>
+        public string PlaylistName;
+
+        /// <summary>"Playlist: {0}"</summary>
+        public string PlaylistTitle;
+
         /// <summary>"Preview Thumbnail for the clip &apos;{0}&apos;"</summary>
         public string PreviewThumbnailForClip;
+
+        /// <summary>"Previous Clip"</summary>
+        public string PreviousClip;
 
         /// <summary>"Previous Page"</summary>
         public string PreviousPage;
@@ -366,6 +402,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Recorded {0}"</summary>
         public string Recorded;
+
+        /// <summary>"Remove"</summary>
+        public string Remove;
 
         /// <summary>"Remove my content from KlipTok"</summary>
         public string RemoveMyContentFromKlipTok;
@@ -387,6 +426,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Save my changes"</summary>
         public string SaveMyChanges;
+
+        /// <summary>"Save Playlist"</summary>
+        public string SavePlaylist;
 
         /// <summary>"Score"</summary>
         public string Score;
@@ -537,6 +579,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"User Profile"</summary>
         public string UserProfile;
+
+        /// <summary>"Your browser does not support the video tag."</summary>
+        public string VideoTagNotSupported;
 
         /// <summary>"Views"</summary>
         public string Views;
