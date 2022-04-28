@@ -44,6 +44,21 @@
 	"PreviousPage": "Poprzednia strona",
 	"NextPage": "Następna strona",
 	"Calendar_Today":  "Dzisiaj",
+	"AutoComplete_NoData": "Nie znaleziono wyników", // A generic entry for the autocomplete when no results are found
+	"ShowSearchCriteria": "Pokaż kryteria wyszukiwania",
+	"HideSearchCriteria": "Ukryj kryteria wyszukiwania",
+	"SearchInChannels": "Szukaj w kanałach",
+
+	"ChannelsIfollow": "Obserwuję", // These four need to be SHORT because they are button labels
+	"ChannelsIDontFollow": "Nie obserwuję",
+	"ChannelsAll": "Wszystkie",
+	"ChannelsSpecified": "Określone",
+
+	"TitleResults": "Wyniki po tytule",
+	"TranscriptResults": "Wyniki po transkrypcji",
+	"PageOfFormat": "Strona {0} z {1}", // {0} is the current page number, {1} is the total number of pages
+	"FoundChannelsFormat": "Znaleziono {0} kanałów", // {0} is the total number of channels found
+
 
 	// Sidebar
 	"SuggestedStreamers": "Sugerowani streamerzy",
@@ -118,7 +133,8 @@
 
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok nie zapisuje żadnych informacji o użytkowniku z Twitch. Kliptok jest usługą usprawniającą klipy z Twitch.",
-	"AutoPlayVideosOnScroll": "Automatycznie odtwarzaj klipy podczas przewijania strony",
+	"AutoPlayVideosOnScroll": "Automatyczne odtwarzanie klipów podczas przewijania strony",
+	"AutoPlayVideosOnHover": "Automatyczne odtwarzanie klipów po najechaniu kursorem",
 	"IndexClipsOfMyChannel": "Zindeksuj moje klipy",
 	"OptedOutDateTemplate": "Zrezygnowano z indeksowania o: {0}", // {0} is the datestamp of when opt-out was recorded
 	"SaveMyChanges": "Zapisz zmiany",
