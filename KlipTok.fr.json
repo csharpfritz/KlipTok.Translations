@@ -1,6 +1,7 @@
 {
 	// Components
-	
+	"Pager_Display": "{0} - {1} {2} items",
+
 	// Clip
 	"Recorded": "Enregistré {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
 	"Likes": "Likes",
@@ -18,6 +19,7 @@
 	// Comments
 	"ByLineFormat": "À {1}, {0} a commenté :", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
 	"Reply": "Répondre",
+	"InReplyTo": "En réponse à {0}",
 
 	// Login View
 	"DarkMode": "Mode sombre",
@@ -42,7 +44,23 @@
 	"FilterButton": "Filtrer", // The button to apply the advanced search filter
 	"PreviousPage": "Page précédente",
 	"NextPage": "Page suivante",
-	
+	"Calendar_Today":  "Aujourd'hui",
+	"AutoComplete_NoData": "Aucun résultats trouvés", // A generic entry for the autocomplete when no results are found
+	"ShowSearchCriteria": "Montrer les critères de recherches",
+	"HideSearchCriteria": "Cachés les critères de recherches",
+	"SearchInChannels": "Rechercher dans les canaux",
+
+	"ChannelsIfollow": "Je suis", // These four need to be SHORT because they are button labels
+	"ChannelsIDontFollow": "Je ne suis pas",
+	"ChannelsAll": "Tous",
+	"ChannelsSpecified": "Je spécifie",
+
+	"TitleResults": "Titre des résultats",
+	"TranscriptResults": "Résultats de la transcription",
+	"PageOfFormat": "Page {0} de {1}", // {0} is the current page number, {1} is the total number of pages
+	"FoundChannelsFormat": "Trouvés {0} cannaux", // {0} is the total number of channels found
+
+
 	// Sidebar
 	"SuggestedStreamers": "Streamers recommandés",
 	"FollowedStreamers": "Streamers suivis",
@@ -117,6 +135,7 @@
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok ne conserve pas les informations des utilisateurs de Twitch. Il est conçu comme un service pour augmenter les vues de Clips sur Twitch.",
 	"AutoPlayVideosOnScroll": "Lecture automatique des Clips lors du défilement",
+	"AutoPlayVideosOnHover": "Auto-play videos on hover",
 	"IndexClipsOfMyChannel": "Indexer mes Clips",
 	"OptedOutDateTemplate": "Indexation désactivée le : {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Sauvegarder mes changements",
@@ -193,4 +212,5 @@
 	"ClipsTranscribedByDate": "Clips transcrits par date",
 	"ClipsLikedByDate": "Clips Likés par date",
 	"ClipsByDate": "Clips par date"
+
 }
