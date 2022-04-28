@@ -1,6 +1,7 @@
 {
 	// Components
 	"Pager_Display": "{0} - {1} {2} items",
+	"Grid_NoRecords": "Aucun enregistrement de disponible",
 
 	// Clip
 	"Recorded": "Enregistré {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
@@ -80,7 +81,7 @@
 	// Streamer Page
 	"ClickToFollow": "Suivre",
 	"ClickToUnfollow": "Ne plus suivre",
-	"ActionOnTwitchTemplate": "{0} on Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+	"ActionOnTwitchTemplate": "{0} sur Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "En direct sur Twitch maintenant !",
 	"ProfilePicTemplate": "Photo de profil de {0}", // {0} is the Streamer's Display Name
 	"TotalClipsOnKlipTok": "Total de Clips sur KlipTok",
@@ -135,7 +136,7 @@
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok ne conserve pas les informations des utilisateurs de Twitch. Il est conçu comme un service pour augmenter les vues de Clips sur Twitch.",
 	"AutoPlayVideosOnScroll": "Lecture automatique des Clips lors du défilement",
-	"AutoPlayVideosOnHover": "Auto-play videos on hover",
+	"AutoPlayVideosOnHover": "Lecture automatique des vidéos sur survol",
 	"IndexClipsOfMyChannel": "Indexer mes Clips",
 	"OptedOutDateTemplate": "Indexation désactivée le : {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Sauvegarder mes changements",
@@ -212,5 +213,21 @@
 	"ClipsTranscribedByDate": "Clips transcrits par date",
 	"ClipsLikedByDate": "Clips Likés par date",
 	"ClipsByDate": "Clips par date"
+
+	// Playlists
+	"AddToPlaylist": "Ajoutés à liste de lecture",
+	"PlaylistTitle": "Liste de lecture: {0}", // Title displayed at the top of the Playlist page
+	"CreatedBy": "Créer par: {0}", // "by-line" indicating who created the playlist
+	"Edit": "Éditer",
+	"PreviousClip": "Clip précédent",
+	"NextClip": "Clip suivant",
+	"VideoTagNotSupported": "Votre fureteur ne supporte pas le tag video.",
+	"NoClipsOnPlaylist": "Aucun clips n'est présentement assignés à cette liste de lecture",
+	"PlaylistName": "Nom de la liste de lecture",
+	"ClipTitle": "Titre",
+	"Remove": "Retiré",
+	"SavePlaylist": "Enregistrer la liste de lecture",
+	"Cancel": "Annulé",
+	"Delete": "Effacé"
 
 }
