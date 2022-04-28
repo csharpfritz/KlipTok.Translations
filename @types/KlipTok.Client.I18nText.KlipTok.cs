@@ -139,6 +139,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Created Clips"</summary>
         public string CreatedClipsTab;
 
+        /// <summary>"Create a new playlist"</summary>
+        public string CreateNewPlaylist;
+
         /// <summary>"[ Danger Zone ]"</summary>
         public string DangerZone;
 
@@ -325,6 +328,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Clips from channels I follow"</summary>
         public string MyFavoriteChannels;
 
+        /// <summary>"My Playlists"</summary>
+        public string MyPlaylists;
+
         /// <summary>"My Streamer Page"</summary>
         public string MyStreamerPage;
 
@@ -378,6 +384,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Playlist Name"</summary>
         public string PlaylistName;
+
+        /// <summary>"Playlists created by {0}"</summary>
+        public string PlaylistsCreatedBy;
 
         /// <summary>"Playlists"</summary>
         public string PlaylistsTab;
