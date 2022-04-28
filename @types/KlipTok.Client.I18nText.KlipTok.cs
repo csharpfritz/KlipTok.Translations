@@ -379,6 +379,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Playlist Name"</summary>
         public string PlaylistName;
 
+        /// <summary>"Playlists"</summary>
+        public string PlaylistsTab;
+
         /// <summary>"Playlist: {0}"</summary>
         public string PlaylistTitle;
 
