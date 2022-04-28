@@ -68,7 +68,7 @@
 	"RecentlyLiveStreamers": "Recently Live Streamers",
 	"AllStreamers": "All Streamers",
 	"About": "About",
-	"Feedback": "Rétroaction", // Link to the KlipTok Feedback website
+	"Feedback": "Feedback", // Link to the KlipTok Feedback website
 	"Close": "Close",
 	"LiveForFormat": "Live for {0}", // {0} is the relative timestamp of when the stream started
 
