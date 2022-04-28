@@ -215,7 +215,7 @@
 	"ClipsByDate": "Clips par date",
 
 	// Playlists
-	"AddtoPlaylist": "Ajoutés à la liste de lecture",
+	"AddToPlaylist": "Ajoutés à la liste de lecture",
 	"PlaylistTitle": "Liste de lecture: {0}", // Title displayed at the top of the Playlist page
 	"CreatedBy": "Créer par: {0}", // "by-line" indicating who created the playlist
 	"Edit": "Éditer",
