@@ -1,7 +1,8 @@
 {
 	// Components
 	"Pager_Display": "{0} - {1} of {2} items",
-	
+	"Grid_NoRecords": "No records available",
+
 	// Clip
 	"Recorded": "Recorded {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
 	"Likes": "Likes",
@@ -44,7 +45,7 @@
 	"FilterButton": "Filter", // The button to apply the advanced search filter
 	"PreviousPage": "Previous Page",
 	"NextPage": "Next Page",
-	"Calendar_Today":  "Today",
+	"Calendar_Today": "Today",
 	"AutoComplete_NoData": "No results found", // A generic entry for the autocomplete when no results are found
 	"ShowSearchCriteria": "Show Search Criteria",
 	"HideSearchCriteria": "Hide Search Criteria",
@@ -210,6 +211,21 @@
 	"TotalClipsTranscribed": "Total Clips Transcribed",
 	"ClipsTranscribedByDate": "Clips Transcribed By Date",
 	"ClipsLikedByDate": "Clips Liked By Date",
-	"ClipsByDate": "Clips By Date"
+	"ClipsByDate": "Clips By Date",
 
+	// Playlists
+	"AddToPlaylist": "Add to Playlist",
+	"PlaylistTitle": "Playlist: {0}", // Title displayed at the top of the Playlist page
+	"CreatedBy": "Created By: {0}", // "by-line" indicating who created the playlist
+	"Edit": "Edit",
+	"PreviousClip": "Previous Clip",
+	"NextClip": "Next Clip",
+	"VideoTagNotSupported": "Your browser does not support the video tag.",
+	"NoClipsOnPlaylist": "No clips currently assigned to this playlist",
+	"PlaylistName": "Playlist Name",
+	"ClipTitle": "Title",
+	"Remove": "Remove",
+	"SavePlaylist": "Save Playlist",
+	"Cancel": "Cancel",
+	"Delete": "Delete"
 }
