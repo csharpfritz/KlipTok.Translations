@@ -42,7 +42,22 @@
 	"ExcludeChannels": "Abaikan channel ini",
 	"FilterButton": "Saring", // The button to apply the advanced search filter
 	"PreviousPage": "Sebelumnya",
-	"NextPage": "Berikutnya",	
+	"NextPage": "Berikutnya",
+	"Calendar_Today":  "Hari ini",
+	"AutoComplete_NoData": "Tidak menemukan hasil", // A generic entry for the autocomplete when no results are found
+	"ShowSearchCriteria": "Tampilkan Kriteria Pencarian",
+	"HideSearchCriteria": "Sembunyikan Kriteria Pencarian",
+	"SearchInChannels": "Telusuri dalam channel",
+
+	"ChannelsIfollow": "Mengikuti", // These four need to be SHORT because they are button labels
+	"ChannelsIDontFollow": "Tidak Mengikuti",
+	"ChannelsAll": "Semua",
+	"ChannelsSpecified": "Merincis",
+
+	"TitleResults": "Hasil Judul",
+	"TranscriptResults": "Hasil Transkrip",
+	"PageOfFormat": "Halaman {0} dari {1}", // {0} is the current page number, {1} is the total number of pages
+	"FoundChannelsFormat": "{0} channel ditemukan", // {0} is the total number of channels found
 	
 	
 	// Sidebar
@@ -79,7 +94,7 @@
 	"ShareStreamer": "Bagikan Streamer", // The tooltip for the Share button on the streamer page	
 	"SelectCategory": "Pilih Kategori", // The default text for the Category Filter combobox
 	"UnknownStreamer": "Streamer tidak dikenal: {0}", // The header when an unknown streamer is requested
-	"UnknownStreamerDescription": "KlipTok belum mengidentifikasi streamer dengan nama tersebut {0}.  Jika ini adalah channel nyata, Anda dapat menambahkannya dengan menggunakan cara berikut",
+	"UnknownStreamerDescription": "KlipTok belum mengidentifikasi streamer dengan nama {0}.  Jika ini adalah channel nyata, Anda dapat menambahkannya dengan menggunakan cara berikut",
 	"NoRecentClips": "Tidak ada informasi klip terbaru yang tersedia", // Error message displayed on dashboard when no recent clips are available
 	
 	// Layout
@@ -112,7 +127,6 @@
 	// Filters on the scrollable clips
 	"FilterByCategory": "Saring Menurut Kategori", // watermark on the filter by category type-ahead box
 
-
 	// Liked Clips
 	"NoLikedClips": "Anda belum menyukai Klip di KlipTok!",
 	"TryLikeButtonTemplate": "Klik ikon hati {0} di bawah Klip untuk 'Suka' dan kami akan menampilkannya di sini agar untuk selanjutnya Anda dapat lebih mudah menemukannya lagi.", //  {0} is the heart icon
@@ -120,6 +134,7 @@
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok tidak menyimpan informasi pengguna secara terpisah dari Twitch, dan dibangun sebagai servis untuk menambahkan Klip Twitch.",
 	"AutoPlayVideosOnScroll": "Auto-play video saat scroll",
+	"AutoPlayVideosOnHover": "Auto-play videos saat hover",
 	"IndexClipsOfMyChannel": "Indeks Klip channelku",
 	"OptedOutDateTemplate": "Memilih untuk tidak mengindeks pada: {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Simpan setelanku",
@@ -178,7 +193,6 @@
 	"MostLikedClippers": "Clipper yang Paling Disukai",
 	"ClipsHeatMap": "Heat Map Klip",
 	"HeatmapTooltipFormat": "{0} klip dibuat pada {1}", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
-
 
 	// Transcription Features
 	"ClipHasTranscription": "Klip ini memiliki transkripsi yang dapat ditelusuri", // Tooltip for the transcription icon
