@@ -481,6 +481,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Select a Category"</summary>
         public string SelectCategory;
 
+        /// <summary>"Share this playlist"</summary>
+        public string SharePlaylist;
+
         /// <summary>"Share Streamer"</summary>
         public string ShareStreamer;
 

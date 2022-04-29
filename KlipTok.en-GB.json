@@ -232,5 +232,7 @@
 	"Remove": "Remove",
 	"SavePlaylist": "Save Playlist",
 	"Cancel": "Cancel",
-	"Delete": "Delete"
+	"Delete": "Delete",
+	"SharePlaylist": "Share this playlist"
+
 }
