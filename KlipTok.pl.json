@@ -1,5 +1,7 @@
 {
 	// Components
+	"Pager_Display": "{0} - {1} z {2} pozycji",
+	"Grid_NoRecords": "Brak wyników",
 
 	// Clip
 	"Recorded": "Nagrane {0}",
@@ -210,6 +212,28 @@
 	"TotalClipsTranscribed": "Łączna liczba przetranskrybowanych klipów",
 	"ClipsTranscribedByDate": "Klipy przetranskrybowane według dnia",
 	"ClipsLikedByDate": "Klipy polubione według dnia",
-	"ClipsByDate": "Klipy według dnia"
+	"ClipsByDate": "Klipy według dnia",
+
+	// Playlists
+	"PlaylistsTab": "Playlisty",
+	"MyPlaylists": "Moje playlisty",
+	"PlaylistsCreatedBy": "Playlisy utworzone przez {0}",
+	"CreateNewPlaylist": "Utwórz nową playlistę",
+	"AddToPlaylist": "Dodaj do playlisty",
+	"PlaylistTitle": "Playlista: {0}", // Title displayed at the top of the Playlist page
+	"CreatedBy": "Utworzona przez: {0}", // "by-line" indicating who created the playlist
+	"Edit": "Edytuj",
+	"PreviousClip": "Poprzedni klip",
+	"NextClip": "Następny klip",
+	"VideoTagNotSupported": "Twoja przeglądarka nie obsługuje tagu video",
+	"NoClipsOnPlaylist": "Obecnie nie ma klipów na tej playliście",
+	"NoPlaylistsCreated": "Obecnie nie utworzono żadnych playlist",
+	"PlaylistName": "Nazwa playlisty",
+	"ClipTitle": "Tytuł",
+	"Remove": "Usuń",
+	"SavePlaylist": "Zapisz playlistę",
+	"Cancel": "Anuluj",
+	"Delete": "Usuń",
+	"SharePlaylist":  "Udostępnij playlistę"
 
 }
