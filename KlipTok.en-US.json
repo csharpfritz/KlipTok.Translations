@@ -234,6 +234,9 @@
 	"SavePlaylist": "Save Playlist",
 	"Cancel": "Cancel",
 	"Delete": "Delete",
-	"SharePlaylist": "Share this playlist"
+	"SharePlaylist": "Share this playlist",
+	"CopyPlaylist": "Copy this playlist",
+	"PlaylistCopiedSuccessfully": "Playlist {0} copied successfully!",
+	"Ok": "Ok"
 
 }

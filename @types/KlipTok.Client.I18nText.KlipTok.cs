@@ -133,6 +133,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Completed adding followed channels to KlipTok"</summary>
         public string CompletedLoadingFollowers;
 
+        /// <summary>"Copy this playlist"</summary>
+        public string CopyPlaylist;
+
         /// <summary>"Created By: {0}"</summary>
         public string CreatedBy;
 
@@ -376,6 +379,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followed streamers with KlipTok to access this functionality."</summary>
         public string NotLoggedIn;
 
+        /// <summary>"Ok"</summary>
+        public string Ok;
+
         /// <summary>"Opted out of indexing on: {0}"</summary>
         public string OptedOutDateTemplate;
 
@@ -384,6 +390,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"{0} - {1} of {2} items"</summary>
         public string Pager_Display;
+
+        /// <summary>"Playlist {0} copied successfully!"</summary>
+        public string PlaylistCopiedSuccessfully;
 
         /// <summary>"Playlist Name"</summary>
         public string PlaylistName;
