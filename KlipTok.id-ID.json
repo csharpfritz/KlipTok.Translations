@@ -1,5 +1,7 @@
 {
 	// Components
+	"Pager_Display": "{0} - {1} dari {2} items",
+	"Grid_NoRecords": "Tidak ada catatan yang tersedia",
 
 	// Clip
 	"Recorded": "Direkam {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
@@ -134,7 +136,7 @@
 	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok tidak menyimpan informasi pengguna secara terpisah dari Twitch, dan dibangun sebagai servis untuk menambahkan Klip Twitch.",
 	"AutoPlayVideosOnScroll": "Auto-play video saat scroll",
-	"AutoPlayVideosOnHover": "Auto-play videos saat hover",
+	"AutoPlayVideosOnHover": "Auto-play video saat hover",
 	"IndexClipsOfMyChannel": "Indeks Klip channelku",
 	"OptedOutDateTemplate": "Memilih untuk tidak mengindeks pada: {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Simpan setelanku",
@@ -210,5 +212,31 @@
 	"TotalClipsTranscribed": "Total Klip yang Ditranskripsi",
 	"ClipsTranscribedByDate": "Klip Ditranskripsi Menurut Tanggal",
 	"ClipsLikedByDate": "Klip Disukai Menurut Tanggal",
-	"ClipsByDate": "Klip Menurut Tanggal"
+	"ClipsByDate": "Klip Menurut Tanggal",
+
+	// Playlists
+	"PlaylistsTab": "Daftar Putar",
+	"MyPlaylists": "Dafter Putarku",
+	"PlaylistsCreatedBy": "Daftar Putar dibuat oleh {0}",
+	"CreateNewPlaylist": "Buat daftar putar baru",
+	"AddToPlaylist": "Tambah ke Daftar Putar",
+	"PlaylistTitle": "Daftar Putar: {0}", // Title displayed at the top of the Playlist page
+	"CreatedBy": "Dibuat Oleh: {0}", // "by-line" indicating who created the playlist
+	"Edit": "Edit",
+	"PreviousClip": "Klip Sebelumnya",
+	"NextClip": "Klip Berikutnya",
+	"VideoTagNotSupported": "Browser Anda tidak mendukung tag video.",
+	"NoClipsOnPlaylist": "Belum ada klip dalam daftar putar ini",
+	"NoPlaylistsCreated": "Belum ada daftar putar",
+	"PlaylistName": "Nama Daftar Putar",
+	"ClipTitle": "Judul",
+	"Remove": "Hapus",
+	"SavePlaylist": "Simpan Daftar Putar",
+	"Cancel": "Batal",
+	"Delete": "Hapus",
+	"SharePlaylist": "Bagikan daftar putar ini",
+	"CopyPlaylist": "Salin daftar putar ini",
+	"PlaylistCopiedSuccessfully": "Daftar Putar {0} berhasil disalin!",
+	"Ok": "Ok"
+
 }
