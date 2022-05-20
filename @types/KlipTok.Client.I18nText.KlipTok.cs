@@ -391,6 +391,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"{0} - {1} of {2} items"</summary>
         public string Pager_Display;
 
+        /// <summary>"Items per Page"</summary>
+        public string Pager_ItemsPerPage;
+
         /// <summary>"Playlist {0} copied successfully!"</summary>
         public string PlaylistCopiedSuccessfully;
 
