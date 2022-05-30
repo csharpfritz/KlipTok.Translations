@@ -237,6 +237,10 @@
 	"SharePlaylist": "Share this playlist",
 	"CopyPlaylist": "Copy this playlist",
 	"PlaylistCopiedSuccessfully": "Playlist {0} copied successfully!",
-	"Ok": "Ok"
+	"Ok": "Ok",
+
+	// Smart playlists
+	"MostViewed30Days": "Recent Popular Clips",
+	"SmartPlaylist_MostViewed": "Recent Popular Clips on {0}"
 
 }

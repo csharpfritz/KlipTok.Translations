@@ -313,6 +313,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Most Liked Clippers"</summary>
         public string MostLikedClippers;
 
+        /// <summary>"Recent Popular Clips"</summary>
+        public string MostViewed30Days;
+
         /// <summary>"Most Viewed Categories"</summary>
         public string MostViewedCategories;
 
@@ -516,6 +519,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Visit {0} Dashboard"</summary>
         public string SidebarMenuVisitDashboard;
+
+        /// <summary>"Recent Popular Clips on {0}"</summary>
+        public string SmartPlaylist_MostViewed;
 
         /// <summary>"Sort by:"</summary>
         public string SortByLabel;
