@@ -145,6 +145,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Create a new playlist"</summary>
         public string CreateNewPlaylist;
 
+        /// <summary>"Top 50 Clips Created"</summary>
+        public string CreatorsTop50Viewed;
+
         /// <summary>"[ Danger Zone ]"</summary>
         public string DangerZone;
 
@@ -519,6 +522,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Visit {0} Dashboard"</summary>
         public string SidebarMenuVisitDashboard;
+
+        /// <summary>"Top 50 Clips Created by {0}"</summary>
+        public string SmartPlaylist_CreatorTop50;
 
         /// <summary>"Recent Popular Clips on {0}"</summary>
         public string SmartPlaylist_MostViewed;

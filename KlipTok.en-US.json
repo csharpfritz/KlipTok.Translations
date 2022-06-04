@@ -242,6 +242,8 @@
 
 	// Smart playlists
 	"MostViewed30Days": "Recent Popular Clips",
-	"SmartPlaylist_MostViewed": "Recent Popular Clips on {0}"
+	"CreatorsTop50Viewed": "Top 50 Clips Created",
+	"SmartPlaylist_MostViewed": "Recent Popular Clips on {0}",
+	"SmartPlaylist_CreatorTop50": "Top 50 Clips Created by {0}"
 
 }
