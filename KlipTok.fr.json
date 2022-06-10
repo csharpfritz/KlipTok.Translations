@@ -2,6 +2,7 @@
 	// Components
 	"Pager_Display": "{0} - {1} {2} items",
 	"Grid_NoRecords": "Aucun enregistrement de disponible",
+	"Pager_ItemsPerPage": "Éléments par Page",
 
 	// Clip
 	"Recorded": "Enregistré {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
@@ -233,6 +234,18 @@
 	"Remove": "Retiré",
 	"SavePlaylist": "Enregistrer la liste de lecture",
 	"Cancel": "Annulé",
-	"Delete": "Effacé"
+	"Delete": "Effacé",
+	"SharePlaylist": "Partager cette liste de lecture",
+	"CopyPlaylist": "Copier this liste de lecture",
+	"PlaylistCopiedSuccessfully": "Liste de lecture {0} copié avec succès!",
+	"Ok": "Ok",
+
+	// Smart playlists
+	"MostViewed30Days": "Clips populaires récent",
+	"CreatorsTop50Viewed": "Top 50 des clips les plus vues",
+	"SmartPlaylist_MostViewed": "Clips populaires récent sur {0}",
+	"SmartPlaylist_CreatorTop50":  "Top 50 des clips les plus vues crées par {0}"
+
+}
 
 }
