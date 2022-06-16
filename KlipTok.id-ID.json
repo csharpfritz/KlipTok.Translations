@@ -79,7 +79,7 @@
 	"SidebarMenuVisitDashboard": "Kunjungi Dasbor {0}", // 0 is the channel name
 	"SidebarMenuVisitClipsCreated": "Kunjungi Klip yang Dibuat oleh {0}", // 0 is the channel name
 	"SidebarMenuMuteChannel":  "Bisukan {0}", // 0 is the channel name
-	"SidebarMenuPinChannel": "Sematkan channel",
+	"SidebarMenuPinChannel": "Sematkan channel {0}",
 	"SidebarMenuUnpinChannel": "Lepaskan channel",
 
 	// Streamer Page
