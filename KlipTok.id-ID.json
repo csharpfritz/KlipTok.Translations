@@ -67,6 +67,7 @@
 	"SuggestedStreamers": "Streamer yang Disarankan",
 	"FollowedStreamers": "Streamer yang Diikuti",
 	"RecentlyLiveStreamers": "Live Streamer Baru-baru Ini",
+	"PinnedStreamers": "Streamer yang Disematkan",
 	"AllStreamers": "Semua Streamer",
 	"About": "Tentang",
 	"Feedback": "Umpan Balik", // Link to the KlipTok Feedback website
@@ -78,6 +79,8 @@
 	"SidebarMenuVisitDashboard": "Kunjungi Dasbor {0}", // 0 is the channel name
 	"SidebarMenuVisitClipsCreated": "Kunjungi Klip yang Dibuat oleh {0}", // 0 is the channel name
 	"SidebarMenuMuteChannel":  "Bisukan {0}", // 0 is the channel name
+	"SidebarMenuPinChannel": "Sematkan channel {0}",
+	"SidebarMenuUnpinChannel": "Lepaskan channel",
 
 	// Streamer Page
 	"ClickToFollow": "Klik untuk Mengikuti",
