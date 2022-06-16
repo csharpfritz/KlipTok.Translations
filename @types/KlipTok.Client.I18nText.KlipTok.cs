@@ -517,7 +517,7 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Mute {0}"</summary>
         public string SidebarMenuMuteChannel;
 
-        /// <summary>"Pin channel"</summary>
+        /// <summary>"Pin channel {0}"</summary>
         public string SidebarMenuPinChannel;
 
         /// <summary>"Actions for the {0} channel"</summary>

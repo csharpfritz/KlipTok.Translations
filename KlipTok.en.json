@@ -79,7 +79,7 @@
 	"SidebarMenuVisitDashboard": "Visit {0} Dashboard", // 0 is the channel name
 	"SidebarMenuVisitClipsCreated": "Visit {0} Created Clips", // 0 is the channel name
 	"SidebarMenuMuteChannel": "Mute {0}", // 0 is the channel name
-	"SidebarMenuPinChannel": "Pin channel",
+	"SidebarMenuPinChannel": "Pin channel {0}", // 0 is a counter indicating how many channels are pinned
 	"SidebarMenuUnpinChannel": "Unpin channel",
 
 	// Streamer Page
