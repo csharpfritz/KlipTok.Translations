@@ -67,6 +67,7 @@
 	"SuggestedStreamers": "Suggested Streamers",
 	"FollowedStreamers": "Followed Streamers",
 	"RecentlyLiveStreamers": "Recently Live Streamers",
+	"PinnedStreamers": "Pinned Streamers",
 	"AllStreamers": "All Streamers",
 	"About": "About",
 	"Feedback": "Feedback", // Link to the KlipTok Feedback website
@@ -78,6 +79,8 @@
 	"SidebarMenuVisitDashboard": "Visit {0} Dashboard", // 0 is the channel name
 	"SidebarMenuVisitClipsCreated": "Visit {0} Created Clips", // 0 is the channel name
 	"SidebarMenuMuteChannel": "Mute {0}", // 0 is the channel name
+	"SidebarMenuPinChannel": "Pin channel",
+	"SidebarMenuUnpinChannel": "Unpin channel",
 
 	// Streamer Page
 	"ClickToFollow": "Click to Follow",
@@ -244,6 +247,6 @@
 	"MostViewed30Days": "Recent Popular Clips",
 	"CreatorsTop50Viewed": "Top 50 Most Viewed Clips",
 	"SmartPlaylist_MostViewed": "Recent Popular Clips on {0}",
-	"SmartPlaylist_CreatorTop50":  "Top 50 Viewed Clips Created by {0}"
+	"SmartPlaylist_CreatorTop50": "Top 50 Viewed Clips Created by {0}"
 
 }

@@ -400,6 +400,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Items per Page"</summary>
         public string Pager_ItemsPerPage;
 
+        /// <summary>"Pinned Streamers"</summary>
+        public string PinnedStreamers;
+
         /// <summary>"Playlist {0} copied successfully!"</summary>
         public string PlaylistCopiedSuccessfully;
 
@@ -514,8 +517,14 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Mute {0}"</summary>
         public string SidebarMenuMuteChannel;
 
+        /// <summary>"Pin channel"</summary>
+        public string SidebarMenuPinChannel;
+
         /// <summary>"Actions for the {0} channel"</summary>
         public string SidebarMenuTooltipFormat;
+
+        /// <summary>"Unpin channel"</summary>
+        public string SidebarMenuUnpinChannel;
 
         /// <summary>"Visit {0} Created Clips"</summary>
         public string SidebarMenuVisitClipsCreated;
