@@ -2,6 +2,7 @@
 	// Components
 	"Pager_Display": "{0} - {1} z {2} pozycji",
 	"Grid_NoRecords": "Brak wyników",
+	"Pager_ItemsPerPage": "Liczba pozycji na stronie",
 
 	// Clip
 	"Recorded": "Nagrane {0}",
@@ -234,6 +235,15 @@
 	"SavePlaylist": "Zapisz playlistę",
 	"Cancel": "Anuluj",
 	"Delete": "Usuń",
-	"SharePlaylist":  "Udostępnij playlistę"
+	"SharePlaylist":  "Udostępnij playlistę",
+	"CopyPlaylist": "Kopiuj tą playlistę",
+	"PlaylistCopiedSuccessfully": "Playlista {0} skopiowana pomyślnie!",
+	"Ok": "Ok",
+
+	// Smart playlists
+	"MostViewed30Days": "Najnowsze popularne klipy",
+	"CreatorsTop50Viewed": "Top 50 najczęściej oglądanych klipów",
+	"SmartPlaylist_MostViewed": "Najnowsze popularne klipy na {0}",
+	"SmartPlaylist_CreatorTop50":  "Top 50 oglądanych klipów stworzonych przez {0}"
 
 }
