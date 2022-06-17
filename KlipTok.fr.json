@@ -67,6 +67,7 @@
 	"SuggestedStreamers": "Streamers recommandés",
 	"FollowedStreamers": "Streamers suivis",
 	"RecentlyLiveStreamers": "Streamers Live récemment",
+	"PinnedStreamers": "Streamers épinglés",
 	"AllStreamers": "Tous les Streamers",
 	"About": "À propos",
 	"Feedback": "Rétroaction", // Link to the KlipTok Feedback website
@@ -78,6 +79,8 @@
 	"SidebarMenuVisitDashboard": "Tableau de bord de {0}", // 0 is the channel name
 	"SidebarMenuVisitClipsCreated": "Clips créés par {0}", // 0 is the channel name
 	"SidebarMenuMuteChannel": "Ignorer {0}", // 0 is the channel name
+	"SidebarMenuPinChannel": "Épingler la chaîne {0}", // 0 is a counter indicating how many channels are pinned
+	"SidebarMenuUnpinChannel": "Désépingler la chaîne",
 	
 	// Streamer Page
 	"ClickToFollow": "Suivre",
