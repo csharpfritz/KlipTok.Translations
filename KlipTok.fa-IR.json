@@ -140,5 +140,37 @@
 	"ClipsByDayOfWeek": "کلیپ ها بر اساس روزهای هفته", // Label for the clips by the day of week tile
 	"MostViewedClippers": "پر بازدیدترین کلیپ ساز ها", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "پر بازدید ترین دسته بندی ها", // Label for the Most Viewed Categories table
-	"MostLikedClippers": "مورد پسندترین کلیپ ساز ها"
+	"MostLikedClippers": "مورد پسندترین کلیپ ساز ها",
+	
+	//Playlists
+	
+	"PlaylistsTab": "لیست پخش",
+	"MyPlaylists": "لیست پخش های من",
+	"PlaylistsCreatedBy": "لیست پخش توسط {0} ساخته شده",
+	"CreateNewPlaylist": "ساخت لیست پخش جدید",
+	"AddToPlaylist": "افزودن به لیست پخش",
+	"PlaylistTitle": "لیست های پخش: {0}", // Title displayed at the top of the Playlist page
+	"CreatedBy": "ساخته شده توسط: {0}", // "by-line" indicating who created the playlist
+	"Edit": "ویرایش",
+	"PreviousClip": "کلیپ قبلی",
+	"NextClip": "کلیپ بعدی",
+	"VideoTagNotSupported": "مرورگر شما تگ ویدئو را پشتیبانی نمی کند.",
+	"NoClipsOnPlaylist": "کلیپی در این لیست پخش وجود ندارد",
+	"NoPlaylistsCreated": "اخیرا لیست پخشی ساخته نشده",
+	"PlaylistName": "نام لیست پخش",
+	"ClipTitle": "عنوان",
+	"Remove": "حذف",
+	"SavePlaylist": "ذخیره لیست پخش",
+	"Cancel": "لغو",
+	"Delete": "پاک کردن",
+	"SharePlaylist": "اشتراک گذاشتن لیست پخش",
+	"CopyPlaylist": "کپی کردن لیست پخش",
+	"PlaylistCopiedSuccessfully": "لیست پخش {0} با موفقیت کپی شد!",
+	"Ok": "Ok",
+
+	// Smart playlists
+	"MostViewed30Days": "کلیپ های محبوب اخیر",
+	"CreatorsTop50Viewed": "50 کلیپ برترین بازدید",
+	"SmartPlaylist_MostViewed": "کلیپ های محبوب اخیر در {0}",
+	"SmartPlaylist_CreatorTop50": "50 کلیپ پربازدید ساخته شده توسط: {0}"
 }
