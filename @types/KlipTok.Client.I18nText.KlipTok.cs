@@ -313,6 +313,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"KlipTok does not have a record of this Clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok."</summary>
         public string MissingClipError;
 
+        /// <summary>"More Suggested Streamers"</summary>
+        public string MoreSuggestedStreamers;
+
         /// <summary>"Most Liked Clippers"</summary>
         public string MostLikedClippers;
 

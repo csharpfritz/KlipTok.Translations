@@ -64,6 +64,7 @@
 
 	// Sidebar
 	"SuggestedStreamers": "Suggested Streamers",
+	"MoreSuggestedStreamers": "More Suggested Streamers",
 	"FollowedStreamers": "Followed Streamers",
 	"RecentlyLiveStreamers": "Recently Live Streamers",
 	"PinnedStreamers": "Pinned Streamers",
