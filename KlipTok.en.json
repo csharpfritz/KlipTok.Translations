@@ -89,6 +89,7 @@
 	"ActionOnTwitchTemplate": "{0} on Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "Live on Twitch now!",
 	"ProfilePicTemplate": "{0} profile pic", // {0} is the Streamer's Display Name
+	"NavigateToTwitchChannel": "Navigate to {0} Twitch channel", // {0} is the Streamer's Display Name
 	"TotalClipsOnKlipTok": "Total Clips on KlipTok",
 	"TotalLikesAcrossAllClips": "Total Likes across all Clips",
 	"TotalCommentsAcrossAllClips": "Total Comments across all Clips",

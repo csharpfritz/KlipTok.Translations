@@ -346,6 +346,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"My Streamer Page"</summary>
         public string MyStreamerPage;
 
+        /// <summary>"Navigate to {0} Twitch channel"</summary>
+        public string NavigateToTwitchChannel;
+
         /// <summary>"New Channels Today"</summary>
         public string NewChannelsToday;
 
