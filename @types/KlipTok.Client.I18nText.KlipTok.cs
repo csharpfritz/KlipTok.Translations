@@ -148,6 +148,12 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Top 50 Most Viewed Clips"</summary>
         public string CreatorsTop50Viewed;
 
+        /// <summary>"Fade credits after 8 seconds"</summary>
+        public string CreditsFade;
+
+        /// <summary>"Show credits in lower left of video"</summary>
+        public string CreditsMode;
+
         /// <summary>"[ Danger Zone ]"</summary>
         public string DangerZone;
 
@@ -183,6 +189,12 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Edit"</summary>
         public string Edit;
+
+        /// <summary>"Let&apos;s configure an embeddable URL for this playlist."</summary>
+        public string EmbedPlaylistIntro;
+
+        /// <summary>"Embed this playlist"</summary>
+        public string EmbedPlaylistWindowTitle;
 
         /// <summary>"Enter new Comment..."</summary>
         public string EnterNewComment;
@@ -520,6 +532,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Show Search Criteria"</summary>
         public string ShowSearchCriteria;
 
+        /// <summary>"Shuffle clips on playlist"</summary>
+        public string ShufflePlaylist;
+
         /// <summary>"Mute {0}"</summary>
         public string SidebarMenuMuteChannel;
 
@@ -627,6 +642,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"KlipTok has not identified a streamer with the name {0}.  If this is a real channel, you can add them with the following directions"</summary>
         public string UnknownStreamerDescription;
+
+        /// <summary>"URL copied to clipboard"</summary>
+        public string UrlCopiedToClipboard;
 
         /// <summary>"{0} liked {1}"</summary>
         public string UserLikedTimeTemplate;

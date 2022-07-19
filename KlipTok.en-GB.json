@@ -244,6 +244,14 @@
 	"PlaylistCopiedSuccessfully": "Playlist {0} copied successfully!",
 	"Ok": "Ok",
 
+	// Embed playlists
+	"EmbedPlaylistWindowTitle": "Embed this playlist",
+	"EmbedPlaylistIntro": "Let's configure an embeddable URL for this playlist.",
+	"ShufflePlaylist": "Shuffle clips on playlist",
+	"CreditsMode": "Show credits in lower left of video",
+	"CreditsFade": "Fade credits after 8 seconds",
+	"UrlCopiedToClipboard": "URL copied to clipboard",
+
 	// Smart playlists
 	"MostViewed30Days": "Recent Popular Clips",
 	"CreatorsTop50Viewed": "Top 50 Most Viewed Clips",
