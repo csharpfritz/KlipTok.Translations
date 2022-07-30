@@ -442,6 +442,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Previous Clip"</summary>
         public string PreviousClip;
 
+        /// <summary>"Previously On..."</summary>
+        public string PreviouslyOn;
+
         /// <summary>"Previous Page"</summary>
         public string PreviousPage;
 
