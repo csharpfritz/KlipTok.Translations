@@ -65,6 +65,7 @@
 	
 	// Sidebar
 	"SuggestedStreamers": "Streamer yang Disarankan",
+	"MoreSuggestedStreamers": "Lebih Banyak Streamer",
 	"FollowedStreamers": "Streamer yang Diikuti",
 	"RecentlyLiveStreamers": "Live Streamer Baru-baru Ini",
 	"PinnedStreamers": "Streamer yang Disematkan",
@@ -79,7 +80,7 @@
 	"SidebarMenuVisitDashboard": "Kunjungi Dasbor {0}", // 0 is the channel name
 	"SidebarMenuVisitClipsCreated": "Kunjungi Klip yang Dibuat oleh {0}", // 0 is the channel name
 	"SidebarMenuMuteChannel":  "Bisukan {0}", // 0 is the channel name
-	"SidebarMenuPinChannel": "Sematkan channel {0}",
+	"SidebarMenuPinChannel": "Sematkan channel {0}", // 0 is a counter indicating how many channels are pinned
 	"SidebarMenuUnpinChannel": "Lepaskan channel",
 
 	// Streamer Page
@@ -88,6 +89,7 @@
 	"ActionOnTwitchTemplate": "{0} di Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "Live di Twitch sekarang!",
 	"ProfilePicTemplate": "{0} gambar profil", // {0} is the Streamer's Display Name
+	"NavigateToTwitchChannel": "Navigasi ke channel Twitch {0}", // {0} is the Streamer's Display Name
 	"TotalClipsOnKlipTok": "Total Klip di KlipTok",
 	"TotalLikesAcrossAllClips": "Total Suka di semua klip",
 	"TotalCommentsAcrossAllClips": "Total Komentar di semua Klip",
@@ -243,9 +245,18 @@
 	"PlaylistCopiedSuccessfully": "Daftar Putar {0} berhasil disalin!",
 	"Ok": "Ok",
 
+	// Embed playlists
+	"EmbedPlaylistWindowTitle": "Sematkan daftar putar ini",
+	"EmbedPlaylistIntro": "Mari konfigurasi URL yang dapat disematkan untuk daftar putar ini.",
+	"ShufflePlaylist": "Acak klip dalam daftar putar",
+	"CreditsMode": "Tampilkan credit di bagian kiri bawah video",
+	"CreditsFade": "Pudarkan credit setelah 8 detik",
+	"UrlCopiedToClipboard": "URL disalin ke clipboard",
+
 	// Smart playlists
 	"MostViewed30Days": "Klip Populer Terkini",
 	"CreatorsTop50Viewed": "50 Klip Paling Banyak Ditonton",
+	"PreviouslyOn": "Sebelumnya...",
 	"SmartPlaylist_MostViewed": "Klip Populer Terkini pada {0}",
 	"SmartPlaylist_CreatorTop50": "50 Klip Paling Banyak Ditonton yang Dibuat oleh {0}"
 
