@@ -1,5 +1,8 @@
 {
-  // Components
+  	// Components
+  	"Pager_Display": "{0} - {1} kati ya vipengee {2}",
+	"Grid_NoRecords": "Hakuna rekodi zinazopatikana",
+	"Pager_ItemsPerPage": "Vipengee kwa kila ukurasa",
 
 	// Clip
 	"Recorded": "Iliyorekodiwa mara {0}",
@@ -9,17 +12,24 @@
 	"ShareThisClip": "Shiriki klipu hii",
 	"KlipTokContentPlaceholder": "Kishika nafasi cha yaliyomo kwenye KlipTok",
 	"ClippedByFormat": "Imepigwa na {0}",
+	"PreviewThumbnailForClip": "Hakiki kijipicha cha klipu '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
 
-  // Comments
+	// Clip Galllery Component
+	"ListView": "Mtazamo wa orodha",
+	"GridView": "Mtazamo wa gridi",
+
+  	// Comments
 	"ByLineFormat": "Katika {0} {1} aliandika:",
 	"Reply": "Jibu",
+	"InReplyTo": "Kwa kujibu {0}",
 
-  // Login View
+  	// Login View
 	"DarkMode": "Hali ya Giza",
 	"LoginWithTwitch": "Ingia na Twitch",
 	"Logout": "Ondoka",
+	"MyStreamerPage": "Ukurasa wa kituo changu",
 
-  // Header
+ 	 // Header
 	"SearchForChannel": "Tafuta kituo...",
 	"SearchNotFoundFormat": "{0} haipatikani",
 
@@ -29,26 +39,57 @@
 	"SearchResults": "Matokeo ya Utaftaji",
 	"SearchedKlipTokAndFoundTemplate": "Tulitafuta KlipTok kwa \"{0}\" na tukapata:", // {0} is the term sought
 	"StreamerPlayingCategoryTemplate": "{0} anacheza {1}", // {0} is the streamer name, {1} is the category played,
+	"SearchedClipTitlesAndFoundTemplate": "Matokeo kutoka kwa utafutaji wa kichwa cha klipu kwa maandishi: {0}", // {0} is the search term for the clip title search
 	"AdvancedFiltering": "Kuchuja kwa hali ya juu",
 	"IncludeChannels": "Jumuisha Vituo hivi",
 	"ExcludeChannels": "Tenga Vituo hivi",
 	"FilterButton": "Kichujio", // The button to apply the advanced search filter
 	"PreviousPage": "Ukurasa Uliotangulia",
 	"NextPage": "Ukurasa Unaofuata",
+	"Calendar_Today": "Leo",
+	"AutoComplete_NoData": "Hakuna matokeo yaliyopatikana", // A generic entry for the autocomplete when no results are found
+	"ShowSearchCriteria": "Onyesha vigezo vya utafutaji",
+	"HideSearchCriteria": "Ficha vigezo vya utafutaji",
+	"SearchInChannels": "Tafuta katika vituo",
 
-  // Sidebar
+	"ChannelsIfollow": "Nafuata", // These four need to be SHORT because they are button labels
+	"ChannelsIDontFollow": "Sifuati",
+	"ChannelsAll": "Vyote",
+	"ChannelsSpecified": "Ninabainisha",
+
+	"TitleResults": "Matokeo ya kichwa",
+	"TranscriptResults": "Matokeo ya nakala",
+	"PageOfFormat": "Ukurasa {0} wa {1}", // {0} is the current page number, {1} is the total number of pages
+	"FoundChannelsFormat": "Nimepata vituo {0}", // {0} is the total number of channels found
+
+
+  	// Sidebar
 	"SuggestedStreamers": "Streamers Wanaopendekezwa",
+	"MoreSuggestedStreamers": "Streamers Wanaopendekezwa Zaidi",
 	"FollowedStreamers": "Streamers Unaofuatwa",
+	"RecentlyLiveStreamers": "Streamers Waliokuwa Moja kwa Moja Hivi Karibuni",
+	"PinnedStreamers": "Streamers Waliobandikwa",
 	"AllStreamers": "Streamers Wote",
 	"About": "Kuhusu",
+	"Feedback": "Maoni", // Link to the KlipTok Feedback website
 	"Close": "Funga",
+	"LiveForFormat": "Moja kwa moja kwa muda {0}", // {0} is the relative timestamp of when the stream started
 
-  // Streamer Page
+	// Sidebar Menu
+	"SidebarMenuTooltipFormat": "Vitendo vya kituo cha {0}", // 0 is the channel name
+	"SidebarMenuVisitDashboard": "Tembelea Dashibodi cha {0}", // 0 is the channel name
+	"SidebarMenuVisitClipsCreated": "Tembelea Klipu alizotengeneza {0}", // 0 is the channel name
+	"SidebarMenuMuteChannel": "Nyamazisha {0}", // 0 is the channel name
+	"SidebarMenuPinChannel": "Bandika kituo {0}", // 0 is a counter indicating how many channels are pinned
+	"SidebarMenuUnpinChannel": "Bandua kituo",
+
+  	// Streamer Page
 	"ClickToFollow": "Bonyeza kufuata",
 	"ClickToUnfollow": "Bonyeza kuacha kufuata",
 	"ActionOnTwitchTemplate": "{0} kwenye Twitch",
 	"LiveOnTwitch": "Live kwenye Twitch saa hii!",
 	"ProfilePicTemplate": "{0} picha ya wasifu",
+	"NavigateToTwitchChannel": "Nenda kwa kituo cha Twitch cha {0}", // {0} is the Streamer's Display Name
 	"TotalClipsOnKlipTok": "Klipu zote kwenye KlipTok",
 	"TotalLikesAcrossAllClips": "Jumla ya zilizopendwa kwenye klipu zote",
 	"TotalCommentsAcrossAllClips": "Jumla ya maoni kwenye klipu zote",
@@ -57,41 +98,51 @@
 	"LastClip": "Klipu ya mwisho:",
 	"NoProfilePicAvailable": "Hakuna picha ya wasifu inayopatikana",
 	"DateRangePicker_Start": "Tarehe ya Kuanza",  // The Start Date label on the filter on the streamer page
-	"DateRangePicker_End": "Tarehe ya Mwisho",			// The End Date label on the filter on the streamer page
-	"ShareStreamer": "Shiriki Streamer",		// The tooltip for the Share button on the streamer page
+	"DateRangePicker_End": "Tarehe ya Mwisho",	// The End Date label on the filter on the streamer page
+	"ShareStreamer": "Shiriki Streamer", // The tooltip for the Share button on the streamer page
+	"SelectCategory": "Chagua Kategoria", // The default text for the Category Filter combobox
+	"UnknownStreamer": "Streamer Asiyejulikana: {0}", // The header when an unknown streamer is requested
+	"UnknownStreamerDescription": "KlipTok haijamtambua streamer mwenye jina la {0}.  Ikiwa hiki ni kituo halisi, unaweza kukiongeza kwa maelekezo yafuatayo",
+	"NoRecentClips": "Hakuna habari ya hivi karibuni ya klipu inayopatikana", // Error message displayed on dashboard when no recent clips are available
 
-  // Layout
+  	// Layout
 	"PublicBeta": "BETA YA UMMA",
 	"LoggedOutFromKlipTokAndTwitch": "Ondoka KlipTok na Twitch",
 	"LoginToKlipTokWithTwitch": "Ingia KlipTok na Twitch",
 	"AuthenticationIsNoLongerValid": "Uthibitishaji wako na Twitch na KlipTok sio halali tena. Tafadhali ingia kwenye KlipTok kutumia Twitch ili kuendelea.",
 	"Loading": "Inapakia...",
 
-  // Errors
+  	// Errors
 	"ErrorWhileLoading": "Hitilafu imetokea wakati wa kupakia.",
 	"RetryButton": "Jaribu tena",
 
-  // Follows page
+  	// Follows page
 	"TwitchChannelsIFollow": "Vituo vya Twitch ninavyofuata",
+	"TwitchChannelsIFollowNotOnKlipTok": "Vituo vya Twitch ninavyofuata ambavyo haviko kwenye KlipTok",
 	"NotLoggedIn": "Imeshindwa kuonyesha rekodi za akaunti unazofuata kwenye Twitch kwa sababu haujaingia na akaunti ya Twitch. Tafadhali ingia na usawazishe streamers unaofuata kwenya KlipTok ili kutumia utendakazi huu.",
 
-  // Home Page
+  	// Home Page
 	"DiscoverPopularClips": "Gundua klipu maarufu",
 	"DiscoverClips": "Gundua klipu",
 	"InsertCoin": "Ingiza Sarafu",
 	"MyFavoriteChannels": "Vituo Unavyopendelea",
 	"Favorites": "Unayopendelea",
-	"ClipsILike": "Klipu ninazopenda",
-	"LikedClips": "Klipu zilizopendwa",
-	"UserProfile": "Wasifu wa mtumiaji",
+	"ClipsILike": "Klipu Ninazopenda",
+	"LikedClips": "Klipu Zilizopendwa",
+	"UserProfile": "Wasifu wa Mtumiaji",
+	"UserPreferences": "Mapendeleo ya Mtumiaji",
 
-  // Liked Clips
+	// Filters on the scrollable clips
+	"FilterByCategory": "Chuja kwa Kategoria", // watermark on the filter by category type-ahead box
+
+  	// Liked Clips
 	"NoLikedClips": "Bado hujapendezwa na klipu yeyote!",
 	"TryLikeButtonTemplate": "Jaribu kubonyeza aikoni ya moyo {0} chini ya klipu ili 'uipende' na tutaripoti hapa kwako ili uweze kuipata tena baadaye",
 
-  // User Profile
+  	// User Profile
 	"DoesNotKeepSeparateUserInformation": "KlipTok haihifadhi habari za watumiaji tofauti kutoka kwa Twitch, na imejengwa kama huduma ya kuongeza sehemu za Twitch.",
 	"AutoPlayVideosOnScroll": "Cheza video kiotomatiki kwenye kusogeza",
+	"AutoPlayVideosOnHover": "Cheza video kiotomatiki kwenye kuelea",
 	"IndexClipsOfMyChannel": "Weka farahisi kwa klipu kwenya kituo changu",
 	"OptedOutDateTemplate": "Amua kutoka kwa faharisi: {0}",
 	"SaveMyChanges": "Okoa mabadiliko yangu",
@@ -105,6 +156,11 @@
 	"RemoveMyContentFromKlipTok": "Ondoa yaliyomo kwenye KlipTok yangu",
 	"ForgottenAsOfTemplate": "Sahauliwa kuanzia : {0}",
 
+	// Followed Channel Sync Notifications
+	"BeginAcquiringFollowers": "Kupata vituo unavyofuatwa kutoka Twitch",
+	"IdentifiedFollowerCount": "Imetambua vituo {0} unavyofuata vya kupakia", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "Imekamilisha kuongeza vituo unavyofuatwa kwenye KlipTok",
+
 	// Single Clip Page
 	"MissingClipError": "KlipTok haina rekodi ya klipu hii. Labda haipo au kituo cha Twitch kimechagua kutoshiriki kwenye KlipTok.",
 	"LikedBy": "Ilipendwa Na:",
@@ -117,6 +173,7 @@
 	// Streamer Page
 	"MuteForLabel": "Nyamazisha kwa:",
 	"StreamerIsMutedUntilTemplate": "Streamer amenyamazishwa hadi: {0}", // {0} is a datestamp of when the mute operation ends
+	"StreamerIsMuted": "Streamer amenyamazishwa", // message displayed if a channel is muted forever
 	"NoMute": "Onyesha Sauti",   // Remove the mute effect on this streamer so that you can see their content again
 	"Forever": "Milele",   // Label for "Mute Forever" action button
 	"SortByLabel": "Panga kwa:",
@@ -128,6 +185,79 @@
 	"ResetButton": "Weka upya",    // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "Hakuna Klipu Zinazopatikana",
 	"AddClipsForThisStreamer": "Ongeza Klipu za Streamer huyu",
-	"NotifyOnOptIn": "Tafadhali kumbuka: ikiwa unaongeza Klipu za Streamer huyu, tunakuomba uwaarifu kuwa umeongeza Klipu zao kwenye wavuti hii. Hatuna njia ya moja kwa moja ya kufikia mtangazaji."
+	"NotifyOnOptIn": "Tafadhali kumbuka: ikiwa unaongeza Klipu za Streamer huyu, tunakuomba uwaarifu kuwa umeongeza Klipu zao kwenye wavuti hii. Hatuna njia ya moja kwa moja ya kufikia mtangazaji.",
+
+	// Streamer Dashboard
+	"Live": "MOJA KWA MOJA", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Klipu", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Dashibodi", // Label for the dashboard tab on the top of the Streamer page 
+	"CreatedClipsTab": "Klipu Zilizoundwa", // Label for the Created Clips tab on the Streamer page
+	"ClipsCreatedLast90Days": "Klipu Zilizoundwa katika siku 90 zilizopita", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Klipu Zinazoundwa kwa Wiki", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Klipu kwa Siku ya Wiki", // Label for the clips by the day of week tile
+	"TitleDayCreated": "Siku Iliyoundwa", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "Clippers Waliotazamwa Zaidi", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Kategoria Zilizotazamwa Zaidi", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Clippers Waliopendwa Zaidi",
+	"ClipsHeatMap": "Ramani ya Joto ya Klipu",
+	"HeatmapTooltipFormat": "Klipu {0} ziliundwa tarehe {1}", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
+
+	// Transcription Features
+	"ClipHasTranscription": "Klipu hii ina manukuu ambayo yanaweza kutafutwa", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Matokeo kutoka kwa utafutaji wa unukuzi wa klipu kwa maandishi: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Unukuzi wa Klipu na AssemblyAI:", // Clip transcription attribution to AssemblyAI
+
+	// System Dashboard
+	"SystemStatus": "Hali ya Mfumo",
+	"SystemStatusDashboard": "Dashibodi ya Hali ya Mfumo",
+	"SystemDashboardDescription": "Tunatoa maelezo kuhusu ukuaji wa KlipTok yapatikane kwa uwazi ili ukague.",
+	"TotalClips": "Jumla ya Klipu",
+	"ChannelsIndexed": "Vituo Vilivyoorodheshwa",
+	"NewChannelsToday": "Vituo Vipya Leo",
+	"TotalChannelsIdentified": "Jumla ya Vituo Vilivyotambuliwa",
+	"TotalClipsTranscribed": "Jumla ya Klipu Zilizonukuliwa",
+	"ClipsTranscribedByDate": "Klipu Zilizonakiliwa Kwa Tarehe",
+	"ClipsLikedByDate": "Klipu Zilizopendwa Kwa Tarehe",
+	"ClipsByDate": "Klipu Kwa Tarehe",
+
+	// Playlists
+	"PlaylistsTab": "Orodha za kucheza",
+	"MyPlaylists": "Orodha Zangu za Kucheza",
+	"PlaylistsCreatedBy": "Orodha za kucheza zilizoundwa na {0}",
+	"CreateNewPlaylist": "Unda orodha mpya ya kucheza",
+	"AddToPlaylist": "Ongeza kwenye Orodha ya kucheza",
+	"PlaylistTitle": "Orodha ya kucheza: {0}", // Title displayed at the top of the Playlist page
+	"CreatedBy": "Imeundwa na: {0}", // "by-line" indicating who created the playlist
+	"Edit": "Hariri",
+	"PreviousClip": "Klipu Iliyotangulia",
+	"NextClip": "Klipu Inayofuata",
+	"VideoTagNotSupported": "Kivinjari chako hakitumii lebo ya video hiyo.",
+	"NoClipsOnPlaylist": "Hakuna klipu zilizowekwa kwa orodha hii ya kucheza kwa sasa",
+	"NoPlaylistsCreated": "Hakuna orodha za kucheza zilizoundwa kwa sasa",
+	"PlaylistName": "Jina la Orodha ya kucheza",
+	"ClipTitle": "Kichwa",
+	"Remove": "Ondoa",
+	"SavePlaylist": "Hifadhi Orodha ya Kucheza",
+	"Cancel": "Ghairi",
+	"Delete": "Futa",
+	"SharePlaylist": "Shiriki orodha hii ya kucheza",
+	"CopyPlaylist": "Nakili orodha hii ya kucheza",
+	"PlaylistCopiedSuccessfully": "Orodha ya kucheza {0} imenakiliwa kwa mafanikio!",
+	"Ok": "Sawa",
+
+	// Embed playlists
+	"EmbedPlaylistWindowTitle": "Pachika orodha hii ya kucheza",
+	"EmbedPlaylistIntro": "Hebu tusanidi URL inayoweza kupachikwa ya orodha hii ya kucheza.",
+	"ShufflePlaylist": "Changanya klipu kwenye orodha ya kucheza",
+	"CreditsMode": "Onyesha mikopo katika sehemu ya chini kushoto ya video",
+	"CreditsFade": "Filisha salio baada ya sekunde 8",
+	"UrlCopiedToClipboard": "URL imenakiliwa kwenye ubao wa kunakili",
+
+	// Smart playlists
+	"MostViewed30Days": "Klipu Maarufu za Hivi Karibuni",
+	"CreatorsTop50Viewed": "Klipu 50 Bora Zilizotazamwa Zaidi",
+	"PreviouslyOn": "Hapo awali Kwa...",
+	"SmartPlaylist_MostViewed": "Klipu Maarufu za Hivi Karibuni kwa {0}",
+	"SmartPlaylist_CreatorTop50": "Klipu 50 Bora Zilizotazamwa Zilizoundwa na {0}"
 
 }
