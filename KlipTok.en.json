@@ -59,6 +59,7 @@
 
 	"TitleResults": "Title Results",
 	"TranscriptResults": "Transcript Results",
+	"CategoryResults": "Categories",
 	"PageOfFormat": "Page {0} of {1}", // {0} is the current page number, {1} is the total number of pages
 	"FoundChannelsFormat": "Found {0} channels", // {0} is the total number of channels found
 
@@ -256,7 +257,7 @@
 	// Smart playlists
 	"MostViewed30Days": "Recent Popular Clips",
 	"CreatorsTop50Viewed": "Top 50 Most Viewed Clips",
-	"PreviouslyOn":  "Previously On...",
+	"PreviouslyOn": "Previously On...",
 	"SmartPlaylist_MostViewed": "Recent Popular Clips on {0}",
 	"SmartPlaylist_CreatorTop50": "Top 50 Viewed Clips Created by {0}"
 

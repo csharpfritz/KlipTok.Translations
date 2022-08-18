@@ -52,6 +52,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Cancel"</summary>
         public string Cancel;
 
+        /// <summary>"Categories"</summary>
+        public string CategoryResults;
+
         /// <summary>"Streamer"</summary>
         public string Channel;
 
@@ -225,6 +228,9 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"Forgotten as of : {0}"</summary>
         public string ForgottenAsOfTemplate;
+
+        /// <summary>"Found {0} categories"</summary>
+        public string FoundCategoriesFormat;
 
         /// <summary>"Found {0} channels"</summary>
         public string FoundChannelsFormat;

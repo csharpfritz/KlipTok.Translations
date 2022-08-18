@@ -59,6 +59,7 @@
 
 	"TitleResults": "Title Results",
 	"TranscriptResults": "Transcript Results",
+	"CategoryResults": "Categories",
 	"PageOfFormat": "Page {0} of {1}", // {0} is the current page number, {1} is the total number of pages
 	"FoundChannelsFormat": "Found {0} channels", // {0} is the total number of channels found
 
