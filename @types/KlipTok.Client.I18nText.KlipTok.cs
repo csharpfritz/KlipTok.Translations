@@ -598,6 +598,12 @@ namespace KlipTok.Client.I18nText
         /// <summary>"System Status Dashboard"</summary>
         public string SystemStatusDashboard;
 
+        /// <summary>"Team Highlights"</summary>
+        public string TeamHighlightsPlaylist;
+
+        /// <summary>"Most Viewed Clips"</summary>
+        public string TeamMostViewedPlaylist;
+
         /// <summary>"Teams"</summary>
         public string TeamResults;
 
