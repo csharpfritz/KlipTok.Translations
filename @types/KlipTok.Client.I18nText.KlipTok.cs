@@ -229,11 +229,14 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Forgotten as of : {0}"</summary>
         public string ForgottenAsOfTemplate;
 
-        /// <summary>"Found {0} categories"</summary>
+        /// <summary>"Found {0} channels"</summary>
         public string FoundCategoriesFormat;
 
         /// <summary>"Found {0} channels"</summary>
         public string FoundChannelsFormat;
+
+        /// <summary>"Found {0} teams"</summary>
+        public string FoundTeamsFormat;
 
         /// <summary>"No records available"</summary>
         public string Grid_NoRecords;
@@ -594,6 +597,12 @@ namespace KlipTok.Client.I18nText
 
         /// <summary>"System Status Dashboard"</summary>
         public string SystemStatusDashboard;
+
+        /// <summary>"Teams"</summary>
+        public string TeamResults;
+
+        /// <summary>"Team"</summary>
+        public string TeamSpecified;
 
         /// <summary>"Day Created"</summary>
         public string TitleDayCreated;

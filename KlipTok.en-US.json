@@ -56,12 +56,16 @@
 	"ChannelsIDontFollow": "I don't follow",
 	"ChannelsAll": "All",
 	"ChannelsSpecified": "I specify",
+	"TeamSpecified": "Team",
 
 	"TitleResults": "Title Results",
 	"TranscriptResults": "Transcript Results",
 	"CategoryResults": "Categories",
+	"TeamResults": "Teams",
 	"PageOfFormat": "Page {0} of {1}", // {0} is the current page number, {1} is the total number of pages
 	"FoundChannelsFormat": "Found {0} channels", // {0} is the total number of channels found
+	"FoundCategoriesFormat": "Found {0} channels", // {0} is the total number of channels found
+	"FoundTeamsFormat": "Found {0} teams", // {0} is the total number of teams found
 
 
 	// Sidebar
