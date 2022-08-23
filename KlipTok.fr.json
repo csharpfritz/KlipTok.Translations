@@ -56,15 +56,20 @@
 	"ChannelsIDontFollow": "Je ne suis pas",
 	"ChannelsAll": "Tous",
 	"ChannelsSpecified": "Je spécifie",
+	"TeamSpecified": "Équipe",
 
 	"TitleResults": "Titre des résultats",
 	"TranscriptResults": "Résultats de la transcription",
+	"CategoryResults": "Catégories",
+	"TeamResults": "Équipes",
 	"PageOfFormat": "Page {0} de {1}", // {0} is the current page number, {1} is the total number of pages
 	"FoundChannelsFormat": "Trouvés {0} cannaux", // {0} is the total number of channels found
-
+	"FoundCategoriesFormat": "Trouvés {0} catégories", // {0} is the total number of categories found
+	"FoundTeamsFormat": "Trouvés {0} équipes", // {0} is the total number of teams found
 
 	// Sidebar
 	"SuggestedStreamers": "Streamers recommandés",
+	"MoreSuggestedStreamers": "Plus de streamers recommandés",
 	"FollowedStreamers": "Streamers suivis",
 	"RecentlyLiveStreamers": "Streamers Live récemment",
 	"PinnedStreamers": "Streamers épinglés",
@@ -88,6 +93,7 @@
 	"ActionOnTwitchTemplate": "{0} sur Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "En direct sur Twitch maintenant !",
 	"ProfilePicTemplate": "Photo de profil de {0}", // {0} is the Streamer's Display Name
+	"NavigateToTwitchChannel": "Naviguer jusqu'à la chaine Twitch de {0}", // {0} is the Streamer's Display Name
 	"TotalClipsOnKlipTok": "Total de Clips sur KlipTok",
 	"TotalLikesAcrossAllClips": "Total de Likes sur tous les Clips",
 	"TotalCommentsAcrossAllClips": "Total de commentaires sur tous les Clips",
@@ -243,10 +249,21 @@
 	"PlaylistCopiedSuccessfully": "Liste de lecture {0} copié avec succès!",
 	"Ok": "Ok",
 
+	// Embed playlists
+	"EmbedPlaylistWindowTitle": "Intégrer cette liste de lecture",
+	"EmbedPlaylistIntro": "Allons configuerer une URL intégrable pour cette liste de lecture.",
+	"ShufflePlaylist": "Mélanger les clips de cette liste de lecture",
+	"CreditsMode": "Montrer les crédits dans le bas à droite de de la vidéo",
+	"CreditsFade": "Cacher les crédits après 8 secondes",
+	"UrlCopiedToClipboard": "URL copié dans le presse-papier",
+
 	// Smart playlists
 	"MostViewed30Days": "Clips populaires récent",
 	"CreatorsTop50Viewed": "Top 50 des clips les plus vues",
+	"PreviouslyOn": "Précédemment...",
 	"SmartPlaylist_MostViewed": "Clips populaires récent sur {0}",
-	"SmartPlaylist_CreatorTop50":  "Top 50 des clips les plus vues crées par {0}"
+	"SmartPlaylist_CreatorTop50":  "Top 50 des clips les plus vues crées par {0}",
+	"TeamMostViewedPlaylist": "Clips les plus vues",
+	"TeamHighlightsPlaylist":  "Faits saillants de l'équipe"
 
 }
