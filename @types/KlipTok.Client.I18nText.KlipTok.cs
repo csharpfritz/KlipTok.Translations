@@ -358,6 +358,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Mute for:"</summary>
         public string MuteForLabel;
 
+        /// <summary>"Mute hides this channel&apos;s clips elsewhere on the site"</summary>
+        public string MuteHelp;
+
         /// <summary>"Clips from channels I follow"</summary>
         public string MyFavoriteChannels;
 

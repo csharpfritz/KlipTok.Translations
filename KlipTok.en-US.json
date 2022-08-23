@@ -160,6 +160,7 @@
 	"RightToForgetDescription": "You have the right to request KlipTok forgets all information that you have shared.  By clicking this link and confirming, KlipTok will remove all of your Comments, Likes, and Clips.",
 	"RemoveMyContentFromKlipTok": "Remove my content from KlipTok",
 	"ForgottenAsOfTemplate": "Forgotten as of : {0}", // {0} is the datestamp of when the 'forget' action was taken
+	"MuteHelp": "Mute hides this channel's clips elsewhere on the site", // defines Mute functionality
 
 	// Followed Channel Sync Notifications
 	"BeginAcquiringFollowers": "Acquiring followed channels from Twitch",
