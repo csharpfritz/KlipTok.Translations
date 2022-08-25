@@ -56,11 +56,16 @@
 	"ChannelsIDontFollow": "Tidak Mengikuti",
 	"ChannelsAll": "Semua",
 	"ChannelsSpecified": "Merincis",
+	"TeamSpecified": "Tim",
 
 	"TitleResults": "Hasil Judul",
 	"TranscriptResults": "Hasil Transkrip",
+	"CategoryResults": "Kategori",
+	"TeamResults": "Tim",
 	"PageOfFormat": "Halaman {0} dari {1}", // {0} is the current page number, {1} is the total number of pages
 	"FoundChannelsFormat": "{0} channel ditemukan", // {0} is the total number of channels found
+	"FoundCategoriesFormat": "{0} channel ditemukan", // {0} is the total number of channels found
+	"FoundTeamsFormat": "{0} tim ditemukan", // {0} is the total number of teams found
 	
 	
 	// Sidebar
@@ -155,7 +160,8 @@
 	"RightToForgetDescription": "Anda berhak meminta Kliptok untuk melupakan semua informasi yang telah Anda bagikan. Dengan mengklik link ini dan mengkonfirmasikan, Kliptok akan menghapus semua Komentar, Suka, dan Klip Anda.",
 	"RemoveMyContentFromKlipTok": "Hapus kontenku dari Kliptok",
 	"ForgottenAsOfTemplate": "Dilupakan pada: {0}", // {0} is the datestamp of when the 'forget' action was taken	
-	
+	"MuteHelp": "Bisu akan menyembunyikan klip channel ini dalam situs", // defines Mute functionality
+
 	// Followed Channel Sync Notifications
 	"BeginAcquiringFollowers": "Memperoleh channel yang diikuti dari Twitch",
 	"IdentifiedFollowerCount": "Teridentifikasi {0} channel yang diikuti untuk dimuat", // {0} is the count of channels to load
@@ -258,6 +264,9 @@
 	"CreatorsTop50Viewed": "50 Klip Paling Banyak Ditonton",
 	"PreviouslyOn": "Sebelumnya...",
 	"SmartPlaylist_MostViewed": "Klip Populer Terkini pada {0}",
-	"SmartPlaylist_CreatorTop50": "50 Klip Paling Banyak Ditonton yang Dibuat oleh {0}"
+	"SmartPlaylist_CreatorTop50": "50 Klip Paling Banyak Ditonton yang Dibuat oleh {0}",
+	"TeamMostViewedPlaylist": "Klip Palying Banyak Ditonton",
+	"TeamHighlightsPlaylist": "Sorotan Tim"
+
 
 }
