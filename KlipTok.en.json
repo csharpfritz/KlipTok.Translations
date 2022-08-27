@@ -28,6 +28,7 @@
 	"LoginWithTwitch": "Login with Twitch",
 	"Logout": "Logout",
 	"MyStreamerPage": "My Streamer Page",
+	"PrivateMode": "Private Mode",
 
 	// Header
 	"SearchForChannel": "Search for a Streamer...", // Deprecated

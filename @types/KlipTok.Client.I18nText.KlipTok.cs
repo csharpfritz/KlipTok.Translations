@@ -460,6 +460,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"Previous Page"</summary>
         public string PreviousPage;
 
+        /// <summary>"Private Mode"</summary>
+        public string PrivateMode;
+
         /// <summary>"{0} profile pic"</summary>
         public string ProfilePicTemplate;
 
