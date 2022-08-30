@@ -679,6 +679,9 @@ namespace KlipTok.Client.I18nText
         /// <summary>"{0} liked {1}"</summary>
         public string UserLikedTimeTemplate;
 
+        /// <summary>"Opt-out of real-user-monitoring"</summary>
+        public string UserMonitoringOptOut;
+
         /// <summary>"User Preferences"</summary>
         public string UserPreferences;
 

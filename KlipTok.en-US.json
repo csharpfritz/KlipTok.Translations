@@ -150,6 +150,7 @@
 	"AutoPlayVideosOnScroll": "Auto-play videos on scroll",
 	"AutoPlayVideosOnHover": "Auto-play videos on hover",
 	"IndexClipsOfMyChannel": "Index my Clips",
+	"UserMonitoringOptOut": "Opt-out of real-user-monitoring",
 	"OptedOutDateTemplate": "Opted out of indexing on: {0}", // {0} is the datestamp of when opt-out was recorded 
 	"SaveMyChanges": "Save my changes",
 	"SyncFollowersWithKlipTok": "Sync Followed Streamers with KlipTok",
