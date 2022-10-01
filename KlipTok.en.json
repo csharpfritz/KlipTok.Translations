@@ -79,6 +79,8 @@
 	"Feedback": "Feedback", // Link to the KlipTok Feedback website
 	"Close": "Close",
 	"LiveForFormat": "Live for {0}", // {0} is the relative timestamp of when the stream started
+	"TrendingonKlipTok": "Trending on KlipTok",
+	"Trending": "Trending",
 
 	// Sidebar Menu
 	"SidebarMenuTooltipFormat": "Actions for the {0} channel", // 0 is the channel name
@@ -270,7 +272,14 @@
 	"TeamHighlightsPlaylist": "Team Highlights",
 
 	// Trending
-	"EnablePeriodicRefresh": "Enable Periodic Refresh"
+	"TrendingContentOnKlipTok": "Trending Content on KlipTok",
+	"TrendingCategories": "Trending Categories",
+	"EnablePeriodicRefresh": "Enable Periodic Refresh",
+	"ActiveChannels": "Active Channels", // Active channels label with no category selected
+	"ActiveChannelsWithCountFormat": "Active Channels ({0}) - {1} Channels", // Format for the Active Channels tile. {0} is the category name, {1} is the number of active channels
+	"SelectedCategoryPrompt": "Select a category from the graph to examine current channels and clips being created in that category",
+	"SelectedTermFormat": "<b>Selected Term:</b> {0}", // Added some bold markup around the label
+	"RecentClipsFormat": "Recent Clips: ({0})" // Format for the Recent Clips label.  {0} is the number of clips
 
 
 }
