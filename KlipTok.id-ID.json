@@ -28,6 +28,7 @@
 	"LoginWithTwitch": "Login dengan Twitch",
 	"Logout": "Logout",
 	"MyStreamerPage": "Halaman Streamerku",
+	"PrivateMode": "Mode Pribadi",
 	
 	// Header
 	"SearchForChannel": "Telusuri Streamer...", // Deprecated
