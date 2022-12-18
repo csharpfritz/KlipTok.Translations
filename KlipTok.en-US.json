@@ -4,6 +4,8 @@
 	"Grid_NoRecords": "No records available",
 	"Pager_ItemsPerPage": "Items per Page",
 
+	"Print":  "Print",
+
 	// Clip
 	"Recorded": "Recorded {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
 	"Likes": "Likes",
