@@ -4,7 +4,7 @@
 	"Grid_NoRecords": "No records available",
 	"Pager_ItemsPerPage": "Items per Page",
 
-	"Print":  "Print",
+	"Print": "Print",
 
 	// Clip
 	"Recorded": "Recorded {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
@@ -15,6 +15,7 @@
 	"KlipTokContentPlaceholder": "KlipTok Content Placeholder",
 	"ClippedByFormat": "Clipped by {0}", // {0} is the display name of the clip creator
 	"PreviewThumbnailForClip": "Preview Thumbnail for the clip '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
+	"ClickToView": "Click to view thumbnail",
 
 	// Clip Galllery Component
 	"ListView": "List View",
