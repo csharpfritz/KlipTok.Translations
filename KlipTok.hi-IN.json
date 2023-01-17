@@ -12,7 +12,7 @@
 	"Comments": "कमेंट",
 	"ClipViews": "क्लिप व्यू",
 	"ShareThisClip": "क्लिप शेयर करें",
-	"KlipTokContentPlaceholder": "क्लिपटोक वस्तु प्लेसहोल्डर",
+	"KlipTokContentPlaceholder": "KlipTok वस्तु प्लेसहोल्डर",
 	"ClippedByFormat": "{0} ने क्लिप किया", // {0} is the display name of the clip creator
 	"PreviewThumbnailForClip": "'{0}' क्लिप का प्रीव्यू", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
 	"ClickToView": "थंबनेल देखने के लिए क्लिक करें",
@@ -34,16 +34,16 @@
 	"PrivateMode": "निजी मोड",
 
 	// Header
-	"SearchForChannel": "Search for a Streamer...", // Deprecated
+	"SearchForChannel": "स्ट्रीमर की खोज करें...", // Deprecated
 	"SearchNotFoundFormat": "{0} नहीं मिला", // {0} is the search term that was not found
 
 	// Search and Search Results
-	"SearchKlipTok": "Search KlipTok...",
-	"SearchAllOfKlipTok": "Search all of KlipTok for {0}", // {0} is the search term to search clips for
+	"SearchKlipTok": "KlipTok खोजें...",
+	"SearchAllOfKlipTok": "KlipTok पर {0} की खोज करें", // {0} is the search term to search clips for
 	"SearchResults": "खोज परिणाम",
-	"SearchedKlipTokAndFoundTemplate": "We searched KlipTok for \"{0}\" and found:", // {0} is the term sought
-	"StreamerPlayingCategoryTemplate": "{0} playing {1}", // {0} is the streamer name, {1} is the category played,
-	"SearchedClipTitlesAndFoundTemplate": "Results from clip title search for text: {0}", // {0} is the search term for the clip title search
+	"SearchedKlipTokAndFoundTemplate": "KlipTok पर \"{0}\" की खोज के ये विकल्प मिले:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} प्लेइंग {1}", // {0} is the streamer name, {1} is the category played,
+	"SearchedClipTitlesAndFoundTemplate": "क्लिप टाइटिल में {0} की खोज के विकल्प:", // {0} is the search term for the clip title search
 	"AdvancedFiltering": "एडवांस फ़िल्टरिंग",
 	"IncludeChannels": "इन चैनलों को शामिल करें",
 	"ExcludeChannels": "इन चैनलों को शामिल ना करें",
@@ -67,9 +67,9 @@
 	"CategoryResults": "श्रेणियाँ",
 	"TeamResults": "टीम्स",
 	"PageOfFormat": "{1} का पेज {0}", // {0} is the current page number, {1} is the total number of pages
-	"FoundChannelsFormat": "Found {0} channels", // {0} is the total number of channels found
-	"FoundCategoriesFormat": "Found {0} categories", // {0} is the total number of categories found
-	"FoundTeamsFormat": "Found {0} teams", // {0} is the total number of teams found
+	"FoundChannelsFormat": "मिले {0} चैनल", // {0} is the total number of channels found
+	"FoundCategoriesFormat": "मिली {0} श्रेणियां", // {0} is the total number of categories found
+	"FoundTeamsFormat": "मिली {0} टीमें", // {0} is the total number of teams found
 
 	// Sidebar
 	"SuggestedStreamers": "सुझाए गए स्ट्रीमर्स",
@@ -82,208 +82,208 @@
 	"Feedback": "फ़ीडबैक", // Link to the KlipTok Feedback website
 	"Close": "बंद करें",
 	"LiveForFormat": "{0} से लाइव", // {0} is the relative timestamp of when the stream started
-	"TrendingonKlipTok": "क्लिपटोक पर ट्रेंडिंग",
+	"TrendingonKlipTok": "KlipTok पर ट्रेंडिंग",
 	"Trending": "ट्रेंडिंग",
 
 	// Sidebar Menu
-	"SidebarMenuTooltipFormat": "Actions for the {0} channel", // 0 is the channel name
-	"SidebarMenuVisitDashboard": "Visit {0} Dashboard", // 0 is the channel name
-	"SidebarMenuVisitClipsCreated": "Visit {0} Created Clips", // 0 is the channel name
-	"SidebarMenuMuteChannel": "Mute {0}", // 0 is the channel name
-	"SidebarMenuPinChannel": "Pin channel {0}", // 0 is a counter indicating how many channels are pinned
-	"SidebarMenuUnpinChannel": "Unpin channel",
+	"SidebarMenuTooltipFormat": "{0} चैनल के लिए विकल्प", // 0 is the channel name
+	"SidebarMenuVisitDashboard": "{0} के डैशबोर्ड पर जाएँ", // 0 is the channel name
+	"SidebarMenuVisitClipsCreated": "{0} के क्रिएटेड क्लिप्स पर  जाएँ", // 0 is the channel name
+	"SidebarMenuMuteChannel": "म्यूट {0}", // 0 is the channel name
+	"SidebarMenuPinChannel": "पिन चैनल {0}", // 0 is a counter indicating how many channels are pinned
+	"SidebarMenuUnpinChannel": "अनपिन चैनल",
 
 	// Streamer Page
-	"ClickToFollow": "Click to Follow",
-	"ClickToUnfollow": "Click to Unfollow",
-	"ActionOnTwitchTemplate": "{0} on Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
-	"LiveOnTwitch": "Live on Twitch now!",
-	"ProfilePicTemplate": "{0} profile pic", // {0} is the Streamer's Display Name
-	"NavigateToTwitchChannel": "Navigate to {0} Twitch channel", // {0} is the Streamer's Display Name
-	"TotalClipsOnKlipTok": "Total Clips on KlipTok",
-	"TotalLikesAcrossAllClips": "Total Likes across all Clips",
-	"TotalCommentsAcrossAllClips": "Total Comments across all Clips",
-	"TotalViewsAcrossAllClips": "Total views across all Clips",
-	"LastClipAdded": "Last Clip Added:",
-	"LastClip": "Last Clip:",
-	"NoProfilePicAvailable": "No profile pic available",
-	"DateRangePicker_Start": "Start Date", // The Start Date label on the filter on the streamer page
-	"DateRangePicker_End": "End Date", // The End Date label on the filter on the streamer page
-	"ShareStreamer": "Share Streamer", // The tooltip for the Share button on the streamer page
-	"SelectCategory": "Select a Category", // The default text for the Category Filter combobox
-	"UnknownStreamer": "Unknown streamer: {0}", // The header when an unknown streamer is requested
-	"UnknownStreamerDescription": "KlipTok has not identified a streamer with the name {0}.  If this is a real channel, you can add them with the following directions",
-	"NoRecentClips": "No recent clip information available", // Error message displayed on dashboard when no recent clips are available
+	"ClickToFollow": "फ़ॉलो करें",
+	"ClickToUnfollow": "अनफ़ॉलो करें",
+	"ActionOnTwitchTemplate": "Twitch पर {0}", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+	"LiveOnTwitch": "अभी Twitch पर लाइव!",
+	"ProfilePicTemplate": "{0} प्रोफ़ाइल चित्र", // {0} is the Streamer's Display Name
+	"NavigateToTwitchChannel": "{0} Twitch चैनल पर जाएँ", // {0} is the Streamer's Display Name
+	"TotalClipsOnKlipTok": "KlipTok पर टोटल क्लिप",
+	"TotalLikesAcrossAllClips": "सभी क्लिप्स पर कुल लाइक",
+	"TotalCommentsAcrossAllClips": "सभी क्लिप्स पर कुल कमेंट",
+	"TotalViewsAcrossAllClips": "सभी क्लिप्स के कुल व्यूज",
+	"LastClipAdded": "आखिरी एडेड क्लिप:",
+	"LastClip": "आखिरी क्लिप:",
+	"NoProfilePicAvailable": "कोई प्रोफ़ाइल चित्र उपलब्ध नहीं",
+	"DateRangePicker_Start": "शुरुवात तारीख", // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "अंतिम तारीख", // The End Date label on the filter on the streamer page
+	"ShareStreamer": "स्ट्रीमर शेयर करें", // The tooltip for the Share button on the streamer page
+	"SelectCategory": "एक श्रेणी चुनें", // The default text for the Category Filter combobox
+	"UnknownStreamer": "अपरिचित स्ट्रीमर: {0}", // The header when an unknown streamer is requested
+	"UnknownStreamerDescription": "KlipTok पर {0} नाम का कोई चैनल मौजूद नहीं। यदि ये वास्तविक चैनल है, तो आप उन्हें निम्न निर्देशों के साथ ऐड कर सकते हैं",
+	"NoRecentClips": "हालिया क्लिप की जानकारी उपलब्ध नहीं है", // Error message displayed on dashboard when no recent clips are available
 
 	// Layout
-	"PublicBeta": "PUBLIC BETA",
-	"LoggedOutFromKlipTokAndTwitch": "Logged Out from KlipTok and Twitch",
-	"LoginToKlipTokWithTwitch": "Login to KlipTok with Twitch",
-	"AuthenticationIsNoLongerValid": "Your authentication with Twitch and KlipTok is no longer valid.  Please login to KlipTok with Twitch to continue.",
-	"Loading": "Loading...",
+	"PublicBeta": "पब्लिक बीटा",
+	"LoggedOutFromKlipTokAndTwitch": "KlipTok और  Twitch से लोग आउट किया गया",
+	"LoginToKlipTokWithTwitch": "KlipTok में Twitch के साथ लॉगिन करें",
+	"AuthenticationIsNoLongerValid": "Twitch और KlipTok के साथ आपका प्रमाणीकरण अब मान्य नहीं है। जारी रखने के लिए कृपया Twitch के साथ KlipTok में लॉगिन करें।",
+	"Loading": "लोडिंग...",
 
 	// Errors
-	"ErrorWhileLoading": "An error occurred while loading.",
-	"RetryButton": "Retry",
+	"ErrorWhileLoading": "लोड करते समय एक त्रुटि हुई।",
+	"RetryButton": "पुनः प्रयास करें",
 
 	// Follows page
-	"TwitchChannelsIFollow": "Twitch Streamers I Follow",
-	"TwitchChannelsIFollowNotOnKlipTok": "Twitch Streamers I Follow who aren't on KlipTok",
-	"NotLoggedIn": "Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followed streamers with KlipTok to access this functionality.",
+	"TwitchChannelsIFollow": "Twitch स्ट्रीमर्स जिन्हें मैं फॉलो करता हूं",
+	"TwitchChannelsIFollowNotOnKlipTok": "Twitch स्ट्रीमर्स जिन्हें में फॉलो करता हु जो KlipTok पर नहीं है ",
+	"NotLoggedIn": "Twitch पर आप जिन्हे फॉलो करते है उनकी जानकारी प्रदर्शित करने में असमर्थ है क्योकि आप Twitch द्वारा लोग इन नहीं है। इस कार्यक्षमता का उपयोग करने के लिए कृपया लोग इन करके अपने फॉलो किये गए स्ट्रीमर को KlipTok के साथ सिंक करें ",
 
 	// Home Page
-	"DiscoverPopularClips": "Discover Popular Clips",
-	"DiscoverClips": "Discover Clips",
-	"InsertCoin": "Insert Coin",
-	"MyFavoriteChannels": "Clips from channels I follow", // Tooltip for the Following tab
-	"Favorites": "Following", // Renamed on April 27, 2021 to "Following"
-	"ClipsILike": "Clips I Like",
-	"LikedClips": "Liked Clips",
-	"UserProfile": "User Profile",
-	"UserPreferences": "User Preferences",
+	"DiscoverPopularClips": "लोकप्रिय क्लिप खोजें",
+	"DiscoverClips": "क्लिप खोजें",
+	"InsertCoin": "कॉइन डालें",
+	"MyFavoriteChannels": "मेरे फॉलो किये गए चैनल की क्लिप", // Tooltip for the Following tab
+	"Favorites": "फोल्लोविंग", // Renamed on April 27, 2021 to "Following"
+	"ClipsILike": "क्लिप जो मुझे पसंद हैं",
+	"LikedClips": "लाइक की गई क्लिप",
+	"UserProfile": "यूजर प्रोफ़ाइल",
+	"UserPreferences": "यूजर सेटिंग्स",
 
 	// Filters on the scrollable clips
-	"FilterByCategory": "Filter by Category", // watermark on the filter by category type-ahead box
+	"FilterByCategory": "श्रेणी के अनुसार फ़िल्टर करें", // watermark on the filter by category type-ahead box
 
 	// Liked Clips
-	"NoLikedClips": "You haven't liked any Clips on KlipTok yet!",
-	"TryLikeButtonTemplate": "Try clicking the heart icon {0} below a Clip to 'Like' it and we'll report it here for you so you can easily find it again in the future", //  {0} is the heart icon
+	"NoLikedClips": "आपने अभी तक KlipTok पर कोई क्लिप पसंद नहीं की है!",
+	"TryLikeButtonTemplate": "इसे 'लाइक' करने के लिए क्लिप के नीचे दिल आइकन {0} पर क्लिक कीजिये और हम इसे आपके लिए यहां रिपोर्ट करेंगे ताकि आप इसे भविष्य में आसानी से ढूंढ सकें", //  {0} is the heart icon
 
 	// User Profile
-	"DoesNotKeepSeparateUserInformation": "KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch Clips.",
-	"AutoPlayVideosOnScroll": "Auto-play videos on scroll",
-	"AutoPlayVideosOnHover": "Auto-play videos on hover",
-	"IndexClipsOfMyChannel": "Index my Clips",
-	"UserMonitoringOptOut": "Opt-out of real-user-monitoring",
-	"OptedOutDateTemplate": "Opted out of indexing on: {0}", // {0} is the datestamp of when opt-out was recorded 
-	"SaveMyChanges": "Save my changes",
-	"SyncFollowersWithKlipTok": "Sync Followed Streamers with KlipTok",
-	"MutedChannels": "Muted Streamers",
-	"Channel": "Streamer",
-	"MutedUntil": "Muted Until",
-	"RightToForget": "Right to forget",
-	"DangerZone": "[ Danger Zone ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
-	"RightToForgetDescription": "You have the right to request KlipTok forgets all information that you have shared.  By clicking this link and confirming, KlipTok will remove all of your Comments, Likes, and Clips.",
-	"RemoveMyContentFromKlipTok": "Remove my content from KlipTok",
-	"ForgottenAsOfTemplate": "Forgotten as of : {0}", // {0} is the datestamp of when the 'forget' action was taken
-	"MuteHelp": "Mute hides this channel's clips elsewhere on the site", // defines Mute functionality
+	"DoesNotKeepSeparateUserInformation": "KlipTok Twitch से अलग जानकारी नहीं रखता है, और Twitch क्लिप्स का आगम करने के लिए एक सेवा के रूप में बनाया गया है।",
+	"AutoPlayVideosOnScroll": "स्क्रॉल पर वीडियो स्वतः चलाएं",
+	"AutoPlayVideosOnHover": "होवर पर वीडियो स्वतः चलाएं",
+	"IndexClipsOfMyChannel": "मेरी क्लिप्स को अनुक्रमित करें",
+	"UserMonitoringOptOut": "रीयलटाइम-उपभोक्ता-निगरानी से बाहर निकलें",
+	"OptedOutDateTemplate": "अनुक्रमण से ऑप्ट आउट किया गया: {0}", // {0} is the datestamp of when opt-out was recorded 
+	"SaveMyChanges": "मेरे परिवर्तन सहेजें",
+	"SyncFollowersWithKlipTok": "फ़ॉलो किए गए स्ट्रीमर्स को KlipTok के साथ सिंक करें",
+	"MutedChannels": "म्यूटेड स्ट्रीमर्स",
+	"Channel": "स्ट्रीमर",
+	"MutedUntil": "तक म्यूट किया गया",
+	"RightToForget": "भूलने का अधिकार",
+	"DangerZone": "[ डेंजर ज़ोन ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "आपके पास KlipTok पर अपनी जानकारी को भुलाने की रिक्वेस्ट करने का अधिकार है । इस लिंक पर क्लिक करके पुष्टि करने पर KlipTok आपके सरे कमेंट लाइक और क्लिप्स को निकाल देगा।",
+	"RemoveMyContentFromKlipTok": "मेरी मेरा कंटेंट KlipTok से निकाल  दें",
+	"ForgottenAsOfTemplate": "इस तारीख से भुला दिया गया: {0}", // {0} is the datestamp of when the 'forget' action was taken
+	"MuteHelp": "म्यूट करने से इस चैनल के क्लिप साइट से छुपा दिए जायेंगे", // defines Mute functionality
 
 	// Followed Channel Sync Notifications
-	"BeginAcquiringFollowers": "Acquiring followed channels from Twitch",
-	"IdentifiedFollowerCount": "Identified {0} followed channels to load", // {0} is the count of channels to load
-	"CompletedLoadingFollowers": "Completed adding followed channels to KlipTok",
+	"BeginAcquiringFollowers": "Twitch से फॉलो किये गये चैनल की प्राप्ति हो रही है",
+	"IdentifiedFollowerCount": "फॉलो किये गये पहचाने हुए {0} चैनल लोड होंगे", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "KlipTok पर फ़ॉलो किए गए चैनल को लोड करना सफल हुआ",
 
 	// Single Clip Page
-	"MissingClipError": "KlipTok does not have a record of this Clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok.",
+	"MissingClipError": "KlipTok के पास इस क्लिप का कोई रिकॉर्ड नहीं है। या तो ये मौजूद नहीं है या फिर Twitch चैनल ने पर भाग ना लेने का विकल्प चुना है।",
 	"LikedBy": "Liked By:",
-	"UserLikedTimeTemplate": "{0} liked {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
-	"InReplyToTemplate": "In reply to: {0}", // {0} is the user display name whose comment we are replying to
-	"EnterNewComment": "Enter new Comment...",
-	"LoginWithTwitchToComment": "Login with Twitch to Comment",
-	"CommentButton": "Comment",
+	"UserLikedTimeTemplate": "{1} पहले {0} ने लाइक किया", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "{0} के उत्तर में", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "नई कमेंट दर्ज करें...",
+	"LoginWithTwitchToComment": "कमेंट करने के लिए Twitch से लॉगिन करें",
+	"CommentButton": "कमेंट",
 
 	// Streamer Page
-	"MuteForLabel": "Mute for:",
-	"StreamerIsMutedUntilTemplate": "Streamer is muted until: {0}", // {0} is a datestamp of when the mute operation ends
-	"StreamerIsMuted": "Streamer is muted", // message displayed if a channel is muted forever
-	"NoMute": "Unmute", // Remove the mute effect on this streamer so that you can see their content again
-	"Forever": "Forever", // Label for "Mute Forever" action button
+	"MuteForLabel": "इसके लिए म्यूट करें:",
+	"StreamerIsMutedUntilTemplate": "स्ट्रीमर इस समय तक म्यूट है: {0}", // {0} is a datestamp of when the mute operation ends
+	"StreamerIsMuted": "स्ट्रीमर म्यूटेड है", // message displayed if a channel is muted forever
+	"NoMute": "अनम्यूट", // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "हमेशा के लिए", // Label for "Mute Forever" action button
 	"SortByLabel": "Sort by:",
-	"Views": "Views", // The number of Clip Views for a Clip that we are sorting by
-	"Score": "Score", // A reference to the KlipTok algorithm assigned score for this Clip
-	"Latest": "Latest", // A selector for the sort order to indicate the most recent created Clips should appear first
-	"ClipsFromLabel": "Clips from:", // Label above the date range filter component
-	"SearchButton": "Search", // Text on the search button to filter by date range
-	"ResetButton": "Reset", // Text on the reset button to no longer filter by date range
-	"NoClipsAvailable": "No Clips Available",
-	"AddClipsForThisStreamer": "Add Clips for this Streamer",
-	"NotifyOnOptIn": "Please note: if you add Clips for this streamer, we kindly request you notify them that you have added their Clips to this site.  We have no direct way to reach out to the broadcaster.",
+	"Views": "व्यू", // The number of Clip Views for a Clip that we are sorting by
+	"Score": "स्कोर", // A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "लेटेस्ट", // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "इस समय से:", // Label above the date range filter component
+	"SearchButton": "खोज", // Text on the search button to filter by date range
+	"ResetButton": "रीसेट", // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "कोई क्लिप उपलब्ध नहीं",
+	"AddClipsForThisStreamer": "इस स्ट्रीमर के लिए क्लिप ऐड करें",
+	"NotifyOnOptIn": "कृपया ध्यान दें: यदि आप इस स्ट्रीमर के लिए क्लिप्स ऐड करते हैं, तो हम आपसे अनुरोध करते हैं कि आप उन्हें सूचित करें कि आपने उनकी क्लिप्स इस साइट पर ऐड की है। हमारे पास ब्रॉडकास्टर तक पहुंचने का कोई डायरेक्ट साधन नहीं है।",
 
 	// Streamer Dashboard
-	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
-	"ClipsTab": "Clips", // Label for the Clips tab on the top of the Streamer page
-	"DashboardTab": "Dashboard", // Label for the dashboard tab on the top of the Streamer page 
-	"CreatedClipsTab": "Created Clips", // Label for the Created Clips tab on the Streamer page
-	"ClipsCreatedLast90Days": "Clips Created in last 90 days", // Label for the Clips Created in the last 90 days graph
-	"ClipsCreatedPerWeek": "Clips Created per Week", // The label on the x-axis for the Clips Created in the Last 90 days graph
-	"ClipsByDayOfWeek": "Clips by Day of Week", // Label for the clips by the day of week tile
-	"TitleDayCreated": "Day Created", // Title for the Clips by Day of week radar chart
-	"MostViewedClippers": "Most Viewed Clippers", // Label for the Most Viewed Clippers table
-	"MostViewedCategories": "Most Viewed Categories", // Label for the Most Viewed Categories table
-	"MostLikedClippers": "Most Liked Clippers",
-	"ClipsHeatMap": "Clips Heat Map",
-	"HeatmapTooltipFormat": "{0} clips created on {1}", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
+	"Live": "लाइव", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "क्लिप्स", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "डैशबोर्ड", // Label for the dashboard tab on the top of the Streamer page 
+	"CreatedClipsTab": "क्रिएटेड क्लिप्स", // Label for the Created Clips tab on the Streamer page
+	"ClipsCreatedLast90Days": "पिछले 90 दिनों में बनाई गई क्लिप", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "प्रति सप्ताह बनाई गई क्लिप", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "दिन के अनुसार क्लिप", // Label for the clips by the day of week tile
+	"TitleDayCreated": "इस दिन बनाई गई", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "सर्वाधिक देखे गए क्लिपर्स", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "सर्वाधिक देखी गई श्रेणियां", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "सबसे ज्यादा लाइक किए गए क्लिपर्स",
+	"ClipsHeatMap": "क्लिप्स हीट मैप",
+	"HeatmapTooltipFormat": "{0} क्लिप {1} पर बनाई गई", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
 
 	// Transcription Features
-	"ClipHasTranscription": "This clip has a transcription that can be searched", // Tooltip for the transcription icon
-	"SearchResultsFromTranscriptionSearch": "Results from clip transcription search for text: {0}", // Clip transcription search results header.  {0} is the search text
-	"ClipTranscriptionByAssemblyAI": "Clip Transcription by AssemblyAI:", // Clip transcription attribution to AssemblyAI
+	"ClipHasTranscription": "इस क्लिप में एक प्रतिलेखन है जिसे खोजा जा सकता है", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "प्रतिलेखन में इस शब्द की खोज का परिणाम: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "AssemblyAI के द्वारा क्लिप प्रतिलेखन:", // Clip transcription attribution to AssemblyAI
 
 	// System Dashboard
-	"SystemStatus": "System Status",
-	"SystemStatusDashboard": "System Status Dashboard",
-	"SystemDashboardDescription": "We're making details about the growth of KlipTok openly available for you to review.",
-	"TotalClips": "Total Clips",
-	"ChannelsIndexed": "Channels Indexed",
-	"NewChannelsToday": "New Channels Today",
-	"TotalChannelsIdentified": "Total Channels Identified",
-	"TotalClipsTranscribed": "Total Clips Transcribed",
-	"ClipsTranscribedByDate": "Clips Transcribed By Date",
-	"ClipsLikedByDate": "Clips Liked By Date",
-	"ClipsByDate": "Clips By Date",
+	"SystemStatus": "सिस्टम स्थिति",
+	"SystemStatusDashboard": "सिस्टम स्थिति डैशबोर्ड",
+	"SystemDashboardDescription": "हम KlipTok के विकास की जानकारी आपके लिए खुले तौर पर समीक्षा के लिए उपलब्ध करा रहे हैं।",
+	"TotalClips": "कुल क्लिप",
+	"ChannelsIndexed": "चैनल अनुक्रमित",
+	"NewChannelsToday": "आज के नए चैनल",
+	"TotalChannelsIdentified": "कुल पहचाने गए चैनल",
+	"TotalClipsTranscribed": "कुल लिखित क्लिप्स",
+	"ClipsTranscribedByDate": "तारीख के अनुसार लिखित क्लिप्स",
+	"ClipsLikedByDate": "तारीख के अनुसार लाइक किए गए क्लिप्स",
+	"ClipsByDate": "तारीख के अनुसार क्लिप",
 
 	// Playlists
-	"PlaylistsTab": "Playlists",
-	"MyPlaylists": "My Playlists",
-	"PlaylistsCreatedBy": "Playlists created by {0}",
-	"CreateNewPlaylist": "Create a new playlist",
-	"AddToPlaylist": "Add to Playlist",
-	"Playlist_AddedSuccessfully": "Added to playlist successfully!",
-	"PlaylistTitle": "Playlist: {0}", // Title displayed at the top of the Playlist page
-	"CreatedBy": "Created By: {0}", // "by-line" indicating who created the playlist
-	"Edit": "Edit",
-	"PreviousClip": "Previous Clip",
-	"NextClip": "Next Clip",
-	"VideoTagNotSupported": "Your browser does not support the video tag.",
-	"NoClipsOnPlaylist": "No clips currently assigned to this playlist",
-	"NoPlaylistsCreated": "No playlists currently created",
-	"PlaylistName": "Playlist Name",
-	"ClipTitle": "Title",
-	"Remove": "Remove",
-	"SavePlaylist": "Save Playlist",
-	"Cancel": "Cancel",
-	"Delete": "Delete",
-	"SharePlaylist": "Share this playlist",
-	"CopyPlaylist": "Copy this playlist",
-	"PlaylistCopiedSuccessfully": "Playlist {0} copied successfully!",
+	"PlaylistsTab": "प्लेलिस्ट्स",
+	"MyPlaylists": "मेरी प्लेलिस्ट्स",
+	"PlaylistsCreatedBy": "प्लेलिस्ट {0} द्वारा बनाई गई",
+	"CreateNewPlaylist": "एक नई प्लेलिस्ट बनाएँ",
+	"AddToPlaylist": "प्लेलिस्ट में जोड़ें",
+	"Playlist_AddedSuccessfully": "प्लेलिस्ट में जोड़ना सफल हुआ!",
+	"PlaylistTitle": "प्लेलिस्ट: {0}", // Title displayed at the top of the Playlist page
+	"CreatedBy": "इन्होंने बनाया: {0}", // "by-line" indicating who created the playlist
+	"Edit": "एडिट",
+	"PreviousClip": "पिछली क्लिप",
+	"NextClip": "अगली क्लिप",
+	"VideoTagNotSupported": "आपका ब्राउज़र वीडियो टैग का सपोर्ट नहीं करता।",
+	"NoClipsOnPlaylist": "इस प्लेलिस्ट में फिलहाल कोई क्लिप्स नहीं है",
+	"NoPlaylistsCreated": "कोई प्लेलिस्ट नहीं बनाई गई है",
+	"PlaylistName": "प्लेलिस्ट का नाम",
+	"ClipTitle": "टाइटल",
+	"Remove": "निकालें",
+	"SavePlaylist": "प्लेलिस्ट सेव करें",
+	"Cancel": "रद्द करें",
+	"Delete": "हटाएं",
+	"SharePlaylist": "इस प्लेलिस्ट को शेयर करें",
+	"CopyPlaylist": "इस प्लेलिस्ट को कॉपी करें",
+	"PlaylistCopiedSuccessfully": "प्लेलिस्ट {0} कॉपी करना सफल हुआ!",
 	"Ok": "Ok",
 
 	// Embed playlists
-	"EmbedPlaylistWindowTitle": "Embed this playlist",
-	"EmbedPlaylistIntro": "Let's configure an embeddable URL for this playlist.",
-	"ShufflePlaylist": "Shuffle clips on playlist",
-	"CreditsMode": "Show credits in lower left of video",
-	"CreditsFade": "Fade credits after 8 seconds",
-	"UrlCopiedToClipboard": "URL copied to clipboard",
+	"EmbedPlaylistWindowTitle": "प्लेलिस्ट एम्बेड करें",
+	"EmbedPlaylistIntro": "इस प्लेलिस्ट के लिए एक एम्बेड करने योग्य URL कॉन्फ़िगर करें।",
+	"ShufflePlaylist": "प्लेलिस्ट शफल करें",
+	"CreditsMode": "वीडियो के निचे क्रेडिट दिखाएं",
+	"CreditsFade": "8 सेकंड के बाद क्रेडिट्स छुपा दें",
+	"UrlCopiedToClipboard": "URL क्लिपबोर्ड पर कॉपी हुआ",
 
 	// Smart playlists
-	"MostViewed30Days": "Recent Popular Clips",
-	"CreatorsTop50Viewed": "Top 50 Most Viewed Clips",
-	"PreviouslyOn": "Previously On...",
-	"SmartPlaylist_MostViewed": "Recent Popular Clips on {0}",
-	"SmartPlaylist_CreatorTop50": "Top 50 Viewed Clips Created by {0}",
-	"TeamMostViewedPlaylist": "Most Viewed Clips",
-	"TeamHighlightsPlaylist": "Team Highlights",
+	"MostViewed30Days": "हालिया पॉपुलर क्लिप्स",
+	"CreatorsTop50Viewed": "शीर्ष 50 सर्वाधिक देखि गयी क्लिप्स",
+	"PreviouslyOn": "पहले...",
+	"SmartPlaylist_MostViewed": "हालिया पॉपुलर क्लिप्स on {0}",
+	"SmartPlaylist_CreatorTop50": "{0} के द्वारा बनाई गई शीर्ष 50 देखी गई क्लिप्स",
+	"TeamMostViewedPlaylist": "सर्वाधिक देखी गई क्लिप्स",
+	"TeamHighlightsPlaylist": "टीम हाइलाइट्स",
 
 	// Trending
-	"TrendingContentOnKlipTok": "Trending Content on KlipTok",
-	"TrendingCategories": "Trending Categories",
-	"EnablePeriodicRefresh": "Enable Periodic Refresh",
-	"ActiveChannels": "Active Channels", // Active channels label with no category selected
-	"ActiveChannelsWithCountFormat": "Active Channels ({0}) - {1} Channels", // Format for the Active Channels tile. {0} is the category name, {1} is the number of active channels
-	"SelectedCategoryPrompt": "Select a category from the graph to examine current channels and clips being created in that category",
-	"SelectedTermFormat": "<b>Selected Term:</b> {0}", // Added some bold markup around the label
-	"RecentClipsFormat": "Recent Clips: ({0})" // Format for the Recent Clips label.  {0} is the number of clips
+	"TrendingContentOnKlipTok": "KlipTok पर ट्रेंडिंग",
+	"TrendingCategories": "ट्रेंडिंग श्रेणियाँ",
+	"EnablePeriodicRefresh": "समय-समय पर रीफ्रेश चालू करें",
+	"ActiveChannels": "सक्रिय चैनल", // Active channels label with no category selected
+	"ActiveChannelsWithCountFormat": "सक्रिय चैनल ({0}) - {1} चैनल", // Format for the Active Channels tile. {0} is the category name, {1} is the number of active channels
+	"SelectedCategoryPrompt": "ग्राफ़ से उस श्रेणी का चयन करें जिसमें वर्तमान क्लिप और बनाए जा रहे चैनल की जाँच करनी है",
+	"SelectedTermFormat": "<b>चयनित शब्द:</b> {0}", // Added some bold markup around the label
+	"RecentClipsFormat": "हालिया क्लिप्स: ({0})" // Format for the Recent Clips label.  {0} is the number of clips
 
 
 }
