@@ -4,6 +4,8 @@
 	"Grid_NoRecords": "Hakuna rekodi zinazopatikana",
 	"Pager_ItemsPerPage": "Vipengee kwa kila ukurasa",
 
+	"Print": "Chapisha",
+
 	// Clip
 	"Recorded": "Iliyorekodiwa mara {0}",
 	"Likes": "Imependeza",
@@ -13,6 +15,7 @@
 	"KlipTokContentPlaceholder": "Kishika nafasi cha yaliyomo kwenye KlipTok",
 	"ClippedByFormat": "Imepigwa na {0}",
 	"PreviewThumbnailForClip": "Hakiki kijipicha cha klipu '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
+	"ClickToView": "Bofya ili kuona kijipicha",
 
 	// Clip Galllery Component
 	"ListView": "Mtazamo wa orodha",
@@ -28,6 +31,7 @@
 	"LoginWithTwitch": "Ingia na Twitch",
 	"Logout": "Ondoka",
 	"MyStreamerPage": "Ukurasa wa kituo changu",
+	"PrivateMode": "Hali ya Kibinafsi",
 
  	 // Header
 	"SearchForChannel": "Tafuta kituo...",
@@ -56,11 +60,16 @@
 	"ChannelsIDontFollow": "Sifuati",
 	"ChannelsAll": "Vyote",
 	"ChannelsSpecified": "Ninabainisha",
+	"TeamSpecified": "Timu",
 
 	"TitleResults": "Matokeo ya kichwa",
 	"TranscriptResults": "Matokeo ya nakala",
+	"CategoryResults": "Kategoria",
+	"TeamResults": "Timu",
 	"PageOfFormat": "Ukurasa {0} wa {1}", // {0} is the current page number, {1} is the total number of pages
 	"FoundChannelsFormat": "Nimepata vituo {0}", // {0} is the total number of channels found
+	"FoundCategoriesFormat": "Nimepata kategoria {0}", // {0} is the total number of categories found
+	"FoundTeamsFormat": "Nimepata timu {0}", // {0} is the total number of teams found
 
 
   	// Sidebar
@@ -74,6 +83,8 @@
 	"Feedback": "Maoni", // Link to the KlipTok Feedback website
 	"Close": "Funga",
 	"LiveForFormat": "Moja kwa moja kwa muda {0}", // {0} is the relative timestamp of when the stream started
+	"TrendingonKlipTok": "Zinazovuma kwenye KlipTok",
+	"Trending": "Zinazovuma",
 
 	// Sidebar Menu
 	"SidebarMenuTooltipFormat": "Vitendo vya kituo cha {0}", // 0 is the channel name
@@ -144,6 +155,7 @@
 	"AutoPlayVideosOnScroll": "Cheza video kiotomatiki kwenye kusogeza",
 	"AutoPlayVideosOnHover": "Cheza video kiotomatiki kwenye kuelea",
 	"IndexClipsOfMyChannel": "Weka farahisi kwa klipu kwenya kituo changu",
+	"UserMonitoringOptOut": "Chagua kutoka kwa ufuatiliaji wa mtumiaji halisi",
 	"OptedOutDateTemplate": "Amua kutoka kwa faharisi: {0}",
 	"SaveMyChanges": "Okoa mabadiliko yangu",
 	"SyncFollowersWithKlipTok":"Sawazisha Wafuasi na KlipTok",
@@ -155,6 +167,7 @@
 	"RightToForgetDescription": "Una haki ya kuomba KlipTok kusahau habari zote ambazo umeshiriki. Kwa kubofya kiunga hiki na kudhibitisha, KlipTok itaondoa maoni yako yote, uliyopenda, na klipu.",
 	"RemoveMyContentFromKlipTok": "Ondoa yaliyomo kwenye KlipTok yangu",
 	"ForgottenAsOfTemplate": "Sahauliwa kuanzia : {0}",
+	"MuteHelp": "Kunyamazisha huficha klipu za kituo hiki mahali pengine kwenye tovuti", // defines Mute functionality
 
 	// Followed Channel Sync Notifications
 	"BeginAcquiringFollowers": "Kupata vituo unavyofuatwa kutoka Twitch",
@@ -226,6 +239,7 @@
 	"PlaylistsCreatedBy": "Orodha za kucheza zilizoundwa na {0}",
 	"CreateNewPlaylist": "Unda orodha mpya ya kucheza",
 	"AddToPlaylist": "Ongeza kwenye Orodha ya kucheza",
+	"Playlist_AddedSuccessfully": "Imeongezwa kwenye Orodha ya kucheza!",
 	"PlaylistTitle": "Orodha ya kucheza: {0}", // Title displayed at the top of the Playlist page
 	"CreatedBy": "Imeundwa na: {0}", // "by-line" indicating who created the playlist
 	"Edit": "Hariri",
@@ -258,6 +272,18 @@
 	"CreatorsTop50Viewed": "Klipu 50 Bora Zilizotazamwa Zaidi",
 	"PreviouslyOn": "Hapo awali Kwa...",
 	"SmartPlaylist_MostViewed": "Klipu Maarufu za Hivi Karibuni kwa {0}",
-	"SmartPlaylist_CreatorTop50": "Klipu 50 Bora Zilizotazamwa Zilizoundwa na {0}"
+	"SmartPlaylist_CreatorTop50": "Klipu 50 Bora Zilizotazamwa Zilizoundwa na {0}",
+	"TeamMostViewedPlaylist": "Klipu Zilizotazamwa Zaidi",
+	"TeamHighlightsPlaylist": "Vivutio vya Timu",
+
+	// Trending
+	"TrendingContentOnKlipTok": "Maudhui Yanayovuma kwenye KlipTok",
+	"TrendingCategories": "Kategoria Zinazovuma",
+	"EnablePeriodicRefresh": "Washa Upyaji wa Mara kwa Mara",
+	"ActiveChannels": "Vituo vinavyotumika", // Active channels label with no category selected
+	"ActiveChannelsWithCountFormat": "Vituo vinavyotumika ({0}) - {1} Vituo", // Format for the Active Channels tile. {0} is the category name, {1} is the number of active channels
+	"SelectedCategoryPrompt": "Chagua kategoria kutoka kwa grafu ili kuchunguza vituo na klipu za sasa zinazoundwa katika kategoria hiyo",
+	"SelectedTermFormat": "<b>Neno Lililochaguliwa:</b> {0}", // Added some bold markup around the label
+	"RecentClipsFormat": "Klipu za Hivi Punde: ({0})" // Format for the Recent Clips label.  {0} is the number of clips
 
 }
