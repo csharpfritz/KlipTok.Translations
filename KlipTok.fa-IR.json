@@ -8,7 +8,12 @@
 	"ClipViews": "بازدید های کلیپ",
 	"ShareThisClip": "اشتراک گذاری این کلیپ",
 	"KlipTokContentPlaceholder": "نگهدارنده محتوای کلیپ تاک",
-	"ClippedByFormat": "کلیپ شده توسظ {0}", 
+	"ClippedByFormat": "کلیپ شده توسط {0}", // {0} is the display name of the clip creator
+	"PreviewThumbnailForClip": "پیشنمایش تصویر کوچک برای کلیپ '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
+
+	// Clip Galllery Component
+	"ListView": "نمایش به صورت لیست",
+	"GridView": "نمایش به صورت جدول",
 
 	// Comments
 	"ByLineFormat": "در {0} {1} نوشت:",
@@ -18,17 +23,19 @@
 	"DarkMode": "حالت تاریک",
 	"LoginWithTwitch": "ورود با Twitch",
 	"Logout": "خروج",
+	"MyStreamerPage": "صفحه استریمر من",
 
 	// Header
-	"SearchForChannel": "برای یک استریمر بگرد...", // Deprecated
+	"SearchForChannel": "جستجو برای پیداکردن استریمر...", // Deprecated
 	"SearchNotFoundFormat": "{0} پیدا نشد", 
 
 	// Search and Search Results
-	"SearchKlipTok": "جستوجو در کلیپ تاک... ",
-	"SearchAllOfKlipTok": "جستوجو در تمام کلیپ تاک {0}", 
-	"SearchResults": "نتایج جستوجو",
+	"SearchKlipTok": "جستجو در کلیپ تاک... ",
+	"SearchAllOfKlipTok": "جستجو در تمام کلیپ تاک {0}", 
+	"SearchResults": "نتایج جستجو",
 	"SearchedKlipTokAndFoundTemplate": "ما کلیپ تاک را برای \"{0}\" گشتیم و این نتایج را پیدا کردیم :", 
 	"StreamerPlayingCategoryTemplate": "{0} درحال پخش {1}", 
+	"SearchedClipTitlesAndFoundTemplate": "نتایج جستجو در عنوان کلیپ با متن: {0}", // {0} is the search term for the clip title search
 	"AdvancedFiltering": "فیلتر کردن پیشرفته",
 	"IncludeChannels": " شامل این کانال ها باشد ",
 	"ExcludeChannels": "از این کانال ها جدا باشد",
@@ -40,9 +47,18 @@
 	// Sidebar
 	"SuggestedStreamers": "استریمر های پیشنهادی",
 	"FollowedStreamers": "استریمر های دنبال شده",
+	"RecentlyLiveStreamers": "استریمر های اخیرا بخش زنده داشته",
 	"AllStreamers": "تمام استریمر ها",
 	"About": "درباره",
+	"Feedback": "بازخورد", // Link to the KlipTok Feedback website
 	"Close": "بستن",
+	"LiveForFormat": "بخش زنده برای {0}", // {0} is the relative timestamp of when the stream started
+
+	// Sidebar Menu
+	"SidebarMenuTooltipFormat": "عملیات برای کانال {0}", // 0 is the channel name
+	"SidebarMenuVisitDashboard": "بازدید از داشبورد {0}", // 0 is the channel name
+	"SidebarMenuVisitClipsCreated": " بازدید از کلیپ ایجاد شده {0}", // 0 is the channel name
+	"SidebarMenuMuteChannel": "بی صدا کردن {0}", // 0 is the channel name
 
 	// Streamer Page
 	"ClickToFollow": "برای دنبال کردن کلیک کنید",
@@ -60,6 +76,10 @@
 	"DateRangePicker_Start": "تاریخ شروع", // The Start Date label on the filter on the streamer page
 	"DateRangePicker_End": "تاریخ پایان", // The End Date label on the filter on the streamer page
 	"ShareStreamer": "اشتراک گذاری استریمر", // The tooltip for the Share button on the streamer page
+	"SelectCategory": "انتخاب دسته بندی", // The default text for the Category Filter combobox
+	"UnknownStreamer": "استریمر ناشناس: {0}", // The header when an unknown streamer is requested
+	"UnknownStreamerDescription": "کلیپ ناک استریمری با نام {0} شناسایی نکرده است. اگر این یک کانال واقعی است، آن را با دستورالعمل های زیر اضافه کنید.",
+	"NoRecentClips": "اطلاعاتی از کلیپ اخیر موجود نمی باشد.", // Error message displayed on dashboard when no recent clips are available
 
 	// Layout
 	"PublicBeta": "نسخه آزمایشی عمومی",
@@ -74,6 +94,7 @@
 
 	// Follows page
 	"TwitchChannelsIFollow": "استریمر های توییچ که من دنبال میکنم",
+	"TwitchChannelsIFollowNotOnKlipTok": "استریمر های توییچ که در کلیپ تاک نیستند را دنبال میکنم",
 	"NotLoggedIn": ".رکورد حساب هایی که در توییچ دنبال میکنید را نتوانستیم نمایش بدهیم زیرا شما با یک اکانت توییچ وارد نشدید.  لطفا ابتدا وارد حساب کاربری خود شوید و استریم هایی که دنبال میکنید را با کلیپ تاک همگام سازی کنید تا به این قابلیت دسترسی داشته باشید",
 
 	// Home Page
@@ -85,6 +106,10 @@
 	"ClipsILike": "کلیپ هایی که من پسندیدم",
 	"LikedClips": "کلیپ های پسندیده شده",
 	"UserProfile": "مشخصات کاربر",
+	"UserPreferences": "تنظیمات کاربر",
+
+	// Filters on the scrollable clips
+	"FilterByCategory": "فیلتر براساس دسته بندی", // watermark on the filter by category type-ahead box
 
 	// Liked Clips
 	"NoLikedClips": "شما هنور در کلیپ تاک کلیپی را نپسندیده اید!",
@@ -106,6 +131,11 @@
 	"RemoveMyContentFromKlipTok": "پاک کردن محتوای من از کلیپ تاک",
 	"ForgottenAsOfTemplate": "فراموش شده در : {0}", 
 
+	// Followed Channel Sync Notifications
+	"BeginAcquiringFollowers": "دریافت کانال های دنیال شده در تویبچ",
+	"IdentifiedFollowerCount": "{0} کانال از دنبال کننده های شما شناسایی شد", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "افزودن کانال های دنبال شده به کلیپ تاک انجام شد",
+
 	// Single Clip Page
 	"MissingClipError": "کلیپ تاک برای این کلیپ رکوردی ندارد. یا در کانال توییچ وجود ندارد یا کانال از همکاری با کلیپ تاک خارج شده است.",
 	"LikedBy": "پسندیده شده توسط:",
@@ -118,9 +148,10 @@
 	// Streamer Page
 	"MuteForLabel": "بی صدا برای:",
 	"StreamerIsMutedUntilTemplate": "استریمر بی صداست تا: {0}", 
+	"StreamerIsMuted": "استریمر بی صداست", // message displayed if a channel is muted forever
 	"NoMute": "با صدا", // Remove the mute effect on this streamer so that you can see their content again
 	"Forever": "همیشه", // Label for "Mute Forever" action button
-	"SortByLabel": "چیندمان بر اساس:",
+	"SortByLabel": "چیدمان بر اساس:",
 	"Views": "تعداد بازدید", // The number of Clip Views for a Clip that we are sorting by
 	"Score": "امتیاز", // A reference to the KlipTok algorithm assigned score for this Clip
 	"Latest": "جدیدترین", // A selector for the sort order to indicate the most recent created Clips should appear first
@@ -129,21 +160,42 @@
 	"ResetButton": " ست کردن مجدد", // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "هیچ کلیپی در دسترس نیست",
 	"AddClipsForThisStreamer": "افزودن کلیپ برای این استریمر",
-	"NotifyOnOptIn": "لطفا توجه داشته باشید : اگر برای این استریمر کلیپی اضافه کردید , لطف کنید بهشون در این باره اطلاع بدید که کلیپی ازشون در این سایت قرار دادید. ما هیچ راهی برای ارتباط با فرد اجرا کننده نداریم"
+	"NotifyOnOptIn": "لطفا توجه داشته باشید : اگر برای این استریمر کلیپی اضافه کردید , لطف کنید بهشون در این باره اطلاع بدید که کلیپی ازشون در این سایت قرار دادید. ما هیچ راهی برای ارتباط با فرد اجرا کننده نداریم",
 	
 	// Streamer Dashboard
 	"Live": "زنده", // Text for the red live indicator.  Should be all capitalized
 	"ClipsTab": "کلیپ ها", // Label for the Clips tab on the top of the Streamer page
 	"DashboardTab": "داشبورد", // Label for the dashboard tab on the top of the Streamer page 
+	"CreatedClipsTab": "کلیپ های ایجاد شده", // Label for the Created Clips tab on the Streamer page
 	"ClipsCreatedLast90Days": "کلیپ های ساخته شده در ۹۰ روز اخیر", // Label for the Clips Created in the last 90 days graph
 	"ClipsCreatedPerWeek": "کلیپ های ساخته شده در هفته", // The label on the x-axis for the Clips Created in the Last 90 days graph
 	"ClipsByDayOfWeek": "کلیپ ها بر اساس روزهای هفته", // Label for the clips by the day of week tile
+	"TitleDayCreated": "ایجاد شده در روز", // Title for the Clips by Day of week radar chart
 	"MostViewedClippers": "پر بازدیدترین کلیپ ساز ها", // Label for the Most Viewed Clippers table
 	"MostViewedCategories": "پر بازدید ترین دسته بندی ها", // Label for the Most Viewed Categories table
 	"MostLikedClippers": "مورد پسندترین کلیپ ساز ها",
+	"ClipsHeatMap": "کلیپ ها در نقشه حرارتی",
+	"HeatmapTooltipFormat": "{0} کلیپ ایجاد شده در {1}", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
+
+	// Transcription Features
+	"ClipHasTranscription": "این کلیپ دارای رونوشت قابل جستجو میباشد", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "نتایج رونوشت کلیپ برای متن: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "AssemblyAI :رونوشت کلیپ توسط", // Clip transcription attribution to AssemblyAI
+
+	// System Dashboard
+	"SystemStatus": "وضعیت سیستم",
+	"SystemStatusDashboard": "وضعیت داشبورد",
+	"SystemDashboardDescription": "ما جزئیات رشد و پیشرفت کلیپ تاک را به صورت آشکار جهت بازدید در دسترس شما قرار دادیم.",
+	"TotalClips": "همه کلیپ ها",
+	"ChannelsIndexed": "کانال های فهرست شده",
+	"NewChannelsToday": "کانال های جدید امروز",
+	"TotalChannelsIdentified": "مجموع کانال های شناسایی شده",
+	"TotalClipsTranscribed": "مجموع کلیپ های رونوشت شده",
+	"ClipsTranscribedByDate": "کلیپ های رونوشت شده براساس تاریخ",
+	"ClipsLikedByDate": "کلیپ های پسندیده شده براساس تاریخ",
+	"ClipsByDate": "کلیپ ها براساس تاریخ",
 	
-	//Playlists
-	
+	// Playlists
 	"PlaylistsTab": "لیست پخش",
 	"MyPlaylists": "لیست پخش های من",
 	"PlaylistsCreatedBy": "لیست پخش توسط {0} ساخته شده",
@@ -166,11 +218,33 @@
 	"SharePlaylist": "اشتراک گذاشتن لیست پخش",
 	"CopyPlaylist": "کپی کردن لیست پخش",
 	"PlaylistCopiedSuccessfully": "لیست پخش {0} با موفقیت کپی شد!",
-	"Ok": "Ok",
+	"Ok": "تایید",
+
+	// Embed playlists
+	"EmbedPlaylistWindowTitle": "کارگذاری این لیست پخش",
+	"EmbedPlaylistIntro": "بیایید یک URL قابل کارگذاری برای این لیست پخش پیکربندی کنیم.",
+	"ShufflePlaylist": "به هم ریختن کلیپ ها در لیست پخش",
+	"CreditsMode": "نشان دادن اعتبار در پایین سمت چپ ویدیو",
+	"CreditsFade": "اعتبار را پس از 8 ثانیه محو کن",
+	"UrlCopiedToClipboard": "URL در کلیپ بورد کپی شد",
 
 	// Smart playlists
 	"MostViewed30Days": "کلیپ های محبوب اخیر",
-	"CreatorsTop50Viewed": "50 کلیپ برترین بازدید",
+	"CreatorsTop50Viewed": "50 کلیپ پر بازدید",
+	"PreviouslyOn": "Previously On...",
 	"SmartPlaylist_MostViewed": "کلیپ های محبوب اخیر در {0}",
-	"SmartPlaylist_CreatorTop50": "50 کلیپ پربازدید ساخته شده توسط: {0}"
+	"SmartPlaylist_CreatorTop50": "50 کلیپ پر بازدید ساخته شده توسط: {0}",
+	"TeamMostViewedPlaylist": "پربازدید ترین کلیپ ها",
+	"TeamHighlightsPlaylist": "های لایت های تیم",
+
+	// Trending
+	"TrendingContentOnKlipTok": "محتوای پرطرفدار در کلیپ تاک",
+	"TrendingCategories": "دسته بندی های پرطرفدار",
+	"EnablePeriodicRefresh": "فعال کردن تازه سازی دوره ای",
+	"ActiveChannels": "کانال های فعال", // Active channels label with no category selected
+	"ActiveChannelsWithCountFormat": "کانال های فعال در ({0}) - {1} کانال", // Format for the Active Channels tile. {0} is the category name, {1} is the number of active channels
+	"SelectedCategoryPrompt": "از نمودار یک دسته بندی را انتخاب کنید تا کانال های کنونی و کلیپ های ساخته شده در آن دسته را مشاهده کنید",
+	"SelectedTermFormat": "<b>اصطلاح انتخاب شده:</b> {0}", // Added some bold markup around the label
+	"RecentClipsFormat": "کلیپ های اخیر: ({0})" // Format for the Recent Clips label.  {0} is the number of clips
+
 }
