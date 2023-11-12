@@ -218,11 +218,33 @@
 	"SharePlaylist": "اشتراک گذاشتن لیست پخش",
 	"CopyPlaylist": "کپی کردن لیست پخش",
 	"PlaylistCopiedSuccessfully": "لیست پخش {0} با موفقیت کپی شد!",
-	"Ok": "Ok",
+	"Ok": "تایید",
+
+	// Embed playlists
+	"EmbedPlaylistWindowTitle": "کارگذاری این لیست پخش",
+	"EmbedPlaylistIntro": "بیایید یک URL قابل کارگذاری برای این لیست پخش پیکربندی کنیم.",
+	"ShufflePlaylist": "به هم ریختن کلیپ ها در لیست پخش",
+	"CreditsMode": "نشان دادن اعتبار در پایین سمت چپ ویدیو",
+	"CreditsFade": "اعتبار را پس از 8 ثانیه محو کن",
+	"UrlCopiedToClipboard": "URL در کلیپ بورد کپی شد",
 
 	// Smart playlists
 	"MostViewed30Days": "کلیپ های محبوب اخیر",
-	"CreatorsTop50Viewed": "50 کلیپ برترین بازدید",
+	"CreatorsTop50Viewed": "50 کلیپ پر بازدید",
+	"PreviouslyOn": "پیش از این در...",
 	"SmartPlaylist_MostViewed": "کلیپ های محبوب اخیر در {0}",
-	"SmartPlaylist_CreatorTop50": "50 کلیپ پربازدید ساخته شده توسط: {0}"
+	"SmartPlaylist_CreatorTop50": "50 کلیپ پر بازدید ساخته شده توسط: {0}",
+	"TeamMostViewedPlaylist": "پربازدید ترین کلیپ ها",
+	"TeamHighlightsPlaylist": "های لایت های تیم",
+
+	// Trending
+	"TrendingContentOnKlipTok": "محتوای پرطرفدار در کلیپ تاک",
+	"TrendingCategories": "دسته بندی های پرطرفدار",
+	"EnablePeriodicRefresh": "فعال کردن تازه سازی دوره ای",
+	"ActiveChannels": "کانال های فعال", // Active channels label with no category selected
+	"ActiveChannelsWithCountFormat": "کانال های فعال در ({0}) - {1} کانال", // Format for the Active Channels tile. {0} is the category name, {1} is the number of active channels
+	"SelectedCategoryPrompt": "از نمودار یک دسته بندی را انتخاب کنید تا کانال های کنونی و کلیپ های ساخته شده در آن دسته را مشاهده کنید",
+	"SelectedTermFormat": "<b>اصطلاح انتخاب شده:</b> {0}", // Added some bold markup around the label
+	"RecentClipsFormat": "کلیپ های اخیر: ({0})" // Format for the Recent Clips label.  {0} is the number of clips
+
 }
