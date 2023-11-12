@@ -1,0 +1,174 @@
+{
+	// Components
+
+	// Clip
+	"Recorded": "Καταγράφηκε {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
+	"Likes": "Likes",
+	"Comments": "Σχόλια",
+	"ClipViews": "Προβολές Clip",
+	"ShareThisClip": "Μοιράσου αυτό το Clip",
+	"KlipTokContentPlaceholder": "Δέσμευση χώρου για περιεχόμενο του KlipTok",
+	"ClippedByFormat": "Καταγράφηκε από {0}", // {0} is the display name of the clip creator
+	"PreviewThumbnailForClip": "Thumbnail για το Clip '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
+
+	// Comments
+	"ByLineFormat": "Την στιγμή {0} {1} έγραψε:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"Reply": "Απάντησε",
+
+	// Login View
+	"DarkMode": "Σκοτεινό θέμα",
+	"LoginWithTwitch": "Συνδέσου μέσω Twitch",
+	"Logout": "Αποσυνδέσου",
+	"MyStreamerPage": "Η Πρσωπική μου Streamer σελίδα",
+
+	// Header
+	"SearchForChannel": "Αναζήτηση Streamer...", // Deprecated
+	"SearchNotFoundFormat": "{0} δεν βρέθηκε", // {0} is the search term that was not found
+
+	// Search and Search Results
+	"SearchKlipTok": "Αναζήτηση KlipTok...",
+	"SearchAllOfKlipTok": "Αναζήτηση σε όλο το KlipTok για {0}", // {0} is the search term to search clips for
+	"SearchResults": "Αποτελέσματα αναζήτησης",
+	"SearchedKlipTokAndFoundTemplate": "Ψάξαμε στο KlipTok για \"{0}\" και βρήκαμε:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} παίζει {1}", // {0} is the streamer name, {1} is the category played,
+	"SearchedClipTitlesAndFoundTemplate": "Αποτελέσματα για τον τίτλο Clip: {0}", // {0} is the search term for the clip title search
+	"AdvancedFiltering": "Προχωρημένο φιλτράρισμα",
+	"IncludeChannels": "Συμπεριέλαβε αυτά τα κανάλια",
+	"ExcludeChannels": "Απέκλεισε αυτά τα κανάλια",
+	"FilterButton": "Φιλτράρισμα", // The button to apply the advanced search filter
+	"PreviousPage": "Προηγούμενη σελίδα",
+	"NextPage": "Επόμενη σελίδα",
+
+
+	// Sidebar
+	"SuggestedStreamers": "Προτεινόμενοι Streamers",
+	"FollowedStreamers": "Streamers που ακολουθείς",
+	"AllStreamers": "Όλοι οι Streamers",
+	"About": "Σχετικά",
+	"Feedback": "Σχόλια για εμάς/Προτάσεις", // Link to the KlipTok Feedback website
+	"Close": "Κλείσιμο",
+
+	// Streamer Page
+	"ClickToFollow": "Click να ακολουθήσεις",
+	"ClickToUnfollow": "Click για να σταματήσεις να ακολουθείς",
+	"ActionOnTwitchTemplate": "{0} στο Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+	"LiveOnTwitch": "Ζωντανά στο Twitch τώρα!",
+	"ProfilePicTemplate": "{0} φωτογραφία προφίλ", // {0} is the Streamer's Display Name
+	"TotalClipsOnKlipTok": "Συνολικά Clips στο KlipTok",
+	"TotalLikesAcrossAllClips": "Συνολικά Likes ανάμεσα σε όλα τα Clips",
+	"TotalCommentsAcrossAllClips": "Συνολικά σχόλια ανάμεσα σε όλα τα Clips",
+	"TotalViewsAcrossAllClips": "Συνολικές προβολές ανάμεσα σε όλα τα Clips",
+	"LastClipAdded": "Το τελευταίο Clip προστέθηκε:",
+	"LastClip": "Τελευταίο Clip:",
+	"NoProfilePicAvailable": "Δεν υπάρχει διαθέσιμη φωτογραφία προφίλ",
+	"DateRangePicker_Start": "Ημερομηνία έναρξης", // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Ημερομηνία ολοκήρωσης", // The End Date label on the filter on the streamer page
+	"ShareStreamer": "Κοινοποίησε τον Streamer", // The tooltip for the Share button on the streamer page
+	"SelectCategory": "Επέλεξε κατηγορία", // The default text for the Category Filter combobox
+	"UnknownStreamer": "Άγνωστος streamer: {0}", // The header when an unknown streamer is requested
+	"UnknownStreamerDescription": "Το KlipTok δεν μπόρεσε να αναγνωρίσει τον streamer με όνομα {0}. Αν είναι υπαρκτό κανάλι, μπορείς να το προσθέσεις ακολουθώντας τις οδηγίες",
+	"NoRecentClips": "Δεν υπάρχει διαθέσιμη προσφατη πληροφορία για τα Clip", // Error message displayed on dashboard when no recent clips are available
+
+	// Layout
+	"PublicBeta": "ΔΗΜΌΣΙΟ BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Αποσυνδέθηκες από το KlipTok και το Twitch",
+	"LoginToKlipTokWithTwitch": "Συνδέσου στο KlipTok μέσω Twitch",
+	"AuthenticationIsNoLongerValid": "Η αυθεντικοποίηση σου με το Twitch και το KlipTok δεν έγκυρη πλέον. Παρακαλώ συνδέσου στο KlipTok μέσω Twitch για να συνεχίσεις.",
+	"Loading": "Φόρτωση...",
+
+	// Errors
+	"ErrorWhileLoading": "Προέυκυψε ένα πρόβλημα κατά τη φόρτωση.",
+	"RetryButton": "Ξαναπροσπάθησε",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Twitch Streamers που ακολουθώ",
+	"NotLoggedIn": "Αδύνατο να δεις τις εγγραφές με τους λογαριασμού που ακολουθείς στο Twitch επειδή δεν είσαι συνδεδεμένος με κάποιο λογαριασμό Twitch. Παρακαλώ συνδέσου και συγχρόνισε τη λίστα των streamers που ακολουθείς στο KlipTok για να έχεις πρόσβαση σε αυτή την λειτουργικότητα.",
+
+	// Home Page
+	"DiscoverPopularClips": "Ανακάλυψε δημοφιλή Clips",
+	"DiscoverClips": "Ανακάλυψε Clips",
+	"InsertCoin": "Βάλε Κέρμα",
+	"MyFavoriteChannels": "Clips από τα κανάλια που ακολουθώ", // Tooltip for the Following tab
+	"Favorites": "Ακολουθώ", // Renamed on April 27, 2021 to "Following"
+	"ClipsILike": "Clips που μου αρέσουν",
+	"LikedClips": "Clips που έχω κάνει like",
+	"UserProfile": "Προφίλ",
+
+	// Filters on the scrollable clips
+	"FilterByCategory": "Φίλτραρε ανά Κατηγορία", // watermark on the filter by category type-ahead box
+
+	// Liked Clips
+	"NoLikedClips": "Δεν έχεις πατήσει like σε κάποιο Clip στο KlipTok ακόμα!",
+	"TryLikeButtonTemplate": "Δοκίμασε να κάνεις κλικ στην εικόνα με την καρδία {0} κάτω από κάποιο Clip για να δείξει πως 'σου αρέσει' και εμείς θα το δείχνουμε εδώ για να το βρείς εύκολα στο μέλλον", //  {0} is the heart icon
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "Το KlipTok δεν κρατάει ξεχωριστές πληροφορίες χρήστη από το Twitch, και είναι φτιαγμένη ως υπηρεσία επέκτασης του Twitch Clips.",
+	"AutoPlayVideosOnScroll": "Αυτόματη αναπαραγωγή των βίντεο όταν κάνεις scroll",
+	"IndexClipsOfMyChannel": "Ευρετηριοποίησε τα Clips μου",
+	"OptedOutDateTemplate": "Αναίρεση ευρετηριοποίησης στις: {0}", // {0} is the datestamp of when opt-out was recorded 
+	"SaveMyChanges": "Αποθήκευσε τις αλλαγές μου",
+	"SyncFollowersWithKlipTok": "Συγχρόνισε τους Streamers που ακολουθώ με το KlipTok",
+	"MutedChannels": "Σίγαση Streamers",
+	"Channel": "Streamer",
+	"MutedUntil": "Σίγαση μέχρι",
+	"RightToForget": "Δικαίωμα να ξεχάσεις",
+	"DangerZone": "[ Επικίνδυνη Ζώνη ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "Έχεις το δικαίωμα να αιτηθείς από το KlipTok να ξεχάσει όλη την πληροφορία που κοινοποίησες. Πατώντας αυτό τον σύνδεσμο και επιβεβαιώνοντας, το KlipTok θα αφαιρέσει όλα σου τα σχόλια, Likes, και Clips.",
+	"RemoveMyContentFromKlipTok": "Αφαίρεσε το περιεχόμενο μου από το KlipTok",
+	"ForgottenAsOfTemplate": "Ξεχάστηκες από τις: {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Single Clip Page
+	"MissingClipError": "Το KlipTok δεν έχει εγγραφή για αυτό το Clip. Είτε η εγγραφή δεν υπάρχει ή το κανάλι στο Twitch δεν επιθυμεί να συμμετέχει στο KlipTok.",
+	"LikedBy": "Αρέσει στους:",
+	"UserLikedTimeTemplate": "{0} έκανε like στις{1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "Σε απάντηση στο: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Πρόσθεσε νέο σχόλιο...",
+	"LoginWithTwitchToComment": "Συνδέσου μέσω Twitch για να σχολιάσεις",
+	"CommentButton": "Σχολίασε",
+
+	// Streamer Page
+	"MuteForLabel": "Σίγαση για:",
+	"StreamerIsMutedUntilTemplate": "Streamer είναι σε σίγαση μέχρι: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Αναίρεση σίγασης", // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Για πάντα", // Label for "Mute Forever" action button
+	"SortByLabel": "Ταξινόμησε ανά:",
+	"Views": "Προβολές", // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Σκορ", // A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Πρόσφατα", // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Clips από:", // Label above the date range filter component
+	"SearchButton": "Αναζήτηση", // Text on the search button to filter by date range
+	"ResetButton": "Καθαρισμός", // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Μη διαθέσιμα Clips",
+	"AddClipsForThisStreamer": "Πρόσθεσε Clips για τον Streamer",
+	"NotifyOnOptIn": "Παρακαλώ σημείωσε: αν προσθέσεις Clips για τον streamer, σε παρακαλούμε θερμά να τους ενημερώσεις πως πρόσθεσες Clips τους σε αυτή την σελίδα. Δεν έχουμε κάποιο άμεσο τρόπο να επικοινωνήσουμε απ'ευθείας  με τον δημιουργό.",
+
+	// Streamer Dashboard
+	"Live": "ΖΩΝΤΑΝΆ", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Clips", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Dashboard", // Label for the dashboard tab on the top of the Streamer page 
+	"CreatedClipsTab": "Δημιουργηθέντα Clips", // Label for the Created Clips tab on the Streamer page
+	"ClipsCreatedLast90Days": "Δημιουργηθέντα Clips τις τελευταίες 90 days", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Δημιουργηθέντα Clips ανά εβδομάδα", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Clips ανά Ημέρα της Εβδομάδας", // Label for the clips by the day of week tile
+	"TitleDayCreated": "Μέρα Δημιουργίας", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "Clippers με τις περισσότερες προβολές", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Κατηγορίες με τις περισσότερες προβολές", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Clippers με τα περισσότερες likes",
+
+	// Transcription Features
+	"ClipHasTranscription": "Αυτό το clip έχει μεταγραφή που μπορείς να αναζητήσεις", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Αποτελέσματα από την αναζήτηση στη μεταγραφή του clip με κείμενο: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Μεταγραφή Clip Transcription από AssemblyAI:", // Clip transcription attribution to AssemblyAI
+
+	// System Dashboard
+	"SystemStatus": "Κατάσταση συστήματος",
+	"SystemStatusDashboard": "Κατάσταση συστήματος Dashboard",
+	"SystemDashboardDescription": "Διαθέτουμε δημόσια τα στοιχεία για την εξάπλωση του KlipTok.",
+	"TotalClips": "Συνολικά Clips",
+	"ChannelsIndexed": "Ευρετηριασμένα Κανάλια",
+	"NewChannelsToday": "Νέα Κανάλια Σήμερα",
+	"TotalChannelsIdentified": "Συνολικά Αναγνωρισμένα Κανάλια",
+	"TotalClipsTranscribed": "Συνολικά Μεταγραμμένα Clips",
+	"ClipsTranscribedByDate": "Μεταγραμμένα Clips ανά ημερομηνία",
+	"ClipsByDate": "Clips ανά ημερομηνία"
+}

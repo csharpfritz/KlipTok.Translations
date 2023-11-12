@@ -1,0 +1,153 @@
+{
+	// Components
+
+	// Clip
+	"Recorded": "Posneto {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
+	"Likes": "Všečki",
+	"Comments": "Komentarji",
+	"ClipViews": "Ogledov posnetka",
+	"ShareThisClip": "Deli ta posnetek",
+	"KlipTokContentPlaceholder": "KlipTokov mestodržec vsebine",
+	"ClippedByFormat": "Posnetek ustvaril {0}", // {0} is the display name of the clip creator
+	"PreviewThumbnailForClip": "Predogled sličice posnetka '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
+
+	// Comments
+	"ByLineFormat": "Ob {0} je {1} napisal:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"Reply": "Odgovori",
+
+	// Login View
+	"DarkMode": "Temni način",
+	"LoginWithTwitch": "Prijava z Twitch računom",
+	"Logout": "Odjava",
+
+	// Header
+	"SearchForChannel": "Search for a Streamer...", // Deprecated
+	"SearchNotFoundFormat": "{0} ni najden", // {0} is the search term that was not found
+
+	// Search and Search Results
+	"SearchKlipTok": "Preišči KlipTok...",
+	"SearchAllOfKlipTok": "Preišči ves KlipTok za {0}", // {0} is the search term to search clips for
+	"SearchResults": "Rezultati iskanja",
+	"SearchedKlipTokAndFoundTemplate": "Preiskali smo KlipTok za \"{0}\" in našli:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} igra {1}", // {0} is the streamer name, {1} is the category played, 
+	"SearchedClipTitlesAndFoundTemplate": "Rezultati iskanja besedila po naslovu posnetka :{0}", // {0} is the search term for the clip title search
+	"AdvancedFiltering": "Napredno filtriranje",
+	"IncludeChannels": "Vključi te kanale",
+	"ExcludeChannels": "Izključi te kanale",
+	"FilterButton": "Filter", // The button to apply the advanced search filter
+	"PreviousPage": "Prejšna stran",
+	"NextPage": "Nasledna stran",
+
+
+	// Sidebar
+	"SuggestedStreamers": "Predlagani Streamerji",
+	"FollowedStreamers": "Slediš Streamerjem",
+	"AllStreamers": "Vsi Streamerji",
+	"About": "O KlipToku",
+	"Close": "Zapri",
+
+	// Streamer Page
+	"ClickToFollow": "Klikni da slediš",
+	"ClickToUnfollow": "Klikni da nehaš slediti",
+	"ActionOnTwitchTemplate": "{0} na Twitchu", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+	"LiveOnTwitch": "V živo na Twitchu",
+	"ProfilePicTemplate": "{0} Profilna slika", // {0} is the Streamer's Display Name
+	"TotalClipsOnKlipTok": "Vseh posnetkov na KlipToku",
+	"TotalLikesAcrossAllClips": "všečkov na vseh posnetkih",
+	"TotalCommentsAcrossAllClips": "Komentarjov na vseh posnetkih",
+	"TotalViewsAcrossAllClips": "Ogledov na vseh posnetkih",
+	"LastClipAdded": "Zadnji dodan posnetek:",
+	"LastClip": "Zadnji posnetek:",
+	"NoProfilePicAvailable": "Profilna slika ni na voljo",
+	"DateRangePicker_Start": "Začetni datum", // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Končni datum", // The End Date label on the filter on the streamer page
+	"ShareStreamer": "Deli streamerja", // The tooltip for the Share button on the streamer page
+
+	// Layout
+	"PublicBeta": "JAVNA BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Odjavi iz KlipToka in Twitcha",
+	"LoginToKlipTokWithTwitch": "Prijavi se v KlipTok z Twitchom",
+	"AuthenticationIsNoLongerValid": "Tvoja autentikacija z Twitchom in KlipTokom ni več veljavna. Prosim prijavi se z Twitchom da nadaljuješ",
+	"Loading": "Nalaganje...",
+
+	// Errors
+	"ErrorWhileLoading": "Zgodila se je napaka me nalaganjem",
+	"RetryButton": "Ponovi",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Twitch Streamerji ki jim sledim",
+	"NotLoggedIn": "Zapisov računov, ki jih spremljate na Twitchu, ni mogoče prikazati, ker niste prijavljeni z računom Twitch. Če želite dostopati do te funkcije, se prijavite in sinhronizirajte svoje spremljajoče prenose s KlipTokom.",
+
+	// Home Page
+	"DiscoverPopularClips": "Odkri popularne posnetke",
+	"DiscoverClips": "Odkri posnetke",
+	"InsertCoin": "Vstavi kovanec",
+	"MyFavoriteChannels": "Posnetki iz kanalov katerim sledim", // Tooltip for the Following tab
+	"Favorites": "Sledim", // Renamed on April 27, 2021 to "Following"
+	"ClipsILike": "Posnetki, kateri so mi všeč",
+	"LikedClips": "Všečkani posnetki",
+	"UserProfile": "Uporabniški profil",
+
+	// Liked Clips
+	"NoLikedClips": "Na KlipToku nisi všečkal nobenega špsnetka!",
+	"TryLikeButtonTemplate": "Poizkusi klikniti ikono srčka {0} pod posnetkom da ga všečkati in mi bomo poročali tukaj da ga kasneje lažje najdete", //  {0} is the heart icon
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch Clips.",
+	"AutoPlayVideosOnScroll": "Avtomatsko predvajaj posnetke ob premikanju",
+	"IndexClipsOfMyChannel": "Indeksiraj moje posnetke",
+	"OptedOutDateTemplate": "Onemogočil indexiranje na dan: {0}", // {0} is the datestamp of when opt-out was recorded 
+	"SaveMyChanges": "Shrani moje spremembe",
+	"SyncFollowersWithKlipTok": "Sinhroniziraj streamerje katerim sledim na KlipTok",
+	"MutedChannels": "Utišani streamerji",
+	"Channel": "Streamer",
+	"MutedUntil": "Utišan Do",
+	"RightToForget": "Pravica do pozabe",
+	"DangerZone": "[ Območje nevarnosti ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "Imate pravico zahtevati, da KlipTok pozabi na vse podatke, ki ste jih dali v skupno rabo. S klikom na to povezavo in potrditvijo bo KlipTok odstranil vse vaše komentarje, všečke in posnetke.",
+	"RemoveMyContentFromKlipTok": "Odstrani mojo vsebino iz KlipToka",
+	"ForgottenAsOfTemplate": "Pozabljen od dne : {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Single Clip Page
+	"MissingClipError": "KlipTok nima zapisa o tem posnetku. Ne obstaja ali pa je kanal Twitch zavrnil sodelovanje na KlipToku.",
+	"LikedBy": "Všečkani z strani:",
+	"UserLikedTimeTemplate": "{0} je všečkal {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "Odgovoril: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Vnesi novi komentar...",
+	"LoginWithTwitchToComment": "Prijavi se z Twitch računom za komentiranje",
+	"CommentButton": "Komentar",
+
+	// Streamer Page
+	"MuteForLabel": "Utišaj za:",
+	"StreamerIsMutedUntilTemplate": "Streamer je utišan do: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Unmute", // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Za vedno", // Label for "Mute Forever" action button
+	"SortByLabel": "Sortiraj z:",
+	"Views": "Ogledi", // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Točke", // A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Zadnje", // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Posnetki od:", // Label above the date range filter component
+	"SearchButton": "Išči", // Text on the search button to filter by date range
+	"ResetButton": "Ponastavi", // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Posnetki niso na voljo",
+	"AddClipsForThisStreamer": "Dodaj posnetke za tega streamerja",
+	"NotifyOnOptIn": "Upoštevajte: če dodate posnetke za to pretakanje, vas vljudno prosimo, da jih obvestite, da ste na to spletno mesto dodali njihove posnetke. Nimamo neposredne poti, da bi se obrnili na streamerja.",
+
+	// Streamer Dashboard
+	"Live": "V ŽIVO", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Posnetki", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Nadzorna plošla", // Label for the dashboard tab on the top of the Streamer page 
+	"ClipsCreatedLast90Days": "Posnetki ustvarjeni v zadnjih 90ih dneh", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Posnetki ustvarjeni na teden", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Posnetki ustvarjeni na dan v tednu", // Label for the clips by the day of week tile
+	"TitleDayCreated": "Ustvarjeno na dan", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "Najbolj gledani ustvarjalci posnetkov", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Najbolj gledane kategorije", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Najbolj všečkani ustvarjalci posnetkov",
+
+	// Transcription Features
+	"ClipHasTranscription": "Ta posnetek ima prepis, po katerem lahko poiščete", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Rezultati iz iskanja prepisov posnetkov za tekst: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Posnetki prepisani z uporabo AssemblyAI:" // Clip transcription attribution to AssemblyAI
+
+}

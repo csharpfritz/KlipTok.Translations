@@ -8,26 +8,58 @@
 	"ClipViews": "Clip weergaven",
 	"ShareThisClip": "Deel deze Clip",
 	"KlipTokContentPlaceholder": "KlipTok Inhoud Placeholder",
+	"ClippedByFormat": "Geclipt door {0}",
+	"PreviewThumbnailForClip": "Voorbeeld Thumbnail voor de clip '{0}'",
 
+	// Clip Galllery Component
+	"ListView": "Lijstweergave",
+	"GridView": "Gridweergave",
+	
 	// Comments
 	"ByLineFormat": "Op {0} schreef {1}:",
 	"Reply": "Beantwoorden",
+	"InReplyTo": "Als antwoord op {0}",
 
 	// Login View
 	"DarkMode": "Donkere Modus",
 	"LoginWithTwitch": "Inloggen via Twitch",
 	"Logout": "Uitloggen",
+	"MyStreamerPage": "Mijn Streamer Pagina",
 
 	// Header
 	"SearchForChannel": "Zoeken naar Kanaal...",
 	"SearchNotFoundFormat": "{0} niet gevonden",
 
+	// Search and Search Results
+	"SearchKlipTok": "KlipTok zoeken...",
+	"SearchAllOfKlipTok": "Zoek in heel KlipTok naar {0}",
+	"SearchResults": "Zoekresultaten",
+	"SearchedKlipTokAndFoundTemplate": "We hebben op KlipTok gezocht naar \"{0}\" en vonden:",
+	"StreamerPlayingCategoryTemplate": "{0} speelt {1}",
+	"SearchedClipTitlesAndFoundTemplate": "Resultaten van zoeken in clip titel naar tekst: {0}",
+	"AdvancedFiltering": "Geavanceerd Filteren",
+	"IncludeChannels": "Inclusief deze kanalen",
+	"ExcludeChannels": "Exclusief deze kanalen",
+	"FilterButton": "Filteren",
+	"PreviousPage": "Vorige Pagina",
+	"NextPage": "Volgende Pagina",
+	"Calendar_Today":  "Vandaag",
+
 	// Sidebar
 	"SuggestedStreamers": "Aanbevolen Streamers",
 	"FollowedStreamers": "Gevolgde Streamers",
+	"RecentlyLiveStreamers": "Recente Live Streamers",
 	"AllStreamers": "Alle Streamers",
 	"About": "Over",
+	"Feedback": "Feedback",
 	"Close": "Sluiten",
+	"LiveForFormat": "Al {0} Live",
+
+	// Sidebar Menu
+	"SidebarMenuTooltipFormat": "Acties voor kanaal {0}",
+	"SidebarMenuVisitDashboard": "Bezoek Dashboard van {0}",
+	"SidebarMenuVisitClipsCreated": "Bezoek Clips gemaakt door {0}",
+	"SidebarMenuMuteChannel":  "Demp {0}",
 
 	// Streamer Page
 	"ClickToFollow": "Klik om te volgen",
@@ -39,17 +71,21 @@
 	"TotalLikesAcrossAllClips": "Totaal aantal likes voor alle Clips",
 	"TotalCommentsAcrossAllClips": "Totaal aantal opmerkingen voor alle Clips",
 	"TotalViewsAcrossAllClips": "Totaal aantal weergaven voor alle Clips",
-	"LastClipAdded": "Laatst toegevoegde clip:",
+	"LastClipAdded": "Laatst toegevoegde Clip:",
 	"LastClip": "Laatste Clip:",
 	"NoProfilePicAvailable": "Geen profielfoto beschikbaar",
-	"DateRangePicker_Start": "Start Datum",  // The Start Date label on the filter on the streamer page
-	"DateRangePicker_End": "Eind Datum",			// The End Date label on the filter on the streamer page
-	"ShareStreamer": "Deel Streamer",		// The tooltip for the Share button on the streamer page
+	"DateRangePicker_Start": "Startdatum",
+	"DateRangePicker_End": "Einddatum",
+	"ShareStreamer": "Deel Streamer",
+	"SelectCategory": "Selecteer Categorie",
+	"UnknownStreamer": "Onbekende streamer: {0}",
+	"UnknownStreamerDescription": "KlipTok kan geen streamer met de naam {0} vinden.  Als dit een echt kanaal is kun je deze toevoegen met deze instructies",
+	"NoRecentClips": "Geen recente clip informatie beschikbaar",
 	
 	// Layout
 	"PublicBeta": "PUBLIEKE BETA",
 	"LoggedOutFromKlipTokAndTwitch": "Uitgelogd op KlipTok en Twitch",
-	"LoginToKlipTokWithTwitch": "Inloggen op KlipTok en Twitch",
+	"LoginToKlipTokWithTwitch": "Inloggen op KlipTok met Twitch",
 	"AuthenticationIsNoLongerValid": "Je sessie op Twitch en KlipTok is niet meer geldig. Log alsjeblieft opnieuw in via Twitch op KlipTok om verder te gaan.",
 	"Loading": "Laden...",
 
@@ -59,7 +95,8 @@
 
 	// Follows page
 	"TwitchChannelsIFollow": "Twitch Streamers die ik volg",
-	"NotLoggedIn": "Als je niet bent ingelogd met je Twitch account kunnen we de clips van streams die je volgt niet tonen. Log alsjeblieft in en synchroniseer de kanalen die je volgt met KlipTok om toegang te krijgen tot deze functionaliteit.",
+	"TwitchChannelsIFollowNotOnKlipTok": "Twitch Streamers die ik volg die niet op KlipTok zijn",
+	"NotLoggedIn": "Als je niet bent ingelogd met je Twitch account kunnen we de Clips van streams die je volgt niet tonen. Log alsjeblieft in en synchroniseer de kanalen die je volgt met KlipTok om toegang te krijgen tot deze functionaliteit.",
 
 	// Home Page
 	"DiscoverPopularClips": "Ontdek Populaire Clips",
@@ -68,51 +105,94 @@
 	"MyFavoriteChannels": "Mijn favoriete kanalen",
 	"Favorites": "Favorieten",
 	"ClipsILike": "Clips die ik leuk vind",
-	"LikedClips": "Gelikete Clips",
+	"LikedClips": "Leuk gevonden Clips",
 	"UserProfile": "Gebruikersprofiel",
+	"UserPreferences": "Gebruiker Voorkeuren",
+
+	// Filters on the scrollable clips
+	"FilterByCategory": "Filteren op Categorie",
 
 	// Liked Clips
 	"NoLikedClips": "Je hebt nog geen Clips op KlipTok die je leuk vindt!",
-	"TryLikeButtonTemplate": "Klik eerst op het harticoon {0} onder een Clip om aan te geven dat je deze leuk vindt, vervolgens zal deze hier verschijnen.", //  {0} is the heart icon
+	"TryLikeButtonTemplate": "Klik eerst op het harticoon {0} onder een Clip om aan te geven dat je deze leuk vindt, vervolgens zal deze hier verschijnen.",
 
 	// User Profile
-	"DoesNotKeepSeparateUserInformation": "KlipTok slaat zelf geen gebruikersinformatie op anders dan die afkomstig is van Twitch, omdat het ontwikkeld is als een service die Twtich Clips makkelijker vindbaar maakt.",
+	"DoesNotKeepSeparateUserInformation": "KlipTok slaat zelf geen gebruikersinformatie op anders dan die afkomstig is van Twitch, omdat het ontwikkeld is als een service die Twitch Clips makkelijker vindbaar maakt.",
 	"AutoPlayVideosOnScroll": "Speel video's automatisch af tijdens het scrollen",
 	"IndexClipsOfMyChannel": "Indexeer mijn Clips",
-	"OptedOutDateTemplate": "Indexatie uitgezet op: {0}", // {0} is the datestamp of when opt-out was recorded 
+	"OptedOutDateTemplate": "Indexeren uitgezet op: {0}",
 	"SaveMyChanges": "Wijzigingen opslaan",
-	"SyncFollowersWithKlipTok":"Synchroniseer kanalen die je volgt met KlipTok",
+	"SyncFollowersWithKlipTok": "Synchroniseer kanalen die je volgt met KlipTok",
 	"MutedChannels": "Gedempte kanalen",
 	"Channel": "Kanaal",
 	"MutedUntil": "Gedempt tot",
-	"RightToForget": "Recht tot vergetelheid",
-	"DangerZone": "[ Gevarenzone ]",     // This is a label indicating the items beneath it make destructive changes to your record on the application 
-	"RightToForgetDescription": "Je hebt het recht om een verzoek tot vergetelheid in te dienen bij KlipTok. Wanneer je op deze link klinkt en bevestigt, zal KlipTok al je reacties, likes en Clips verwijderen.",
+	"RightToForget": "Recht om vergeten te worden",
+	"DangerZone": "[ Gevarenzone ]",
+	"RightToForgetDescription": "Je hebt het recht een verzoek om vergeten te worden in te dienen bij KlipTok. Wanneer je op deze link klinkt en bevestigt, zal KlipTok al je reacties, likes en Clips verwijderen.",
 	"RemoveMyContentFromKlipTok": "Verwijder mijn inhoud van KlipTok",
-	"ForgottenAsOfTemplate": "Verwijderd op: {0}", // {0} is the datestamp of when the 'forget' action was taken
+	"ForgottenAsOfTemplate": "Verwijderd op: {0}",
+
+	// Followed Channel Sync Notifications
+	"BeginAcquiringFollowers": "Gevolgde kanalen ophalen van Twitch",
+	"IdentifiedFollowerCount": "{0} gevolgde kanalen gevonden om te laden", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "Klaar met toevoegen gevolgde kanalen aan KlipTok",
 
 	// Single Clip Page
 	"MissingClipError": "Kliptok heeft geen gegevens van deze Clip. Of de Clip bestaat niet, of het kanaal heeft aangegeven niet op KlipTok beschikbaar te willen zijn",
 	"LikedBy": "Leuk gevonden door:",
-	"UserLikedTimeTemplate": "{0} vond je clip leuk op {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
-	"InReplyToTemplate": "Reactie op: {0}", // {0} is the user display name whose comment we are replying to
+	"UserLikedTimeTemplate": "{0} vond je clip leuk op {1}",
+	"InReplyToTemplate": "Reactie op: {0}",
 	"EnterNewComment": "Vul nieuwe reactie in...",
 	"LoginWithTwitchToComment": "Log in met Twitch om te reageren",
 	"CommentButton": "Reageer",
 
 	// Streamer Page
 	"MuteForLabel": "Dempen voor:",
-	"StreamerIsMutedUntilTemplate": "Streamer is gedempt tot: {0}", // {0} is a datestamp of when the mute operation ends
-	"NoMute": "Dempen opheffen",   // Remove the mute effect on this streamer so that you can see their content again
-	"Forever": "Voor altijd",   // Label for "Mute Forever" action button
-	"SortByLabel": "sorteren op:",
-	"Views": "Aantal keer bekeken",     // The number of Clip Views for a Clip that we are sorting by
-	"Score": "Score", 		// A reference to the KlipTok algorithm assigned score for this Clip
-	"Latest": "Meest recente eerst",  // A selector for the sort order to indicate the most recent created Clips should appear first
-	"ClipsFromLabel": "Clips van:",   // Label above the date range filter component
-	"SearchButton": "Zoeken",  // Text on the search button to filter by date range
-	"ResetButton": "Resetten",    // Text on the reset button to no longer filter by date range
+	"StreamerIsMutedUntilTemplate": "Streamer is gedempt tot: {0}",
+	"StreamerIsMuted": "Streamer is gedempt",
+	"NoMute": "Dempen opheffen",
+	"Forever": "Voor altijd",
+	"SortByLabel": "Sorteren op:",
+	"Views": "Aantal keer bekeken",
+	"Score": "Score",
+	"Latest": "Meest recente eerst",
+	"ClipsFromLabel": "Clips van:",
+	"SearchButton": "Zoeken",
+	"ResetButton": "Resetten",
 	"NoClipsAvailable": "Geen Clips beschikbaar",
 	"AddClipsForThisStreamer": "Voeg Clips toe voor dit kanaal",
-	"NotifyOnOptIn": "Let op! We willen je vriendelijk verzoeken het kanaal op de hoogte te brengen wanneer je besluit een Clip toe te voegen. Het is voor ons niet mogelijk om de eigenaar op de hoogte te stellen."
+	"NotifyOnOptIn": "Let op! We willen je vriendelijk verzoeken het kanaal op de hoogte te brengen wanneer je besluit een Clip toe te voegen. Het is voor ons niet mogelijk om de eigenaar op de hoogte te stellen.",
+
+	// Streamer Dashboard
+	"Live": "LIVE",
+	"ClipsTab": "Clips",
+	"DashboardTab": "Dashboard",
+	"CreatedClipsTab": "Gemaakte Clips",
+	"ClipsCreatedLast90Days": "Clips gemaakt in de laatste 90 dagen",
+	"ClipsCreatedPerWeek": "Clips gemaakt per week",
+	"ClipsByDayOfWeek": "Clips per dag van de week",
+	"TitleDayCreated": "Dag gemaakt",
+	"MostViewedClippers": "Meest bekeken Clippers",
+	"MostViewedCategories": "Meest bekeken categorieën",
+	"MostLikedClippers": "Meest leuk gevonden Clippers",
+	"ClipsHeatMap": "Heat Map van Clips",
+	"HeatmapTooltipFormat": "{0} clips gemaakt op {1}",
+
+	// Transcription Features
+	"ClipHasTranscription": "Deze clip heeft een transcriptie die opgezocht kan worden",
+	"SearchResultsFromTranscriptionSearch": "Resultaten van clip transcriptie zoeken voor de tekst: {0}",
+	"ClipTranscriptionByAssemblyAI": "Clip getranscribeerd door AssemblyAI:",
+		
+	// System Dashboard
+	"SystemStatus": "Systeem Status",
+	"SystemStatusDashboard": "Systeem Status Dashboard",
+	"SystemDashboardDescription": "We maken details over de groei van KlipTok beschikbaar for jou.",
+	"TotalClips": "Totaal Clips",
+	"ChannelsIndexed": "Kanalen Geïndexeerd",
+	"NewChannelsToday": "Nieuwe Kanalen Vandaag",
+	"TotalChannelsIdentified": "Totaal Kanalen Geïdentificeerd",
+	"TotalClipsTranscribed": "Totaal Clips Getranscribeerd",
+	"ClipsTranscribedByDate": "Clips Getranscribeerd By Date",
+	"ClipsLikedByDate": "Leuk gevonden Clips per Datum",
+	"ClipsByDate": "Clips per Datum"
 }

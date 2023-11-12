@@ -1,0 +1,29 @@
+name: Syntax Check
+
+on:
+  push:
+  pull_request:
+    branches:
+      - main
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  check-syntax:
+    name: "Check syntax"
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: '0'
+
+    - name: Setup .NET 6 SDK
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.x
+
+    - name: Check syntax
+      run: dotnet run --project .github/syntax-check/syntax-check.csproj

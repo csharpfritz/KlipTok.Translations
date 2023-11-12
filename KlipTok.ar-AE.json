@@ -1,0 +1,163 @@
+{
+	// Components
+
+	// Clip
+	"Recorded": "تم التسجيل {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
+	"Likes": "الإعجابات",
+	"Comments": "التعليقات",
+	"ClipViews": "المشاهدات",
+	"ShareThisClip": "مشاركة هذا المقطع",
+	"KlipTokContentPlaceholder": "مكان وضع محتوى KlipTok",
+	"ClippedByFormat": "سجل بواسطة {0}", // {0} is the display name of the clip creator
+  "PreviewThumbnailForClip": "معاينة الصورة المصغرة للمقطع '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
+
+	// Comments
+	"ByLineFormat": "بتاريخ {0} {1} كتب:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"Reply": "رد",
+
+	// Login View
+	"DarkMode": "الوضع الداكن",
+	"LoginWithTwitch": "تسجيل الدخول باستخدام Twitch",
+	"Logout": "تسجيل الخروج",
+
+	// Header
+	"SearchForChannel": "البحث عن حساب...", // Deprecated
+	"SearchNotFoundFormat": "لم يتم العثور على {0}", // {0} is the search term that was not found
+
+	// Search and Search Results
+	"SearchKlipTok": "البحث في KlipTok...",
+	"SearchAllOfKlipTok": "البحث في كل KlipTok عن {0}", // {0} is the search term to search clips for
+	"SearchResults": "نتائج البحث",
+	"SearchedKlipTokAndFoundTemplate": "قمنا بالبحث في KlipTok عن \"{0}\" ووجدنا هذه النتائج:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} يلعب {1}", // {0} is the streamer name, {1} is the category played,
+  "SearchedClipTitlesAndFoundTemplate": "نتائج البحث عن عنوان المقطع للنص: {0}", // {0} is the search term for the clip title search
+	"AdvancedFiltering": "تصفية متقدمة",
+	"IncludeChannels": "تضمين هذه القنوات",
+	"ExcludeChannels": "استبعاد هذه القنوات",
+	"FilterButton": "تصفية", // The button to apply the advanced search filter
+	"PreviousPage": "الصفحة السابقة",
+	"NextPage":  "الصفحة اللاحقة",
+
+	// Sidebar
+	"SuggestedStreamers": "اقتراحات القائمون بالبث",
+	"FollowedStreamers": "القائمون بالبث المتابَعون",
+	"AllStreamers": "جميع القائمون بالبث",
+	"About": "حول",
+	"Close": "إغلاق",
+
+	// Streamer Page
+	"ClickToFollow": "متابعة",
+	"ClickToUnfollow": "إلغاء المتابعة",
+	"ActionOnTwitchTemplate": "{0} على Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+	"LiveOnTwitch": "الآن بث مباشر على Twitch!",
+	"ProfilePicTemplate": "صورة الملف الشخصي لـ {0}", // {0} is the Streamer's Display Name
+	"TotalClipsOnKlipTok": "إجمالي المقاطع في KlipTok",
+	"TotalLikesAcrossAllClips": "إجمالي الإعجابات لجميع المقاطع",
+	"TotalCommentsAcrossAllClips": "إجمالي التعليقات لجميع المقاطع",
+	"TotalViewsAcrossAllClips": "إجمالي المشاهدات لجميع المقاطع",
+	"LastClipAdded": "تمت إضافة المقطع الأخير:",
+	"LastClip": "المقطع الأخير:",
+	"NoProfilePicAvailable": "صورة الملف الشخصي غير متوفرة",
+	"DateRangePicker_Start": "تاريخ البدء", // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "تاريخ الانتهاء", // The End Date label on the filter on the streamer page
+	"ShareStreamer": "مشاركة القائم بالبث", // The tooltip for the Share button on the streamer page
+
+	// Layout
+	"PublicBeta": "النسخة التجريبية العامة",
+	"LoggedOutFromKlipTokAndTwitch": "تم تسجيل الخروج من KlipTok و Twitch",
+	"LoginToKlipTokWithTwitch": "سجل الدخول إلى KlipTok باستخدام Twitch",
+	"AuthenticationIsNoLongerValid": "لم يعد التحقق الخاص بك صالحًا لـ Twitch و KlipTok. للمتابعة ، يرجى تسجيل الدخول إلى KlipTok باستخدام Twitch.",
+	"Loading": "جار التحميل...",
+
+	// Errors
+	"ErrorWhileLoading": "حدث خطأ أثناء التحميل.",
+	"RetryButton": "إعاده المحاوله",
+
+	// Follows page
+	"TwitchChannelsIFollow": "القائمون بالبث على Twitch المتابَعون",
+	"NotLoggedIn": "لم نتمكن من عرض سجل الحسابات التي تبحث عنها في Twitch لأنك لم تسجل الدخول باستخدام حساب Twitch.  يرجى تسجيل الدخول إلى حسابك أولا ومزامنة القائمون بالبث المتابَعون مع KlipTok للوصول إلى هذه الخاصية.",
+
+	// Home Page
+	"DiscoverPopularClips": "اكتشف المقاطع الشعبية",
+	"DiscoverClips": "اكتشف المقاطع",
+	"InsertCoin": "أدخل عملة معدنية",
+	"MyFavoriteChannels": "مقاطع من القنوات التي أتابعها", // Tooltip for the Following tab
+	"Favorites": "متابَع",				// Renamed on April 27, 2021 to "Following"
+	"ClipsILike": "مقاطع تعجبني",
+	"LikedClips": "المقاطع المفضلة",
+	"UserProfile": "الملف الشخصي",
+
+	// Liked Clips
+	"NoLikedClips": "لم تعجبك أية مقاطع على KlipTok حتى الآن!",
+	"TryLikeButtonTemplate": "لتسجيل الإعجاب، اضغط على أيقونة القلب {0} أسفل كل مقطع، وسوف نبلغك بذلك هنا حتى تتمكن من العثور عليه بسهولة في المستقبل.", //  {0} is the heart icon
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "لا يحتفظ KlipTok ببيانات مستخدمي Twitch بشكل منفصل، وقد تم تصميمه كخدمة لزيادة مقاطع Twitch.",
+	"AutoPlayVideosOnScroll": "تشغيل مقاطع الفيديو تلقائيا أثناء التنقل في الصفحة",
+	"IndexClipsOfMyChannel": "فهرسة المقاطع الخاصة بي",
+	"OptedOutDateTemplate": "تم عدم إدراجه في الفهرسة في: {0}", // {0} is the datestamp of when opt-out was recorded 
+	"SaveMyChanges": "حفظ التغييرات",
+	"SyncFollowersWithKlipTok": "مزامنة القائمون بالبث المتابَعون مع KlipTok",
+	"MutedChannels": "القائمون بالبث المكتومين",
+	"Channel": "قائم بالبث",
+	"MutedUntil": "كتم الصوت حتى",
+	"RightToForget": "الحق في النسيان",
+	"DangerZone": "[ منطقة الخطر ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "لديك الحق في الطلب من KlipTok بنسيان جميع المعلومات التي قمت بمشاركتها. بالضغط على هذا الرابط والتأكيد، سيقوم KlipTok بإزالة جميع تعليقاتك وإعجاباتك ومقاطعك.",
+	"RemoveMyContentFromKlipTok": "إزالة المحتوى الخاص بي من KlipTok",
+	"ForgottenAsOfTemplate": "منسية اعتبارا من : {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Single Clip Page
+	"MissingClipError": "ليس لدى KlipTok سجل لهذا المقطع. إما أنه غير موجود أو أن قناة Twitch قد ألغت المشاركة في KlipTok.",
+	"LikedBy": "أعجب به:",
+	"UserLikedTimeTemplate": "{0} أعجبه  {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "ردا على: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "أدخل تعليق جديد...",
+	"LoginWithTwitchToComment": "للتعليق، سجل الدخول بإستخدام Twitch",
+	"CommentButton": "ارسل التعليق",
+
+	// Streamer Page
+	"MuteForLabel": "كتم الصوت:",
+	"StreamerIsMutedUntilTemplate": "تم كتم الصوت للقائم بالبث لغاية: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "إلغاء كتم الصوت", // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "دائما", // Label for "Mute Forever" action button
+	"SortByLabel": "ترتيب حسب:",
+	"Views": "المشاهدات", // The number of Clip Views for a Clip that we are sorting by
+	"Score": "التقييم", // A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "الأحدث", // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "مقاطع من:", // Label above the date range filter component
+	"SearchButton": "بحث", // Text on the search button to filter by date range
+	"ResetButton": "إعادة تعيين", // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "لا توجد مقاطع متوفرة",
+	"AddClipsForThisStreamer": "إضافة مقاطع للقائم بالبث",
+	"NotifyOnOptIn": "ملاحظة: إذا قمت بإضافة مقاطع إلى هذا الموقع، يرجى إخطارهم بأنك أضفت مقاطعهم إلى هذا الموقع حيث ليس لدينا طريقة مباشرة للوصول إلى القائم بالبث.",
+
+  // Streamer Dashboard
+	"Live": "مباشر", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "مقاطع", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "لوحة البيانات", // Label for the dashboard tab on the top of the Streamer page 
+	"ClipsCreatedLast90Days": "المقاطع التي تم إنشاؤها في آخر 90 يومًا", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "مقاطع تم إنشاؤها في الأسبوع", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "مقاطع حسب يوم من الأسبوع", // Label for the clips by the day of week tile
+	"TitleDayCreated": "يوم الإنشاء", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "منشئي المقطاع الأكثر مشاهدة", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "الفئات الأكثر مشاهدة", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "منشئي المقطاع الأكثر إعجابا",
+
+	// Transcription Features
+	"ClipHasTranscription": "يحتوي هذا المقطع على نسخة يمكن البحث عنها", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "نتائج البحث عن نص في نسخ المقاطع: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "نسخ المقطع بواسطة AssemblyAI:", // Clip transcription attribution to AssemblyAI
+
+	// System Dashboard
+	"SystemStatusDashboard": "لوحة البيانات لحالة النظام",
+	"SystemDashboardDescription": "نحن نوفر تفاصيل نمو KlipTok متاحة لك بشكل مفتوح لمراجعتها.",
+	"TotalClips": "إجمالي المقاطع",
+	"ChannelsIndexed": "القنوات المفهرسة",
+	"NewChannelsToday": "قنوات جديدة اليوم",
+	"TotalChannelsIdentified": "إجمالي القنوات المحددة",
+	"TotalClipsTranscribed": "إجمالي المقاطع المنسوخة",
+	"ClipsTranscribedByDate": "مقاطع منسوخة حسب التاريخ",
+	"ClipsByDate": "مقاطع حسب التاريخ"
+
+}

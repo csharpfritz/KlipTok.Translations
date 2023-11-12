@@ -1,6 +1,9 @@
 {
 	// Components
-
+	"Pager_Display": "{0} - {1} von {2} Einträgen",
+	"Grid_NoRecords": "Keine Einträge vorhanden",
+	"Pager_ItemsPerPage": "Einträge pro Seite",
+	
 	// Clip
 	"Recorded": "{0} aufgenommen", // {0} ist der relative Zeitstempel der Aufnahme: "vor 3 Tagen"
 	"Likes": "Gefällt mir",
@@ -8,33 +11,90 @@
 	"ClipViews": "Aufrufe",
 	"ShareThisClip": "Diesen Clip teilen",
 	"KlipTokContentPlaceholder": "KlipTok Platzhalter",
-
+	"ClippedByFormat": "Aufgenommen von {0}", // {0} is the display name of the clip creator
+	"PreviewThumbnailForClip": "Vorschau Thumbnail für Clip '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
+	
+	// Clip Galllery Component
+	"ListView": "Listen Ansicht",
+	"GridView": "Gitter Ansicht",
+	
 	// Comments
 	"ByLineFormat": "{1} hat {0} geschrieben:", // {0} ist der relative Zeitstempel des Kommentars, {1} ist der Name des Kommentierenden
 	"Reply": "Antworten",
-
+	"InReplyTo": "Als Antwort an {0}",
+	
 	// Login View
 	"DarkMode": "Dunkles Design",
-	"LoginWithTwitch": "Mit Twitch Einloggen",
+	"LoginWithTwitch": "Mit Twitch einloggen",
 	"Logout": "Ausloggen",
-
+	"MyStreamerPage": "Meine Streamer Seite",
+	"PrivateMode": "Privater Modus",
+	
 	// Header
 	"SearchForChannel": "Kanal suchen...",
 	"SearchNotFoundFormat": "Keine Ergebnisse für {0}", // {0} ist der Suchbegriff, der nicht gefunden wurde
 
+	// Search and Search Results
+	"SearchKlipTok": "Auf KlipTok suchen...",
+	"SearchAllOfKlipTok": "Durchsuche KlipTok nach {0}", // {0} is the search term to search clips for
+	"SearchResults": "Suchergebnisse",
+	"SearchedKlipTokAndFoundTemplate": "Wir durchsuchten KlipTok nach \"{0}\" und fanden:", // {0} is the term sought
+	"SearchedClipTitlesAndFoundTemplate": "Ergebnisse der Suche von Clip-Titel nach: {0}", // {0} is the search term for the clip title search
+	"StreamerPlayingCategoryTemplate": "{0} spielt {1}", // {0} is the streamer name, {1} is the category played,
+	"AdvancedFiltering": "Erweiterte Filterung",
+	"IncludeChannels": "Diese Kanäle einziehen",
+	"ExcludeChannels": "Diese Kanäle ausschließen",
+	"FilterButton": "Filter", // The button to apply the advanced search filter
+	"PreviousPage": "Vorherige Seite",
+	"NextPage": "Nächste Seite",
+	"Calendar_Today": "Heute",
+	"AutoComplete_NoData": "Keine Ergebnisse gefunden", // A generic entry for the autocomplete when no results are found
+	"ShowSearchCriteria": "Suchkriterium anzeigen",
+	"HideSearchCriteria": "Suchkriterium ausblenden",
+	"SearchInChannels": "In Kanälen suchen",
+	
+	"ChannelsIfollow": "Ich folge", // These four need to be SHORT because they are button labels
+	"ChannelsIDontFollow": "Ich folge nicht",
+	"ChannelsAll": "Alle",
+	"ChannelsSpecified": "Ich spezifiziere",
+	"TeamSpecified": "Team",
+
+	"TitleResults": "Titel Ergebnisse",
+	"TranscriptResults": "Transkriptions Ergebnisse",
+	"CategoryResults": "Kategorien",
+	"TeamResults": "Teams",
+	"PageOfFormat": "Seite {0} von {1}", // {0} is the current page number, {1} is the total number of pages
+	"FoundChannelsFormat": "{0} Kanäle gefunden", // {0} is the total number of channels found
+	"FoundCategoriesFormat": "{0} Kategorien gefunden", // {0} is the total number of categories found
+	"FoundTeamsFormat": "{0} Teams gefunden", // {0} is the total number of teams found
+	
 	// Sidebar
 	"SuggestedStreamers": "Vorgeschlagene Streamer",
+	"MoreSuggestedStreamers": "Weitere vorgeschlagene Streamer",
 	"FollowedStreamers": "Streamer, denen ich folge",
+	"RecentlyLiveStreamers": "Kürzlich live gewesene Streamer",
+	"PinnedStreamers": "Angeheftete Streamers",
 	"AllStreamers": "Alle Streamer",
 	"About": "Über uns",
+	"Feedback": "Feedback", // Link to the KlipTok Feedback website
 	"Close": "Schließen",
-
+	"LiveForFormat": "Live seit {0}", // {0} is the relative timestamp of when the stream started
+	
+	// Sidebar Menu
+	"SidebarMenuTooltipFormat": "Aktionen für Kanal {0}", // 0 is the channel name
+	"SidebarMenuVisitDashboard": "{0} Dashboard besuchen", // 0 is the channel name
+	"SidebarMenuVisitClipsCreated": "{0} erstellte Clips besuchen", // 0 is the channel name
+	"SidebarMenuMuteChannel": "{0} stummschalten", // 0 is the channel name
+	"SidebarMenuPinChannel": "Kanal {0} anheften", // 0 is a counter indicating how many channels are pinned
+	"SidebarMenuUnpinChannel": "Kanal anheften aufheben",
+	
 	// Streamer Page
 	"ClickToFollow": "Folgen",
 	"ClickToUnfollow": "Entfolgen",
 	"ActionOnTwitchTemplate": "Auf Twitch {0}", // {0} wird ersetzt mit "Follow" oder "Unfollow" -> "Follow on Twitch"
 	"LiveOnTwitch": "Jetzt live auf Twitch!",
 	"ProfilePicTemplate": "Profilbild von {0}", // {0} ist der Display Name des  Streamers
+	"NavigateToTwitchChannel": "Twitch Kanal von {0} öffnen", // {0} is the Streamer's Display Name
 	"TotalClipsOnKlipTok": "Clips gesamt auf KlipTok",
 	"TotalLikesAcrossAllClips": "Gefällt Mir gesamt",
 	"TotalCommentsAcrossAllClips": "Kommentare gesamt",
@@ -45,7 +105,10 @@
 	"DateRangePicker_Start": "Startdatum", // Label für den Datumsfilter auf der Streamerseite
 	"DateRangePicker_End": "Enddatum", // Label für den Datumsfilter auf der Streamerseite
 	"ShareStreamer": "Streamer teilen", // Tooltip für den 'Teilen'-Button auf der Streamerseite
-
+	"SelectCategory": "Kategorie auswählen", // The default text for the Category Filter combobox
+	"UnknownStreamer": "Unbekannter Streamer: {0}", // The header when an unknown streamer is requested
+	"UnknownStreamerDescription": "KlipTok hat den Streamer {0} nicht gefunden.  If this is a real channel, you can add them with the following directions",
+	"NoRecentClips": "Kein aktueller Clip verfügbar", // Error message displayed on dashboard when no recent clips are available
 
 	// Layout
 	"PublicBeta": "PUBLIC BETA",
@@ -60,8 +123,9 @@
 
 	// Follows page
 	"TwitchChannelsIFollow": "Kanäle, denen ich folge",
+	"TwitchChannelsIFollowNotOnKlipTok": "Kanäle, denen ich folge welche nicht auf KlipTok sind",
 	"NotLoggedIn": "Bitte melde dich an, um Kanäle anzuzeigen, denen du folgst.",
-
+	
 	// Home Page
 	"DiscoverPopularClips": "Beliebte Clips entdecken",
 	"DiscoverClips": "Clips entdecken",
@@ -71,15 +135,21 @@
 	"ClipsILike": "Clips, die ich mag",
 	"LikedClips": "Clips, die ich mag",
 	"UserProfile": "Profil",
-
+	"UserPreferences": "Einstellungen",
+	
+	// Filters on the scrollable clips
+	"FilterByCategory": "Nach Kategorie filtern", // watermark on the filter by category type-ahead box
+	
 	// Liked Clips
 	"NoLikedClips": "Du hast noch bei keinem Clip 'Gefällt mir' geklickt!",
 	"TryLikeButtonTemplate": "Klicke unter einem Clip auf das Herz {0}. Clips, die dir gefallen, werden hier angezeigt, damit du sie leicht wiederfindest.",  // {0} ist das Herz Icon
 
 	// User Profile
-	"DoesNotKeepSeparateUserInformation": "KlipTok speichert keine Nutzerinformation abseits von Twitch, and wurde als Service entwickelt, um Twitch Clips zu erweitern.",
+	"DoesNotKeepSeparateUserInformation": "KlipTok speichert keine Nutzerinformation abseits von Twitch und wurde als Service entwickelt, um Twitch Clips zu erweitern.",
 	"AutoPlayVideosOnScroll": "Videos beim Scrollen automatisch abspielen",
+	"AutoPlayVideosOnHover": "Videos bei Hover automatisch abspielen",
 	"IndexClipsOfMyChannel": "Meine Clips indizieren",
+	"UserMonitoringOptOut": "Benutzer-Monitoring deaktivieren",
 	"OptedOutDateTemplate": "Automatische Indizierung abgewählt am: {0}", // {0} ist das Datum des Opt-outs
 	"SaveMyChanges": "Änderungen speichern",
 	"SyncFollowersWithKlipTok":"Kanäle, denen ich folge, mit KlipTok synchronisieren",
@@ -91,19 +161,26 @@
 	"RightToForgetDescription": "Du hast das Recht, dass KlipTok alle Informationen, die Du geteilt hast, löscht. Mit einem Klick auf diesen Link bestätigst Du, dass KlipTok alle deine Kommentare, Likes und Clips entfernt.",
 	"RemoveMyContentFromKlipTok": "Meine Informationen und Inhalte von KlipTok löschen",
 	"ForgottenAsOfTemplate": "Daten gelöscht am: {0}", // {0} ist das Datum, an dem die Datenlöschung veranlasst wurde
+	"MuteHelp": "Stummschalten blendet den Kanal auf der Seite aus", // defines Mute functionality
+	
+	// Followed Channel Sync Notifications
+	"BeginAcquiringFollowers": "Gefolgte Kanäle von Twitch nachverfolgen",
+	"IdentifiedFollowerCount": "{0} gefolgte Kanäle zum Laden gefunden", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "Gefolgte Kanäle zu KlipTok hinzufügen fertiggestellt",
 
 	// Single Clip Page
-	"MissingClipError": "KlipTok kennt diesen Clip nicht. Entweder existiert er nicht, oder der Twitch Kanal hat die Indizirung auf KlipTok abgewählt.",
+	"MissingClipError": "KlipTok kennt diesen Clip nicht. Entweder existiert er nicht oder der Twitch Kanal hat die Indizierung auf KlipTok abgewählt.",
 	"LikedBy": "Gefällt:",
 	"UserLikedTimeTemplate": "{0} gefällt dieser Clip", // {0} ist der Displayname des Nutzers, dem der Clip gefällt, {1} ist der relative Zeitstempel
 	"InReplyToTemplate": "Antwort auf {0}", // {0} ist der Displayname des Nutzers, auf dessen Kommentar geantwortet wird
 	"EnterNewComment": "Neuer Kommentar...",
 	"LoginWithTwitchToComment": "Mit Twitch einloggen, um zu kommentieren",
 	"CommentButton": "Kommentieren",
-
+	
 	// Streamer Page
 	"MuteForLabel": "Stummschalten für:",
 	"StreamerIsMutedUntilTemplate": "Streamer ist stummgeschaltet bis: {0}", // {0} ist das Datum, wenn die Stummschaltung ausläuft
+	"StreamerIsMuted": "Streamer ist stummgeschaltet", // message displayed if a channel is muted forever
 	"NoMute": "Stummschaltung aufheben",   // Remove the mute effect on this streamer so that you can see their content again
 	"Forever": "Immer",   // Label for "Mute Forever" action button
 	"SortByLabel": "Sortiere nach:",
@@ -115,6 +192,80 @@
 	"ResetButton": "Zurücksetzen",    // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "Keine Clips verfügbar",
 	"AddClipsForThisStreamer": "Clips für diesen Streamer hinzufügen",
-	"NotifyOnOptIn": "Hinweis: Wenn du für diesen Streamer Clips hinzufügst, benachrichtige ihn bitte darüber. Wir haben leider keine Möglichkeit, den Streamer darüber zu infomieren."
+	"NotifyOnOptIn": "Hinweis: Wenn du für diesen Streamer Clips hinzufügst, benachrichtige ihn bitte darüber. Wir haben leider keine Möglichkeit, den Streamer darüber zu infomieren.",
 
+	// Streamer Dashboard
+	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Clips", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Dashboard", // Label for the dashboard tab on the top of the Streamer page 
+	"CreatedClipsTab": "Erstellte Clips", // Label for the Created Clips tab on the Streamer page
+	"ClipsCreatedLast90Days": "Clips der letzten 90 Tage", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Clips pro Woche", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Clips nach Wochentag", // Label for the clips by the day of week tile
+	"TitleDayCreated": "Wochentag erstellt", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "Meistgesehene Clipper", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Meistgesehene Kategorien", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Beliebteste Clipper",
+	"ClipsHeatMap": "Clips Heat Map",
+	"HeatmapTooltipFormat": "{0} Clips am {1} erstellt", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
+
+	// Transcription Features
+	"ClipHasTranscription": "Dieser Clip hat eine durchsuchbare Transkription.", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Ergebnisse der Clip-Transkriptionssuche nach: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Clip Transkription von AssemblyAI:", // Clip transcription attribution to AssemblyAI
+	
+	// System Dashboard
+	"SystemStatus": "System Status",
+	"SystemStatusDashboard": "System Status Dashboard",
+	"SystemDashboardDescription": "Wir stellen Daten zum Wachstum von KlipTok für jeden zur Verfügung.",
+	"TotalClips": "Clips gesamt",
+	"ChannelsIndexed": "Kanäle indexiert",
+	"NewChannelsToday": "Neue Kanäle heute",
+	"TotalChannelsIdentified": "Identifizierte Kanäle gesamt",
+	"TotalClipsTranscribed": "Transkribierte Clips gesamt",
+	"ClipsTranscribedByDate": "Transkribierte Clips nach Datum",
+	"ClipsLikedByDate": "Clips die mir gefallen nach Datum",
+	"ClipsByDate": "Clips nach Datum",
+	
+	// Playlists
+	"PlaylistsTab": "Wiedergabelisten",
+	"MyPlaylists": "Meine Wiedergabeliste",
+	"PlaylistsCreatedBy": "Wiedergabeliste erstellt von {0}",
+	"CreateNewPlaylist": "Wiedergabeliste erstellen",
+	"AddToPlaylist": "Zu Wiedergabeliste hinzufügen",
+	"PlaylistTitle": "Wiedergabeliste: {0}", // Title displayed at the top of the Playlist page
+	"CreatedBy": "Erstellt von: {0}", // "by-line" indicating who created the playlist
+	"Edit": "Ändern",
+	"PreviousClip": "Vorheriger Clip",
+	"NextClip": "Nächster Clip",
+	"VideoTagNotSupported": "Dein Browser unterstützt den Video-Tag nicht.",
+	"NoClipsOnPlaylist": "Die Wiedergabeliste enthält keine Clips",
+	"NoPlaylistsCreated": "Keine Wiedergabelisten erstellt",
+	"PlaylistName": "Wiedergabelisten-Namen",
+	"ClipTitle": "Titel",
+	"Remove": "Entfernen",
+	"SavePlaylist": "Wiedergabeliste speichern",
+	"Cancel": "Abbrechen",
+	"Delete": "Löschen",
+	"SharePlaylist": "Wiedergabeliste teilen",
+	"CopyPlaylist": "Wiedergabelisten kopieren",
+	"PlaylistCopiedSuccessfully": "Wiedergabeliste {0} kopiert!",
+	"Ok": "Ok",
+
+	// Embed playlists
+	"EmbedPlaylistWindowTitle": "Diese Wiedergabeliste einbetten",
+	"EmbedPlaylistIntro": "Eingebettete URL für diese Wiedergabeliste erstellen.",
+	"ShufflePlaylist": "Clips zufällig verteilen",
+	"CreditsMode": "Credits links unten im Video anzeigen",
+	"CreditsFade": "Credits nach 8 Sekunden ausblenden",
+	"UrlCopiedToClipboard": "URL in Zwischenablage kopiert",
+
+	// Smart playlists
+	"MostViewed30Days": "Aktuelle beliebte Clips",
+	"CreatorsTop50Viewed": "Top 50 meistgesehene Clips",
+	"PreviouslyOn": "Kürzlich bei...",
+	"SmartPlaylist_MostViewed": "Aktuelle Clips auf {0}",
+	"SmartPlaylist_CreatorTop50": "Top 50 meistgesehene Clips von {0}",
+	"TeamMostViewedPlaylist": "Meist gesehene Clips",
+	"TeamHighlightsPlaylist": "Team Highlights"
 }

@@ -1,17 +1,28 @@
 {
+	//"Supporting Code": [
+	//	"AshleighAdams"
+	//],
+	"ae-AE": [
+		"MKdotCS"
+	],
 	"da-DK": [
 		"DukaSoft",
+		"kladingnet",
 		"smc83dk"
 	],
-  	"de-DE": [
+	"de-DE": [
 		"binber18",
-		"fstreicher"
+		"fstreicher",
+		"luke-777"
+	],
+	"el-GR": [
+		"GiannhsR"
 	],
 	"en-US": [
 		"csharpfritz"
 	],
 	"en-GB": [
-		"smabuk"	
+		"smabuk"
 	],
 	"es": [
 		"chepew23",
@@ -21,40 +32,64 @@
 	"et-EE": [
 		"KGKopli"
 	],
+	"fa-IR": [
+		"hosseinmusaloo",
+		"MohammadAnsari98",
+		"Rshiya"
+	],
 	"fi-FI": [
 		"JoelLamsi"
 	],
 	"fr": [
+		"JonathanMenzel",
+		"JorritMaes",
 		"sptremblay"
 	],
 	"hr-HR": [
 		"mucnjakf",
-		"panjkov",
+		"panjkov"
 	],
 	"id-ID": [
 		"FreyaLWN"
 	],
 	"it-IT": [
 		"abbadon1334",
-		"microjumper"
+		"microjumper",
+		"pietrodicaprio"
 	],
 	"nl-NL": [
 		"jkrooncoding",
 		"MdeBruin93",
+		"olivier-b-be",
 		"ReindertKorver",
 		"rickvdbosch"
 	],
+	"no": [
+		"smurfino"
+	],
 	"pl": [
 		"JakubOciepa",
+		"jskrojec",
 		"mpanowicz",
 		"ptasznikarium"
 	],
 	"pt-BR": [
+		"davidandradeduarte",
+		"drocha87",
 		"rafaeldca"
+	],
+	"pt-PT": [
+		"davidandradeduarte"
 	],
 	"ru": [
 		"tryonelove",
 		"RUSHAM"
+	],
+	"sl-SI": [
+		"bigpod98"
+	],
+	"sq-AL": [
+		"mustafaag"
 	],
 	"sv-SE": [
 		"tyre88"
@@ -65,5 +100,8 @@
 	"uk": [
 		"nikolaylutsenko",
 		"@Daria Lutsenko"
+	],
+	"vi-VN": [
+		"Elelrlelr"
 	]
 }

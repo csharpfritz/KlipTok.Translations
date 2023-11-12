@@ -8,6 +8,8 @@
 	"ClipViews": "Visualizzazioni",
 	"ShareThisClip": "Condividi questa Clip",
 	"KlipTokContentPlaceholder": "KlipTok Content Placeholder",
+	"ClippedByFormat": "Clippato da {0}", // {0} is the display name of the clip creator
+	"PreviewThumbnailForClip": "Immagine anteprima per la clip '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
 
 	// Comments
 	"ByLineFormat": "Il {0} {1} ha scritto:",
@@ -22,6 +24,20 @@
 	"SearchForChannel": "Ricerca uno Streamer...",
 	"SearchNotFoundFormat": "{0} non trovato", // {0} is the search term that was not found
 
+	// Search and Search Results
+	"SearchKlipTok": "Cerca KlipTok...",
+	"SearchAllOfKlipTok": "Cerca tutti i KlipTok per {0}", // {0} is the search term to search clips for
+	"SearchResults": "Risultati ricerca",
+	"SearchedKlipTokAndFoundTemplate": "Abbiamo cercato KlipTok per \"{0}\" ed abbiamo trovato:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} trasmettendo {1}", // {0} is the streamer name, {1} is the category played,
+	"SearchedClipTitlesAndFoundTemplate": "Risultati per la ricerca titolo: {0}", // {0} is the search term for the clip title search
+	"AdvancedFiltering": "Filtri avanzati",
+	"IncludeChannels": "Includi questi canali",
+	"ExcludeChannels": "Escludi questi canali",
+	"FilterButton": "Filtra", // The button to apply the advanced search filter
+	"PreviousPage": "Pagina precedente",
+	"NextPage": "Pagina successiva",
+
 	// Sidebar
 	"SuggestedStreamers": "Streamer suggeriti",
 	"FollowedStreamers": "Streamer seguiti",
@@ -34,12 +50,12 @@
 	"ClickToUnfollow": "Smetti di seguire",
 	"ActionOnTwitchTemplate": "{0} su Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "Live adesso su Twitch!",
-	"ProfilePicTemplate": "{0} immagine profilo", // {0} is the Streamer's Display Name
+	"ProfilePicTemplate": "Immagine profilo di {0}", // {0} is the Streamer's Display Name
 	"TotalClipsOnKlipTok": "Clip totali su KlipTok",
 	"TotalLikesAcrossAllClips": "Mi piace totali su tutte le Clip",
 	"TotalCommentsAcrossAllClips": "Commenti totali su tutte le Clip",
 	"TotalViewsAcrossAllClips": "Visualizzazioni totali su tutte le Clip",
-	"LastClipAdded": "Ultima Clip Aggiunta:",
+	"LastClipAdded": "Ultima Clip:",
 	"LastClip": "Ultima Clip:",
 	"NoProfilePicAvailable": "Nessuna foto profilo disponibile",
 	"DateRangePicker_Start": "Data inizio", // The Start Date label on the filter on the streamer page
@@ -65,10 +81,10 @@
 	"DiscoverPopularClips": "Scopri le clip più popolari",
 	"DiscoverClips": "Scopri le clip",
 	"InsertCoin": "Insert Coin",
-	"MyFavoriteChannels": "Miei Streamer Favoriti",
-	"Favorites": "Favoriti",
-	"ClipsILike": "Clip che mi piacciono",
-	"LikedClips": "Clip che mi sono piaciute",
+	"MyFavoriteChannels": "Clip dagli streamer che seguo",
+	"Favorites": "Preferiti",
+	"ClipsILike": "Tutte le Clip a cui ho messo \"mi piace\"",
+	"LikedClips": "Clip piaciute",
 	"UserProfile": "Profilo utente",
 
 	// Liked Clips
@@ -101,7 +117,7 @@
 	"CommentButton": "Commenta",
 
 	// Streamer Page
-	"MuteForLabel": "Silenziato per:",
+	"MuteForLabel": "Silenzia:",
 	"StreamerIsMutedUntilTemplate": "Streamer silenziato fino al: {0}", // {0} is a datestamp of when the mute operation ends
 	"NoMute": "Desilenzia", // Remove the mute effect on this streamer so that you can see their content again
 	"Forever": "Per sempre", // Label for "Mute Forever" action button
@@ -109,10 +125,27 @@
 	"Views": "Più visti", // The number of Clip Views for a Clip that we are sorting by
 	"Score": "Più punti", // A reference to the KlipTok algorithm assigned score for this Clip
 	"Latest": "Più recenti", // A selector for the sort order to indicate the most recent created Clips should appear first
-	"ClipsFromLabel": "Clip dal:", // Label above the date range filter component
+	"ClipsFromLabel": "Data:", // Label above the date range filter component
 	"SearchButton": "Ricerca", // Text on the search button to filter by date range
 	"ResetButton": "Cancella", // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "Nessuna Clip Disponibile",
 	"AddClipsForThisStreamer": "Aggiungi Clip di questo streamer",
-	"NotifyOnOptIn": "Nota: se aggiungi i clip per questo streamer, noi non abbiamo modo di poterlo contattare, quindi ti chiediamo gentilmente di notificargli che hai aggiunto i suoi clip su questo sito."
+	"NotifyOnOptIn": "Nota: se aggiungi i clip per questo streamer, noi non abbiamo modo di poterlo contattare, quindi ti chiediamo gentilmente di notificargli che hai aggiunto i suoi clip su questo sito.",
+
+	// Streamer Dashboard
+	"Live": "LIVE", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Clips", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Dashboard", // Label for the dashboard tab on the top of the Streamer page 
+	"ClipsCreatedLast90Days": "Clip create negli ultimi 90 giorni", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Clip create per settimana", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Clip per giorno", // Label for the clips by the day of week tile
+	"TitleDayCreated": "Giorno creazione", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "Clip più viste", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Categorie più viste", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Clip più piaciute",
+
+	// Transcription Features
+	"ClipHasTranscription": "La clip ha una trascrizione che può essere ricercata", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Risultati per la ricerca trascrizione clip: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Trascrizione clip by AssemblyAI:" // Clip transcription attribution to AssemblyAI
 }

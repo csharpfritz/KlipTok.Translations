@@ -8,6 +8,8 @@
 	"ClipViews": "Leikkeen Katselumäärä",
 	"ShareThisClip": "Jaa tämä Leike",
 	"KlipTokContentPlaceholder": "KlipTok-sisällön Paikkamerkki",
+	"ClippedByFormat": "Leikkeen tekijä {0}",
+	"PreviewThumbnailForClip": "Esikatselukuvake leikkeelle '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
 
 	// Comments
 	"ByLineFormat": "{0} {1} kirjoitti:",
@@ -19,8 +21,21 @@
 	"Logout": "Kirjaudu ulos",
 
 	// Header
-	"SearchForChannel": "Kanavan haku...",
+	"SearchForChannel": "Hae Kanavaa...",
 	"SearchNotFoundFormat": "{0} ei löydetty",
+
+	// Search and Search Results
+	"SearchKlipTok": "Etsi KlipTokista...",
+	"SearchAllOfKlipTok": "Etsi kaikki haulla {0}", // {0} is the search term to search clips for
+	"SearchResults": "Hakutulokset",
+	"SearchedKlipTokAndFoundTemplate": "Hakusanalla \"{0}\" löydettiin:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} pelaa {1}", // {0} is the streamer name, {1} is the category played,
+	"AdvancedFiltering": "Täydennetty Suodatus",
+	"IncludeChannels": "Sisällä kanavat",
+	"ExcludeChannels": "Ulkoista kanavat",
+	"FilterButton": "Suodata", // The button to apply the advanced search filter
+	"PreviousPage": "Edellinen Sivu",
+	"NextPage": "Seuraava Sivu",
 
 	// Sidebar
 	"SuggestedStreamers": "Ehdotetut Lähetykset",
@@ -38,16 +53,20 @@
 	"TotalClipsOnKlipTok": "Leikkeitä yhteensä KlipTokissa",
 	"TotalLikesAcrossAllClips": "Leikkeiden Tykkäykset yhteensä",
 	"TotalCommentsAcrossAllClips": "Leikkeiden Kommentoinnit yhteensä",
-	"TotalViewsAcrossAllClips": "Leikkeiden katsomiskerrat yhteensä",
+	"TotalViewsAcrossAllClips": "Leikkeiden Katsomiskerrat yhteensä",
 	"LastClipAdded": "Viimeksi Lisätty Leike:",
 	"LastClip": "Viimeisin Leike:",
 	"NoProfilePicAvailable": "Profiilikuva ei käytettävissä",
+	"DateRangePicker_Start": "Ajalta", // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Ajalle", // The End Date label on the filter on the streamer page
+	"ShareStreamer": "Jaa Lähetys", // The tooltip for the Share button on the streamer page
 
 	// Layout
-	"PublicBeta": "PUBLIC BETA",
+	"PublicBeta": "JULKINEN BETA",
 	"LoggedOutFromKlipTokAndTwitch": "Uloskirjauduttu KlipTokista ja Twitchistä",
 	"LoginToKlipTokWithTwitch": "Kirjaudu KlipTokiin Twitchistä",
 	"AuthenticationIsNoLongerValid": "Sisäänkirjautuminen KlipTokiin on vanhentunut. Jatkaaksesi kirjaudu sisään uudelleen Twitchin kautta.",
+	"Loading": "Lataa...",
 
 	// Errors
 	"ErrorWhileLoading": "Virhe tapahtui ladatessa.",
@@ -56,6 +75,7 @@
 	// Follows page
 	"TwitchChannelsIFollow": "Seuraamani Twitch Kanavat",
 	"NotLoggedIn": "Seuraamiasi tilejä ei voida näyttää koska et ole kirjautunut Twitch-tililläsi. Tämä toiminto vaatii sisänkirjautumista, jotta seuraamasi kanavat synkronoi.",
+
 	// Home Page
 	"DiscoverPopularClips": "Selaa Suosittuja Leikkeitä",
 	"DiscoverClips": "Selaa Leikkeitä",
@@ -111,4 +131,20 @@
 	"AddClipsForThisStreamer": "Lisää Leikkeet Striimaajalle",
 	"NotifyOnOptIn": "Huomautus: Mikäli lisäät leikkeitä pyydämme että olet yhteydessä ensin kyseiseen Stríimaajaan.",
 
+	// Streamer Dashboard
+	"Live": "SUORA", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Leikkeet", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Yleisnäkymä", // Label for the dashboard tab on the top of the Streamer page 
+	"ClipsCreatedLast90Days": "Tehdyt Leikkeet viimeiset 90 päivän ajalta", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Viikottain Luodot Leikkeet", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Viikonpäivittäiset Leikkeet", // Label for the clips by the day of week tile
+	"TitleDayCreated":  "Luotu Päivänä", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "Eniten Katsottujen Leikkeiden Jakajat", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Eniten Katsotut Kategoriat", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Eniten Tykätyt Jakajat",
+
+	// Transcription Features
+	"ClipHasTranscription": "Leikkeen käännös on haettavissa", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Hakutulos leikkeen käännökselle: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Leikkeen Kääntäjä AssemblyAI:" // Clip transcription attribution to AssemblyAI
 }

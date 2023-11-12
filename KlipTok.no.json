@@ -1,0 +1,133 @@
+{
+// Components
+
+	// Clip
+	"Recorded": "Innspilt for {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
+	"Likes": "Likes",
+	"Comments": "Kommentarer",
+	"ClipViews": "Klipp Visninger",
+	"ShareThisClip": "Del dette klippet",
+	"KlipTokContentPlaceholder": "KlipTok innehold Plassholder",
+	"ClippedByFormat": "Klkippet av {0}", // {0} is the display name of the clip creator
+
+	// Comments
+	"ByLineFormat": "Den {0} {1} skrev:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"Reply": "Svare",
+
+	// Login View
+	"DarkMode": "Mørk modus",
+	"LoginWithTwitch": "Logg på med Twitch",
+	"Logout": "Logg ut",
+
+	// Header
+	"SearchForChannel": "Søk ener en Streamer...", // Deprecated
+	"SearchNotFoundFormat": "{0} Fant ikke", // {0} is the search term that was not found
+
+	// Search and Search Results
+	"SearchKlipTok": "Søk KlipTok...",
+	"SearchAllOfKlipTok": "Søk i alle KlipToks {0}", // {0} is the search term to search klipp for
+	"SearchResults": "Søk resultat",
+	"SearchedKlipTokAndFoundTemplate": "Vi Søkte i KlipTok ener \"{0}\" og fant:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} spiller {1}", // {0} is the streamer name, {1} is the category played,
+	"AdvancedFiltering": "Avansert Filtrering",
+	"IncludeChannels": "Inkluder disse kanalene",
+	"ExcludeChannels": "Utelukk disse kanalene",
+	"FilterButton": "Filter", // The button to apply the advanced search filter
+	"PreviousPage": "Forrige Side",
+	"NextPage":  "Neste Side",
+
+	// Sidebar
+	"SuggestedStreamers": "Foreslått Streamere",
+	"FollowedStreamers": "Følgte Streamere",
+	"AllStreamers": "Alle Streamere",
+	"About": "Om",
+	"Close": "Steng",
+
+	// Streamer Page
+	"ClickToFollow": "Klikk for å følge",
+	"ClickToUnfollow": "Klikk for å slutte og følge",
+	"ActionOnTwitchTemplate": "{0} på Twitch", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+	"LiveOnTwitch": "Live på Twitch nå!",
+	"ProfilePicTemplate": "{0} profil bilde", // {0} is the Streamer's Display Name
+	"TotalklippOnKlipTok": "Totalt antal klipp på KlipTok",
+	"TotalLikesAcrossAllklipp": "Totalt antall likes over alle klipp",
+	"TotalCommentsAcrossAllklipp": "Totalt antall kommentarer over alle klipp",
+	"TotalViewsAcrossAllklipp": "Totalt antal visningar over alle klipp",
+	"LastClipAdded": "Siste Clip lagt til:",
+	"LastClip": "Siste Clip:",
+	"NoProfilePicAvailable": "Ingen profilbilde tilgjengelig",
+	"DateRangePicker_Start": "Start dato", // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Slutt dato", // The End Date label on the filter on the streamer page
+	"ShareStreamer": "Del Streamer", // The tooltip for the Share button on the streamer page
+
+	// Layout
+	"PublicBeta": "Offentlig BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Utlogget fra KlipTok og Twitch",
+	"LoginToKlipTokWithTwitch": "Logget in på KlipTok med Twitch",
+	"AuthenticationIsNoLongerValid": "Din inloggning med Twitch og KlipTok er ikke lengre gyldig. Venligst logg inn med Twitch for å fortsette.",
+	"Loading": "Laster...",
+
+	// Errors
+	"ErrorWhileLoading": "en feil oppstod.",
+	"RetryButton": "forsøk igjen",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Twitch Streamers jeg følger",
+	"NotLoggedIn": "Kunde ikke vise konton du føler på Twitch dersom du ikke er logget på med en Twitch konto. Venligst logg inn og synkroniser dine følgte streamers med KlipTok for å få tilgang til denne funktionen.",
+
+	// Home Page
+	"DiscoverPopularklipp": "Finn populære klipp",
+	"Discoverklipp": "Finn klipp",
+	"InsertCoin": "Sett in mynt",
+	"MyFavoriteChannels": "Mine favoritt Streamers",
+	"Favorites": "Favoritter",
+	"klippILike": "klipp jeg liker",
+	"Likedklipp": "Likte klipp",
+	"UserProfile": "Personlig profil",
+
+	// Liked klipp
+	"NoLikedklipp": "Du har ikke likt noen klipp på KlipTok enda!",
+	"TryLikeButtonTemplate": "Test å klikke på hjerte {0] under ett klipp for å 'like' det og vi kommer å rapportere det her så å du kan finne det igjen senere.",
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok sparer ikke på separat information fra Twitch og er byggt som en tjeneste for å forsterke Twitch klipp.",
+	"AutoPlayVideosOnScroll": "Spill videoer automatiskt når du scroller.",
+	"IndexklippOfMyChannel": "indeks mine klipp",
+	"OptedOutDateTemplate": "Fravalgt datomal på {0}",
+	"SaveMyChanges": "Lagre mine endringer",
+	"SyncFollowersWithKlipTok": "Synkroniser følgte streamers med KlipTok",
+	"MutedChannels": "Dempede kanaler",
+	"Channel": "Streamer",
+	"MutedUntil": "Dempt til",
+	"RightToForget": "Rett å glemme",
+	"DangerZone": "[ Faresone ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "Du har full rett å be KlipTok å ta bort all information som du har delt. Gjennom å klikke på lenken så ber du KlipTok å ta bort alle kommentarer, likes og klipp.",
+	"RemoveMyContentFromKlipTok": "Fjern bort min content på KlipTok",
+	"ForgottenAsOfTemplate": "Glemt siden : {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Single Clip Page
+	"MissingClipError": "KlipTok har ingen kjenskap av dette klippet. Antagelig finns det ikke på Twitch eller så har kanalen gått ut av KlipTok.",
+	"LikedBy": "Likt av:",
+	"UserLikedTimeTemplate": "{0} Likte {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "Som svar på: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Skriv en ny kommentar...",
+	"LoginWithTwitchToComment": "Logget in med Twitch for å kommentere",
+	"CommentButton": "Kommenter",
+
+	// Streamer Page
+	"MuteForLabel": "Demp for:",
+	"StreamerIsMutedUntilTemplate": "Streamer er dempet til: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Ta bort dempning", // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "for alltid", // Label for "Mute Forever" action button
+	"SortByLabel": "Sorter etter:",
+	"Views": "Visninger", // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Poeng", // A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Siste", // A selector for the sort order to indicate the most recent created klipp should appear first
+	"klippFromLabel": "klipp fra:", // Label above the date range filter component
+	"SearchButton": "Søk", // Text on the search button to filter by date range
+	"ResetButton": "Restart", // Text on the reset button to no longer filter by date range
+	"NoklippAvailable": "Ingen klipp tilgjengelig",
+	"AddklippForThisStreamer": "Legg til klipp for denne streameren",
+	"NotifyOnOptIn": "Vennligst tenk på: Om du legger til klipp for denne streameren, gi dem beskjed. Vi har ingen måte å gi beskjed til dem direkte."
+
+}
